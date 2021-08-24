@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.1)  22 AUG 2021 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.1)  23 AUG 2021 22:13
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEEBigData/Microservoces-Bigdata-SLR.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEEBigData/Microservoces-Bigdata-SLR.tex"
@@ -259,6 +259,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 4403) in paragraph at lines 54--56
+[]\OT1/ptm/m/n/10 last pa-per to be cat-e-gorised: Melis-2018-Integrating-
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -284,7 +288,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  30i,11n,37p,323b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEEBigData\Microservoces-Bigdata-SLR.pdf" (1 page, 40110 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEEBigData\Microservoces-Bigdata-SLR.pdf" (1 page, 40471 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
