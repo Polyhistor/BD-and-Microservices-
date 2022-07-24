@@ -250,6 +250,9 @@ INPUT D:\MikTex\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT D:\MikTex\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT D:\MikTex\tex\latex\tools\bm.sty
 INPUT D:\MikTex\tex\latex\tools\bm.sty
+INPUT D:\MikTex\tex\latex\ulem\ulem.sty
+INPUT D:\MikTex\tex\latex\ulem\ulem.sty
+INPUT D:\MikTex\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT D:\MikTex\tex\generic\pgfplots\libs\pgflibrarypgfplots.colorbrewer.code.tex
 INPUT D:\MikTex\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
 INPUT D:\MikTex\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
@@ -297,7 +300,6 @@ INPUT D:\MikTex\fonts\tfm\public\cm\cmbx12.tfm
 INPUT D:\MikTex\fonts\tfm\jknappen\ec\tcrm1000.tfm
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\study-plan.pdf
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT D:\MikTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\study-plan.aux
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
@@ -309,5 +311,3 @@ INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
