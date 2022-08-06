@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  6 AUG 2022 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  6 AUG 2022 16:49
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -275,10 +275,66 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 60.
- [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+LaTeX Warning: Citation `sommerville2011software' on page 1 undefined on input line 76.
+
+
+LaTeX Warning: Citation `laplante2017requirements' on page 1 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Demchenko2014' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `Bughin2016' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `Bahrami2015' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `rad2017big' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `Marz2015' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `Chen2016a' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `nadal2017software' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `volk2020identifying' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Citation `bashari2016security' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Citation `yu2019components' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Citation `eridaputra2014modeling' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Citation `al2016characteristics' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Citation `ataei2020big' on page 1 undefined on input line 84.
+
+
+LaTeX Warning: Citation `kassab2014state' on page 1 undefined on input line 86.
+
+[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
+
+LaTeX Warning: Citation `laplante2017requirements' on page 2 undefined on input line 88.
+
+
+LaTeX Warning: Citation `abran2004software' on page 2 undefined on input line 88.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []\OT1/ptm/m/n/10 Our ap-proach fol-lows the guide-lines ex-plained in
  []
@@ -288,11 +344,19 @@ LaTeX Warning: Citation `ataei' on page 2 undefined on input line 90.
 
 \c@magicrownumbers=\count272
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []|\OT1/ptm/m/n/8 Security &
  []
 
-("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl")
+c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:187: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.187         \hline
+                    
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+No file Miroservices-and-BD.bbl.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -304,21 +368,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] [3] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
+[2
+
+] [3] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4256 strings out of 480795
- 59711 string characters out of 2913777
- 320006 words of memory out of 3000000
- 20219 multiletter control sequences out of 15000+200000
- 576869 words of font info for 113 fonts, out of 3000000 for 9000
+ 4245 strings out of 480795
+ 59346 string characters out of 2913777
+ 311947 words of memory out of 3000000
+ 20211 multiletter control sequences out of 15000+200000
+ 575733 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,11n,37p,1163b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (3 pages, 71191 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (3 pages, 60687 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
