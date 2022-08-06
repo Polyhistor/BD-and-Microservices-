@@ -84,6 +84,10 @@ INPUT D:\MikTex\tex\latex\xcolor\xcolor.sty
 INPUT D:\MikTex\tex\latex\xcolor\xcolor.sty
 INPUT D:\MikTex\tex\latex\graphics-cfg\color.cfg
 INPUT D:\MikTex\tex\latex\graphics-cfg\color.cfg
+INPUT D:\MikTex\tex\latex\tools\array.sty
+INPUT D:\MikTex\tex\latex\tools\array.sty
+INPUT D:\MikTex\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\MikTex\tex\latex\etoolbox\etoolbox.sty
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux
@@ -157,14 +161,10 @@ INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmrc7t.vf
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT D:\MikTex\tex\latex\psnfss\ts1ptm.fd
-INPUT D:\MikTex\tex\latex\psnfss\ts1ptm.fd
-INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT D:\MikTex\fonts\vf\adobe\times\ptmr8c.vf
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmri7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  3 AUG 2022 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  6 AUG 2022 12:02
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -214,658 +214,85 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (D:\MikTex\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen169
+\ar@mcellbox=\box49
+\extrarowheight=\dimen170
+\NC@list=\toks22
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box50
+) (D:\MikTex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count198
 ) (D:\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count198
-\l__pdf_internal_box=\box49
+\l__kernel_color_stack_int=\count199
+\l__pdf_internal_box=\box51
 ) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
 \openout1 = `Miroservices-and-BD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 -- Lines per column: 56 (exact).
 (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count199
-\scratchdimen=\dimen169
-\scratchbox=\box50
-\nofMPsegments=\count266
-\nofMParguments=\count267
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count268
-\MPscratchDim=\dimen170
-\MPnumerator=\count269
-\makeMPintoPDFobject=\count270
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count266
+\scratchdimen=\dimen171
+\scratchbox=\box52
+\nofMPsegments=\count267
+\nofMParguments=\count268
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen172
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
+\everyMPtoPDFconversion=\toks24
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
  (D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
-
-
-LaTeX Warning: Citation `sommerville2011software' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `laplante2017requirements' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `Demchenko2014' on page 1 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Bughin2016' on page 1 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Bahrami2015' on page 1 undefined on input line 77.
-
-
-LaTeX Warning: Citation `rad2017big' on page 1 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Marz2015' on page 1 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Chen2016a' on page 1 undefined on input line 77.
-
-
-LaTeX Warning: Citation `nadal2017software' on page 1 undefined on input line 77.
-
-
-LaTeX Warning: Citation `volk2020identifying' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Citation `bashari2016security' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Citation `yu2019components' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Citation `eridaputra2014modeling' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Citation `al2016characteristics' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Citation `ataei2020big' on page 1 undefined on input line 81.
-
-
-LaTeX Warning: Citation `kassab2014state' on page 1 undefined on input line 83.
-
-[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 60.
+ [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-
-LaTeX Warning: Citation `laplante2017requirements' on page 2 undefined on input line 85.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []\OT1/ptm/m/n/10 Our ap-proach fol-lows the guide-lines ex-plained in
  []
 
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:90: You can't use `macro parameter character #' in vertical mode.
-l.90 #
-      1 NIST requirements
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
+LaTeX Warning: Citation `ataei' on page 2 undefined on input line 90.
 
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:93: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
+\c@magicrownumbers=\count272
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 
-         DSR-1: Needs to support reliable real-time, asynchronous, streaming...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:95: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 
-         DSR-2: Needs to support slow, bursty, and high-throughput data tran...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:97: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 
-         DSR-3: Needs to support diversified data content ranging from struc...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:102: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 
-          TPR-1: Needs to support diversified compute-intensive, statistical...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:104: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 
-          TPR-2: Needs to support batch and real-time analytic processing.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:105: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.105 
-          TPR-3: Needs to support processing large diversified data content ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:106: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 
-          TPR-4: Needs to support processing data in motion (streaming, fetc...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--108
-[]\OT1/ptm/m/n/10 TRANSFORMATION PROVIDER RE-QUIRE-MENTS
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\OT1/ptm/m/n/8 Security &
  []
 
-
-Underfull \hbox (badness 2495) in paragraph at lines 101--108
-\OT1/ptm/m/n/10 (TPR)  TPR-1: Needs to sup-port di-ver-si-fied compute-
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 101--108
-\OT1/ptm/m/n/10 intensive, sta-tis-ti-cal and graph an-a-lytic pro-cess-ing, and
- []
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:110: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 
-          CPR-1: Needs to support legacy and advanced software packages (sof...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:111: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 
-          CPR-2: Needs to support legacy and advanced computing platforms (p...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:112: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 
-          CPR-3: Needs to support legacy and advanced distributed computing ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:114: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 
-          CPR-4: Needs to support elastic data transmission (networking).
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:115: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 
-          CPR-5: Needs to support legacy, large, and advanced distributed da...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:116: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 
-          CPR-6: Needs to support legacy and advanced executable programming...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--118
-[]\OT1/ptm/m/n/10 CAPABILITY PROVIDER RE-QUIRE-MENTS (CPR)
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 109--118
-\OT1/ptm/m/n/10 pack-ages (soft-ware).  CPR-2: Needs to sup-port legacy
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 109--118
-\OT1/ptm/m/n/10 and ad-vanced com-put-ing plat-forms (plat-form).  CPR-3:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--118
-\OT1/ptm/m/n/10 clus-ters, co-processors, in-put out-put (I/O) pro-cess-ing
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 109--118
-\OT1/ptm/m/n/10 (in-fras-truc-ture).  CPR-4: Needs to sup-port elas-tic data
- []
-
-
-Underfull \hbox (badness 3919) in paragraph at lines 109--118
-\OT1/ptm/m/n/10 large, and ad-vanced dis-tributed data stor-age (stor-age).
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 109--118
-\OT1/ptm/m/n/10 pro-gram-ming: ap-pli-ca-tions, tools, util-i-ties, and li-braries
- []
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:120: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 
-          DCR-1: Needs to support fast searches from processed data with hig...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:122: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 
-          DCR-2: Needs to support diversified output file formats for visual...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:124: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 
-          DCR-3: Needs to support visual layout for results presentation.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:125: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 
-          DCR-4: Needs to support rich user interface for access using brows...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:126: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 
-          DCR-5: Needs to support high-resolution, multi-dimension layer of ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:127: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 
-          DCR-6: Needs to support streaming results to clients.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:130: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 
-          SPR-1: Needs to protect and preserve security and privacy of sensi...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:131: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131 
-          SPR-2: Needs to support sandbox, access control, and multi-level, ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:135: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 
-          LMR-1: Needs to support data quality curation including pre-proces...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:137: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 
-          LMR-2: Needs to support dynamic updates on data, user profiles, an...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:138: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 
-          LMR-3: Needs to support data life cycle and long-term preservation...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:140: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 
-          LMR-4: Needs to support data validation.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:141: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 
-          LMR-5: Needs to support human annotation for data validation.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:142: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 
-          LMR-6: Needs to support prevention of data loss or corruption.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:143: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 
-          LMR-7: Needs to support multi-site archives.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:144: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 
-          LMR-8: Needs to support persistent identifier and data traceability.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:145: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 
-          LMR-9: Needs to support standardizing, aggregating, and normalizin...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:149: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 
-          OR-1: Needs to support rich user interface from mobile platforms t...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:150: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 
-          OR-2: Needs to support performance monitoring on analytic processi...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:151: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 
-          OR-3: Needs to support rich visual content search and rendering fr...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:152: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 
-          OR-4: Needs to support mobile device data acquisition.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:153: Package inputenc Error: Unicode character  (U+F0B7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 
-          OR-5: Needs to support security across mobile devices.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:156: You can't use `macro parameter character #' in vertical mode.
-l.156 #
-       2 Fundamentals of data engineering
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:183: You can't use `macro parameter character #' in vertical mode.
-l.183 #
-       3 Semantic aware big data reference architecture
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:207: You can't use `macro parameter character #' in vertical mode.
-l.207 #
-       4 Towards a big data reference architecture Maier
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 277.
- (D:\MikTex\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl")
+("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -877,26 +304,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
+[2] [3] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 3909 strings out of 480795
- 55752 string characters out of 2913777
- 315490 words of memory out of 3000000
- 19875 multiletter control sequences out of 15000+200000
- 577183 words of font info for 114 fonts, out of 3000000 for 9000
+ 4256 strings out of 480795
+ 59711 string characters out of 2913777
+ 320006 words of memory out of 3000000
+ 20219 multiletter control sequences out of 15000+200000
+ 576869 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,11n,37p,1163b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (4 pages, 79903 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (3 pages, 71191 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
