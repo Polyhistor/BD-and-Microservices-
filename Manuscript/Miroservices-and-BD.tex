@@ -206,23 +206,16 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
     \item Bulkhead pattern \checkmark
     \item Command and query responsibility segregation \checkmark
     \item Competing consumers \checkmark
-    \item Pipes and filters 
-    \item Request-reaction 
-    \item Strangler 
-    \item Anti-corruption layer 
-    \item Externalized configuration 
-    \item Self-containment of services
-     \item Database is the service
-    \item Enable continuous integration 
-    \item Self-contained systems 
-    \item Bulkhead 
-    \item Circuit breaker 
-    \item Priority queue 
-    \item Log aggregator  
-    \item Ambassador 
-    \item Sidecar 
-    \item Gateway aggregate 
-    \item Gateway offloading 
+    \item Pipes and filters \checkmark
+    \item Strangler \checkmark
+    \item Anti-corruption layer \checkmark
+    \item Externalized configuration \checkmark
+    \item Priority queue \checkmark
+    \item Log Aggregation \checkmark
+    \item Ambassador \checkmark
+    \item Sidecar \checkmark
+    \item Gateway aggregate \checkmark
+    \item Gateway offloading \checkmark
     \item Tolerant reader 
     \item Aggregator 
     \item Backend for Frontend 
@@ -243,74 +236,45 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 \begin{center}
     \begin{table*}
     \renewcommand*{\arraystretch}{1.8}
-    \begin{tabular}{ | m{3cm} | m{3cm} | }
+    \begin{tabular}{ | m{3cm} | m{12cm} | }
 
         \hline
 
         Category &  Pattern
  
         \\
+
         \hline
 
-        Data Management &  Database per Service
+        Data Management &  Database per Service, Shared Database, Event sourcing, Command and query responsibility segregation
+ 
+        \\
+
+        \hline
+
+        Platform and Infrastructure & Multiple service instances per host, Externalized configuration, Sidecar
+ 
+        \\
+
+        \hline
+
+        Communicational & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading 
+        
+ 
+        \\
+
+        \hline
+
+        Fault Tolerance & Circuit breaker, Bulkhead pattern
  
         \\
         \hline
 
-        Data Management &  Shared Database
+        Observability & Log Aggregation Pattern
  
         \\
         \hline
 
-        Data Management & Event sourcing 
- 
-        \\
-        \hline
-
-        Data Management & Command and query responsibility segregation
- 
-        \\
-        \hline
-
-        Platform Management & Multiple service instances per host
- 
-        \\
-        \hline
-
-        Communicational & API gateway
- 
-        \\
-        \hline
-
-        Communicational & Self Registration
- 
-        \\
-        \hline
-  
-        Communicational & Service Discovery 
- 
-        \\
-        \hline
-
-        Communicational & Competing consumers
-
-        \\ 
-        \hline
-
-        Fault Tolerance & Circuit breaker
- 
-        \\
-        \hline
-
-        Fault Tolerance & Bulkhead pattern
- 
-        \\
-        \hline
-
-        Fault Tolerance & Bulkhead pattern
- 
-        \\
-        \hline
 
     \end{tabular}
     \end{table*}
