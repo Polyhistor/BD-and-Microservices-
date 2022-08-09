@@ -103,10 +103,8 @@ Taking all into consideration, we categorized our requirements based on the majo
         Volume &
 
         Vol-1) System needs to support asynchronous, streaming, and batch processing to collect data from centralized, distributed, and cloud data sources, and sensors, instrument and other IOT devices 
-
-        Vol-2) System needs to be able to process large heterogenous data with varying schemas 
         
-        Vol-3) System needs to provide a scalable storage for massive data sets 
+        Vol-2) System needs to provide a scalable storage for massive data sets 
  
         \\
 
@@ -209,26 +207,21 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
     \item Pipes and filters \checkmark
     \item Strangler \checkmark
     \item Anti-corruption layer \checkmark
-    \item Externalized configuration \checkmark
+    \item External configuration store  \checkmark
     \item Priority queue \checkmark
     \item Log Aggregation \checkmark
     \item Ambassador \checkmark
     \item Sidecar \checkmark
     \item Gateway aggregate \checkmark
     \item Gateway offloading \checkmark
-    \item Tolerant reader 
-    \item Aggregator 
-    \item Backend for Frontend 
-    \item API Composition 
-    \item Microservice Chassis/Service Host   
-    \item Saga transaction management
-    \item Gateway routing 
-    \item External configuration store 
-    \item Static content hosting 
-    \item Computer resource consolidation 
-    \item Leader election 
-    \item Database cluster
-    \item Hybrid
+    \item Aggregator \checkmark
+    \item Backend for Frontend \checkmark
+    \item API Composition \checkmark
+    \item Saga transaction management \checkmark
+    \item Gateway routing (duplicate) \checkmark
+    \item Static content hosting \checkmark
+    \item Computer resource consolidation \checkmark
+    \item Leader election \checkmark
   \end{enumerate}
 
 
@@ -246,19 +239,19 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         \hline
 
-        Data Management &  Database per Service, Shared Database, Event sourcing, Command and query responsibility segregation
+        Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
  
         \\
 
         \hline
 
-        Platform and Infrastructure & Multiple service instances per host, Externalized configuration, Sidecar
+        Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
  
         \\
 
         \hline
 
-        Communicational & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading 
+        Communicational & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
         
  
         \\
@@ -285,16 +278,22 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 \begin{center}
     \begin{table*}
     \renewcommand*{\arraystretch}{1.8}
-    \begin{tabular}{ | m{1.2cm} | m{5cm} |  m{5cm} |}
+    \begin{tabular}{ | m{2cm} | m{5cm} |  m{5cm} |}
 
         \hline
 
-        Pattern &  Requirement & Reasoning
+        Requirement &  Patterns & Reasoning
  
         \\
         \hline
 
-        Pattern &  Requirement & Reasoning
+        Vol-1 &  Database per Service, Event Sourcing, Command and Query Responsibility Segregation, External configuration store  & Reasoning, API gateway, Anti-Corruption Layer, Service Discovery, Self Registration, Priority Queue, 
+ 
+        \\
+
+        \hline
+
+        Vol-1 &  Event Sourcing  & Reasoning
  
         \\
         \hline
