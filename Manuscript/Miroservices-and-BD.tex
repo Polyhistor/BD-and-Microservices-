@@ -455,21 +455,33 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         Var-2 &  
         
-        Database per Service, API Gateway, Gateway Routing, 
+        1)  Database per Service
+
+        2) API Gateway
+
+        3) Gateway Routing
 
         & Reasoning
         
         \\
         \hline
 
-        Var-3 & None  &
+        Var-3 & None  & Reasoning
         
         \\
         \hline
 
         Var-4 &  
 
-        API Gateway, Gateway Routing, Gateway Offloading, Gateway Aggregate & 
+        1) API Gateway
+
+        2) Gateway Routing
+
+        3) Gateway Offloading
+
+        4) Gateway Aggregate
+        
+        & Reasoning
         
         \\
         \hline
@@ -488,7 +500,15 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         Val-1 &  
 
-        Event Sourcing, Command and Query Responsibility Segregation, Priority Queue, Leader Election, Bulkhead Pattern, 
+        1) Event Sourcing
+
+        2) Command and Query Responsibility Segregation
+
+        3) Priority Queue
+
+        4) Leader Election
+
+        5) Bulkhead Pattern
         
         &  Reasoning 
         
@@ -497,7 +517,17 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         Val-2 &  
 
-        Event Sourcing, Command and Query Responsibility Segregation, API gateway, Gateway aggregate, Gateway offloading, Gateway routing, Priority queue,
+        1) Event Sourcing
+
+        2) Command and Query Responsibility Segregation
+
+        3) API gateway, Gateway aggregate
+
+        4) Gateway offloading
+
+        5) Gateway routing
+
+        6) Priority queue
         
         & Reasoning
         
@@ -506,7 +536,17 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         Val-3 &  
 
-        API gateway, Anti-corruption layer, Service Discovery, Gateway aggregate, Gateway routing, Backend for Frontend
+        1) API gateway
+
+        2) Anti-corruption layer
+
+        3) Service Discovery
+
+        4) Gateway aggregate
+
+        5) Gateway routing
+
+        6) Backend for Frontend
         
         & Reasoning
         
@@ -515,8 +555,12 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         Val-4 &  
 
-        Event Sourcing, Command and Query Responsibility Segregation, Backend for Frontend, 
-        
+        1) Event Sourcing
+
+        2) Command and Query Responsibility Segregation
+
+        3) Backend for Frontend
+
         & Reasoning
         
         \\
@@ -524,7 +568,13 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         SaP-1 &  
 
-        External Configuration Store, API Gateway, Gateway Aggregate, Backend for Frontend 
+        1) External Configuration Store
+
+        2) API Gateway
+
+        3) Gateway Aggregate
+
+        4) Backend for Frontend 
         
         & Reasoning
         
@@ -533,7 +583,13 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         SaP-2 &  
 
-        External Configuration Store, API Gateway, Gateway Aggregate, Backend for Frontend 
+        1) External Configuration Store
+
+        2) API Gateway
+
+        3) Gateway Aggregate
+
+        4) Backend for Frontend 
         
         & Reasoning
         
@@ -542,7 +598,7 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         Ver-1 &  
 
-        Pipes and filters,
+        1) Pipes and filters
         
         & Reasoning
         
@@ -569,7 +625,7 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
              
         Ver-4 &  
         
-        Circuit Breaker
+        1) Circuit Breaker
 
         & Reasoning
         
@@ -579,6 +635,13 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
     \end{tabular}
     \end{table*}
 \end{center}
+
+
+\section{Application of Microservices Design Patterns to Big Data Systems}
+
+In this section, we combine our findings from both SLRs, and present new theories on application of microservices design patterns for big data systems. The patterns gleaned, are established theories that are derived from actual problems in microservices systems in practice, thus we do not aim to re-validate them in this study. Moreover, we do not aim to validate the theories proposed in this study through an empirical study, and for instance have a prototype of each pattern being implemented in a big data system. 
+
+This main contribution of our work is to propose new theories and try to apply some of the well-known software engineering patterns to the realm of data engineering and in specific, big data. Based on this, we argue that, validation of each pattern against a sample big data system would threaten the construct validity of our conceptual framework, and we therefore seek to present our findings as architectural constructs that can be used by developers and architects. 
 
 
     
