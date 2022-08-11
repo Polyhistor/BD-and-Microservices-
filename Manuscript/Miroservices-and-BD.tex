@@ -146,13 +146,9 @@ Taking all into consideration, we categorized our requirements based on the majo
         
         Val-2) System needs to support two types of analytical processing: batch and streaming. 
 
-        Val-3) System needs to support different output file formats for different for reporting and visualizations. 
+        Val-3) System needs to support different output file formats for different purposes such as descriptive analytics, predictive analytics, reporting and visualizations. 
         
         Val-4) System needs to support streaming results to the consumers 
-        
-        Val-5) System should support descriptive analytics 
-
-        Val-6) System shall support predictive analytics 
 
         \\
 
@@ -450,6 +446,7 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
         
         Var-1 &  
         
+        None
 
         & Reasoning
         
@@ -458,12 +455,127 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         Var-2 &  
         
+        Database per Service, API Gateway, Gateway Routing, 
 
         & Reasoning
         
         \\
         \hline
+
+        Var-3 & None  &
+        
+        \\
+        \hline
+
+        Var-4 &  
+
+        API Gateway, Gateway Routing, Gateway Offloading, Gateway Aggregate & 
+        
+        \\
+        \hline
   
+    \end{tabular}
+    \end{table*}
+\end{center}
+
+
+
+\begin{center}
+    \begin{table*}
+    \renewcommand*{\arraystretch}{1.8}
+    \begin{tabular}{ | m{2cm} | m{8cm} |  m{2cm} |}
+        \hline
+
+        Val-1 &  
+
+        Event Sourcing, Command and Query Responsibility Segregation, Priority Queue, Leader Election, Bulkhead Pattern, 
+        
+        &  Reasoning 
+        
+        \\
+        \hline
+
+        Val-2 &  
+
+        Event Sourcing, Command and Query Responsibility Segregation, API gateway, Gateway aggregate, Gateway offloading, Gateway routing, Priority queue,
+        
+        & Reasoning
+        
+        \\
+        \hline
+
+        Val-3 &  
+
+        API gateway, Anti-corruption layer, Service Discovery, Gateway aggregate, Gateway routing, Backend for Frontend
+        
+        & Reasoning
+        
+        \\
+        \hline
+
+        Val-4 &  
+
+        Event Sourcing, Command and Query Responsibility Segregation, Backend for Frontend, 
+        
+        & Reasoning
+        
+        \\
+        \hline
+
+        SaP-1 &  
+
+        External Configuration Store, API Gateway, Gateway Aggregate, Backend for Frontend 
+        
+        & Reasoning
+        
+        \\
+        \hline
+
+        SaP-2 &  
+
+        External Configuration Store, API Gateway, Gateway Aggregate, Backend for Frontend 
+        
+        & Reasoning
+        
+        \\
+        \hline
+
+        Ver-1 &  
+
+        Pipes and filters,
+        
+        & Reasoning
+        
+        \\
+        \hline
+
+        Ver-2 &  
+        None 
+        & Reasoning
+        
+        \\
+        \hline
+
+        
+        Ver-3 &  
+        
+        None
+
+        & Reasoning
+        
+        \\
+        \hline
+
+             
+        Ver-4 &  
+        
+        Circuit Breaker
+
+        & Reasoning
+        
+        \\
+        \hline
+
     \end{tabular}
     \end{table*}
 \end{center}
