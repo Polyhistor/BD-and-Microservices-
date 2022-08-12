@@ -639,10 +639,28 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
 \section{Application of Microservices Design Patterns to Big Data Systems}
 
-In this section, we combine our findings from both SLRs, and present new theories on application of microservices design patterns for big data systems. The patterns gleaned, are established theories that are derived from actual problems in microservices systems in practice, thus we do not aim to re-validate them in this study. Moreover, we do not aim to validate the theories proposed in this study through an empirical study, and for instance have a prototype of each pattern being implemented in a big data system. 
+In this section, we combine our findings from both SLRs, and present new theories on application of microservices design patterns for big data systems. The patterns gleaned, are established theories that are derived from actual problems in microservices systems in practice, thus we do not aim to re-validate them in this study. Moreover, we do not aim to validate the theories proposed in this study through an empirical study.
 
-This main contribution of our work is to propose new theories and try to apply some of the well-known software engineering patterns to the realm of data engineering and in specific, big data. Based on this, we argue that, validation of each pattern against a sample big data system would threaten the construct validity of our conceptual framework, and we therefore seek to present our findings as architectural constructs that can be used by developers and architects. 
+The main contribution of our work is to propose new theories and try to apply some of the well-known software engineering patterns to the realm of data engineering and in specific, big data. Based on this, we map big data system requirements against a pattern and provide with reasoning on why such pattern might work for big data systems. 
 
+These descriptions are presented as sub section each describing one characteristic of big data systems. 
+
+
+\subsection{Volume}
+
+There has been two requirements associated to the Volume aspect of big data systems which are about the application handling various data types (Vol-1) and the application providing with a scalable storage (Vol-2). 
+
+For Vol-1 we suggest the following patterns to be effective: 
+
+\begin{enumerate}
+    \item External configuration
+    \item API gateway 
+    \item Gateway offloading 
+\end{enumerate}
+
+Big data systems and microservices architecture are both inherently distributed. While majority of current big data applications are designed underlying a monolithic data pipeline architecture, here, we propose microservices architecture for a domain-driven and decentralized big data architecture. We support our arguments by the means of modeling. We use Archimate (\cite{\cite{lankhorst2013language}}) as recommend in ISO/IEC/IEEE 42010 (\cite{Chaabane}). 
+
+We do not suggest any pattern to be very effective, and propose that a collection of these patterns can provide the effectiveness of microservices in to big data systems. For this purpose we portray the usage of the aforementioned patter in fig \ref{}
 
     
 \bibliographystyle{IEEEtran}

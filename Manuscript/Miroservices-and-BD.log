@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  11 AUG 2022 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  12 AUG 2022 22:06
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -288,65 +288,71 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 61.
- [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-[]\OT1/ptm/m/n/10 Our ap-proach fol-lows the guide-lines ex-plained in
- []
+LaTeX Warning: Citation `sommerville2011software' on page 1 undefined on input line 77.
 
 
-LaTeX Warning: Citation `ataei' on page 2 undefined on input line 91.
-
-\c@magicrownumbers=\count274
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
-[]|\OT1/ptm/m/n/8 Security
- []
+LaTeX Warning: Citation `laplante2017requirements' on page 1 undefined on input line 77.
 
 
-LaTeX Warning: Reference `MS-Pattern-Cat' on page 2 undefined on input line 188.
+LaTeX Warning: Citation `Demchenko2014' on page 1 undefined on input line 81.
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 244--244
-[]|\OT1/ptm/m/n/8 Platform and In-fras-truc-
- []
+LaTeX Warning: Citation `Bughin2016' on page 1 undefined on input line 81.
 
 
-LaTeX Warning: Float too large for page by 84.60007pt on input line 490.
+LaTeX Warning: Citation `Bahrami2015' on page 1 undefined on input line 81.
 
-("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl" [2])
 
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
+LaTeX Warning: Citation `rad2017big' on page 1 undefined on input line 81.
 
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
 
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
+LaTeX Warning: Citation `Marz2015' on page 1 undefined on input line 81.
 
-[3
 
-] [4] [5] [6] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
+LaTeX Warning: Citation `Chen2016a' on page 1 undefined on input line 81.
 
-LaTeX Warning: There were undefined references.
 
- ) 
+LaTeX Warning: Citation `nadal2017software' on page 1 undefined on input line 81.
+
+
+LaTeX Warning: Citation `volk2020identifying' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Citation `bashari2016security' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Citation `yu2019components' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Citation `eridaputra2014modeling' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Citation `al2016characteristics' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Citation `ataei2020big' on page 1 undefined on input line 85.
+
+
+LaTeX Warning: Citation `kassab2014state' on page 1 undefined on input line 87.
+
+c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:88: I can't write on file `Miroservices-and-BD.pdf'.
+Please type another file name for output
+c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:88: Emergency stop.
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.88 
+     
+*** (job aborted, file error in nonstop mode)
+
+ 
 Here is how much of TeX's memory you used:
- 4376 strings out of 480795
- 61263 string characters out of 2913777
- 339114 words of memory out of 3000000
- 20331 multiletter control sequences out of 15000+200000
- 577923 words of font info for 118 fonts, out of 3000000 for 9000
+ 4335 strings out of 480795
+ 60270 string characters out of 2913777
+ 315055 words of memory out of 3000000
+ 20309 multiletter control sequences out of 15000+200000
+ 563712 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,11n,37p,1163b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (6 pages, 84706 bytes).
-PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:88:  ==> Fatal error occurred, no output PDF file produced!
