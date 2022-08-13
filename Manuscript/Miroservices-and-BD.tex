@@ -214,7 +214,6 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
     \item Backend for Frontend \checkmark
     \item API Composition \checkmark
     \item Saga transaction management \checkmark
-    \item Gateway routing (duplicate) \checkmark
     \item Static content hosting \checkmark
     \item Computer resource consolidation \checkmark
     \item Leader election \checkmark
@@ -336,13 +335,11 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         3) Pipes and Filters 
 
-        4) Gateway Routing 
+        4) Leader Election 
 
-        5) Leader Election 
+        5) Circuit Breaker 
 
-        6) Circuit Breaker 
-
-        7) Log Aggregation  
+        6) Log Aggregation  
         
         & Reasoning
         
@@ -362,8 +359,6 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
         5) Gateway Offloading
 
         6) Leader Election 
-        
-        7) Gateway routing 
 
         & Reasoning
 
@@ -384,8 +379,6 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
         5) Gateway Offloading
 
         6) Leader Election 
-        
-        7) Gateway routing 
 
         & Reasoning
         
@@ -403,8 +396,6 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
         4) Gateway aggregate
 
         5) Gateway Offloading
-        
-        7) Gateway routing 
 
         & Reasoning
         
@@ -420,12 +411,10 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
         4) Gateway aggregate
 
         5) Gateway Offloading
-        
-        7) Gateway routing 
-        
-        8) Event Sourcing
+                
+        6) Event Sourcing
 
-        9) Command and Query Responsibility Segregation
+        7) Command and Query Responsibility Segregation
 
         & Reasoning
         
@@ -459,8 +448,6 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         2) API Gateway
 
-        3) Gateway Routing
-
         & Reasoning
         
         \\
@@ -475,11 +462,9 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         1) API Gateway
 
-        2) Gateway Routing
+        2) Gateway Offloading
 
-        3) Gateway Offloading
-
-        4) Gateway Aggregate
+        3) Gateway Aggregate
         
         & Reasoning
         
@@ -525,9 +510,7 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         4) Gateway offloading
 
-        5) Gateway routing
-
-        6) Priority queue
+        5) Priority queue
         
         & Reasoning
         
@@ -544,9 +527,7 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 
         4) Gateway aggregate
 
-        5) Gateway routing
-
-        6) Backend for Frontend
+        5) Backend for Frontend
         
         & Reasoning
         
@@ -653,17 +634,63 @@ There has been two requirements associated to the Volume aspect of big data syst
 For Vol-1 we suggest the following patterns to be effective: 
 
 \begin{enumerate}
-    \item External configuration
+    \item External Configuration Store
     \item API gateway 
     \item Gateway offloading 
 \end{enumerate}
 
-Big data systems and microservices architecture are both inherently distributed. While majority of current big data applications are designed underlying a monolithic data pipeline architecture, here, we propose microservices architecture for a domain-driven and decentralized big data architecture. We support our arguments by the means of modeling. We use Archimate (\cite{\cite{lankhorst2013language}}) as recommend in ISO/IEC/IEEE 42010 (\cite{Chaabane}). 
+Big data systems and microservices architecture are both inherently distributed. While majority of current big data applications are designed underlying a monolithic data pipeline architecture, here, we propose microservices architecture for a domain-driven and decentralized big data architecture. We support our arguments by the means of modeling. We use Archimate (\cite{lankhorst2013language}) as recommend in ISO/IEC/IEEE 42010 (\cite{Chaabane}). 
 
-We do not suggest any pattern to be very effective, and propose that a collection of these patterns can provide the effectiveness of microservices in to big data systems. For this purpose we portray the usage of the aforementioned patter in fig \ref{}
+We posit that a pattern alone would not be significantly useful to a data engineering or a data architect, and propose that collection of a pattern in relation to current defacto standard of BD architectures is a better means of communication. 
+
+To achieve this, we've portray patterns selected for each requirement in a reference architecture. We then justify the components and describe how patterns could address the requirement. For this purpose we portray the patterns for Vol-1 in figure \ref{fig-vol-1}
+
+
+\begin{figure*}[h!]
+    \centering 
+    \includegraphics[width=17cm]{../Media/Vol-1 Requirement RA.jpg}
+    \label{fig-vol-1}
+    \caption{Design patterns for volume requirement}
+\end{figure*}
+
+\subsubsection{Gateway Offloading and API Gateway}
+
+In a typical flow of data engineering, data goes from ingestion, to storage, to transformation and finally to serving. However there are various challenges to achieve this process. One challenge in this process is the realization of various data sources as described in Vol-1. The problem is that data comes in various formats from structured to semi-structured to unstructured, and the systems needs to handle different data through different interfaces. There is also streaming data that needs to be handled separately with different architectural constructs and data types. So some of the key engineering consideration for the ingestion process is that; 1) what are the typical use cases for the data being ingested ? is the big data system ingesting data reliably ? what is the next data destination ? How frequently should data be ingested ? In what volume the data typically arrives? Does streaming data need to be transformed before reaching the destination ? 
+
+Given the challenges and particularities of data types, different nodes maybe spawned to handle the volume of data as witnessed in big data reference architectures studied by Ataei et al (\cite{ataei2020big}). Another popular approach is the segregation of concerns by separating batch and streaming processing nodes. Given the requirement of horizontal scaling for big data systems, it is safe to assume that there is usually more then one node associated to the data being ingested. This can be problematic as different nodes will need to account for security, privacy and overall regulations of the context, alongside, the software engineering demand that each may have. 
+
+This means that each node needs to reimplement the same interface for the aforementioned cross-cutting concerns, which makes scalability and maintainability of the big data system a daunting task. This also introduces unnecessary repetition of codes. To solve this problem, we explore the concept of gateway offloading and API gateway patterns. By offloading cross-cutting concerns that are shared across nodes to a single architectural construct, the API gateway in this case, not only we will achieve a separation of concerns and a good level of usability, but we increase security and performance, by processing and filtering incoming data through a well specified ingress. 
+
+Moreover, if data producers directly communicate with the processing nodes, they will have to update the endpoint address every now and on. This issue is exacerbated when the service tries to communicate with a service that is down. Given that, the lifecycle of a service in a typical distributed cloud environment is not deterministic and many container orchestration systems constantly recycle services to proactively address this issue, reliability and maintainability of the big data system can be compromised. This scenario remains the same, and can be even worst if the company decides to have an on-premise data center. 
+
+Additionally, the gateway can increase the system reliability and availability by doing a constant health check on services, and distribute traffic based on healthy nodes. The is also an array of other benefits such as having a weighted distribution, and creating a special cache mechanism through specific HTTP headers. This also means that if the gateway is down, service nodes won't introduce bad data or state into the overall system. We have portrayed a very simplistic representation of this pattern in fig \ref{fig-vol-1}. 
+
+\subsubsection{External Configuration Store}
+
+As discussed earlier, big data systems are made up of various nodes in order to achieve horizontal scalability. While these systems are logically separated to their own service, they will have to communicate with each other in order to achieve the goal of the system. Thus each one of them will require a set of runtime environmental configuration to achieve their functionality. These configurations could be database network locations, feature flags, and third party credentials. Moreover, different stages of the data engineering may have different environments for different purposes, for instance, privacy engineers may require a completely different environment to achieve their requirements. 
+
+Thus, the challenge is the management of these configurations as the system scale, and enabling services to run in different environments without modification. To address this problem, we propose the external configuration store pattern, also known as the 'externalized configuration pattern'. By externalizing all nodes configuration to another service, each node can request its configuration from an external store on boot up. This can be achieved in Docker files through the CMD command, or could be written in Terraform codes for a Kubernetes pod. This pattern is portrayed in fig \ref{fig-vol-1}.
+
+\subsection{Velocity}
+
+Velocity is perhaps one of the most challenging aspects of the big data systems, which if is not architected well, can result in series of issues from system availability to massive loses and customer churn. 
+
+To address some of the challenges associated with the velocity aspect of big data systems, we recommend the following patterns: 
+
+\begin{enumerate}
+    \item API Gateway 
+    \item Service Discovery 
+    \item Circuit Breaker
+    \item Log Aggregation
+    \item Leader Election
+    \item Command and Query Responsibility Segregation
+    \item Competing consumers
+    \item Gateway Offloading
+\end{enumerate}
 
     
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 
 \end{document}
+        
