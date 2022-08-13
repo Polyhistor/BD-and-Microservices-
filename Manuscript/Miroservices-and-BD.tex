@@ -682,11 +682,18 @@ To address some of the challenges associated with the velocity aspect of big dat
     \item Service Discovery 
     \item Circuit Breaker
     \item Log Aggregation
-    \item Leader Election
     \item Command and Query Responsibility Segregation
     \item Competing consumers
     \item Gateway Offloading
 \end{enumerate}
+
+Big data doesn't imply only 'big' or a lot of data, it also implies the rate at which data can be ingested, stored and analyzed to produce insights. According to a recent MIT report in collaboration with Databricks, one of the main challenges of big data 'low-achievers' is the 'slow processing of large amounts of data'. If the business desires to go data driven, it should be able to have time-to-insight within an acceptable range, as the decisions have to be made at the end of the day. 
+
+Achieving this in such a distribute setup as big data systems with so many moving parts, is a challenging task, but there are microservices pattern that can be tailored to help with some of these challenges. Given the very contrived scenario of a big data system described in the previous section, at the very core, data needs to be ingested quickly, stored in a timely manner, micro-batch, batch, or stream processed, and lately served to the consumers. So what happens if one node goes down or becomes unavailable? in a traditional Hadoop setup, if Mesos is utilized as the scheduler, the node will be restarted and will go through a lifecycle again. 
+
+This means during this period of time, the node is unavailable, and any workload for stream processing has to wait. This issue is exacerbated if the system is designed and architected underlying monolithic pipeline architecture with point-to-point communication. One way to solve some of these issues is to introduce an event driven communication as portrayed in the works of Ataei et al (\cite{ataei2021neomycelia}), and try to increase fault tolerance and availability through competing consumers, circuit breaker, and log aggregation. 
+
+
 
     
 \bibliographystyle{IEEEtran}

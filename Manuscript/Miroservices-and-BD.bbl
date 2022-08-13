@@ -107,4 +107,10 @@ A.~Abran, J.~W. Moore, P.~Bourque, R.~Dupuis, and L.~Tripp, ``Software
   engineering body of knowledge,'' \emph{IEEE Computer Society, Angela
   Burgess}, p.~25, 2004.
 
+\bibitem{ataei2021neomycelia}
+P.~Ataei and A.~Litchfield, ``Neomycelia: A software reference architecturefor
+  big data systems,'' in \emph{2021 28th Asia-Pacific Software Engineering
+  Conference (APSEC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2021, pp.
+  452--462.
+
 \end{thebibliography}

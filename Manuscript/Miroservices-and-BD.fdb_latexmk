@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Miroservices-and-BD"] 1660378791 "Miroservices-and-BD.aux" "Miroservices-and-BD.bbl" "Miroservices-and-BD" 1660378793
+["bibtex Miroservices-and-BD"] 1660386871 "Miroservices-and-BD.aux" "Miroservices-and-BD.bbl" "Miroservices-and-BD" 1660386904
   "D:/MikTex/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Miroservices-and-BD.aux" 1660378792 2287 e30c0d1be67304e67cf8b505aeb02251 "pdflatex"
+  "Miroservices-and-BD.aux" 1660386904 2352 0210df87044f38f7e72be18080d967ec "pdflatex"
   "references.bib" 1659605109 6198 8468df60155f5700a59c176e0a0787dc ""
   (generated)
-  "Miroservices-and-BD.bbl"
   "Miroservices-and-BD.blg"
-["pdflatex"] 1660378791 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.pdf" "Miroservices-and-BD" 1660378793
+  "Miroservices-and-BD.bbl"
+["pdflatex"] 1660386903 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.pdf" "Miroservices-and-BD" 1660386904
   "../Media/Vol-1 Requirement RA.jpg" 1660365231 153625 31abc7d0e8612a2ad68091b70fb40ddd ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1643599542 10002696 7a3616ce906e4689083dab4d83aaed18 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1659858855 204453 3dc7e5691a328fc3e08e548d955d1d79 ""
@@ -82,14 +82,14 @@
   "D:/MikTex/tex/latex/tools/array.sty" 1580641284 12560 ce3f59ceae9d9a27bfe037d6bf1d903c ""
   "D:/MikTex/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "IEEEtran.cls" 1659332958 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "Miroservices-and-BD.aux" 1660378792 2287 e30c0d1be67304e67cf8b505aeb02251 "pdflatex"
-  "Miroservices-and-BD.bbl" 1660378791 4810 9aec8fc2c3d0f5ae3aeba0a51a402164 "bibtex Miroservices-and-BD"
-  "Miroservices-and-BD.tex" 1660378790 27088 789564ef8d1ff285c9b2c1acb02ef774 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.aux" 1660378792 2287 e30c0d1be67304e67cf8b505aeb02251 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex" 1660378790 27088 789564ef8d1ff285c9b2c1acb02ef774 ""
+  "Miroservices-and-BD.aux" 1660386904 2352 0210df87044f38f7e72be18080d967ec "pdflatex"
+  "Miroservices-and-BD.bbl" 1660386871 5091 3cb8c1f9907428969eed5dba7bd8ac1a "bibtex Miroservices-and-BD"
+  "Miroservices-and-BD.tex" 1660386902 28759 0371b69e7f0362bc8affb3f4c56cfc83 ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.aux" 1660386904 2352 0210df87044f38f7e72be18080d967ec ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex" 1660386902 28759 0371b69e7f0362bc8affb3f4c56cfc83 ""
   (generated)
-  "Miroservices-and-BD.pdf"
-  "Miroservices-and-BD.aux"
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.log"
   "Miroservices-and-BD.log"
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.pdf"
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.log"
+  "Miroservices-and-BD.pdf"
+  "Miroservices-and-BD.aux"
