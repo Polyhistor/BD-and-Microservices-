@@ -719,10 +719,21 @@ Variety, being another important aspect of big data, implies the range of differ
 To address some of the challenges of this endeavour, we recommend the following patterns to address requirements Var-1, Var-3, Var-4: 
 
 \begin{enumerate}
-    \item Api Gateway 
-    \item Gate Offloading
+    \item API Gateway 
+    \item Gateway Offloading
 \end{enumerate}
 
+\subsubsection{API Gateway and Gateway Offloading}
+
+We have previously discussed the benefits of API Gateway and Gateway Offloading, however in this section we aim to relate it more to big data system requirements Var-1, Var-3, and Var-4. API gateway is a great architectural construct to allow for rapid change of nodes that handle streaming and batch oriented workloads. Data engineers need to keep an open line of communication to data producers on change that could break the data pipelines and analytics. Suppose that developer A changes a field in a schema of an object that may break a pipeline or introduce a privacy threat. How can data engineers handle this scenario effectively? 
+
+To address this problem, and to address big data requirements Var-1, Var-3, and Var-4, API Gateway and Gateway Offloading can be used. API Gateway and Gateway Offloading could be good patterns to offload some of the light weight processes that may associated to the data structure or the type of data. For instance, a light weight metadata check or data scrubbing can be achieved in the Gateway. However, Gateways themselves should be taking a lot of responsibility and possess a bottleneck to the system. Thus as nodes increase and requirements emerge, one might chose to opt for 'Backend for Frontend' pattern.
+
+We do not do any modeling for this section, as the high-level overview of API Gateway pattern is portrayed in fig \ref{fig-vol-1}.
+
+\subsection{Value}
+
+Value is the nucleus of any big data endeavour. In fact all components of the system pursue the goal of realizing a value, that is the insight derived from the data. 
 
 
 
