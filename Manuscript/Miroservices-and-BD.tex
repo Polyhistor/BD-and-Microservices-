@@ -631,7 +631,7 @@ These descriptions are presented as sub section each describing one characterist
 
 There has been two requirements associated to the Volume aspect of big data systems which are about the application handling various data types (Vol-1) and the application providing with a scalable storage (Vol-2). 
 
-For Vol-1 we suggest the following patterns to be effective: 
+For Vol-1 and Vol-2 we suggest the following patterns to be effective: 
 
 \begin{enumerate}
     \item External Configuration Store
@@ -675,27 +675,57 @@ Thus, the challenge is the management of these configurations as the system scal
 
 Velocity is perhaps one of the most challenging aspects of the big data systems, which if is not architected well, can result in series of issues from system availability to massive loses and customer churn. 
 
-To address some of the challenges associated with the velocity aspect of big data systems, we recommend the following patterns: 
+To address some of the challenges associated with the velocity aspect of big data systems, we recommend the following patterns for the requirements Vel-1, Vel-2, Vel-3, and Vel-5: 
 
 \begin{enumerate}
-    \item API Gateway 
-    \item Service Discovery 
+    \item Competing Consumers
     \item Circuit Breaker
     \item Log Aggregation
-    \item Command and Query Responsibility Segregation
-    \item Competing consumers
-    \item Gateway Offloading
 \end{enumerate}
+
+\subsubsection{Competing Consumers}
 
 Big data doesn't imply only 'big' or a lot of data, it also implies the rate at which data can be ingested, stored and analyzed to produce insights. According to a recent MIT report in collaboration with Databricks, one of the main challenges of big data 'low-achievers' is the 'slow processing of large amounts of data'. If the business desires to go data driven, it should be able to have time-to-insight within an acceptable range, as the decisions have to be made at the end of the day. 
 
 Achieving this in such a distribute setup as big data systems with so many moving parts, is a challenging task, but there are microservices pattern that can be tailored to help with some of these challenges. Given the very contrived scenario of a big data system described in the previous section, at the very core, data needs to be ingested quickly, stored in a timely manner, micro-batch, batch, or stream processed, and lately served to the consumers. So what happens if one node goes down or becomes unavailable? in a traditional Hadoop setup, if Mesos is utilized as the scheduler, the node will be restarted and will go through a lifecycle again. 
 
-This means during this period of time, the node is unavailable, and any workload for stream processing has to wait. This issue is exacerbated if the system is designed and architected underlying monolithic pipeline architecture with point-to-point communication. One way to solve some of these issues is to introduce an event driven communication as portrayed in the works of Ataei et al (\cite{ataei2021neomycelia}), and try to increase fault tolerance and availability through competing consumers, circuit breaker, and log aggregation. 
+This means during this period of time, the node is unavailable, and any workload for stream processing has to wait, failing to achieve requirements Vel-2, Vel-3 and Vel-5. This issue is exacerbated if the system is designed and architected underlying monolithic pipeline architecture with point-to-point communication. One way to solve some of these issues is to introduce an event driven communication as portrayed in the works of Ataei et al (\cite{ataei2021neomycelia}), and try to increase fault tolerance and availability through competing consumers, circuit breaker, and log aggregation. 
 
+Underlying the event-driven approach, we can assume that nodes are sending each other events as a means of communication. This implies that node A can send an event to node B in a 'dispatch and forget' fashion on a certain topic. However this pattern introduces to same problem as the point-to-point REST communication style, as if node B is down, then this will have a ripple effect on data engineering pipelines. To address this challenge, we can adopt the competing consumer pattern. Adopting this pattern means instead of one node listening on the topic, there will be a few nodes. This can change the nature of the communication to asynchronous mode, and allow for a better fault tolerance, because if one node is down, the other nodes can listen to the event and handle it. This will help alleviate challenges in regards to Vel-2, Vel-3 and Vel-5.
 
+\subsubsection{Circuit Breaker}
 
+On the other hand, given the large number of nodes one can assume for any big data system, one can employ the circuit breaker pattern to signal the service unavailability. Circuit breakers can protect the overall integrity of data and processes by tripping and closing the incoming request to the service. This communicates effectively to the rest of the system that the node is unavailable and a compelling decision can be made. This mixed with competing consumers pattern con increase the overall availability and reliability of the system, by providing an even-driven asynchronous fault tolerance communication mechanism. This allows system to be able to be resilient and responsive to bursty, high-throughput data as well as small, batch oriented data, addressing requirements Vel-1, Vel-4, and Vel-5. 
     
+\subsection{Log Aggregator}
+
+Along the lines log aggregation can be implemented to shed lights on various services and their audit trail. Traditional service based logging does not work very well in distributed environments, as engineers are required to understand the whole flow of data from one end to another. To address this issue, log aggregation can be implemented, which usually comes with an unified interface that services communicates to and log their processes. This interface then does the necessary mutations, store the logs. In addition, reliability engineers can configure alerts to be triggered underlying certain conditions. This increases teams agility to proactively resolve issue, which in turn increases reliability and availability which in turn addresses the velocity requirement of big data systems. While this design pattern does not directly affect any system requirements, it indirectly affects all of them.
+
+
+A simplistic reference architecture of these patterns have been portrayed in fig \ref{fig-vel-ra}
+
+
+\begin{figure*}[h!]
+    \includegraphics[width=17cm]{../Media/Velocity Requirement.jpg}
+    \caption{Design patterns for velocity requirement}
+    \label{fig-vel-ra}
+\end{figure*}
+
+
+\subsection{Variety}
+
+Variety, being another important aspect of big data, implies the range of different data types and th challenges of handling these data. As more and more softwares become ubiquitous, newer data structures emerge, and an effective big data system must be elastic enough to handle various data types. 
+
+To address some of the challenges of this endeavour, we recommend the following patterns to address requirements Var-1, Var-3, Var-4: 
+
+\begin{enumerate}
+    \item Api Gateway 
+    \item Gate Offloading
+\end{enumerate}
+
+
+
+
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 
