@@ -749,11 +749,24 @@ Suppose that there are various application that would like to query data in diff
 
 Read and write workloads are really different, and this is something a data engineering should consider from the initial data modeling, to data storage, retrieval and potential serialization (JSon to Parquet). And while the system may be more tolerant on the write side, it may have a requirement to provide reads in a timely manner (checking a fraudulent credit card). Moreover, read and write representation of the data are often different and miss-matching and managing security and privacy can become complicated. 
 
-To address some of this challenges, we presented event sourcing and command, CQRS. CQRS separates the read from writes, using commands to update the data, and query to read data. This implies that the read and write database can be physically segregated and consistency can be achieved through an event. To keep databases in sync, the write database can publish an event whenever an update occurs, and the read database can listen to it and update its values. This allows for elastic scaling of the read nodes, and allow for an increased query performance, especially in big data systems that have got an egress services sitting on an edge. 
+To address some of this challenges, we presented event sourcing and command, CQRS. CQRS separates the read from writes, using commands to update the data, and query to read data. This implies that the read and write database can be physically segregated and consistency can be achieved through an event. To keep databases in sync, the write database can publish an event whenever an update occurs, and the read database can listen to it and update its values. This allows for elastic scaling of the read nodes, and allow for an increased query performance, especially in big data systems that have got egress services sitting on an edge. Therefore, this pattern can potentially address the requirement Val-1, and Val-3. 
 
 \subsubsection{Anti-Corruption Layer}
 
-Another pattern that comes useful when handling large number of data consumers is the anti-corruption layer. 
+Another pattern that comes useful when handling large number of data consumers is the anti-corruption layer. Given that the number of consumers and producers can grow and data can be created and requested in different formats with different characteristics, the ingestion and serving layer may be coupled to these foreign domains and try to account for an abstraction that aims to encapsulate all the logic in regards to all the external nodes. As the system grows, this abstraction layer becomes harder to maintain, and its maintainability attribute diminishes. 
+
+One approach to solve this issue is anti-corruption layer. Anti-corruption layer is a node that is placed between the serving layer and data consumers, isolating different systems and translating communication. This eliminates all the complexity and coupling that could have been otherwise introduced to the serving layer. This also allows for nodes to follow the 'single responsibility' pattern (\cite{gamma1995design}). Anti-corruption layer can define strong interfaces and quickly serve new demands without affecting much of the serving node's abstraction. In another terms, it avoids corruption that may happen among systems, by separating them. This pattern can help with requirements Val-3 and Val-4. We have portrayed this pattern and CQRS in fig \ref{fig:Value Requirements}.
+
+\subsubsection{Gateway Offloading}
+
+We have previously discussed this pattern, but in this section we aim to relate more to the value requirements of BD. Given that the various nodes in the system may require services such as authentication, authorization, monitoring, logging, and throttling, it would become really difficult to address the value aspect of big data in a timely manner. To address these issues and to achieve Val-3 and Val-4, we recommend the gateway offloading pattern. Employing this pattern abstracts out cross-cutting services from each node and creates a unified interface that each node can utilize. This simplifies the development of new services for handling new data formats, and free data engineers from implementing features that requires special knowledge such as security and privacy. 
+
+
+\begin{figure}[!h]
+    \includegraphics[]{../Media/Value Requirement.jpg}
+    \caption[]{Design patterns for value requirement }
+    \label{fig:Value Requirements}
+\end{figure}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
