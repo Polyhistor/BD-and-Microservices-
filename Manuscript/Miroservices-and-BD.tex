@@ -733,9 +733,27 @@ We do not do any modeling for this section, as the high-level overview of API Ga
 
 \subsection{Value}
 
-Value is the nucleus of any big data endeavour. In fact all components of the system pursue the goal of realizing a value, that is the insight derived from the data. 
+Value is the nucleus of any big data endeavour. In fact all components of the system pursue the goal of realizing a value, that is the insight derived from the data. Howbeit, realizing these insights require a complex engineering. 
 
+To address some of these challenges, we propose the following patterns to address the requirements Val-1, Val-3, and Val-4
 
+\begin{enumerate}
+    \item Command and Query Responsibility Segregation (CQRS)
+    \item Anti-Corruption Layer 
+    \item Gateway Offloading 
+\end{enumerate}
+
+\subsubsection{Command and Query Responsibility Segregation}
+
+Suppose that there are various application that would like to query data in different ways and with different frequencies (Val-3, Val-4). Different consumers such as business analysts and machine learning engineers have very different demands, and would therefore create different workloads for the big data systems. As the consumers grow, the application has to handle more object mappings and mutations to meet the consumers demands. This may result in complex validation logics, mutations, and serialization that can be write-heavy on the data storage. As a result the serving layer can end up with an overly complex layer that does too much. 
+
+Read and write workloads are really different, and this is something a data engineering should consider from the initial data modeling, to data storage, retrieval and potential serialization (JSon to Parquet). And while the system may be more tolerant on the write side, it may have a requirement to provide reads in a timely manner (checking a fraudulent credit card). Moreover, read and write representation of the data are often different and miss-matching and managing security and privacy can become complicated. 
+
+To address some of this challenges, we presented event sourcing and command, CQRS. CQRS separates the read from writes, using commands to update the data, and query to read data. This implies that the read and write database can be physically segregated and consistency can be achieved through an event. To keep databases in sync, the write database can publish an event whenever an update occurs, and the read database can listen to it and update its values. This allows for elastic scaling of the read nodes, and allow for an increased query performance, especially in big data systems that have got an egress services sitting on an edge. 
+
+\subsubsection{Anti-Corruption Layer}
+
+Another pattern that comes useful when handling large number of data consumers is the anti-corruption layer. 
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
