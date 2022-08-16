@@ -803,7 +803,9 @@ One approach to this problem could be the pipes and filters pattern. By implemen
 
 \subsection{Circuit breaker}
  
-In an inherently distributed environment like big data, calls to different services may fail due to various issues such as timeouts, transient faults or service being unavailable.
+In an inherently distributed environment like big data, calls to different services may fail due to various issues such as timeouts, transient faults or service being unavailable. While these faults maybe transient, this can have a ripple effect on other services in the system, causing a cascading failure across several nodes. This affects system availability and reliability and can cause major losses to the business. 
+
+One solution to this problem can be the circuit breaker pattern. Circuit breaker is a pattern that prevents an application from from repeatedly trying to access a service that is not available. This improves the fault tolerance among services, and signals the service unavailability. The requesting application can decide accordingly on how to handle the situation. In other terms, circuit breakers are like proxies for operations that might fail. This proxy is usually implemented as a state machine having the states close, open, and half-open. Having this proxy in place provides stability to the overall big data system, when the service of interest is recovering from an incident. This can indirectly help with Ver-4.
 
 
 \bibliographystyle{IEEEtran}
