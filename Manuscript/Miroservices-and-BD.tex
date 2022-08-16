@@ -784,8 +784,26 @@ On approach to this problem can be the BFF pattern. By creating backends (servic
 On the other hand, from the security point of view, and in specific in relation to authorization and authentication, this pattern provides with a considerable advantage. BFF can be implemented to achieve token isolation, cookie termination, and can serve as a security gate before requests can reach to upstream servers. Other security procedures such as sanitization, data masking, tokenization, and obfuscation can be done in this layer as well. As these BFF servers are logically isolated for specific requirements, maintainability and scalability is increased. This addresses the requirements SaP-1 and SaP-2. 
 
 
+\subsection{Veracity}
 
+Next to value, veracity is an integral component of any effective big data system. Veracity in general is about how truthful and reliable data is, and how signals can be separated from the noises. Data should conform with the expectations from the business, thus data quality should be engineered across the data lifecycle. According to Eryurek et al (\cite{eryurek2021data}), data quality can be defined by three main characteristics 1) accuracy, 2) completeness, and 3) timeliness. Each of these characteristics posit a certain level of challenge to architecture and engineering of big data systems. 
 
+To this, we propose the following patterns for addressing requirements Ver-1, and Ver-4; 
+
+\begin{enumerate}
+    \item Pipes and Filters 
+    \item Circuit breaker 
+\end{enumerate}
+
+\subsection{Pipes and Filters}
+
+Suppose that there is a data processing and transformation node that is responsible for performing variety of data transformation and other processes with different level of complexities. As requirements emerge and newer, varying processing may be required, and soon this node will turn into a big monolithic unit that aims to achieve too much. Furthermore, this node is likely to reduce the opportunities optimization, refactoring, testing and reusing. In addition, as the business requirements emerge, the nature of some of these tasks may be different. Some processes may require a different metadata strategy that requires more computing resources, while others might not require such expensive resources. This is not elastic and can produce unwanted idle times. 
+
+One approach to this problem could be the pipes and filters pattern. By implementing pipes and filters, processing required for each stream can be separated into its own node (filter) that performs a single task. This resembles to the well-known pattern of 'single responsibility' (\cite{gamma1995design}). Following this approach allows for standardization of the format of the data and processing required for each step. This can help avoiding code duplication, and results in easier removal, replacement, augmentation and customization of data processing pipelines, addressing the requirements Ver-1 and Ver-4.
+
+\subsection{Circuit breaker}
+ 
+In an inherently distributed environment like big data, calls to different services may fail due to various issues such as timeouts, transient faults or service being unavailable.
 
 
 \bibliographystyle{IEEEtran}
