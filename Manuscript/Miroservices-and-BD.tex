@@ -761,12 +761,32 @@ One approach to solve this issue is anti-corruption layer. Anti-corruption layer
 
 We have previously discussed this pattern, but in this section we aim to relate more to the value requirements of BD. Given that the various nodes in the system may require services such as authentication, authorization, monitoring, logging, and throttling, it would become really difficult to address the value aspect of big data in a timely manner. To address these issues and to achieve Val-3 and Val-4, we recommend the gateway offloading pattern. Employing this pattern abstracts out cross-cutting services from each node and creates a unified interface that each node can utilize. This simplifies the development of new services for handling new data formats, and free data engineers from implementing features that requires special knowledge such as security and privacy. 
 
-
-\begin{figure}[!h]
-    \includegraphics[]{../Media/Value Requirement.jpg}
+\begin{figure}[h]
+    \includegraphics[width=17cm]{../Media/Value Requirement.jpg}
     \caption[]{Design patterns for value requirement }
     \label{fig:Value Requirements}
 \end{figure}
+
+\subsection{Security and Privacy}
+
+Security and privacy should be on top of mind for any big data system development, as these two aspects play an important role in the overall data strategy and architecture of the company. At the intersection of data evolution, regional policies, and company policies, there's a great deal of complexity. To this end, we propose the following patterns to address requirements SaP-1 and SaP-2;
+
+\begin{enumerate}
+    \item Backend for Frontend (BFF)
+\end{enumerate}
+
+\subsubsection{BFF}
+
+API gateway has been discussed in several sections in this study, however, in this section we are interested to see how it can improve security and privacy of big data systems. In terms of privacy, given the increasing load of data producers, and how they should be directed to the right processing node, how does one comply with regional policies such as GDPR? how do we ensure for example that data is anonymized and identifiable properties are omitted? one approach could be to do this right in the batch or stream processing nodes. However as data consumers grow and more data gets in, maintaining the privacy rules and applying them correctly to the dataset becomes more difficult. This becomes a perfect ground for mistake, and can potentially introduce legal issues to the company. 
+
+On approach to this problem can be the BFF pattern. By creating backends (services) for frontends (data producers), we can logically segregate system's ingress for data that requires different level of privacy and security. This logical separation can include other factors such as QoS, key accounts, and even the nature of the API (GraphQL or RPC). Implementing this pattern means that instead of trying to account for all privacy related concerns in one node, we separate the concerns to a number of nodes that are each responsible for a specific requirement. This means, instead of creating a coupled, loosely abstracted implementation of privacy engineering, the system can benefit from hiding sensitive or unnecessary data before sending it to the up-stream node. This is also a great opportunity for data mutation, schema validation, and potentially protocol change (REST to Graph).
+
+On the other hand, from the security point of view, and in specific in relation to authorization and authentication, this pattern provides with a considerable advantage. BFF can be implemented to achieve token isolation, cookie termination, and can serve as a security gate before requests can reach to upstream servers. Other security procedures such as sanitization, data masking, tokenization, and obfuscation can be done in this layer as well. As these BFF servers are logically isolated for specific requirements, maintainability and scalability is increased. This addresses the requirements SaP-1 and SaP-2. 
+
+
+
+
+
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
