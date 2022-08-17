@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  16 AUG 2022 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  17 AUG 2022 22:53
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -239,120 +239,168 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box51
 \@float@everytoks=\toks24
 \@floatcapt=\box52
+) (D:\MikTex\tex/latex/caption\caption.sty
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
+ (D:\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen172
+\captionmargin@=\dimen173
+\captionwidth=\dimen174
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1053.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count267
+\c@continuedfloat=\count268
+Package caption Info: float package is loaded.
 ) (D:\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count267
+\l__kernel_color_stack_int=\count269
 \l__pdf_internal_box=\box53
 ) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
 \openout1 = `Miroservices-and-BD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 -- Lines per column: 56 (exact).
 (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count268
-\scratchdimen=\dimen172
+\scratchcounter=\count270
+\scratchdimen=\dimen179
 \scratchbox=\box54
-\nofMPsegments=\count269
-\nofMParguments=\count270
+\nofMPsegments=\count271
+\nofMParguments=\count272
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count271
-\MPscratchDim=\dimen173
-\MPnumerator=\count272
-\makeMPintoPDFobject=\count273
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen180
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks26
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 61.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 63.
+ [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-LaTeX Warning: Citation `sommerville2011software' on page 1 undefined on input line 77.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]\OT1/ptm/m/n/10 Our ap-proach fol-lows the guide-lines ex-plained in
+ []
 
 
-LaTeX Warning: Citation `laplante2017requirements' on page 1 undefined on input line 77.
+Underfull \hbox (badness 7595) in paragraph at lines 91--92
+\OT1/ptm/m/n/10 ISO/IEC/IEEE stan-dard 29148 ([17]) for rep-re-sent-ing
+ []
 
 
-LaTeX Warning: Citation `Demchenko2014' on page 1 undefined on input line 81.
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]|\OT1/ptm/m/n/8 Security
+ []
 
 
-LaTeX Warning: Citation `Bughin2016' on page 1 undefined on input line 81.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Bahrami2015' on page 1 undefined on input line 81.
+Underfull \hbox (badness 1931) in paragraph at lines 210--210
+[]|\OT1/ptm/m/n/8 Platform and In-fras-truc-
+ []
+
+[2]
+<../Media/Vol-1 Requirement RA.jpg, id=12, 1469.49pt x 743.77875pt>
+File: ../Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
+<use ../Media/Vol-1 Requirement RA.jpg>
+Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 629.
+(pdftex.def)             Requested size: 483.69684pt x 244.82353pt.
 
 
-LaTeX Warning: Citation `rad2017big' on page 1 undefined on input line 81.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Marz2015' on page 1 undefined on input line 81.
+Underfull \vbox (badness 1460) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <../Media/Vol-1 Requirement RA.jpg>]
+<../Media/Velocity Requirement.jpg, id=19, 1512.65125pt x 726.715pt>
+File: ../Media/Velocity Requirement.jpg Graphic file (type jpg)
+<use ../Media/Velocity Requirement.jpg>
+Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 664.
+(pdftex.def)             Requested size: 483.69684pt x 232.37613pt.
 
 
-LaTeX Warning: Citation `Chen2016a' on page 1 undefined on input line 81.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6 <../Media/Velocity Requirement.jpg>]
+<../Media/Value Requirement.jpg, id=26, 1752.5475pt x 729.72626pt>
+File: ../Media/Value Requirement.jpg Graphic file (type jpg)
+<use ../Media/Value Requirement.jpg>
+Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 711.
+(pdftex.def)             Requested size: 483.69684pt x 201.39352pt.
 
 
-LaTeX Warning: Citation `nadal2017software' on page 1 undefined on input line 81.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[7] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl")
 
-LaTeX Warning: Citation `volk2020identifying' on page 1 undefined on input line 83.
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
 
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
 
-LaTeX Warning: Citation `bashari2016security' on page 1 undefined on input line 83.
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
 
-
-LaTeX Warning: Citation `yu2019components' on page 1 undefined on input line 83.
-
-
-LaTeX Warning: Citation `eridaputra2014modeling' on page 1 undefined on input line 83.
-
-
-LaTeX Warning: Citation `al2016characteristics' on page 1 undefined on input line 83.
-
-
-LaTeX Warning: Citation `ataei2020big' on page 1 undefined on input line 85.
-
-
-LaTeX Warning: Citation `kassab2014state' on page 1 undefined on input line 87.
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:88: I can't write on file `Miroservices-and-BD.pdf'.
-Please type another file name for output
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:88: Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.88 
-     
-*** (job aborted, file error in nonstop mode)
-
- 
+[8 <../Media/Value Requirement.jpg>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux") ) 
 Here is how much of TeX's memory you used:
- 4335 strings out of 480795
- 60270 string characters out of 2913777
- 315055 words of memory out of 3000000
- 20309 multiletter control sequences out of 15000+200000
- 563712 words of font info for 101 fonts, out of 3000000 for 9000
+ 5536 strings out of 480795
+ 83037 string characters out of 2913777
+ 341147 words of memory out of 3000000
+ 21481 multiletter control sequences out of 15000+200000
+ 575762 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,11n,37p,1163b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex:88:  ==> Fatal error occurred, no output PDF file produced!
+ 38i,11n,43p,1185b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (8 pages, 395485 bytes).
+PDF statistics:
+ 49 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

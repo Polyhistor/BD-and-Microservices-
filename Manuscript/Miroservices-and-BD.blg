@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Miroservices-and-BD.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in ataei2020big
+Warning--empty journal in rada2017hype
+Warning--empty year in Chaabane
+
+Done.
+You've used 25 entries,
+            4087 wiz_defined-function locations,
+            967 strings with 11850 characters,
+and the built_in function-call counts, 17254 in all, are:
+= -- 1342
+> -- 403
+< -- 129
++ -- 225
+- -- 77
+* -- 793
+:= -- 2575
+add.period$ -- 56
+call.type$ -- 25
+change.case$ -- 19
+chr.to.int$ -- 303
+cite$ -- 28
+duplicate$ -- 1249
+empty$ -- 1495
+format.name$ -- 90
+if$ -- 4043
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 219
+newline$ -- 102
+num.names$ -- 25
+pop$ -- 558
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1340
+stack$ -- 0
+substring$ -- 751
+swap$ -- 967
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 25
+warning$ -- 3
+while$ -- 76
+width$ -- 27
+write$ -- 248
+(There were 3 warnings)
