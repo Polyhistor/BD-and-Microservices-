@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  18 AUG 2022 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  18 AUG 2022 22:34
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -305,27 +305,28 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
  (D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 64.
- [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 41.
+
+
+LaTeX Warning: Citation `Krylovskiy' on page 1 undefined on input line 76.
+
+[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 
-LaTeX Warning: Citation `Krylovskiy' on page 2 undefined on input line 97.
+LaTeX Warning: Reference `table:searchTerms' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Reference `table:searchTerms' on page 2 undefined on input line 113.
-
-
-Overfull \hbox (5.29681pt too wide) in paragraph at lines 121--199
+Overfull \hbox (5.29681pt too wide) in paragraph at lines 100--178
 [][] 
  []
 
@@ -335,31 +336,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <../Media/PRISMA-Flowchart.JPG, id=9, 638.385pt x 822.82407pt>
 File: ../Media/PRISMA-Flowchart.JPG Graphic file (type jpg)
 <use ../Media/PRISMA-Flowchart.JPG>
-Package pdftex.def Info: ../Media/PRISMA-Flowchart.JPG  used on input line 207.
+Package pdftex.def Info: ../Media/PRISMA-Flowchart.JPG  used on input line 186.
 (pdftex.def)             Requested size: 227.62204pt x 293.37895pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] [3]
-Overfull \hbox (3.47041pt too wide) in paragraph at lines 228--263
+[2]
+Overfull \hbox (3.47041pt too wide) in paragraph at lines 207--242
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <../Media/PRISMA-Flowchart.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+[3] [4 <../Media/PRISMA-Flowchart.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 []\OT1/ptm/m/n/10 Our ap-proach fol-lows the guide-lines ex-plained in
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 296--297
+Underfull \hbox (badness 7595) in paragraph at lines 275--276
 \OT1/ptm/m/n/10 ISO/IEC/IEEE stan-dard 29148 ([38]) for rep-re-sent-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--361
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []|\OT1/ptm/m/n/8 Security
  []
 
@@ -367,18 +368,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--361
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 415--415
+Underfull \hbox (badness 1931) in paragraph at lines 394--394
 []|\OT1/ptm/m/n/8 Platform and In-fras-truc-
  []
 
 [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1460) has occurred while \output is active []
 
  [6]
 <../Media/Vol-1 Requirement RA.jpg, id=25, 1469.49pt x 743.77875pt>
 File: ../Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use ../Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 834.
+Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 813.
 (pdftex.def)             Requested size: 483.69684pt x 244.82353pt.
 
 
@@ -388,7 +389,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <../Media/Velocity Requirement.jpg, id=33, 1512.65125pt x 726.715pt>
 File: ../Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use ../Media/Velocity Requirement.jpg>
-Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 869.
+Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 848.
 (pdftex.def)             Requested size: 483.69684pt x 232.37613pt.
 
 
@@ -398,20 +399,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../Media/Value Requirement.jpg, id=37, 1752.5475pt x 729.72626pt>
 File: ../Media/Value Requirement.jpg Graphic file (type jpg)
 <use ../Media/Value Requirement.jpg>
-Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 916.
+Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 895.
 (pdftex.def)             Requested size: 483.69684pt x 201.39352pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <../Media/Velocity Requirement.jpg>] [11 <../Media/Value Requirement.jpg>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl"
+[10 <../Media/Velocity Requirement.jpg>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl" [11 <../Media/Value Requirement.jpg>]
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ptm in TS1 encoding.
 (textcomp)             Default family used instead on input line 101.
- [12])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -423,25 +421,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[13
-
-] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
+[12] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5578 strings out of 480795
- 83680 string characters out of 2913777
+ 5566 strings out of 480795
+ 83565 string characters out of 2913777
  341147 words of memory out of 3000000
- 21518 multiletter control sequences out of 15000+200000
- 578313 words of font info for 115 fonts, out of 3000000 for 9000
+ 21511 multiletter control sequences out of 15000+200000
+ 575142 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,43p,1185b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (13 pages, 552878 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (12 pages, 549245 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
