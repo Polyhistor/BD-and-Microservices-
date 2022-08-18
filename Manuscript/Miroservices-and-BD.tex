@@ -10,6 +10,7 @@
 \usepackage{array,etoolbox,multirow}
 \usepackage{float}
 \usepackage{caption} 
+\usepackage{multirow}
 \captionsetup[table]{skip=6pt}
 
 
@@ -71,6 +72,210 @@ or Math in Paper Title or Abstract.
 \begin{IEEEkeywords}
 component, formatting, style, styling, insert
 \end{IEEEkeywords}
+
+% Daniel
+\section{Background}
+
+To provide a general understanding of big data and microservices, this section provides a brief overview of both concepts.
+
+\subsection{Big Data}
+
+Since its inception (\cite{Diebold.2012}), the term big data underwent a remarkable evolution. In the beginning, it was primarily used as a synonym for large data that are hard to handle for the established relational databases and technologies. Yet, nowadays it comprises a plethora of advanced data characteristics, technologies, paradigms and methods (\cite{Volk.2020b}). Further, even though the corresponding research community is highly active (\cite{Parlina.2020}), there is still no universally applied definition for the term. Instead, many rather similar ones exist that deviate in certain details. However, the definition provided by the National Institute of Standards and Technology (NIST) is widely used and was therefore also chosen for this paper. It states that big data “consists of extensive datasets - primarily in the characteristics of volume, variety, velocity, and/or variability - that require a scalable architecture for efficient storage, manipulation, and analysis” (\cite{Chang.2019}).
+
+In this context, the term volume refers to the size and number of the elements that have to be processed. Variety describes the format of the data that can be structured, semi-structured or unstructured. Velocity describes the speed at which the data is captured or needs to be processed (\cite{Gandomi.2015}). Finally, the variability indicates changes regarding the other characteristics that may occur over time (\cite{Chang.2019}).
+
+When it comes to the implementation and deployment of big data systems, there are still various challenges that thwart their adoption by organizations. Besides a shortage of qualified experts to build and run the systems (\cite{Gardiner.2018}), the design, engineering, and integration of the corresponding architectures represents a daunting task (\cite{Volk.2019}).
+
+Consequently, there have been numerous attempts to reduce the complexity, by creating artifacts such as reference architectures (\cite{ataei2021neomycelia}), decision support systems (\cite{Volk.2020}), alongside automation approaches (\cite{Fernandez.2020}) and even applying new technologies (\cite{Freymann.2020}). One of those effective approaches that can facilitate the creation of loosely coupled and flexible big data systems, in contrast with hard to maintain monoliths, could be microservices. 
+
+\subsection{Microservices}
+
+Similar to big data, there is no universally applied definition for the term microservice. However, in general, the concept can be described as an architectural approach for building software that is closely related to service oriented architectures (\cite{Jamshidi.2018}) and aims at the decomposition of the system into different services (\cite{Nadareishvili.2016}) in a cohesive but loosely coupled fashion. Often, these services are based on business functions and focus on one specific task. As a result, the development teams are often assembled based on business capabilities instead of a specific technology layer, as it can be observed in more traditional software development. Therefore, a more comprehensive set of skills has to be present in the teams.
+
+However, due to their independence, the distinct services can be implemented using different programming languages and technology stacks (\cite{Freymann.2020}), which endows development teams with greater flexibility and autonomy in comparison to vertical technology-oriented teams. Further, each microservice runs in a separate process, the communication between the services is realized via lightweight mechanisms and they only need very little central management (\cite{Drews.2017}). Hence, they are perfectly geared to be deployed independently of each other, using continuous deployment tools.
+
+In general, realizing a high degree of modularity is considered a good practice in software engineering. However, achieving this is deemed difficult (\cite{Faitelson.2018}). Yet, with the microservice approach componentization is already achieved by design. Subsequently, the effort for maintenance and modification is significantly reduced and it is often sufficient to only redeploy the affected service when implementing small changes. As a result, an evolutionary design is promoted, using the services’ decomposition as a driving force to facilitate frequent and controlled changes to the system (\cite{Krylovskiy}).
+
+Since microservices are driven by the business logic, small changes or feature additions may lead to the implementation of completely new services or variations of existing ones. However, due to the overall design, those can be easily integrated into the existing ecosystem of services. Another advantage is that novel technologies can be at first explored on a smaller scale in just a single service before getting widely adopted.
+
+% Daniel
+\section{Methodology}
+
+Since the goal of this thesis is to map big data reference architectures and microservice patterns, it is consequently mandatory to get a comprehensive overview over both domains. For this purpose, it was decided to conduct two systematic literature reviews (SLR), one for each domain.
+The SLR method applied to both literature reviews comprised in this study follows the guidelines presented in Kitchenham et al. (\cite{Kitchenham.2004};) and Page et al. (\cite{Page.2021}). The former was used because of its clear instructions on critically appraising evidence for validity, impact and applicability. Complementary to that, we used the guidelines provided by Page et al. (\cite{Page.2021}) on Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA). PRISMA provided means for increasing systematicity, transparency, and prevention of bias.
+
+To rigorously capture the synthesize our findings, thematic synthesis proposed by Cruzes and Dyba was applied (\cite{Cruzes.2011};). While it was initially planned to capture and present all identified microservice patterns by following the TOGAF template, this was later on omitted to save space and since a considerable number of them can already by found in the works of Richardson (\cite{Richardson.2022};). Since patterns are usually described in an informal way and the same applies to reference architectures, the matching of those two, as the primary research artifact of this paper, is also conveyed in the same way and supported by logical argumentation.
+
+The first SLR was the less extensive one, since it is just an update to an already existing study. For this purpose, the SLR conducted by Ataei et al. (\cite{Ataei.2020};) as a thematically fitting study on big data reference architectures was extended up unto the current date, providing us with the necessary overview. 
+
+However, the second SLR, was a rigorous approach from scratch and was conducted as follows.To assure the comprehensiveness of the review and following the recommendations of PRISMA-S (\cite{rethlefsen2021prisma}), a broad set of scientific search engines and databases was queried. To increase the likelihood of finding all relevant contributions, it was decided to not discriminate between meta databases and publisher bound registers. Thus, both types were utilized. To achieve this, ACM Digital Library, AISeL, IEEE Xplore, JSTOR, Science Direct, Scopus, Springer Link, and Wiley were included into the search process. For all of these, the initial keyword search was conducted on June 19, 2022, and there was no limitation to the considered publishing date.
+
+Since there are differences in the filters of the included search engines, it was not possible to always use the exact same search terms and settings. Nevertheless, the configurations for the search were kept as similar as possible. Table \ref{table:searchTerms} depicts the resulting mapping of databases and search terms. If a term in the “Search Term” column is printed in bold, this indicates a field of the search mask, where the following text is input. In case nothing is printed in bold, this means the whole term can be filled into the search bar without modification. As can be seen, due to the focus of this study, the term “microservice” or its plural always had to be included in the title.
+
+However, for those engines that yielded a high number of results, the scope was sharpened by also requiring variations of “pattern”, “architecture”, “design”, “building block”, or “best practice” to appear in title, abstract or keywords. If the latter could not be realized because of the interface, the most similar setting that is more lenient (therefore, potentially yielding more results) was chosen. This was the case for IEEE Xplore and SpringerLink. The terms themselves are picked because patterns are exactly what was sought for, architectures can contain such patterns, and design is often used as a synonym for architecture. Further, patterns can be seen as building blocks, therefore, the latter where also included. Finally, the use of patterns is often highlighted as a best practice and hence, in reverse, papers that refer to best practices might also contain information regarding the use of patterns. 
+
+
+\begin{table*}[h]
+    \renewcommand{\arraystretch}{1.5}
+    \caption[]{Mapping of databases/registers and search terms}
+    \begin{tabular}{|p{5cm}|p{10cm}|p{2cm}|}
+        \hline
+        Database/Register & Search Term & Records \\ 
+
+        \hline
+        ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
+        &  
+        
+        
+        1) [Title: microservice*] AND [[Title: pattern*] OR [Title: architecture*] OR [Title: design*] OR [Title: building block*] OR [Title: best practice*]]
+        
+        \hspace{1cm}
+
+        2) [Title: microservice*] AND [[Abstract: pattern*] OR [Abstract: architecture*] OR [Abstract: design*] OR [Abstract: building block*] OR [Abstract: best practice*]]
+
+        \hspace{1cm}
+
+        3) [Title: microservice*] AND [[Keywords: pattern*] OR [Keywords: architecture*] OR [Keywords: design*] OR [Keywords: building block*] OR [Keywords: best practice*]]
+        & 
+        1) 91
+
+
+
+        2) 194
+
+
+
+        3) 65
+        
+        \\ 
+
+        \hline
+        AISeL & \textbf{Title}: microservice OR microservices & 10 \\ 
+        \hline
+
+        IEEE Xplore & "Document Title": microservice*  AND ("All Metadata": pattern* OR "All Metadata": architecture* OR "All Metadata": design* OR "All Metadata": building block* OR "All Metadata": best practice*)  & 759 \\ 
+        \hline
+
+        JSTOR & 
+        
+        \textbf{Title:} microservice 
+
+        \textbf{Title:} microservices 
+        & 0 \\ 
+
+        \hline
+
+        ScienceDirect & 
+        
+        1) \textbf{Title, abstract, keywords}: pattern OR architecture OR design OR (building block) OR (best practice)
+
+           \textbf{Title}: microservice OR microservices
+
+        2) \textbf{Title, abstract, keywords}: patterns OR architectures OR designs OR (building blocks) OR (best practices)
+
+            \textbf{Title}: microservice OR microservices
+        & 
+        1) 79
+
+        2) 76
+        \\ 
+
+        \hline
+
+        Scopus & ( TITLE-ABS-KEY ( pattern*  OR  architecture*  OR  design*  OR  ( "building block" )  OR  ( "building blocks" )  OR  ( "best practice" )  OR  ( "best practices" ) )  AND  TITLE ( microservice* ) ) & 1534 \\ 
+        \hline
+
+        SpringerLink & \textbf{Title}: microservice*
+
+
+        \textbf{With at least one of the words}: pattern* architecture* design* "building block" "building blocks" "best practice" "best practices
+         & 433 \\ 
+        \hline
+
+        Wiley & \textbf{Title}: microservice* & 38 \\ 
+
+        \hline
+    \end{tabular}
+    
+    \label{searchTerms}
+\end{table*}
+
+As it can be seen, due to the specifics of their search masks, the searches in the ACM Digital Library (title, abstract, keywords could only be searched separately), JSTOR (no support of wildcards), and Science Direct (no support of wildcards) had to be split in several parts. Those were afterwards merged for each of them, and duplicates were removed. Overall, the keyword search yielded 3064 contributions. The total number of found publications per source as well as an overview of the further search process can be seen in Figure 1.
+
+\begin{figure}[h]
+    \centering 
+    \includegraphics[width=8cm]{../Media/PRISMA-Flowchart.JPG}
+    \caption{Overview of the search process}
+    \label{fig:PRISMA}
+\end{figure}
+
+The remaining 1868 papers were filtered by title to evaluate their relatedness to the concepts of microservice patterns or architectural constructs related to microservices. For this purpose, the first two authors separately evaluated each entry regarding inclusion or removal. If both agreed, this verdict was honored. In case of disagreement, they discussed the title to come to a conclusion. While the third author would have acted as the decision maker for situations where still no agreement is reached, this circumstance did never occur. In this phase, the first author initially included 113 papers and the second author 146. Of those, 41 were present in both sets and 1650 were excluded by both. This equates to an agreement rate of 90,5 percent (1691 of 1868 records) between the authors. After discussing the contributions with divergent evaluations, in total, 1699 of the 1868 papers were excluded, leaving 169 items for the next round.
+
+
+Here, the same approach was followed, but this time based on abstracts instead of the titles. Moreover, the authors agreed to also allow themselves to look into the actual paper and not just the abstract, if they wanted to further explore certain contributions to improve their judgement. As a result, the first author evaluated 40 papers positively, and the second one 28. Both agreed on the inclusion of 22 papers and the exclusion of 123. This equates to an agreement rate of 85,8 percent (145 of 169 records) between the authors. Afterwards the discussion of the remaining ones followed. Again, the third author would have acted as the deciding factor in case of continued disagreement. Yet, this was not necessary. In total of the 169 papers, 138 were removed and 31 were included in the next phase.
+
+
+While conducting the first steps of our filter process, we encountered several hurdles that shall be highlighted to ensure transparency, especially since they can slightly affect the number of remaining entries after those initial phases. However, the final set of literature was not impacted and, therefore, those factors did not pose a threat to the studies validity. For once, since not all entries of the combined literature list specified a digital object identifier (DOI), the duplicate removal had to be conducted based on the publication title. Yet, in some rare cases, there were duplicates for which the spelling of the title was slightly altered (e.g., the two parts of a title were in one search engine separated by a hyphen and in another by a double colon), and which were, therefore, not detected in the initial duplicate removal phase. Instead, they were only identified during the scanning of the title. 
+
+Furthermore, in SpringerLink, conference papers are classified as book chapter, since conference proceedings are published as books. This makes them indistinguishable from real book chapters, when only looking at the metadata. Book chapters are, however, not part of the search’s scope. Consequently, the removal of book chapters for SpringerLink could only be processed when inspecting the respective publications. To slightly reduce the effort, it was decided to only do this for those publications that passed the filtering by title.
+
+From there on, the papers that were not written in English (despite the abstract being in English) or for which an updated version exists were filtered out. The same would have applied to papers published before the year 2012, because in the previous years, the concept of microservices as the focus of this publication was not yet present. However, while there were three corresponding records in the initially obtained set of literature (from the years 2003, 2007, and 2010), those were already filtered out for other reasons by this stage. Further, publications that had a length of less than six pages, without counting the reference section and acknowledgments, were also removed, since those can’t provide the desired degree of comprehensiveness. This filtering based on formal aspects was followed by the application of the quality criteria depicted in table \ref{qualityFramework}.
+
+
+\begin{table*}[h]
+    \renewcommand{\arraystretch}{1.5}
+    \caption[]{The quality framework}
+    \begin{tabular}{|p{2cm}|p{3cm}|p{9.5cm}|p{2cm}|}
+        \hline
+        Quality Gate & Criterion & Considered Aspect & Rating to pass \\ 
+
+        \hline
+
+        1 & Minimum quality threshold & 
+        
+        1) Does the study report empirical research or is it merely a 'lesson learnt' report based on expert opinion?
+
+        2) The objectives and aims of the study are clearly communicated, including the reasoning for why the study was undertaken?
+
+        3) Does the study provide with adequate information regarding the context in which the research was carried out?
+        & 5/6 \\ 
+        \hline
+        2 & Rigor & 
+        
+        1) Is the research design appropriate to address the objectives of the research?
+
+        2) Is there any data collection method used and is it appropriate?
+        & 3/4 \\ 
+        \hline  
+        3 &
+        3.1 Credibility 
+
+        3.2 Relevance 
+        & 
+        1) Does the study report findings in a clear and unbiased manner?
+
+        2) Does the study provide value for practice or research?
+        & 
+        3/4 \\ 
+        \hline   
+    \end{tabular}
+    \label{qualityFramework}
+\end{table*}
+
+The filtering based on the quality criteria was divided into three differently focused phases, with each of them requiring the passing of a quality gate. In the first phase, the aim was to ensure that reports fulfill at least a desired minimum level of comprehensiveness. For this purpose, studies were evaluated for their content to see if they are actual research or just a mere report on some lessons or expert opinions. Further, the objectives, justification, and aim of the study shall be clearly communicated. Finally, also the context of the conducted research needed to be sufficiently described. This last criterion is primarily geared towards actual experiments. In the conducted literature search, primarily literature-based studies were found, which somewhat devalues this aspect. Nevertheless, to assure completeness, it was still evaluated. 
+
+The first and second author independently rated the three aspects for all 23 remaining papers, giving one point respectively, if they deemed a criterion fulfilled and no point if they considered that aspect lacking. Consequently, for each aspect, zero to two points were achievable and for the phase as a whole, six points were available per paper. For inclusion into the second phase, at least five out of six points were demanded to assure a sufficient base quality. This corresponds to having at least 75 percent of the points (since 4,5 points were not possible). However, the two papers that obtained four out of six points were again discussed between the two authors to avoid any erroneous exclusion
+
+Despite that additional check, both were still removed. In total, the authors agreed on 51 of 69 evaluations, resulting in an agreement rate of 73,9 percent. The second phase was focused on rigor. Here, it was judged if the research design and the data collection of the remaining 18 papers are conducted in an appropriate manner. The general procedure with the first two authors independently evaluating the reports remained the same. For inclusion in the next phase, again, 75 percent of the obtainable point were needed (this time three of four). In total, the authors agreed on 23 of 36 evaluations, resulting in an agreement rate of 63,9 percent. While this value is rather low, this is likely caused by the narrow margins for some decisions. 
+
+Once more, the papers with the highest score that didn’t suffice for inclusion (this time two) were discussed before inclusion, further counteracting possible fuzziness in the individual evaluations. Yet, again, none of the four papers was retroactively included. The remaining 10 papers were objected to the third and final phase. Here, the credibility of the reporting and the relevance of the findings were evaluated. The procedure was the same as in the previous phases. However, this time, all of the remaining papers passed, making the discussion of barely excluded ones unnecessary. In this last phase, the authors agreed on 14 of 20 evaluations, resulting in an agreement rate of exactly 70 percent. 
+
+% TBC
+% The final set of literature that is the output of the conducted review process is shown in Table 4.  
+
+All ten publications have been published in 2018 or later, with three of them even being from, 2022, which shows the timeliness of the topic. Further, eight of the ten papers could be found via Scopus, whereas the remaining two have been identified through IEEE Xplore. Consequently, for the search conducted for this paper, the other databases and registers have not been necessary. However, since this fact is only determinable now, their inclusion in the initial search was still sensible.
+
+% Pouya
 
 \section{Requirements Specification}
 

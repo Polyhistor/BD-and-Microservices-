@@ -21,6 +21,139 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Diebold.2012}
+F.~X. Diebold, ``On the origin(s) and development of the term 'big data',''
+  \emph{SSRN Electronic Journal}, 2012.
+
+\bibitem{Volk.2020b}
+M.~Volk, D.~Staegemann, and K.~Turowski, ``Big data,'' in \emph{Handbuch
+  Digitale Wirtschaft}, ser. Springer Reference Wirtschaft, T.~Kollmann,
+  Ed.\hskip 1em plus 0.5em minus 0.4em\relax Wiesbaden: {Springer Fachmedien
+  Wiesbaden}, 2020, pp. 1--18.
+
+\bibitem{Parlina.2020}
+A.~Parlina, K.~Ramli, and H.~Murfi, ``Theme mapping and bibliometrics analysis
+  of one decade of big data research in the scopus database,''
+  \emph{Information}, vol.~11, no.~2, pp. 69--94, 2020.
+
+\bibitem{Chang.2019}
+\BIBentryALTinterwordspacing
+W.~L. Chang and N.~Grady, ``Nist big data interoperability framework: Volume 1,
+  definitions,'' 2019. [Online]. Available:
+  \url{https://doi.org/10.6028/NIST.SP.1500-1r2}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Gandomi.2015}
+A.~Gandomi and M.~Haider, ``Beyond the hype: Big data concepts, methods, and
+  analytics,'' \emph{International Journal of Information Management}, vol.~35,
+  no.~2, pp. 137--144, 2015.
+
+\bibitem{Gardiner.2018}
+A.~Gardiner, C.~Aasheim, P.~Rutner, and S.~Williams, ``Skill requirements in
+  big data: A content analysis of job advertisements,'' \emph{Journal of
+  Computer Information Systems}, vol.~58, no.~4, pp. 374--384, 2018.
+
+\bibitem{Volk.2019}
+M.~Volk, D.~Staegemann, M.~Pohl, and K.~Turowski, ``Challenging big data
+  engineering: Positioning of current and future development,'' in
+  \emph{Proceedings of the 4th International Conference on Internet of Things,
+  Big Data and Security}.\hskip 1em plus 0.5em minus 0.4em\relax {SCITEPRESS -
+  Science and Technology Publications}, 2019, pp. 351--358.
+
+\bibitem{ataei2021neomycelia}
+P.~Ataei and A.~Litchfield, ``Neomycelia: A software reference architecturefor
+  big data systems,'' in \emph{2021 28th Asia-Pacific Software Engineering
+  Conference (APSEC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2021, pp.
+  452--462.
+
+\bibitem{Volk.2020}
+M.~Volk, D.~Staegemann, S.~Bosse, A.~Nahhas, and K.~Turowski, ``Towards a
+  decision support system for big data projects,'' in \emph{WI2020 Zentrale
+  Tracks}, N.~Gronau, M.~Heine, K.~Poustcchi, and H.~Krasnova, Eds.\hskip 1em
+  plus 0.5em minus 0.4em\relax {GITO Verlag}, 2020, pp. 357--368.
+
+\bibitem{Fernandez.2020}
+\BIBentryALTinterwordspacing
+A.~M. Fern{\'a}ndez, D.~Guti{\'e}rrez-Avil{\'e}s, A.~Troncoso, and
+  F.~Mart{\'i}nez-{\'A}lvarez, ``Automated deployment of a spark cluster with
+  machine learning algorithm integration,'' \emph{Big Data Research}, vol.
+  19-20, p. 100135, 2020. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S2214579620300034}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Freymann.2020}
+A.~Freymann, F.~Maier, K.~Schaefer, and T.~B{\"o}hnel, ``Tackling the six
+  fundamental challenges of big data in research projects by utilizing a
+  scalable and modular architecture,'' in \emph{Proceedings of the 5th
+  International Conference on Internet of Things, Big Data and Security}.\hskip
+  1em plus 0.5em minus 0.4em\relax {SCITEPRESS - Science and Technology
+  Publications}, 2020, pp. 249--256.
+
+\bibitem{Jamshidi.2018}
+P.~Jamshidi, C.~Pahl, N.~C. Mendonca, J.~Lewis, and S.~Tilkov, ``Microservices:
+  The journey so far and challenges ahead,'' \emph{IEEE Software}, vol.~35,
+  no.~3, pp. 24--35, 2018.
+
+\bibitem{Nadareishvili.2016}
+I.~Nadareishvili, R.~Mitra, M.~McLarty, and M.~Amundsen, \emph{Microservice
+  architecture: Aligning principles, practices, and culture}, first
+  edition~ed.\hskip 1em plus 0.5em minus 0.4em\relax Beijing and Boston and
+  Farnham and Sebastopol and Tokyo: O´Reilly, 2016.
+
+\bibitem{Drews.2017}
+P.~Drews, I.~Schirmer, B.~Horlach, and C.~Tekaat, ``Bimodal enterprise
+  architecture management: The emergence of a new eam function for a
+  bizdevops-based fast it,'' in \emph{2017 IEEE 21st International Enterprise
+  Distributed Object Computing Workshop (EDOCW)}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2017, pp. 57--64.
+
+\bibitem{Faitelson.2018}
+D.~Faitelson, R.~Heinrich, and S.~Tyszberowicz, ``Functional decomposition for
+  software architecture evolution,'' in \emph{Model-Driven Engineering and
+  Software Development}, ser. Communications in computer and information
+  science, L.~F. Pires, S.~Hammoudi, and B.~Selic, Eds.\hskip 1em plus 0.5em
+  minus 0.4em\relax Cham: {Springer International Publishing}, 2018, vol. 880,
+  pp. 377--400.
+
+\bibitem{Kitchenham.2004}
+B.~A. Kitchenham, T.~Dyba, and M.~Jorgensen, ``Evidence-based software
+  engineering,'' in \emph{Proceedings of the 26th International Conference on
+  Software Engineering}.\hskip 1em plus 0.5em minus 0.4em\relax {IEEE Comput.
+  Soc}, 2004, pp. 273--281.
+
+\bibitem{Page.2021}
+M.~J. Page, D.~Moher, P.~M. Bossuyt, I.~Boutron, T.~C. Hoffmann, C.~D. Mulrow,
+  L.~Shamseer, J.~M. Tetzlaff, E.~A. Akl, S.~E. Brennan, R.~Chou, J.~Glanville,
+  J.~M. Grimshaw, A.~Hr{\'o}bjartsson, M.~M. Lalu, T.~Li, E.~W. Loder,
+  E.~Mayo-Wilson, S.~McDonald, L.~A. McGuinness, L.~A. Stewart, J.~Thomas,
+  A.~C. Tricco, V.~A. Welch, P.~Whiting, and J.~E. McKenzie, ``Prisma 2020
+  explanation and elaboration: updated guidance and exemplars for reporting
+  systematic reviews,'' \emph{BMJ (Clinical research ed.)}, vol. 372, p. n160,
+  2021.
+
+\bibitem{Cruzes.2011}
+D.~S. Cruzes and T.~Dyba, ``Recommended steps for thematic synthesis in
+  software engineering,'' in \emph{2011 International Symposium on Empirical
+  Software Engineering and Measurement}.\hskip 1em plus 0.5em minus 0.4em\relax
+  IEEE, 2011, pp. 275--284.
+
+\bibitem{Richardson.2022}
+\BIBentryALTinterwordspacing
+C.~Richardson, ``A pattern language for microservices,'' 2022. [Online].
+  Available: \url{https://microservices.io/patterns/index.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ataei.2020}
+P.~Ataei and A.~Litchfield, ``Big data reference architectures, a systematic
+  literature review,'' in \emph{Australasian Conference on Information Systems
+  (ACIS) 2020}.\hskip 1em plus 0.5em minus 0.4em\relax AIS, 2020.
+
+\bibitem{rethlefsen2021prisma}
+M.~L. Rethlefsen, S.~Kirtley, S.~Waffenschmidt, A.~P. Ayala, D.~Moher, M.~J.
+  Page, and J.~B. Koffel, ``Prisma-s: an extension to the prisma statement for
+  reporting literature searches in systematic reviews,'' \emph{Systematic
+  reviews}, vol.~10, no.~1, pp. 1--19, 2021.
+
 \bibitem{sommerville2011software}
 I.~Sommerville, \emph{Software Engineering, 9/E}.\hskip 1em plus 0.5em minus
   0.4em\relax Pearson Education India, 2011.
@@ -134,12 +267,6 @@ M.~technology review insights in partnership~with Databricks, ``Building a
   high-performance data organization,'' 2021. [Online]. Available:
   \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}
 \BIBentrySTDinterwordspacing
-
-\bibitem{ataei2021neomycelia}
-P.~Ataei and A.~Litchfield, ``Neomycelia: A software reference architecturefor
-  big data systems,'' in \emph{2021 28th Asia-Pacific Software Engineering
-  Conference (APSEC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2021, pp.
-  452--462.
 
 \bibitem{gamma1995design}
 E.~Gamma, R.~Helm, R.~Johnson, R.~E. Johnson, J.~Vlissides \emph{et~al.},
