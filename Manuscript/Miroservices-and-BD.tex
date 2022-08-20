@@ -931,7 +931,19 @@ One solution to this problem can be the circuit breaker pattern. Circuit breaker
 
 % Pouya
 \section{Discussion}
-TODO
+This study was our attempt to explore two major areas, big data systems and microservices architecture. By adopting a rigorous methodology, we aimed at applying microservices patterns to big data systems. As a result of this we created a number of theories that can help shed lights on adoption of these patterns to big data systems in practice. 
+
+To the best of our knowledge, there is no study in academia that has shared the same goal as our study. Laigner et al. (\cite{laigner2020monolithic}) applied an action research and reported on their experience on replacing a legacy BDS with a microservice-based event-driven system. This study is not a systematic review and aims to create contextualized theory based on a specific experience. 
+
+In another effort,  Zhelev et al (\cite{zhelev2019using}) described why event-driven architectures could be a good alternative to monolithic architectures. This study does not follow any clear methodology, and seems to contribute only in terms of untested hypothesis. Staegemann et al (\cite{staegemann2021examining}) examined the interplay between big data and microservices by conducting a bibliometric review. This study aims to provide with a general picture of the topic, and does not aim to explore microservices patterns and their relationship to big data systems.  
+
+The result of this study have provided us with two major findings; 1) the progress in the data engineering space seems to be uneven in comparison to software engineering, 2) microservices pattern provide with a great potential for resolving some of the big data system development challenges. 
+
+While there has been adoption of a few practices from software engineering into data engineer like DataOps, we posit that data engineering space can benefit from some of the well-established practices of software engineering. 
+
+Majority of the studies that we've analyzed to understand big data systems, seems to revolve around crunching and transforming data without much attention to data lifecycle management. This is bold when it comes to addressing major cross-cutting concerns of succesfull data engineering practice such as security, data quality, DataOps, data architecture, data interoperability, data versioning and testing. 
+
+In fact, while we found a lot of mature approaches in microservices and event driven architectures, we could not find many well-established patterns in the data engineering space. A part of it is due to adoption of microservices architecture in the industry, and in specifically by IT giants (\cite{Statisica}). While big data is not been successfully adopted as much. A survey by MIT technology review insights presented that only 13\% of companies excel at delivering their big data strategy. Based on this, we think that data architecture remains a significant challenge and requires more attention from both academia and industry. 
 
 
 % Pouya

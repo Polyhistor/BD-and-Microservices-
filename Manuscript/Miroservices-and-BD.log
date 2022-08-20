@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  18 AUG 2022 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  20 AUG 2022 16:58
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -405,10 +405,20 @@ Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 895.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10 <../Media/Velocity Requirement.jpg>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl" [11 <../Media/Value Requirement.jpg>]
+[10 <../Media/Velocity Requirement.jpg>] [11 <../Media/Value Requirement.jpg>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl"
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ptm in TS1 encoding.
 (textcomp)             Default family used instead on input line 101.
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 302--305
+[]\OT1/ptm/m/n/8 ``Organizations' adop-tion level of mi-croser-
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 302--305
+\OT1/ptm/m/n/8 vices world-wide in 2021.'' [On-line]. Avail-able:
+ []
+
 )
 
 ** Conference Paper **
@@ -421,23 +431,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[12] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
+[13] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5566 strings out of 480795
- 83565 string characters out of 2913777
- 341147 words of memory out of 3000000
- 21511 multiletter control sequences out of 15000+200000
+ 5571 strings out of 480795
+ 83649 string characters out of 2913777
+ 340147 words of memory out of 3000000
+ 21516 multiletter control sequences out of 15000+200000
  575142 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,43p,1185b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (12 pages, 549245 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (13 pages, 553721 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

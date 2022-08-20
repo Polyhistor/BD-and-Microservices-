@@ -278,4 +278,29 @@ E.~Eryurek, U.~Gilad, V.~Lakshmanan, A.~Kibunguchy-Grant, and J.~Ashdown,
   \emph{Data Governance: The Definitive Guide}.\hskip 1em plus 0.5em minus
   0.4em\relax " O'Reilly Media, Inc.", 2021.
 
+\bibitem{laigner2020monolithic}
+R.~Laigner, M.~Kalinowski, P.~Diniz, L.~Barros, C.~Cassino, M.~Lemos,
+  D.~Arruda, S.~Lifschitz, and Y.~Zhou, ``From a monolithic big data system to
+  a microservices event-driven architecture,'' in \emph{2020 46th Euromicro
+  Conference on Software Engineering and Advanced Applications (SEAA)}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2020, pp. 213--220.
+
+\bibitem{zhelev2019using}
+S.~Zhelev and A.~Rozeva, ``Using microservices and event driven architecture
+  for big data stream processing,'' in \emph{AIP Conference Proceedings}, vol.
+  2172, no.~1.\hskip 1em plus 0.5em minus 0.4em\relax AIP Publishing LLC, 2019,
+  p. 090010.
+
+\bibitem{staegemann2021examining}
+D.~Staegemann, M.~Volk, A.~Shakir, E.~Lautenschl{\"a}ger, and K.~Turowski,
+  ``Examining the interplay between big data and microservices--a bibliometric
+  review,'' \emph{Complex Systems Informatics and Modeling Quarterly}, no.~27,
+  pp. 87--118, 2021.
+
+\bibitem{Statisica}
+\BIBentryALTinterwordspacing
+``Organizations' adoption level of microservices worldwide in 2021.'' [Online].
+  Available: \url{https://www.youtube.com/watch?v=E0TK3XmGKws}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
