@@ -10,8 +10,28 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
+Repeated entry---line 295 of file references.bib
+ : @inproceedings{Ataei.2020
+ :                          ,
+I'm skipping whatever remains of this entry
 Warning--entry type for "Statisica" isn't style-file defined
---line 223 of file references.bib
+--line 303 of file references.bib
+Repeated entry---line 369 of file references.bib
+ : @article{Page.2021
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 567 of file references.bib
+ : @inproceedings{Freymann.2020
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 632 of file references.bib
+ : @book{Nadareishvili.2016
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 668 of file references.bib
+ : @inproceedings{Volk.2019
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Krylovskiy"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -22,45 +42,45 @@ Warning--empty journal in rada2017hype
 Warning--empty year in Chaabane
 
 Done.
-You've used 49 entries,
+You've used 50 entries,
             4087 wiz_defined-function locations,
-            1129 strings with 17933 characters,
-and the built_in function-call counts, 36949 in all, are:
-= -- 2865
-> -- 988
-< -- 272
-+ -- 526
-- -- 190
-* -- 1747
-:= -- 5396
-add.period$ -- 115
-call.type$ -- 49
-change.case$ -- 50
+            1135 strings with 18022 characters,
+and the built_in function-call counts, 37528 in all, are:
+= -- 2921
+> -- 997
+< -- 275
++ -- 530
+- -- 192
+* -- 1775
+:= -- 5499
+add.period$ -- 117
+call.type$ -- 50
+change.case$ -- 51
 chr.to.int$ -- 630
-cite$ -- 53
-duplicate$ -- 2675
-empty$ -- 3121
-format.name$ -- 226
-if$ -- 8676
+cite$ -- 54
+duplicate$ -- 2725
+empty$ -- 3164
+format.name$ -- 229
+if$ -- 8809
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 495
-newline$ -- 182
-num.names$ -- 54
-pop$ -- 1258
+int.to.str$ -- 50
+missing$ -- 504
+newline$ -- 185
+num.names$ -- 55
+pop$ -- 1274
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 2843
+skip$ -- 2892
 stack$ -- 0
-substring$ -- 1554
-swap$ -- 2109
-text.length$ -- 62
+substring$ -- 1559
+swap$ -- 2147
+text.length$ -- 65
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 49
+type$ -- 50
 warning$ -- 4
-while$ -- 165
-width$ -- 51
-write$ -- 485
-(There were 6 warnings)
+while$ -- 167
+width$ -- 52
+write$ -- 496
+(There were 5 error messages)
