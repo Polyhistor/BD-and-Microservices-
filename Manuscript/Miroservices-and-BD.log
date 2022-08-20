@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  20 AUG 2022 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  20 AUG 2022 20:45
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -314,88 +314,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 41.
-
-
-LaTeX Warning: Citation `Levin.2021' on page 1 undefined on input line 56.
-
-
-LaTeX Warning: Citation `Diebold.2012' on page 1 undefined on input line 74.
-
-
-LaTeX Warning: Citation `Volk.2020b' on page 1 undefined on input line 74.
-
-
-LaTeX Warning: Citation `Parlina.2020' on page 1 undefined on input line 74.
-
-
-LaTeX Warning: Citation `Chang.2019' on page 1 undefined on input line 74.
-
-[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 
-LaTeX Warning: Citation `Gandomi.2015' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Citation `Chang.2019' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Citation `Gardiner.2018' on page 2 undefined on input line 78.
-
-
-LaTeX Warning: Citation `Volk.2019' on page 2 undefined on input line 78.
-
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Volk.2020' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Fernandez.2020' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Freymann.2020' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Jamshidi.2018' on page 2 undefined on input line 84.
-
-
-LaTeX Warning: Citation `Nadareishvili.2016' on page 2 undefined on input line 84.
-
-
-LaTeX Warning: Citation `Freymann.2020' on page 2 undefined on input line 86.
-
-
-LaTeX Warning: Citation `Drews.2017' on page 2 undefined on input line 86.
-
-
-LaTeX Warning: Citation `Faitelson.2018' on page 2 undefined on input line 88.
-
-
 LaTeX Warning: Citation `Krylovskiy' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `Kitchenham.2004' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Citation `Page.2021' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Citation `Page.2021' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Citation `Cruzes.2011' on page 2 undefined on input line 98.
-
-
-LaTeX Warning: Citation `Richardson.2022' on page 2 undefined on input line 98.
-
-
-LaTeX Warning: Citation `Ataei.2020' on page 2 undefined on input line 100.
-
-
-LaTeX Warning: Citation `rethlefsen2021prisma' on page 2 undefined on input line 102.
 
 [2]
 
@@ -425,80 +349,15 @@ Overfull \hbox (3.47041pt too wide) in paragraph at lines 219--254
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4]
-
-LaTeX Warning: Citation `sommerville2011software' on page 5 undefined on input line 275.
-
-
-LaTeX Warning: Citation `laplante2017requirements' on page 5 undefined on input line 275.
-
-
-LaTeX Warning: Citation `Demchenko2014' on page 5 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Bughin2016' on page 5 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Bahrami2015' on page 5 undefined on input line 279.
-
-
-LaTeX Warning: Citation `rad2017big' on page 5 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Marz2015' on page 5 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Chen2016a' on page 5 undefined on input line 279.
-
-
-LaTeX Warning: Citation `nadal2017software' on page 5 undefined on input line 279.
-
-
-LaTeX Warning: Citation `volk2020identifying' on page 5 undefined on input line 281.
-
-
-LaTeX Warning: Citation `bashari2016security' on page 5 undefined on input line 281.
-
-
-LaTeX Warning: Citation `yu2019components' on page 5 undefined on input line 281.
-
-
-LaTeX Warning: Citation `eridaputra2014modeling' on page 5 undefined on input line 281.
-
-
-LaTeX Warning: Citation `al2016characteristics' on page 5 undefined on input line 281.
-
-[5]
-
-LaTeX Warning: Citation `ataei2020big' on page 6 undefined on input line 283.
-
-
-LaTeX Warning: Citation `kassab2014state' on page 6 undefined on input line 285.
-
-
-LaTeX Warning: Citation `ISO29148' on page 6 undefined on input line 287.
-
-
-LaTeX Warning: Citation `laplante2017requirements' on page 6 undefined on input line 287.
-
-
-LaTeX Warning: Citation `abran2004software' on page 6 undefined on input line 287.
-
-
+[4] [5]
 Underfull \hbox (badness 10000) in paragraph at lines 287--288
 []\OT1/ptm/m/n/10 Our ap-proach fol-lows the guide-lines ex-plained in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-\OT1/ptm/m/n/10 ISO/IEC/IEEE stan-dard 29148 ([\OT1/ptm/b/n/10 ?\OT1/ptm/m/n/10 ]) for rep-re-sent-ing
+Underfull \hbox (badness 7595) in paragraph at lines 287--288
+\OT1/ptm/m/n/10 ISO/IEC/IEEE stan-dard 29148 ([39]) for rep-re-sent-ing
  []
-
-
-LaTeX Warning: Citation `rada2017hype' on page 6 undefined on input line 289.
-
-
-LaTeX Warning: Citation `bashari2016security' on page 6 undefined on input line 289.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 352--352
@@ -512,15 +371,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \hbox (badness 1931) in paragraph at lines 406--406
 []|\OT1/ptm/m/n/8 Platform and In-fras-truc-
  []
-
-
-LaTeX Warning: Citation `lankhorst2013language' on page 6 undefined on input line 790.
-
-
-LaTeX Warning: Citation `Chaabane' on page 6 undefined on input line 790.
-
-
-LaTeX Warning: Citation `ataei2020big' on page 6 undefined on input line 807.
 
 [6]
 Underfull \vbox (badness 1460) has occurred while \output is active []
@@ -536,12 +386,6 @@ Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 8
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `DataBricksSurvey' on page 8 undefined on input line 838.
-
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 8 undefined on input line 842.
-
-
 Underfull \vbox (badness 5711) has occurred while \output is active []
 
  [8]
@@ -554,11 +398,7 @@ Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 8
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <../Media/Vol-1 Requirement RA.jpg>]
-
-LaTeX Warning: Citation `gamma1995design' on page 10 undefined on input line 900.
-
-[10 <../Media/Velocity Requirement.jpg>]
+[9 <../Media/Vol-1 Requirement RA.jpg>] [10 <../Media/Velocity Requirement.jpg>]
 <../Media/Value Requirement.jpg, id=40, 1752.5475pt x 729.72626pt>
 File: ../Media/Value Requirement.jpg Graphic file (type jpg)
 <use ../Media/Value Requirement.jpg>
@@ -568,32 +408,13 @@ Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 907.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `eryurek2021data' on page 11 undefined on input line 927.
-
-
-LaTeX Warning: Citation `gamma1995design' on page 11 undefined on input line 935.
-
-[11]
-
-LaTeX Warning: Citation `laigner2020monolithic' on page 12 undefined on input line 948.
-
-
-LaTeX Warning: Citation `zhelev2019using' on page 12 undefined on input line 950.
-
-
-LaTeX Warning: Citation `staegemann2021examining' on page 12 undefined on input line 950.
-
-
-LaTeX Warning: Citation `Statisica' on page 12 undefined on input line 958.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <../Media/Value Requirement.jpg>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl"
+[11] [12 <../Media/Value Requirement.jpg>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.bbl"
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ptm in TS1 encoding.
 (textcomp)             Default family used instead on input line 105.
+
+Underfull \vbox (badness 1077) has occurred while \output is active []
+
  [13]
 Underfull \hbox (badness 10000) in paragraph at lines 306--309
 []\OT1/ptm/m/n/8 ``Organizations' adop-tion level of mi-croser-
@@ -622,9 +443,6 @@ Before submitting the final camera ready copy, remember to:
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  5572 strings out of 480795
@@ -635,7 +453,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,11n,43p,1393b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (14 pages, 562033 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (14 pages, 561247 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

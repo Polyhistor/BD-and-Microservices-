@@ -10,28 +10,8 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
-Repeated entry---line 295 of file references.bib
- : @inproceedings{Ataei.2020
- :                          ,
-I'm skipping whatever remains of this entry
 Warning--entry type for "Statisica" isn't style-file defined
---line 303 of file references.bib
-Repeated entry---line 369 of file references.bib
- : @article{Page.2021
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 567 of file references.bib
- : @inproceedings{Freymann.2020
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 632 of file references.bib
- : @book{Nadareishvili.2016
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 668 of file references.bib
- : @inproceedings{Volk.2019
- :                         ,
-I'm skipping whatever remains of this entry
+--line 295 of file references.bib
 Warning--I didn't find a database entry for "Krylovskiy"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -83,4 +63,4 @@ warning$ -- 4
 while$ -- 167
 width$ -- 52
 write$ -- 496
-(There were 5 error messages)
+(There were 6 warnings)
