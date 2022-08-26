@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  20 AUG 2022 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  26 AUG 2022 22:11
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data/Manuscript/Miroservices-and-BD.tex"
@@ -378,7 +378,7 @@ Underfull \vbox (badness 1460) has occurred while \output is active []
 <../Media/Vol-1 Requirement RA.jpg, id=29, 1469.49pt x 743.77875pt>
 File: ../Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use ../Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 825.
+Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 826.
 (pdftex.def)             Requested size: 483.69684pt x 244.82353pt.
 
 
@@ -391,7 +391,7 @@ Underfull \vbox (badness 5711) has occurred while \output is active []
 <../Media/Velocity Requirement.jpg, id=33, 1512.65125pt x 726.715pt>
 File: ../Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use ../Media/Velocity Requirement.jpg>
-Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 860.
+Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 861.
 (pdftex.def)             Requested size: 483.69684pt x 232.37613pt.
 
 
@@ -401,7 +401,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../Media/Value Requirement.jpg, id=40, 1752.5475pt x 729.72626pt>
 File: ../Media/Value Requirement.jpg Graphic file (type jpg)
 <use ../Media/Value Requirement.jpg>
-Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 907.
+Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 908.
 (pdftex.def)             Requested size: 483.69684pt x 201.39352pt.
 
 
@@ -411,9 +411,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ptm in TS1 encoding.
 (textcomp)             Default family used instead on input line 105.
-
-Underfull \vbox (badness 1077) has occurred while \output is active []
-
  [13]
 Underfull \hbox (badness 10000) in paragraph at lines 306--309
 []\OT1/ptm/m/n/8 ``Organizations' adop-tion level of mi-croser-
@@ -452,7 +449,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,11n,43p,1393b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (14 pages, 561105 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data\Manuscript\Miroservices-and-BD.pdf" (14 pages, 561402 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
