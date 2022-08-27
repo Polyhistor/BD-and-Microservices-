@@ -22,45 +22,45 @@ Warning--empty journal in rada2017hype
 Warning--empty year in Chaabane
 
 Done.
-You've used 50 entries,
+You've used 53 entries,
             4087 wiz_defined-function locations,
-            1135 strings with 18022 characters,
-and the built_in function-call counts, 37528 in all, are:
-= -- 2921
-> -- 997
-< -- 275
-+ -- 530
-- -- 192
-* -- 1775
-:= -- 5499
-add.period$ -- 117
-call.type$ -- 50
-change.case$ -- 51
-chr.to.int$ -- 630
-cite$ -- 54
-duplicate$ -- 2725
-empty$ -- 3164
-format.name$ -- 229
-if$ -- 8809
+            1150 strings with 18560 characters,
+and the built_in function-call counts, 39509 in all, are:
+= -- 3087
+> -- 1041
+< -- 290
++ -- 554
+- -- 200
+* -- 1864
+:= -- 5803
+add.period$ -- 123
+call.type$ -- 53
+change.case$ -- 53
+chr.to.int$ -- 660
+cite$ -- 57
+duplicate$ -- 2873
+empty$ -- 3326
+format.name$ -- 239
+if$ -- 9275
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 504
-newline$ -- 185
-num.names$ -- 55
-pop$ -- 1274
+int.to.str$ -- 53
+missing$ -- 529
+newline$ -- 194
+num.names$ -- 58
+pop$ -- 1331
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 2892
+skip$ -- 3053
 stack$ -- 0
-substring$ -- 1559
-swap$ -- 2147
-text.length$ -- 65
+substring$ -- 1637
+swap$ -- 2265
+text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 50
+type$ -- 53
 warning$ -- 4
-while$ -- 167
-width$ -- 52
-write$ -- 496
+while$ -- 175
+width$ -- 55
+write$ -- 524
 (There were 6 warnings)
