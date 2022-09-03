@@ -21,9 +21,48 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Levin.2021}
-I.~Levin and D.~Mamlok, ``Culture and society in the digital age,''
-  \emph{Information}, vol.~12, no.~2, p.~68, 2021.
+\bibitem{NewVantageSurvey}
+\BIBentryALTinterwordspacing
+N.~Partners, ``Big data and ai executive survey 2021,'' 2022. [Online].
+  Available: \url{https://www.newvantage.com/thoughtleadership}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DataBricksSurvey}
+\BIBentryALTinterwordspacing
+M.~technology review insights in partnership~with Databricks, ``Building a
+  high-performance data organization,'' 2021. [Online]. Available:
+  \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Volk.2019}
+M.~Volk, D.~Staegemann, M.~Pohl, and K.~Turowski, ``Challenging big data
+  engineering: Positioning of current and future development,'' in
+  \emph{Proceedings of the 4th International Conference on Internet of Things,
+  Big Data and Security}.\hskip 1em plus 0.5em minus 0.4em\relax {SCITEPRESS -
+  Science and Technology Publications}, 2019, pp. 351--358.
+
+\bibitem{ataei2020big}
+P.~Ataei and A.~T. Litchfield, ``Big data reference architectures, a systematic
+  literature review,'' 2020.
+
+\bibitem{Freymann.2020}
+A.~Freymann, F.~Maier, K.~Schaefer, and T.~B{\"o}hnel, ``Tackling the six
+  fundamental challenges of big data in research projects by utilizing a
+  scalable and modular architecture,'' in \emph{Proceedings of the 5th
+  International Conference on Internet of Things, Big Data and Security}.\hskip
+  1em plus 0.5em minus 0.4em\relax {SCITEPRESS - Science and Technology
+  Publications}, 2020, pp. 249--256.
+
+\bibitem{Nadareishvili.2016}
+I.~Nadareishvili, R.~Mitra, M.~McLarty, and M.~Amundsen, \emph{Microservice
+  architecture: Aligning principles, practices, and culture}, first
+  edition~ed.\hskip 1em plus 0.5em minus 0.4em\relax Beijing and Boston and
+  Farnham and Sebastopol and Tokyo: O´Reilly, 2016.
+
+\bibitem{Ataei.2020}
+P.~Ataei and A.~Litchfield, ``Big data reference architectures, a systematic
+  literature review,'' in \emph{Australasian Conference on Information Systems
+  (ACIS) 2020}.\hskip 1em plus 0.5em minus 0.4em\relax AIS, 2020.
 
 \bibitem{Diebold.2012}
 F.~X. Diebold, ``On the origin(s) and development of the term 'big data',''
@@ -57,13 +96,6 @@ A.~Gardiner, C.~Aasheim, P.~Rutner, and S.~Williams, ``Skill requirements in
   big data: A content analysis of job advertisements,'' \emph{Journal of
   Computer Information Systems}, vol.~58, no.~4, pp. 374--384, 2018.
 
-\bibitem{Volk.2019}
-M.~Volk, D.~Staegemann, M.~Pohl, and K.~Turowski, ``Challenging big data
-  engineering: Positioning of current and future development,'' in
-  \emph{Proceedings of the 4th International Conference on Internet of Things,
-  Big Data and Security}.\hskip 1em plus 0.5em minus 0.4em\relax {SCITEPRESS -
-  Science and Technology Publications}, 2019, pp. 351--358.
-
 \bibitem{ataei2021neomycelia}
 P.~Ataei and A.~Litchfield, ``Neomycelia: A software reference architecturefor
   big data systems,'' in \emph{2021 28th Asia-Pacific Software Engineering
@@ -85,24 +117,10 @@ A.~M. Fern{\'a}ndez, D.~Guti{\'e}rrez-Avil{\'e}s, A.~Troncoso, and
   \url{http://www.sciencedirect.com/science/article/pii/S2214579620300034}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Freymann.2020}
-A.~Freymann, F.~Maier, K.~Schaefer, and T.~B{\"o}hnel, ``Tackling the six
-  fundamental challenges of big data in research projects by utilizing a
-  scalable and modular architecture,'' in \emph{Proceedings of the 5th
-  International Conference on Internet of Things, Big Data and Security}.\hskip
-  1em plus 0.5em minus 0.4em\relax {SCITEPRESS - Science and Technology
-  Publications}, 2020, pp. 249--256.
-
 \bibitem{Jamshidi.2018}
 P.~Jamshidi, C.~Pahl, N.~C. Mendonca, J.~Lewis, and S.~Tilkov, ``Microservices:
   The journey so far and challenges ahead,'' \emph{IEEE Software}, vol.~35,
   no.~3, pp. 24--35, 2018.
-
-\bibitem{Nadareishvili.2016}
-I.~Nadareishvili, R.~Mitra, M.~McLarty, and M.~Amundsen, \emph{Microservice
-  architecture: Aligning principles, practices, and culture}, first
-  edition~ed.\hskip 1em plus 0.5em minus 0.4em\relax Beijing and Boston and
-  Farnham and Sebastopol and Tokyo: O´Reilly, 2016.
 
 \bibitem{Drews.2017}
 P.~Drews, I.~Schirmer, B.~Horlach, and C.~Tekaat, ``Bimodal enterprise
@@ -146,11 +164,6 @@ D.~S. Cruzes and T.~Dyba, ``Recommended steps for thematic synthesis in
 C.~Richardson, ``A pattern language for microservices,'' 2022. [Online].
   Available: \url{https://microservices.io/patterns/index.html}
 \BIBentrySTDinterwordspacing
-
-\bibitem{Ataei.2020}
-P.~Ataei and A.~Litchfield, ``Big data reference architectures, a systematic
-  literature review,'' in \emph{Australasian Conference on Information Systems
-  (ACIS) 2020}.\hskip 1em plus 0.5em minus 0.4em\relax AIS, 2020.
 
 \bibitem{rethlefsen2021prisma}
 M.~L. Rethlefsen, S.~Kirtley, S.~Waffenschmidt, A.~P. Ayala, D.~Moher, M.~J.
@@ -230,10 +243,6 @@ J.~Al-Jaroodi and N.~Mohamed, ``Characteristics and requirements of big data
   Collaboration and Internet Computing (CIC)}.\hskip 1em plus 0.5em minus
   0.4em\relax IEEE, 2016, pp. 426--432.
 
-\bibitem{ataei2020big}
-P.~Ataei and A.~T. Litchfield, ``Big data reference architectures, a systematic
-  literature review,'' 2020.
-
 \bibitem{kassab2014state}
 M.~Kassab, C.~Neill, and P.~Laplante, ``State of practice in requirements
   engineering: contemporary data,'' \emph{Innovations in Systems and Software
@@ -264,13 +273,6 @@ M.~Chaabane, I.~Bouassida, and M.~Jmaiel, ``System of systems software
   architecture description using the iso/iec/ieee 42010 standard,'' in
   \emph{Proceedings of the Symposium on Applied Computing}, Conference
   Proceedings, pp. 1793--1798.
-
-\bibitem{DataBricksSurvey}
-\BIBentryALTinterwordspacing
-M.~technology review insights in partnership~with Databricks, ``Building a
-  high-performance data organization,'' 2021. [Online]. Available:
-  \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}
-\BIBentrySTDinterwordspacing
 
 \bibitem{gamma1995design}
 E.~Gamma, R.~Helm, R.~Johnson, R.~E. Johnson, J.~Vlissides \emph{et~al.},
