@@ -24,43 +24,43 @@ Warning--empty year in Chaabane
 Done.
 You've used 53 entries,
             4087 wiz_defined-function locations,
-            1150 strings with 18560 characters,
-and the built_in function-call counts, 39509 in all, are:
-= -- 3087
-> -- 1041
-< -- 290
-+ -- 554
-- -- 200
-* -- 1864
-:= -- 5803
+            1154 strings with 18601 characters,
+and the built_in function-call counts, 39722 in all, are:
+= -- 3100
+> -- 1039
+< -- 297
++ -- 556
+- -- 198
+* -- 1873
+:= -- 5826
 add.period$ -- 123
 call.type$ -- 53
-change.case$ -- 53
-chr.to.int$ -- 660
+change.case$ -- 52
+chr.to.int$ -- 681
 cite$ -- 57
-duplicate$ -- 2873
-empty$ -- 3326
-format.name$ -- 239
-if$ -- 9275
+duplicate$ -- 2871
+empty$ -- 3351
+format.name$ -- 236
+if$ -- 9331
 int.to.chr$ -- 0
 int.to.str$ -- 53
-missing$ -- 529
-newline$ -- 194
+missing$ -- 527
+newline$ -- 196
 num.names$ -- 58
-pop$ -- 1331
+pop$ -- 1327
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 3053
+skip$ -- 3070
 stack$ -- 0
-substring$ -- 1637
-swap$ -- 2265
+substring$ -- 1679
+swap$ -- 2273
 text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 53
 warning$ -- 4
-while$ -- 175
+while$ -- 177
 width$ -- 55
-write$ -- 524
+write$ -- 526
 (There were 6 warnings)
