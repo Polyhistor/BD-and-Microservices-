@@ -11,7 +11,7 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
 Warning--entry type for "Statisica" isn't style-file defined
---line 295 of file references.bib
+--line 302 of file references.bib
 Warning--I didn't find a database entry for "Krylovskiy"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -22,45 +22,45 @@ Warning--empty journal in rada2017hype
 Warning--empty year in Chaabane
 
 Done.
-You've used 53 entries,
+You've used 54 entries,
             4087 wiz_defined-function locations,
-            1154 strings with 18601 characters,
-and the built_in function-call counts, 39722 in all, are:
-= -- 3100
-> -- 1039
+            1159 strings with 18805 characters,
+and the built_in function-call counts, 40133 in all, are:
+= -- 3132
+> -- 1048
 < -- 297
-+ -- 556
-- -- 198
-* -- 1873
-:= -- 5826
-add.period$ -- 123
-call.type$ -- 53
-change.case$ -- 52
++ -- 560
+- -- 200
+* -- 1890
+:= -- 5899
+add.period$ -- 125
+call.type$ -- 54
+change.case$ -- 53
 chr.to.int$ -- 681
-cite$ -- 57
-duplicate$ -- 2871
-empty$ -- 3351
-format.name$ -- 236
-if$ -- 9331
+cite$ -- 58
+duplicate$ -- 2904
+empty$ -- 3389
+format.name$ -- 239
+if$ -- 9421
 int.to.chr$ -- 0
-int.to.str$ -- 53
-missing$ -- 527
-newline$ -- 196
-num.names$ -- 58
-pop$ -- 1327
+int.to.str$ -- 54
+missing$ -- 535
+newline$ -- 201
+num.names$ -- 59
+pop$ -- 1353
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 3070
+skip$ -- 3101
 stack$ -- 0
-substring$ -- 1679
-swap$ -- 2273
+substring$ -- 1680
+swap$ -- 2292
 text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 53
+type$ -- 54
 warning$ -- 4
-while$ -- 177
-width$ -- 55
-write$ -- 526
+while$ -- 178
+width$ -- 56
+write$ -- 536
 (There were 6 warnings)

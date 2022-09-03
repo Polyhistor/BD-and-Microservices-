@@ -300,6 +300,13 @@ H.~Kallio, A.-M. Pietil{\"a}, M.~Johnson, and M.~Kangasniemi, ``Systematic
   semi-structured interview guide,'' \emph{Journal of advanced nursing},
   vol.~72, no.~12, pp. 2954--2965, 2016.
 
+\bibitem{interviewGuide}
+\BIBentryALTinterwordspacing
+P.~Ataei and D.~Staegemann, ``Interview guide for the paper: Application of
+  microservices patterns to big data systems,'' 2022. [Online]. Available:
+  \url{https://anonymous.4open.science/r/SSI-Repo-F90E/SSI.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{laigner2020monolithic}
 R.~Laigner, M.~Kalinowski, P.~Diniz, L.~Barros, C.~Cassino, M.~Lemos,
   D.~Arruda, S.~Lifschitz, and Y.~Zhou, ``From a monolithic big data system to
