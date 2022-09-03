@@ -144,8 +144,6 @@ INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
-INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmr6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmmi6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmsy6.tfm
@@ -163,6 +161,8 @@ INPUT ..\Media\PRISMA-Flowchart.JPG
 INPUT ..\Media\PRISMA-Flowchart.JPG
 INPUT ..\Media\PRISMA-Flowchart.JPG
 INPUT ..\Media\PRISMA-Flowchart.JPG
+INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
+INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm

@@ -64,78 +64,36 @@ P.~Ataei and A.~Litchfield, ``Big data reference architectures, a systematic
   literature review,'' in \emph{Australasian Conference on Information Systems
   (ACIS) 2020}.\hskip 1em plus 0.5em minus 0.4em\relax AIS, 2020.
 
-\bibitem{Diebold.2012}
-F.~X. Diebold, ``On the origin(s) and development of the term 'big data',''
-  \emph{SSRN Electronic Journal}, 2012.
+\bibitem{laigner2020monolithic}
+R.~Laigner, M.~Kalinowski, P.~Diniz, L.~Barros, C.~Cassino, M.~Lemos,
+  D.~Arruda, S.~Lifschitz, and Y.~Zhou, ``From a monolithic big data system to
+  a microservices event-driven architecture,'' in \emph{2020 46th Euromicro
+  Conference on Software Engineering and Advanced Applications (SEAA)}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2020, pp. 213--220.
 
-\bibitem{Volk.2020b}
-M.~Volk, D.~Staegemann, and K.~Turowski, ``Big data,'' in \emph{Handbuch
-  Digitale Wirtschaft}, ser. Springer Reference Wirtschaft, T.~Kollmann,
-  Ed.\hskip 1em plus 0.5em minus 0.4em\relax Wiesbaden: {Springer Fachmedien
-  Wiesbaden}, 2020, pp. 1--18.
+\bibitem{zhelev2019using}
+S.~Zhelev and A.~Rozeva, ``Using microservices and event driven architecture
+  for big data stream processing,'' in \emph{AIP Conference Proceedings}, vol.
+  2172, no.~1.\hskip 1em plus 0.5em minus 0.4em\relax AIP Publishing LLC, 2019,
+  p. 090010.
 
-\bibitem{Parlina.2020}
-A.~Parlina, K.~Ramli, and H.~Murfi, ``Theme mapping and bibliometrics analysis
-  of one decade of big data research in the scopus database,''
-  \emph{Information}, vol.~11, no.~2, pp. 69--94, 2020.
+\bibitem{staegemann2021examining}
+D.~Staegemann, M.~Volk, A.~Shakir, E.~Lautenschl{\"a}ger, and K.~Turowski,
+  ``Examining the interplay between big data and microservices--a bibliometric
+  review,'' \emph{Complex Systems Informatics and Modeling Quarterly}, no.~27,
+  pp. 87--118, 2021.
 
-\bibitem{Chang.2019}
-\BIBentryALTinterwordspacing
-W.~L. Chang and N.~Grady, ``Nist big data interoperability framework: Volume 1,
-  definitions,'' 2019. [Online]. Available:
-  \url{https://doi.org/10.6028/NIST.SP.1500-1r2}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Gandomi.2015}
-A.~Gandomi and M.~Haider, ``Beyond the hype: Big data concepts, methods, and
-  analytics,'' \emph{International Journal of Information Management}, vol.~35,
-  no.~2, pp. 137--144, 2015.
-
-\bibitem{Gardiner.2018}
-A.~Gardiner, C.~Aasheim, P.~Rutner, and S.~Williams, ``Skill requirements in
-  big data: A content analysis of job advertisements,'' \emph{Journal of
-  Computer Information Systems}, vol.~58, no.~4, pp. 374--384, 2018.
+\bibitem{Phi}
+A.~Maamouri, L.~Sfaxi, and R.~Robbana, ``Phi: A generic microservices-based big
+  data architecture,'' in \emph{European, Mediterranean, and Middle Eastern
+  Conference on Information Systems}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer, 2021, pp. 3--16.
 
 \bibitem{ataei2021neomycelia}
 P.~Ataei and A.~Litchfield, ``Neomycelia: A software reference architecturefor
   big data systems,'' in \emph{2021 28th Asia-Pacific Software Engineering
   Conference (APSEC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2021, pp.
   452--462.
-
-\bibitem{Volk.2020}
-M.~Volk, D.~Staegemann, S.~Bosse, A.~Nahhas, and K.~Turowski, ``Towards a
-  decision support system for big data projects,'' in \emph{WI2020 Zentrale
-  Tracks}, N.~Gronau, M.~Heine, K.~Poustcchi, and H.~Krasnova, Eds.\hskip 1em
-  plus 0.5em minus 0.4em\relax {GITO Verlag}, 2020, pp. 357--368.
-
-\bibitem{Fernandez.2020}
-\BIBentryALTinterwordspacing
-A.~M. Fern{\'a}ndez, D.~Guti{\'e}rrez-Avil{\'e}s, A.~Troncoso, and
-  F.~Mart{\'i}nez-{\'A}lvarez, ``Automated deployment of a spark cluster with
-  machine learning algorithm integration,'' \emph{Big Data Research}, vol.
-  19-20, p. 100135, 2020. [Online]. Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S2214579620300034}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Jamshidi.2018}
-P.~Jamshidi, C.~Pahl, N.~C. Mendonca, J.~Lewis, and S.~Tilkov, ``Microservices:
-  The journey so far and challenges ahead,'' \emph{IEEE Software}, vol.~35,
-  no.~3, pp. 24--35, 2018.
-
-\bibitem{Drews.2017}
-P.~Drews, I.~Schirmer, B.~Horlach, and C.~Tekaat, ``Bimodal enterprise
-  architecture management: The emergence of a new eam function for a
-  bizdevops-based fast it,'' in \emph{2017 IEEE 21st International Enterprise
-  Distributed Object Computing Workshop (EDOCW)}.\hskip 1em plus 0.5em minus
-  0.4em\relax IEEE, 2017, pp. 57--64.
-
-\bibitem{Faitelson.2018}
-D.~Faitelson, R.~Heinrich, and S.~Tyszberowicz, ``Functional decomposition for
-  software architecture evolution,'' in \emph{Model-Driven Engineering and
-  Software Development}, ser. Communications in computer and information
-  science, L.~F. Pires, S.~Hammoudi, and B.~Selic, Eds.\hskip 1em plus 0.5em
-  minus 0.4em\relax Cham: {Springer International Publishing}, 2018, vol. 880,
-  pp. 377--400.
 
 \bibitem{Kitchenham.2004}
 B.~A. Kitchenham, T.~Dyba, and M.~Jorgensen, ``Evidence-based software
@@ -158,6 +116,11 @@ D.~S. Cruzes and T.~Dyba, ``Recommended steps for thematic synthesis in
   software engineering,'' in \emph{2011 International Symposium on Empirical
   Software Engineering and Measurement}.\hskip 1em plus 0.5em minus 0.4em\relax
   IEEE, 2011, pp. 275--284.
+
+\bibitem{buschmann2008pattern}
+F.~Buschmann, R.~Meunier, H.~Rohnert, P.~Sommerlad, and M.~Stal,
+  \emph{Pattern-Oriented Software Architecture: A System of Patterns, Volume
+  1}.\hskip 1em plus 0.5em minus 0.4em\relax John wiley \& sons, 2008, vol.~1.
 
 \bibitem{Richardson.2022}
 \BIBentryALTinterwordspacing
@@ -308,25 +271,6 @@ P.~Ataei and D.~Staegemann, ``Interview guide for the paper: Application of
   microservices patterns to big data systems,'' 2022. [Online]. Available:
   \url{https://anonymous.4open.science/r/SSI-Repo-F90E/SSI.pdf}
 \BIBentrySTDinterwordspacing
-
-\bibitem{laigner2020monolithic}
-R.~Laigner, M.~Kalinowski, P.~Diniz, L.~Barros, C.~Cassino, M.~Lemos,
-  D.~Arruda, S.~Lifschitz, and Y.~Zhou, ``From a monolithic big data system to
-  a microservices event-driven architecture,'' in \emph{2020 46th Euromicro
-  Conference on Software Engineering and Advanced Applications (SEAA)}.\hskip
-  1em plus 0.5em minus 0.4em\relax IEEE, 2020, pp. 213--220.
-
-\bibitem{zhelev2019using}
-S.~Zhelev and A.~Rozeva, ``Using microservices and event driven architecture
-  for big data stream processing,'' in \emph{AIP Conference Proceedings}, vol.
-  2172, no.~1.\hskip 1em plus 0.5em minus 0.4em\relax AIP Publishing LLC, 2019,
-  p. 090010.
-
-\bibitem{staegemann2021examining}
-D.~Staegemann, M.~Volk, A.~Shakir, E.~Lautenschl{\"a}ger, and K.~Turowski,
-  ``Examining the interplay between big data and microservices--a bibliometric
-  review,'' \emph{Complex Systems Informatics and Modeling Quarterly}, no.~27,
-  pp. 87--118, 2021.
 
 \bibitem{Statisica}
 \BIBentryALTinterwordspacing
