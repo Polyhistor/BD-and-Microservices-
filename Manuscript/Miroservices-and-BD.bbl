@@ -177,26 +177,10 @@ Y.~Demchenko, C.~De~Laat, and P.~Membrey, ``Defining architecture components of
 J.~Bughin, ``Big data, big bang?'' \emph{Journal of Big Data}, vol.~3, no.~1,
   p.~2, 2016.
 
-\bibitem{Bahrami2015}
-M.~Bahrami and M.~Singhal, \emph{The role of cloud computing architecture in
-  big data}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2015, pp.
-  275--295.
-
 \bibitem{rad2017big}
 B.~B. Rad and P.~Ataei, ``The big data ecosystem and its environs,''
   \emph{International Journal of Computer Science and Network Security
   (IJCSNS)}, vol.~17, no.~3, p.~38, 2017.
-
-\bibitem{Marz2015}
-N.~Marz and J.~Warren, \emph{Big Data: Principles and best practices of
-  scalable real-time data systems}.\hskip 1em plus 0.5em minus 0.4em\relax New
-  York; Manning Publications Co., 2015.
-
-\bibitem{Chen2016a}
-H.-M. Chen, R.~Kazman, and S.~Haziyev, ``Agile big data analytics development:
-  An architecture-centric approach,'' in \emph{2016 49th Hawaii International
-  Conference on System Sciences (HICSS)}.\hskip 1em plus 0.5em minus
-  0.4em\relax IEEE, 2016, Conference Proceedings, pp. 5378--5387.
 
 \bibitem{nadal2017software}
 S.~Nadal, V.~Herrero, O.~Romero, A.~Abell{\'o}, X.~Franch, S.~Vansummeren, and
@@ -246,10 +230,6 @@ I.~29148:2018, ``Iso/iec 29148:2018,'' 2018. [Online]. Available:
 A.~Abran, J.~W. Moore, P.~Bourque, R.~Dupuis, and L.~Tripp, ``Software
   engineering body of knowledge,'' \emph{IEEE Computer Society, Angela
   Burgess}, p.~25, 2004.
-
-\bibitem{rada2017hype}
-B.~B. Rada, P.~Ataeib, Y.~Khakbizc, and N.~Akbarzadehd, ``The hype of emerging
-  technologies: Big data as a service,'' 2017.
 
 \bibitem{lankhorst2013language}
 M.~Lankhorst, ``A language for enterprise modelling,'' in \emph{Enterprise
