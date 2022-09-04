@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  3 SEP 2022 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 12:03
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
@@ -319,46 +319,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
+] [2]
+<../Media/PRISMA-Flowchart.JPG, id=12, 638.385pt x 822.82407pt>
+File: ../Media/PRISMA-Flowchart.JPG Graphic file (type jpg)
+<use ../Media/PRISMA-Flowchart.JPG>
+Package pdftex.def Info: ../Media/PRISMA-Flowchart.JPG  used on input line 243.
+(pdftex.def)             Requested size: 227.62204pt x 293.37895pt.
 
-LaTeX Warning: Reference `table:searchTerms' on page 2 undefined on input line 112.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (5.29681pt too wide) in paragraph at lines 120--198
-[][] 
+[3 <../Media/PRISMA-Flowchart.JPG>]
+Overfull \hbox (4.08286pt too wide) in paragraph at lines 284--284
+[]|\OT1/ptm/m/n/8 Quality
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+[]|\OT1/ptm/m/n/8 Rating to
+ []
 
-<../Media/PRISMA-Flowchart.JPG, id=9, 638.385pt x 822.82407pt>
-File: ../Media/PRISMA-Flowchart.JPG Graphic file (type jpg)
-<use ../Media/PRISMA-Flowchart.JPG>
-Package pdftex.def Info: ../Media/PRISMA-Flowchart.JPG  used on input line 206.
-(pdftex.def)             Requested size: 227.62204pt x 293.37895pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 3482) in paragraph at lines 290--291
+\OT1/ptm/m/n/8 re-port based on ex-pert
+ []
 
-[2] [3]
-Overfull \hbox (3.47041pt too wide) in paragraph at lines 227--262
+
+Underfull \hbox (badness 1946) in paragraph at lines 292--293
+\OT1/ptm/m/n/8 com-mu-ni-cated, in-clud-ing
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 294--295
+\OT1/ptm/m/n/8 which the re-search was
+ []
+
+
+Overfull \hbox (2.8597pt too wide) in paragraph at lines 282--317
 [][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <../Media/PRISMA-Flowchart.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 []\OT1/ptm/m/n/10 Our ap-proach fol-lows the guide-lines ex-plained in
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 295--296
-\OT1/ptm/m/n/10 ISO/IEC/IEEE stan-dard 29148 ([34]) for rep-re-sent-ing
+Underfull \hbox (badness 7595) in paragraph at lines 353--354
+\OT1/ptm/m/n/10 ISO/IEC/IEEE stan-dard 29148 ([38]) for rep-re-sent-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
 []|\OT1/ptm/m/n/8 Security
  []
 
@@ -366,18 +381,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--360
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 414--414
+Underfull \hbox (badness 1931) in paragraph at lines 472--472
 []|\OT1/ptm/m/n/8 Platform and In-fras-truc-
  []
 
 [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1460) has occurred while \output is active []
 
  [6]
 <../Media/Vol-1 Requirement RA.jpg, id=25, 1469.49pt x 743.77875pt>
 File: ../Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use ../Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 834.
+Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 892.
 (pdftex.def)             Requested size: 483.69684pt x 244.82353pt.
 
 
@@ -387,7 +402,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <../Media/Velocity Requirement.jpg, id=33, 1512.65125pt x 726.715pt>
 File: ../Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use ../Media/Velocity Requirement.jpg>
-Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 869.
+Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 927.
 (pdftex.def)             Requested size: 483.69684pt x 232.37613pt.
 
 
@@ -397,26 +412,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../Media/Value Requirement.jpg, id=37, 1752.5475pt x 729.72626pt>
 File: ../Media/Value Requirement.jpg Graphic file (type jpg)
 <use ../Media/Value Requirement.jpg>
-Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 916.
+Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 974.
 (pdftex.def)             Requested size: 483.69684pt x 201.39352pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <../Media/Velocity Requirement.jpg>] [11 <../Media/Value Requirement.jpg>] [12] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl"
+[10 <../Media/Velocity Requirement.jpg>] [11 <../Media/Value Requirement.jpg>] [12] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl"
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ptm in TS1 encoding.
 (textcomp)             Default family used instead on input line 60.
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 277--280
+Underfull \hbox (badness 10000) in paragraph at lines 302--305
 []\OT1/ptm/m/n/8 ``Organizations' adop-tion level of mi-croser-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 277--280
+Underfull \hbox (badness 3735) in paragraph at lines 302--305
 \OT1/ptm/m/n/8 vices world-wide in 2021.'' [On-line]. Avail-able:
  []
 
@@ -434,21 +446,17 @@ Before submitting the final camera ready copy, remember to:
 
 [14
 
-] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux") ) 
 Here is how much of TeX's memory you used:
- 5560 strings out of 480795
- 83628 string characters out of 2913777
- 341147 words of memory out of 3000000
- 21506 multiletter control sequences out of 15000+200000
- 573557 words of font info for 105 fonts, out of 3000000 for 9000
+ 5561 strings out of 480795
+ 83657 string characters out of 2913777
+ 340147 words of memory out of 3000000
+ 21508 multiletter control sequences out of 15000+200000
+ 572450 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,43p,1504b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (14 pages, 560475 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (14 pages, 560667 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

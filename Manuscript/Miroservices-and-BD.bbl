@@ -134,6 +134,31 @@ M.~L. Rethlefsen, S.~Kirtley, S.~Waffenschmidt, A.~P. Ayala, D.~Moher, M.~J.
   reporting literature searches in systematic reviews,'' \emph{Systematic
   reviews}, vol.~10, no.~1, pp. 1--19, 2021.
 
+\bibitem{SLRsearchTerms}
+\BIBentryALTinterwordspacing
+P.~Ataei and D.~Staegemann, ``Systematic literature review search terms table
+  for the paper titled: Application of microservices patterns to big data
+  systems,'' 2022. [Online]. Available:
+  \url{https://anonymous.4open.science/r/SLR-Search-Terms-3147/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{tricco2018prisma}
+A.~C. Tricco, E.~Lillie, W.~Zarin, K.~K. O'Brien, H.~Colquhoun, D.~Levac,
+  D.~Moher, M.~D. Peters, T.~Horsley, L.~Weeks \emph{et~al.}, ``Prisma
+  extension for scoping reviews (prisma-scr): checklist and explanation,''
+  \emph{Annals of internal medicine}, vol. 169, no.~7, pp. 467--473, 2018.
+
+\bibitem{CASP}
+\BIBentryALTinterwordspacing
+ [Online]. Available: \url{https://casp-uk.net/casp-tools-checklists/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kitchenham2002preliminary}
+B.~A. Kitchenham, S.~L. Pfleeger, L.~M. Pickard, P.~W. Jones, D.~C. Hoaglin,
+  K.~El~Emam, and J.~Rosenberg, ``Preliminary guidelines for empirical research
+  in software engineering,'' \emph{IEEE Transactions on software engineering},
+  vol.~28, no.~8, pp. 721--734, 2002.
+
 \bibitem{sommerville2011software}
 I.~Sommerville, \emph{Software Engineering, 9/E}.\hskip 1em plus 0.5em minus
   0.4em\relax Pearson Education India, 2011.
