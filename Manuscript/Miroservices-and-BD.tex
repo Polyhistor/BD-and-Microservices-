@@ -107,7 +107,9 @@ To synthesize our findings, thematic synthesis proposed by Cruzes and Dyba was a
 
 \subsection{First Review}
 
-The first SLR was the less extensive one, since it is just an update to an already existing study. For this purpose, the SLR conducted by Ataei et al. \cite{Ataei.2020}, as a thematically fitting study on big data reference architectures was extended up unto the current date, providing us with the necessary overview. We followed the exact same methodology and covered the years 2020-2022. Our main objective for this SLR was to highlight the fundamental requirements of big data systems. This was necessary as we needed to map patterns against requirements. This is explained further in TODO
+The first SLR was the less extensive one, since it is just an update to an already existing study. For this purpose, the SLR conducted by Ataei et al. \cite{Ataei.2020}, as a thematically fitting study on big data reference architectures was extended up unto the current date, providing us with the necessary overview. We followed the exact same methodology and covered the years 2020-2022. Our main objective for this SLR was to highlight the fundamental building blocks and requirements of big data systems. 
+
+While the common architectural constructs was discussed in \cite{Ataei.2020}, the study was not focused on requirements. We therefore extended the data synthesis by adding a new code: software and system requirements. This code had sub-codes each being named after one characteristics of big data. This was necessary as we needed to map patterns against requirements. This is further elaborated in the results section, subsection A.
 
 \subsection{Second Review}
 
@@ -334,9 +336,13 @@ After selecting the quality papers, we embarked on the data synthesis process. F
 
 % Pouya
 
-\section{Requirements Specification}
+\section{Results}
 
-Precursor to theorizing about the potential of microservices patterns for big data systems, we need to define what are the requirements of these systems. System and software requirements come in different flavours and can range from a sketch on a napkin to formal (mathematical) specifications. Therefore, we first need to identify what kind of requirements is the most suitable for the purposes of this study. To answer this question, we first explored the body of evidence to understand the current classification of software requirements. 
+\subsection{Requirements Specification}
+
+The results of our data synthesis emerged a few themes in regards to BD requirements. While we could find BD major building blocks and requirements from the body of evidence, our SLR did not include categorization and representation of these requirements. To this end, we performed a lightweight literature review in the body of evidence to find a rigorous approach for to categorized and represent BD requirements.
+
+Precursor to theorizing about the potential of microservices patterns for big data systems, we needed to define what are the requirements of these systems. System and software requirements come in different flavours and can range from a sketch on a napkin to formal (mathematical) specifications. Therefore, we first needed to identify what kind of requirements is the most suitable for the purposes of this study. To answer this question, we first explored the body of evidence to understand the current classification of software requirements. 
 
 There's been various attempts to defining and classifying software and system requirements. For instance, Sommerville (\cite{sommerville2011software}) classified requirements into three levels of abstraction that are namely 1) user requirements, 2) system requirements and 3) design specifications. The author then mapped these requirements against user acceptance testing, integration testing and unit testing. While this could satisfy the requirements of this study, we opted for a more general framework provided by Laplante (\cite{laplante2017requirements}). In Laplante's approach, requirements are categorized into three categories of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. 
 
@@ -446,7 +452,7 @@ Taking all into consideration, we categorized our requirements based on the majo
 \end{center}
 
 
-\section{Microservice Patterns}
+\subsection{Microservice Patterns}
 
 As a result of this SLR, 50 microservice patterns have bene found. These patterns are then classified based on their function and the problem they solve. Each classifications and it's reasoning is depicted in table \ref{microservices-categorization}.
   
