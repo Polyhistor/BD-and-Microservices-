@@ -10,8 +10,6 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
-Warning--entry type for "Statisica" isn't style-file defined
---line 365 of file references.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -20,45 +18,45 @@ Warning--edition ordinal word "First edition" may be too high (or improper) for 
 Warning--empty year in Chaabane
 
 Done.
-You've used 42 entries,
+You've used 40 entries,
             4087 wiz_defined-function locations,
-            1068 strings with 16272 characters,
-and the built_in function-call counts, 28539 in all, are:
-= -- 2154
-> -- 786
+            1059 strings with 15898 characters,
+and the built_in function-call counts, 27749 in all, are:
+= -- 2108
+> -- 761
 < -- 181
-+ -- 413
-- -- 155
-* -- 1312
-:= -- 4231
-add.period$ -- 94
-call.type$ -- 42
-change.case$ -- 35
++ -- 400
+- -- 149
+* -- 1282
+:= -- 4113
+add.period$ -- 90
+call.type$ -- 40
+change.case$ -- 34
 chr.to.int$ -- 411
-cite$ -- 45
-duplicate$ -- 2097
-empty$ -- 2484
-format.name$ -- 185
-if$ -- 6675
+cite$ -- 43
+duplicate$ -- 2031
+empty$ -- 2395
+format.name$ -- 178
+if$ -- 6491
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 416
-newline$ -- 171
-num.names$ -- 41
-pop$ -- 1112
+int.to.str$ -- 40
+missing$ -- 400
+newline$ -- 163
+num.names$ -- 40
+pop$ -- 1057
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 2199
+skip$ -- 2140
 stack$ -- 0
-substring$ -- 1006
-swap$ -- 1581
+substring$ -- 1005
+swap$ -- 1546
 text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 42
+type$ -- 40
 warning$ -- 3
-while$ -- 115
-width$ -- 44
-write$ -- 413
-(There were 4 warnings)
+while$ -- 114
+width$ -- 42
+write$ -- 398
+(There were 3 warnings)

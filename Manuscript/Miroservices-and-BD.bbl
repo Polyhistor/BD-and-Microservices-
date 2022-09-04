@@ -230,11 +230,6 @@ M.~Chaabane, I.~Bouassida, and M.~Jmaiel, ``System of systems software
   \emph{Proceedings of the Symposium on Applied Computing}, Conference
   Proceedings, pp. 1793--1798.
 
-\bibitem{gamma1995design}
-E.~Gamma, R.~Helm, R.~Johnson, R.~E. Johnson, J.~Vlissides \emph{et~al.},
-  \emph{Design patterns: elements of reusable object-oriented software}.\hskip
-  1em plus 0.5em minus 0.4em\relax Pearson Deutschland GmbH, 1995.
-
 \bibitem{eryurek2021data}
 E.~Eryurek, U.~Gilad, V.~Lakshmanan, A.~Kibunguchy-Grant, and J.~Ashdown,
   \emph{Data Governance: The Definitive Guide}.\hskip 1em plus 0.5em minus
@@ -263,13 +258,6 @@ H.~Kallio, A.-M. Pietil{\"a}, M.~Johnson, and M.~Kangasniemi, ``Systematic
 P.~Ataei and D.~Staegemann, ``Interview guide for the paper: Application of
   microservices patterns to big data systems,'' 2022. [Online]. Available:
   \url{https://anonymous.4open.science/r/SSI-Repo-F90E/SSI.pdf}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Statisica}
-\BIBentryALTinterwordspacing
-``Organizations' adoption level of microservices worldwide in 2021.'' [Online].
-  Available:
-  \url{https://www.statista.com/statistics/1233937/microservices-adoption-level-organization/}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
