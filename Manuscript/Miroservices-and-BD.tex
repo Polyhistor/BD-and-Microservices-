@@ -251,7 +251,7 @@ Overall, the keyword search yielded 3064 contributions. The total number of foun
 
 The remaining 1868 papers were filtered by title to evaluate their relevance to the concepts of microservice patterns or architectural constructs related to microservices. For this purpose, the first two authors separately evaluated each entry. If both agreed, this verdict was honored. In case of disagreement, they discussed the title to come to a conclusion. In this phase, the first author initially included 113 papers and the second author 146. Of those, 41 were present in both sets and 1650 were excluded by both. This equates to an agreement rate of 90,5 percent (1691 of 1868 records) between the authors. After discussing the contributions with divergent evaluations, in total, 1699 of the 1868 papers were excluded, leaving 169 items for the next round. 
 
-The same approach was followed for abstracts. With a difference that authors agreed to also allow themselves to look into the actual paper and not just the abstract, if they wanted to further explore certain aspects of the study to improve their judgement. As a result, the first author evaluated 40 papers positively, and the second one 28. Both agreed on the inclusion of 22 papers and the exclusion of 123. This equates to an agreement rate of 85,8 percent (145 of 169 records) between the authors. It was stipulated so if the agreement could not be reached, an arbitrator would be invited to the research Yet, this was not necessary. In total of the 169 papers, 138 were removed and 31 were included in the next phase.
+Fig. 1The same approach was followed for abstracts. With a difference that authors agreed to also allow themselves to look into the actual paper and not just the abstract, if they wanted to further explore certain aspects of the study to improve their judgement. As a result, the first author evaluated 40 papers positively, and the second one 28. Both agreed on the inclusion of 22 papers and the exclusion of 123. This equates to an agreement rate of 85,8 percent (145 of 169 records) between the authors. It was stipulated so if the agreement could not be reached, an arbitrator would be invited to the research Yet, this was not necessary. In total of the 169 papers, 138 were removed and 31 were included in the next phase.
 
 While conducting the first steps of our filter process, we encountered several hurdles that shall be highlighted to ensure transparency, especially since they can slightly affect the number of remaining entries after those initial phases. However, the final set of literature was not impacted and, therefore, those factors did not pose a threat to the studies validity. For once, since not all entries of the combined literature list specified a digital object identifier (DOI), the duplicate removal had to be conducted based on the publication title. Yet, in some rare cases, there were duplicates for which the spelling of the title was slightly altered (e.g., the two parts of a title were in one search engine separated by a hyphen and in another by a double colon), and which were, therefore, not detected in the initial duplicate removal phase. Instead, they were only identified during the scanning of the title. 
 
@@ -416,56 +416,56 @@ We have then looked for a rigorous approach to present these requirements. There
 
 \subsection{Microservice Patterns}
 
-As a result of this SLR, 50 microservice patterns have bene found. These patterns are then classified based on their function and the problem they solve. Each classifications and it's reasoning is depicted in table \ref{microservices-categorization}.
+As a result of this SLR, our data synthesis yielded 50 microservice patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS patterns. These patterns can be found in \cite{MSPatterns}.
   
-\begin{center}
-    \begin{table*}
-    \renewcommand*{\arraystretch}{1.8}
-    \begin{tabular}{ | m{3cm} | m{12cm} | }
+% \begin{center}
+%     \begin{table*}
+%     \renewcommand*{\arraystretch}{1.8}
+%     \begin{tabular}{ | m{3cm} | m{12cm} | }
 
-        \hline
+%         \hline
 
-        Category & Pattern
+%         Category & Pattern
  
-        \\
+%         \\
 
-        \hline
+%         \hline
 
-        Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
+%         Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
  
-        \\
+%         \\
 
-        \hline
+%         \hline
 
-        Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
+%         Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
  
-        \\
+%         \\
 
-        \hline
+%         \hline
 
-        Communicational & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
+%         Communicational & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
         
  
-        \\
+%         \\
 
-        \hline
+%         \hline
 
-        Fault Tolerance & Circuit breaker, Bulkhead pattern
+%         Fault Tolerance & Circuit breaker, Bulkhead pattern
  
-        \\
-        \hline
+%         \\
+%         \hline
 
-        Observability & Log Aggregation Pattern
+%         Observability & Log Aggregation Pattern
  
-        \\
-        \hline
+%         \\
+%         \hline
 
 
-    \end{tabular}
-    \caption{Microservices categorization}
-    \label{microservices-categorization}
-    \end{table*}
-\end{center}
+%     \end{tabular}
+%     \caption{Microservices categorization}
+%     \label{microservices-categorization}
+%     \end{table*}
+% \end{center}
 
 
 % \begin{center}
@@ -818,15 +818,13 @@ As a result of this SLR, 50 microservice patterns have bene found. These pattern
 \section{Application of Microservices Design Patterns to Big Data Systems}
 
 
-In this section, we combine our findings from both SLRs, and present new theories on application of microservices design patterns for big data systems. The patterns gleaned, are established theories that are derived from actual problems in microservices systems in practice, thus we do not aim to re-validate them in this study. Moreover, we do not aim to validate the theories proposed in this study through an empirical study.
+In this section, we combine our findings from both SLRs, and present new theories on application of microservices design patterns for big data systems. The patterns gleaned, are established theories that are derived from actual problems in microservices systems in practice, thus we do not aim to re-validate them in this study. 
 
-The main contribution of our work is to propose new theories and try to apply some of the well-known software engineering patterns to the realm of data engineering and in specific, big data. Based on this, we map big data system requirements against a pattern and provide with reasoning on why such pattern might work for big data systems. 
+The main contribution of our work is to propose new theories and try to apply some of the well-known software engineering patterns to the realm of data engineering and in specific, big data. Based on this, we map big data system requirements against a pattern and provide with reasoning on why such pattern might work for big data systems. We support our arguments by the means of modeling. We use Archimate (\cite{lankhorst2013language}) as recommend in ISO/IEC/IEEE 42010 (\cite{Chaabane}). 
 
-Big data systems and microservices architecture are both inherently distributed. While majority of current big data applications are designed underlying a monolithic data pipeline architecture, here, we propose microservices architecture for a domain-driven and decentralized big data architecture. We support our arguments by the means of modeling. We use Archimate (\cite{lankhorst2013language}) as recommend in ISO/IEC/IEEE 42010 (\cite{Chaabane}). 
+% Big data systems and microservices architecture are both inherently distributed. While many of the current big data systems are designed underlying a monolithic data pipeline architecture, here, we propose microservices architecture for a domain-driven and decentralized big data architecture.
 
-We posit that a pattern alone would not be significantly useful to a data engineering or a data architect, and propose that collection of a pattern in relation to current defacto standard of BD architectures is a better means of communication. 
-
-To achieve this, we've portray patterns selected for each requirement in a reference architecture. We then justify the components and describe how patterns could address the requirement. These descriptions are presented as sub section each describing one characteristic of big data systems. 
+We posit that a pattern alone would not be significantly useful to a data engineering or a data architect, and propose that a collection of patterns in relation to current defacto standard of BD architectures is a better means of communication. To achieve this, we've portray patterns selected for each requirement in a reference architecture. We then justify the components and describe how patterns could address the requirement. These descriptions are presented as sub section, each describing one characteristic of big data systems. 
 
 
 \subsection{Volume}
@@ -853,13 +851,13 @@ As discussed earlier, big data systems are made up of various nodes in order to 
 
 These configurations could be database network locations, feature flags, and third party credentials. Moreover, different stages of the data engineering may have different environments for different purposes, for instance, privacy engineers may require a completely different environment to achieve their requirements. Therefore, the challenge is the management of these configurations as the system scales, and enabling services to run in different environments without modification. To address this problem, we propose the external configuration store pattern, also known as the 'externalized configuration pattern'. 
 
-By externalizing all nodes configuration to another service, each node can request its configuration from an external store on boot up. This can be achieved in Docker files through the CMD command, or could be written in Terraform codes for a Kubernetes pod. This pattern solve the challenges of handling large number of nodes in big data systems and provide with a scalable solution for handling configurations. This pattern is portrayed in fig \ref{fig:vol}.
+By externalizing all nodes configuration to another service, each node can request its configuration from an external store on boot up. This can be achieved in Docker files through the CMD command, or could be written in Terraform codes for a Kubernetes pod. This pattern solve the challenges of handling large number of nodes in big data systems and provide with a scalable solution for handling configurations. This pattern is portrayed in fig \ref{fig:RA}.
 
 \begin{figure*}[h]
     \centering 
-    \includegraphics[width=17cm]{../Media/Vol-1 Requirement RA.jpg}
-    \caption{Design patterns for volume requirement}
-    \label{fig:vol}
+    \includegraphics[width=17cm]{../Media/All together.jpg}
+    \caption{Big data reference architecture with microservices patterns}
+    \label{fig:RA}
 \end{figure*}
 
 \subsection{Velocity}
@@ -891,11 +889,11 @@ Given that big data systems are comprising of many services, log aggregation can
 In addition, reliability engineers can configure alerts to be triggered underlying certain metrics. This increases teams agility to proactively resolve issue, which in turn increases reliability and availability which in turn addresses the velocity requirement of big data systems. While this design pattern does not directly affect any system requirements, it indirectly affects all of them. A simplistic reference architecture of these patterns have been portrayed in fig \ref{fig-vel-ra}
 
 
-\begin{figure*}[h!]
-    \includegraphics[width=17cm]{../Media/Velocity Requirement.jpg}
-    \caption{Design patterns for velocity requirements}
-    \label{fig-vel-ra}
-\end{figure*}
+% \begin{figure*}[h!]
+%     \includegraphics[width=17cm]{../Media/Velocity Requirement.jpg}
+%     \caption{Design patterns for velocity requirements}
+%     \label{fig-vel-ra}
+% \end{figure*}
 
 
 \subsection{Variety}
@@ -912,7 +910,7 @@ To address this problem, and to address big data requirements Var-1, Var-3, and 
 
 However, Gateways themselves should not be taking a lot of responsibility and become a bottleneck to the system. Therefore, as nodes increase and requirements emerge, one might chose to opt for 'Backend for Frontend' pattern. 
 
-We do not do any modeling for this section, as the high-level overview of API Gateway pattern is portrayed in fig \ref{fig:vol}.
+We do not do any modeling for this section, as the high-level overview of API Gateway pattern is portrayed in fig \ref{fig:RA}.
 
 \subsection{Value}
 
@@ -932,17 +930,17 @@ To address some of this challenges, we suggest CQRS pattern. CQRS separates the 
 
 Another pattern that comes useful when handling large number of data consumers is the anti-corruption layer. Given that the number of consumers and producers can grow and data can be created and requested in different formats with different characteristics, the ingestion and serving layer may be coupled to these foreign domains and try to account for an abstraction that aims to encapsulate all the logic in regards to all the external nodes. As the system grows, this abstraction layer becomes harder to maintain, and its maintainability becomes more difficult. 
 
-One approach to solve this issue is anti-corruption layer. Anti-corruption layer is a node that is placed between the serving layer and data consumers, isolating different systems and translating communication. This eliminates all the complexity and coupling that could have been otherwise introduced to the serving layer. This also allows for nodes to follow the 'single responsibility' pattern (\cite{gamma1995design}). Anti-corruption layer can define strong interfaces and quickly serve new demands without affecting much of the serving node's abstraction. In another terms, it avoids corruption that may happen among systems, by separating them. This pattern can help with requirements Val-3 and Val-4. We have portrayed this pattern and CQRS in fig \ref{fig:Value Requirements}.
+One approach to solve this issue is anti-corruption layer. Anti-corruption layer is a node that is placed between the serving layer and data consumers, isolating different systems and translating communication. This eliminates all the complexity and coupling that could have been otherwise introduced to the serving layer. This also allows for nodes to follow the 'single responsibility' pattern (\cite{gamma1995design}). Anti-corruption layer can define strong interfaces and quickly serve new demands without affecting much of the serving node's abstraction. In another terms, it avoids corruption that may happen among systems, by separating them. This pattern can help with requirements Val-3 and Val-4. We have portrayed this pattern and CQRS in fig \ref{fig:RA}.
 
 \subsubsection{Gateway Offloading}
 
 We have previously discussed this pattern, but in this section we aim to relate more to the value requirements of BD. Given that the various nodes in the system may require services such as authentication, authorization, monitoring, logging, and throttling, it would become really difficult to address the value aspect of big data in a timely manner. To address these issues and to achieve Val-3 and Val-4, we recommend the gateway offloading pattern. Employing this pattern abstracts out cross-cutting services from each node and creates a unified interface that each node can utilize. This simplifies the development of new services for handling new data formats, and free data engineers from implementing features that requires special knowledge such as security and privacy. 
 
-\begin{figure*}[h]
-    \includegraphics[width=17cm]{../Media/Value Requirement.jpg}
-    \caption[]{Design patterns for value requirement }
-    \label{fig:Value Requirements}
-\end{figure*}
+% \begin{figure*}[h]
+%     \includegraphics[width=17cm]{../Media/Value Requirement.jpg}
+%     \caption[]{Design patterns for value requirement }
+%     \label{fig:Value Requirements}
+% \end{figure*}
 
 \subsection{Security and Privacy}
 

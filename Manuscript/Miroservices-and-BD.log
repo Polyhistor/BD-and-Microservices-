@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 13:53
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
@@ -367,60 +367,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--398
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 1931) in paragraph at lines 440--440
-[]|\OT1/ptm/m/n/8 Platform and In-fras-truc-
- []
-
 [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-<../Media/Vol-1 Requirement RA.jpg, id=25, 1469.49pt x 743.77875pt>
-File: ../Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
-<use ../Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: ../Media/Vol-1 Requirement RA.jpg  used on input line 860.
-(pdftex.def)             Requested size: 483.69684pt x 244.82353pt.
+LaTeX Warning: Reference `fig:vol' on page 6 undefined on input line 846.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7]
-<../Media/Velocity Requirement.jpg, id=30, 1512.65125pt x 726.715pt>
-File: ../Media/Velocity Requirement.jpg Graphic file (type jpg)
-<use ../Media/Velocity Requirement.jpg>
-Package pdftex.def Info: ../Media/Velocity Requirement.jpg  used on input line 895.
-(pdftex.def)             Requested size: 483.69684pt x 232.37613pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <../Media/Vol-1 Requirement RA.jpg>] [9 <../Media/Velocity Requirement.jpg>]
-<../Media/Value Requirement.jpg, id=37, 1752.5475pt x 729.72626pt>
-File: ../Media/Value Requirement.jpg Graphic file (type jpg)
-<use ../Media/Value Requirement.jpg>
-Package pdftex.def Info: ../Media/Value Requirement.jpg  used on input line 942.
-(pdftex.def)             Requested size: 483.69684pt x 201.39352pt.
+[6]
+<../Media/All together.jpg, id=25, 1896.08376pt x 728.7225pt>
+File: ../Media/All together.jpg Graphic file (type jpg)
+<use ../Media/All together.jpg>
+Package pdftex.def Info: ../Media/All together.jpg  used on input line 858.
+(pdftex.def)             Requested size: 483.69684pt x 185.89404pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11 <../Media/Value Requirement.jpg>] [12] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl"
+
+LaTeX Warning: Reference `fig-vel-ra' on page 7 undefined on input line 889.
+
+[7] [8 <../Media/All together.jpg>] [9] [10] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl"
 Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ptm in TS1 encoding.
 (textcomp)             Default family used instead on input line 60.
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 290--294
 []\OT1/ptm/m/n/8 ``Organizations' adop-tion level of mi-croser-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 282--286
+Underfull \hbox (badness 3735) in paragraph at lines 290--294
 \OT1/ptm/m/n/8 vices world-wide in 2021.'' [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
+Underfull \hbox (badness 10000) in paragraph at lines 290--294
 \OT1/ptm/m/n/8 https://www.statista.com/statistics/1233937/microservices-adoption-
  []
 
@@ -436,21 +415,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[14
+[12] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux")
 
-] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux") ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5558 strings out of 480795
- 83615 string characters out of 2913777
+ 5546 strings out of 480795
+ 83131 string characters out of 2913777
  341147 words of memory out of 3000000
- 21504 multiletter control sequences out of 15000+200000
+ 21494 multiletter control sequences out of 15000+200000
  573557 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,1504b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,43p,1504b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (14 pages, 561746 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (12 pages, 502681 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

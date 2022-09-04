@@ -150,7 +150,7 @@ A.~C. Tricco, E.~Lillie, W.~Zarin, K.~K. O'Brien, H.~Colquhoun, D.~Levac,
 
 \bibitem{CASP}
 \BIBentryALTinterwordspacing
- [Online]. Available: \url{https://casp-uk.net/casp-tools-checklists/}
+CASP. [Online]. Available: \url{https://casp-uk.net/casp-tools-checklists/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{kitchenham2002preliminary}
@@ -230,6 +230,14 @@ I.~29148:2018, ``Iso/iec 29148:2018,'' 2018. [Online]. Available:
 A.~Abran, J.~W. Moore, P.~Bourque, R.~Dupuis, and L.~Tripp, ``Software
   engineering body of knowledge,'' \emph{IEEE Computer Society, Angela
   Burgess}, p.~25, 2004.
+
+\bibitem{MSPatterns}
+\BIBentryALTinterwordspacing
+P.~Ataei and D.~Staegemann, ``Microservices patterns classified for the paper
+  titled: Application of microservices patterns to big data systems,'' 2022.
+  [Online]. Available:
+  \url{https://anonymous.4open.science/r/MS-Patterns-5519/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{lankhorst2013language}
 M.~Lankhorst, ``A language for enterprise modelling,'' in \emph{Enterprise
