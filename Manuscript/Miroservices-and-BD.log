@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 13:57
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
@@ -389,17 +389,17 @@ Package textcomp Info: Symbol \textasciiacute not provided by
 (textcomp)             font family ptm in TS1 encoding.
 (textcomp)             Default family used instead on input line 60.
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
+Underfull \hbox (badness 10000) in paragraph at lines 270--274
 []\OT1/ptm/m/n/8 ``Organizations' adop-tion level of mi-croser-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 290--294
+Underfull \hbox (badness 3735) in paragraph at lines 270--274
 \OT1/ptm/m/n/8 vices world-wide in 2021.'' [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
+Underfull \hbox (badness 10000) in paragraph at lines 270--274
 \OT1/ptm/m/n/8 https://www.statista.com/statistics/1233937/microservices-adoption-
  []
 
@@ -421,15 +421,15 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5546 strings out of 480795
- 83131 string characters out of 2913777
- 341147 words of memory out of 3000000
- 21494 multiletter control sequences out of 15000+200000
+ 5542 strings out of 480795
+ 83036 string characters out of 2913777
+ 340147 words of memory out of 3000000
+ 21490 multiletter control sequences out of 15000+200000
  573557 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,43p,1504b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (12 pages, 502681 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (12 pages, 501407 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
