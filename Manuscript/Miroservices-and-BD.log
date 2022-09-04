@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 15:30
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/Manuscript/Miroservices-and-BD.tex"
@@ -313,79 +313,74 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+) [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] [2]
-<../Media/PRISMA-Flowchart.JPG, id=12, 638.385pt x 822.82407pt>
+]
+<../Media/PRISMA-Flowchart.JPG, id=9, 638.385pt x 822.82407pt>
 File: ../Media/PRISMA-Flowchart.JPG Graphic file (type jpg)
 <use ../Media/PRISMA-Flowchart.JPG>
-Package pdftex.def Info: ../Media/PRISMA-Flowchart.JPG  used on input line 245.
+Package pdftex.def Info: ../Media/PRISMA-Flowchart.JPG  used on input line 249.
 (pdftex.def)             Requested size: 227.62204pt x 293.37895pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <../Media/PRISMA-Flowchart.JPG>]
-Overfull \hbox (4.08286pt too wide) in paragraph at lines 286--286
+[2]
+Overfull \hbox (4.08286pt too wide) in paragraph at lines 299--299
 []|\OT1/ptm/m/n/8 Quality
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 []|\OT1/ptm/m/n/8 Rating to
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 292--293
+Underfull \hbox (badness 3482) in paragraph at lines 305--306
 \OT1/ptm/m/n/8 re-port based on ex-pert
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 294--295
+Underfull \hbox (badness 1946) in paragraph at lines 307--308
 \OT1/ptm/m/n/8 com-mu-ni-cated, in-clud-ing
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 296--297
+Underfull \hbox (badness 1371) in paragraph at lines 309--310
 \OT1/ptm/m/n/8 which the re-search was
  []
 
 
-Overfull \hbox (2.8597pt too wide) in paragraph at lines 284--319
+Overfull \hbox (2.8597pt too wide) in paragraph at lines 297--332
 [][]
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <../Media/PRISMA-Flowchart.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []|\OT1/ptm/m/n/8 Security
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5]
+[4] [5]
 <../Media/All together.jpg, id=22, 1896.08376pt x 728.7225pt>
 File: ../Media/All together.jpg Graphic file (type jpg)
 <use ../Media/All together.jpg>
-Package pdftex.def Info: ../Media/All together.jpg  used on input line 858.
+Package pdftex.def Info: ../Media/All together.jpg  used on input line 871.
 (pdftex.def)             Requested size: 483.69684pt x 185.89404pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7 <../Media/All together.jpg>]
 
-LaTeX Warning: Reference `fig-vel-ra' on page 8 undefined on input line 887.
+LaTeX Warning: Reference `fig-vel-ra' on page 6 undefined on input line 900.
 
-[8] [9] [10] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl"
-Package textcomp Info: Symbol \textasciiacute not provided by
-(textcomp)             font family ptm in TS1 encoding.
-(textcomp)             Default family used instead on input line 60.
-)
+[6] [7 <../Media/All together.jpg>] [8] [9] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -397,23 +392,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[11] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux")
+[10] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5539 strings out of 480795
- 82999 string characters out of 2913777
- 340147 words of memory out of 3000000
- 21487 multiletter control sequences out of 15000+200000
- 573557 words of font info for 105 fonts, out of 3000000 for 9000
+ 5525 strings out of 480795
+ 82782 string characters out of 2913777
+ 339147 words of memory out of 3000000
+ 21474 multiletter control sequences out of 15000+200000
+ 573220 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,43p,1504b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk>{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (11 pages, 497190 bytes).
+{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf" (10 pages, 490319 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

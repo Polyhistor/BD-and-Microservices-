@@ -34,30 +34,11 @@ M.~technology review insights in partnership~with Databricks, ``Building a
   \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Volk.2019}
-M.~Volk, D.~Staegemann, M.~Pohl, and K.~Turowski, ``Challenging big data
-  engineering: Positioning of current and future development,'' in
-  \emph{Proceedings of the 4th International Conference on Internet of Things,
-  Big Data and Security}.\hskip 1em plus 0.5em minus 0.4em\relax {SCITEPRESS -
-  Science and Technology Publications}, 2019, pp. 351--358.
-
-\bibitem{ataei2020big}
-P.~Ataei and A.~T. Litchfield, ``Big data reference architectures, a systematic
-  literature review,'' 2020.
-
-\bibitem{Freymann.2020}
-A.~Freymann, F.~Maier, K.~Schaefer, and T.~B{\"o}hnel, ``Tackling the six
-  fundamental challenges of big data in research projects by utilizing a
-  scalable and modular architecture,'' in \emph{Proceedings of the 5th
-  International Conference on Internet of Things, Big Data and Security}.\hskip
-  1em plus 0.5em minus 0.4em\relax {SCITEPRESS - Science and Technology
-  Publications}, 2020, pp. 249--256.
-
-\bibitem{Nadareishvili.2016}
-I.~Nadareishvili, R.~Mitra, M.~McLarty, and M.~Amundsen, \emph{Microservice
-  architecture: Aligning principles, practices, and culture}, first
-  edition~ed.\hskip 1em plus 0.5em minus 0.4em\relax Beijing and Boston and
-  Farnham and Sebastopol and Tokyo: O´Reilly, 2016.
+\bibitem{Richardson.2022}
+\BIBentryALTinterwordspacing
+C.~Richardson, ``A pattern language for microservices,'' 2022. [Online].
+  Available: \url{https://microservices.io/patterns/index.html}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Ataei.2020}
 P.~Ataei and A.~Litchfield, ``Big data reference architectures, a systematic
@@ -117,23 +98,6 @@ D.~S. Cruzes and T.~Dyba, ``Recommended steps for thematic synthesis in
   Software Engineering and Measurement}.\hskip 1em plus 0.5em minus 0.4em\relax
   IEEE, 2011, pp. 275--284.
 
-\bibitem{buschmann2008pattern}
-F.~Buschmann, R.~Meunier, H.~Rohnert, P.~Sommerlad, and M.~Stal,
-  \emph{Pattern-Oriented Software Architecture: A System of Patterns, Volume
-  1}.\hskip 1em plus 0.5em minus 0.4em\relax John wiley \& sons, 2008, vol.~1.
-
-\bibitem{Richardson.2022}
-\BIBentryALTinterwordspacing
-C.~Richardson, ``A pattern language for microservices,'' 2022. [Online].
-  Available: \url{https://microservices.io/patterns/index.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{rethlefsen2021prisma}
-M.~L. Rethlefsen, S.~Kirtley, S.~Waffenschmidt, A.~P. Ayala, D.~Moher, M.~J.
-  Page, and J.~B. Koffel, ``Prisma-s: an extension to the prisma statement for
-  reporting literature searches in systematic reviews,'' \emph{Systematic
-  reviews}, vol.~10, no.~1, pp. 1--19, 2021.
-
 \bibitem{SLRsearchTerms}
 \BIBentryALTinterwordspacing
 P.~Ataei and D.~Staegemann, ``Systematic literature review search terms table
@@ -148,30 +112,9 @@ A.~C. Tricco, E.~Lillie, W.~Zarin, K.~K. O'Brien, H.~Colquhoun, D.~Levac,
   extension for scoping reviews (prisma-scr): checklist and explanation,''
   \emph{Annals of internal medicine}, vol. 169, no.~7, pp. 467--473, 2018.
 
-\bibitem{CASP}
-\BIBentryALTinterwordspacing
-CASP. [Online]. Available: \url{https://casp-uk.net/casp-tools-checklists/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{kitchenham2002preliminary}
-B.~A. Kitchenham, S.~L. Pfleeger, L.~M. Pickard, P.~W. Jones, D.~C. Hoaglin,
-  K.~El~Emam, and J.~Rosenberg, ``Preliminary guidelines for empirical research
-  in software engineering,'' \emph{IEEE Transactions on software engineering},
-  vol.~28, no.~8, pp. 721--734, 2002.
-
-\bibitem{sommerville2011software}
-I.~Sommerville, \emph{Software Engineering, 9/E}.\hskip 1em plus 0.5em minus
-  0.4em\relax Pearson Education India, 2011.
-
 \bibitem{laplante2017requirements}
 P.~A. Laplante, \emph{Requirements engineering for software and systems}.\hskip
   1em plus 0.5em minus 0.4em\relax Auerbach Publications, 2017.
-
-\bibitem{Demchenko2014}
-Y.~Demchenko, C.~De~Laat, and P.~Membrey, ``Defining architecture components of
-  the big data ecosystem,'' in \emph{2014 International Conference on
-  Collaboration Technologies and Systems (CTS)}.\hskip 1em plus 0.5em minus
-  0.4em\relax IEEE, 2014, Conference Proceedings, pp. 104--112.
 
 \bibitem{Bughin2016}
 J.~Bughin, ``Big data, big bang?'' \emph{Journal of Big Data}, vol.~3, no.~1,
@@ -194,6 +137,10 @@ W.~L. Chang and N.~Grady, ``Nist big data interoperability framework: Volume 1,
   definitions,'' 2019. [Online]. Available:
   \url{https://doi.org/10.6028/NIST.SP.1500-1r2}
 \BIBentrySTDinterwordspacing
+
+\bibitem{ataei2020big}
+P.~Ataei and A.~T. Litchfield, ``Big data reference architectures, a systematic
+  literature review,'' 2020.
 
 \bibitem{kassab2014state}
 M.~Kassab, C.~Neill, and P.~Laplante, ``State of practice in requirements
@@ -238,14 +185,6 @@ E.~Eryurek, U.~Gilad, V.~Lakshmanan, A.~Kibunguchy-Grant, and J.~Ashdown,
 \bibitem{wieringa2014design}
 R.~J. Wieringa, \emph{Design science methodology for information systems and
   software engineering}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2014.
-
-\bibitem{Adams}
-\BIBentryALTinterwordspacing
-W.~C. Adams, \emph{Conducting Semi-Structured Interviews}.\hskip 1em plus 0.5em
-  minus 0.4em\relax John Wiley \& Sons, Ltd, 2015, ch.~19, pp. 492--505.
-  [Online]. Available:
-  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119171386.ch19}
-\BIBentrySTDinterwordspacing
 
 \bibitem{kallio2016systematic}
 H.~Kallio, A.-M. Pietil{\"a}, M.~Johnson, and M.~Kangasniemi, ``Systematic
