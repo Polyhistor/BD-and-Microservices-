@@ -1,9 +1,9 @@
-PWD c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript
+PWD c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.tex
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.log
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\IEEEtran.cls
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\IEEEtran.cls
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.tex
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.log
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\IEEEtran.cls
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\IEEEtran.cls
 INPUT D:\MikTex\tex\latex\psnfss\ot1ptm.fd
 INPUT D:\MikTex\tex\latex\psnfss\ot1ptm.fd
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr7t.tfm
@@ -98,9 +98,9 @@ INPUT D:\MikTex\tex\latex\caption\caption3.sty
 INPUT D:\MikTex\tex\latex\caption\caption3.sty
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.aux
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.aux
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.aux
 INPUT D:\MikTex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\MikTex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -126,7 +126,7 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmrc7t.tfm
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.pdf
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.pdf
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
@@ -144,13 +144,11 @@ INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT ..\Media\PRISMA-Flowchart.JPG
-INPUT ..\Media\PRISMA-Flowchart.JPG
-INPUT ..\Media\PRISMA-Flowchart.JPG
-INPUT ..\Media\PRISMA-Flowchart.JPG
-INPUT ..\Media\PRISMA-Flowchart.JPG
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT D:\MikTex\tex\latex\psnfss\ot1pcr.fd
+INPUT D:\MikTex\tex\latex\psnfss\ot1pcr.fd
+INPUT D:\MikTex\fonts\tfm\adobe\courier\pcrr7t.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmr6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmmi6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmsy6.tfm
@@ -163,20 +161,15 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT D:\MikTex\fonts\vf\adobe\courier\pcrr7t.vf
+INPUT D:\MikTex\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmb7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT ..\Media\All together.jpg
-INPUT ..\Media\All together.jpg
-INPUT ..\Media\All together.jpg
-INPUT ..\Media\All together.jpg
-INPUT ..\Media\All together.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.bbl
-INPUT D:\MikTex\fonts\vf\adobe\times\ptmri7t.vf
-INPUT D:\MikTex\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\Manuscript\Miroservices-and-BD.aux
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.aux
 INPUT D:\MikTex\fonts\enc\dvips\base\8r.enc
+INPUT D:\MikTex\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT D:\MikTex\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT D:\MikTex\fonts\type1\urw\times\utmb8a.pfb
 INPUT D:\MikTex\fonts\type1\urw\times\utmb8a.pfb
 INPUT D:\MikTex\fonts\type1\urw\times\utmbi8a.pfb
