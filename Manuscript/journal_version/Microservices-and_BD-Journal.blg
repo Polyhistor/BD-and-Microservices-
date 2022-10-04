@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Microservices-and_BD-Journal.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: spbasic.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+`journal' is a missing field, not a string, for entry ataei2020big
+while executing---line 1650 of file spbasic.bst
+Warning--empty journal in ataei2020big
+Warning--empty year in Chaabane; set to ????
+Warning--there's a number but no volume in staegemann2021examining
+Warning--can't use both volume and number fields in zhelev2019using
+You've used 30 entries,
+            3270 wiz_defined-function locations,
+            848 strings with 11199 characters,
+and the built_in function-call counts, 39318 in all, are:
+= -- 4094
+> -- 1058
+< -- 28
++ -- 452
+- -- 336
+* -- 3018
+:= -- 4772
+add.period$ -- 29
+call.type$ -- 30
+change.case$ -- 276
+chr.to.int$ -- 27
+cite$ -- 34
+duplicate$ -- 3802
+empty$ -- 3107
+format.name$ -- 430
+if$ -- 8240
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 305
+newline$ -- 100
+num.names$ -- 120
+pop$ -- 1076
+preamble$ -- 1
+purify$ -- 231
+quote$ -- 0
+skip$ -- 1298
+stack$ -- 0
+substring$ -- 3866
+swap$ -- 1708
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 261
+warning$ -- 4
+while$ -- 262
+width$ -- 0
+write$ -- 338
+(There was 1 error message)

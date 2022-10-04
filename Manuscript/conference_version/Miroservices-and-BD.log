@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 OCT 2022 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 OCT 2022 22:06
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/conference_version/Miroservices-and-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/conference_version/Miroservices-and-BD.tex"
@@ -313,92 +313,20 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Citation `NewVantageSurvey' on page 1 undefined on input line 57.
-
-
-LaTeX Warning: Citation `DataBricksSurvey' on page 1 undefined on input line 57.
-
-
-LaTeX Warning: Citation `Richardson.2022' on page 1 undefined on input line 71.
-
-
-LaTeX Warning: Citation `Ataei.2020' on page 1 undefined on input line 75.
-
-
-LaTeX Warning: Citation `laigner2020monolithic' on page 1 undefined on input line 86.
-
-
-LaTeX Warning: Citation `zhelev2019using' on page 1 undefined on input line 86.
-
-[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+) [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
+<Media/PRISMA-Flowchart.JPG, id=9, 638.385pt x 822.82407pt>
+File: Media/PRISMA-Flowchart.JPG Graphic file (type jpg)
+<use Media/PRISMA-Flowchart.JPG>
+Package pdftex.def Info: Media/PRISMA-Flowchart.JPG  used on input line 249.
+(pdftex.def)             Requested size: 227.62204pt x 293.37895pt.
 
-LaTeX Warning: Citation `staegemann2021examining' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `Phi' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `Kitchenham.2004' on page 2 undefined on input line 94.
-
-
-LaTeX Warning: Citation `Page.2021' on page 2 undefined on input line 94.
-
-
-LaTeX Warning: Citation `Cruzes.2011' on page 2 undefined on input line 94.
-
-
-LaTeX Warning: Citation `Ataei.2020' on page 2 undefined on input line 108.
-
-
-LaTeX Warning: Citation `Ataei.2020' on page 2 undefined on input line 110.
-
-
-LaTeX Warning: Citation `SLRsearchTerms' on page 2 undefined on input line 123.
-
-
-LaTeX Warning: Citation `tricco2018prisma' on page 2 undefined on input line 228.
-
-
-LaTeX Warning: Citation `Kitchenham.2004' on page 2 undefined on input line 236.
-
-
-LaTeX Warning: Reference `qualityFramework' on page 2 undefined on input line 236.
-
-
-LaTeX Warning: File `../Media/PRISMA-Flowchart.JPG' not found on input line 249.
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/conference_version/Miroservices-and-BD.tex:249: Package pdftex.def Error: File `../Media/PRISMA-Flowchart.JPG' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 ...width=8cm]{../Media/PRISMA-Flowchart.JPG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 249.
-(D:\MikTex\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
-
-LaTeX Warning: Reference `qualityFramework' on page 3 undefined on input line 279.
-
-
 Overfull \hbox (4.08286pt too wide) in paragraph at lines 299--299
 []|\OT1/ptm/m/n/8 Quality
  []
@@ -432,40 +360,9 @@ Overfull \hbox (2.8597pt too wide) in paragraph at lines 297--332
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Cruzes.2011' on page 3 undefined on input line 344.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[3]
-
-LaTeX Warning: Citation `laplante2017requirements' on page 4 undefined on input line 361.
-
-
-LaTeX Warning: Citation `Bughin2016' on page 4 undefined on input line 365.
-
-
-LaTeX Warning: Citation `rad2017big' on page 4 undefined on input line 365.
-
-
-LaTeX Warning: Citation `nadal2017software' on page 4 undefined on input line 365.
-
-
-LaTeX Warning: Citation `Chang.2019' on page 4 undefined on input line 365.
-
-
-LaTeX Warning: Citation `ataei2020big' on page 4 undefined on input line 371.
-
-
-LaTeX Warning: Citation `kassab2014state' on page 4 undefined on input line 374.
-
-
-LaTeX Warning: Citation `ISO29148' on page 4 undefined on input line 374.
-
-
-LaTeX Warning: Citation `abran2004software' on page 4 undefined on input line 374.
-
-
-LaTeX Warning: Reference `table-requirements' on page 4 undefined on input line 374.
-
-
+ [3 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/conference_version/Media/PRISMA-Flowchart.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []|\OT1/ptm/m/n/8 Security
  []
@@ -473,91 +370,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--412
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `Richardson.2022' on page 4 undefined on input line 432.
-
-
-LaTeX Warning: Citation `MSPatterns' on page 4 undefined on input line 432.
-
-
-LaTeX Warning: Citation `lankhorst2013language' on page 4 undefined on input line 836.
-
-
-LaTeX Warning: Citation `Chaabane' on page 4 undefined on input line 836.
-
-[4]
-
-LaTeX Warning: Citation `ataei2020big' on page 5 undefined on input line 853.
-
-
-LaTeX Warning: Reference `fig:RA' on page 5 undefined on input line 859.
-
-[5]
-
-LaTeX Warning: Reference `fig:RA' on page 6 undefined on input line 867.
-
-
-LaTeX Warning: File `../Media/All together.jpg' not found on input line 871.
-
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/conference_version/Miroservices-and-BD.tex:871: Package pdftex.def Error: File `../Media/All together.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.871 ...cs[width=17cm]{../Media/All together.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[4] [5]
+<Media/All together.jpg, id=22, 1896.08376pt x 728.7225pt>
+File: Media/All together.jpg Graphic file (type jpg)
+<use Media/All together.jpg>
+Package pdftex.def Info: Media/All together.jpg  used on input line 871.
+(pdftex.def)             Requested size: 483.69684pt x 185.89404pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `DataBricksSurvey' on page 6 undefined on input line 882.
-
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 6 undefined on input line 886.
-
-
-LaTeX Warning: Reference `fig:RA' on page 6 undefined on input line 900.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-
-LaTeX Warning: Reference `fig:RA' on page 7 undefined on input line 918.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-
-LaTeX Warning: Reference `fig:RA' on page 8 undefined on input line 936.
-
-[8]
-
-LaTeX Warning: Citation `eryurek2021data' on page 9 undefined on input line 959.
-
-
-LaTeX Warning: Citation `wieringa2014design' on page 9 undefined on input line 979.
-
-
-LaTeX Warning: Citation `kallio2016systematic' on page 9 undefined on input line 979.
-
-
-LaTeX Warning: Citation `kallio2016systematic' on page 9 undefined on input line 988.
-
-
-LaTeX Warning: Citation `interviewGuide' on page 9 undefined on input line 998.
-
-[9]
-Underfull \vbox (badness 1412) has occurred while \output is active []
-
-
-No file Miroservices-and-BD.bbl.
+[6] [7 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/conference_version/Media/All together.jpg>] [8] [9] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -569,26 +392,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[10] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.aux")
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[10] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.aux") ) 
 Here is how much of TeX's memory you used:
- 5581 strings out of 480795
- 83859 string characters out of 2913777
- 339147 words of memory out of 3000000
- 21515 multiletter control sequences out of 15000+200000
- 572599 words of font info for 105 fonts, out of 3000000 for 9000
+ 5524 strings out of 480795
+ 83087 string characters out of 2913777
+ 338147 words of memory out of 3000000
+ 21473 multiletter control sequences out of 15000+200000
+ 573220 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,1533b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.pdf" (10 pages, 121539 bytes).
+ 38i,11n,43p,1533b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\conference_version\Miroservices-and-BD.pdf" (10 pages, 489709 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

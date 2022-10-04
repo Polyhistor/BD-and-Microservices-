@@ -49,9 +49,9 @@
 \usepackage{amsthm,amsmath}
 % \RequirePackage[numbers]{natbib}
 % \RequirePackage[authoryear]{natbib}% uncomment this for author-year bibliography
-% \RequirePackage{hyperref}
+\RequirePackage{hyperref}
 \usepackage[utf8]{inputenc} %unicode support
-% \usepackage[noadjust]{cite}
+\usepackage[noadjust]{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
@@ -64,8 +64,8 @@
 \captionsetup[table]{skip=6pt}
 
 
-%\usepackage[applemac]{inputenc} %applemac support if unicode package fails
-%\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+% \usepackage[applemac]{inputenc} %applemac support if unicode package fails
+% \usepackage[latin1]{inputenc} %UNIX support if unicode package fails
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
@@ -185,7 +185,7 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-  The panorama of data is ever evolving, and big data has emerged to become one of the most hyped terms in the industry. Today, users are the perpetual producers of data that if gleaned and crunched, will yield game-changing patterns. This has introduced an important shift about the role of data in organizations and many strived to harness to power of this new material. Howbeit, institutionalizing data is not an easy task and requires the absorption of a great deal of complexity. According to various sources, it is estimated that only 13\% of organizations succeeded in delivering on their data strategy. Among the root challenges, big data system development and data architecture are prominent. To this end, this study aims to facilitate data architecture and big data system development by applying well-established patterns of microservices architecture to big data systems. This objective is achieved by two systematic literature reviews, and infusion of results through thematic synthesis. The result of this work is a series of theories that explicates how microservices patterns could be useful for big data systems. These theories are then validated through a semi-structured interview with experts from the industry. The findings emerged from this study indicates that big data architecture can benefit from many principles and patterns of microservices architecture.
+  The panorama of data is ever evolving, and big data has emerged to become one of the most hyped terms in the industry. Today, users are the perpetual producers of data that if gleaned and crunched, will yield game-changing patterns. This has introduced an important shift about the role of data in organizations and many strived to harness to power of this new material. Howbeit, institutionalizing data is not an easy task and requires the absorption of a great deal of complexity. According to various sources, it is estimated that only 13\% of organizations succeeded in delivering on their data strategy. Among the root challenges, big data system development and data architecture are prominent. To this end, this study aims to facilitate data architecture and big data system development by applying well-established patterns of microservices architecture to big data systems. This objective is achieved by two systematic literature reviews, and infusion of results through thematic synthesis. The result of this work is a series of theories that explicates how microservices patterns could be useful for big data systems. These theories are then validated through a semi-structured interview with experts from the industry. The findings emerged from this study indicates that big data architecture can benefit from many principles and patterns of microservices architecture. 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -439,7 +439,7 @@ Overall, the keyword search yielded 3064 contributions. The total number of foun
 
 \begin{figure}[h]
     \centering 
-    \includegraphics[width=8cm]{../Media/PRISMA-Flowchart.JPG}
+    \includegraphics[width=8cm]{Media/PRISMA-Flowchart.JPG}
     \caption{Overview of the search process}
     \label{fig:PRISMA}
 \end{figure}
@@ -1058,7 +1058,7 @@ By externalizing all nodes configuration to another service, each node can reque
 
 \begin{figure*}[h]
     \centering 
-    \includegraphics[width=17cm]{../Media/All together.jpg}
+    \includegraphics[width=17cm]{Media/All together.jpg}
     \caption{Big data reference architecture with microservices patterns}
     \label{fig:RA}
 \end{figure*}
@@ -1210,15 +1210,14 @@ Majority of the studies that we've analyzed to understand BD systems, seems to r
 % A part of it is due to adoption of microservices architecture in the industry, and in specifically by IT giants (\cite{Statisica}). While BD is not been successfully adopted as much. A survey by MIT technology review insights presented that only 13\% of companies excel at delivering their BD strategy. 
 
 
-
-
+ 
 % Pouya
 \section{Conclusion}
 With all the undeniable benefits of BD, the success rate of BD projects is still rare. One of the core challenges of adopting BD lies in data architecture and data engineering. While software engineers have adopted many well-established methods and technologies, data engineering and BD architectures don't seem to benefit a lot from these advancements. 
 
 The aim of this study was to explore the relationship and application of MS architecture to BD systems through two distinct SLR. The results derived from these SLRs presented us with interesting data on the potential of MS patterns for BD systems. Given the distributed nature of BD systems, MS architectures seems to be a natural fit to solve myriad of problems that comes with decentralization. Even though we created many design theories, modeled patterns against systems, and validated our theories, we believe that our results could be further validated by an empirical study. We therefore posit that there is a need for more attention in the area of MS and event-driven architectures in relation to BD systems from both academia and industry. 
 
-% \section*{Appendix}
+\section*{Appendix}
 % Text for this section\ldots
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1227,7 +1226,7 @@ The aim of this study was to explore the relationship and application of MS arch
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \begin{backmatter}
+\begin{backmatter}
 
 % \section*{Acknowledgements}%% if any
 % Text for this section\ldots
@@ -1272,9 +1271,9 @@ The aim of this study was to explore the relationship and application of MS arch
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % if your bibliography is in bibtex format, use those commands:
-\bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
+\bibliographystyle{spbasic} % Style BST file (bmc-mathphys, vancouver, spbasic).
 \bibliography{references}      % Bibliography file (usually '*.
 
 
-% \end{backmatter}
+\end{backmatter}
 \end{document}

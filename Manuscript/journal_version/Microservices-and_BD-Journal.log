@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 OCT 2022 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 OCT 2022 22:46
 entering extended mode
-**"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/bmc_article.tex"
-("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/bmc_article.tex"
+**"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
+("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-05-15> ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\bmcart.cls"
 Document Class: bmcart 2017/07/31BioMed Central class (VS)
@@ -123,10 +123,116 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
+) (D:\MikTex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+ (D:\MikTex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (D:\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (D:\MikTex\tex/latex/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (D:\MikTex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (D:\MikTex\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (D:\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (D:\MikTex\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (D:\MikTex\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (D:\MikTex\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (D:\MikTex\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (D:\MikTex\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen146
+\Hy@linkcounter=\count191
+\Hy@pagecounter=\count192
+ (D:\MikTex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (D:\MikTex\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (D:\MikTex\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count193
+Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
+
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count194
+(D:\MikTex\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen147
+ (D:\MikTex\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (D:\MikTex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count195
+\Field@Width=\dimen148
+\Fld@charsize=\dimen149
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring ON on input line 6365.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+ (D:\MikTex\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count196
+\c@Item=\count197
+\c@Hfootnote=\count198
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (D:\MikTex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+ (D:\MikTex\tex/latex/atveryend\atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count199
+\c@bookmark@seq@number=\count266
+ (D:\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (D:\MikTex\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip55
 ) (D:\MikTex\tex/latex/base\inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks29
 \inpenc@posthook=\toks30
+) (D:\MikTex\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 ) (D:\MikTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (D:\MikTex\tex/latex/amsfonts\amsfonts.sty
@@ -141,12 +247,12 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
  (D:\MikTex\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@ALC@unique=\count191
-\c@ALC@line=\count192
-\c@ALC@rem=\count193
-\c@ALC@depth=\count194
-\ALC@tlm=\skip55
-\algorithmicindent=\skip56
+\c@ALC@unique=\count267
+\c@ALC@line=\count268
+\c@ALC@rem=\count269
+\c@ALC@depth=\count270
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
 ) (D:\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
  (D:\MikTex\tex/latex/graphics\graphics.sty
@@ -158,31 +264,31 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen146
-\Gin@req@width=\dimen147
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 ) (D:\MikTex\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (D:\MikTex\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen148
+\col@sep=\dimen152
 \ar@mcellbox=\box51
-\extrarowheight=\dimen149
+\extrarowheight=\dimen153
 \NC@list=\toks31
-\extratabsurround=\skip57
-\backup@length=\skip58
+\extratabsurround=\skip58
+\backup@length=\skip59
 \ar@cellbox=\box52
 ) (D:\MikTex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count195
+\etb@tempcnta=\count271
 ) (D:\MikTex\tex/latex/multirow\multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip59
-\multirow@cntb=\count196
-\multirow@dima=\skip60
-\bigstrutjot=\dimen150
+\multirow@colwidth=\skip60
+\multirow@cntb=\count272
+\multirow@dima=\skip61
+\bigstrutjot=\dimen154
 ) (D:\MikTex\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count197
+\c@float@type=\count273
 \float@exts=\toks32
 \float@box=\box53
 \@float@everytoks=\toks33
@@ -192,13 +298,13 @@ Package: caption 2020/05/10 v3.4j Customizing captions (AR)
  (D:\MikTex\tex/latex/caption\caption3.sty
 Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen151
-\captionmargin@=\dimen152
-\captionwidth=\dimen153
-\caption@tempdima=\dimen154
-\caption@indent=\dimen155
-\caption@parindent=\dimen156
-\caption@hangindent=\dimen157
+\captionmargin=\dimen155
+\captionmargin@=\dimen156
+\captionwidth=\dimen157
+\caption@tempdima=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2-> \vskip \abovecaptionskip \parbox [t]{\hsize }{\floatcaption@size {\floatcaptionname@size #1}\hskip .5em #2\par }\vskip \belowcaptionskip  on input line 1053.
@@ -208,15 +314,16 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count198
-\c@continuedfloat=\count199
+\c@caption@flags=\count274
+\c@continuedfloat=\count275
 Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
 ) (D:\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count266
+\l__kernel_color_stack_int=\count276
 \l__pdf_internal_box=\box55
-) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\bmc_article.aux")
-\openout1 = `bmc_article.aux'.
+) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux")
+\openout1 = `Microservices-and_BD-Journal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
@@ -232,18 +339,20 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
  (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count267
-\scratchdimen=\dimen158
+\scratchcounter=\count277
+\scratchdimen=\dimen162
 \scratchbox=\box56
-\nofMPsegments=\count268
-\nofMParguments=\count269
+\nofMPsegments=\count278
+\nofMParguments=\count279
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count270
-\MPscratchDim=\dimen159
-\MPnumerator=\count271
-\makeMPintoPDFobject=\count272
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen163
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks35
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -252,6 +361,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 93.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring ON on input line 93.
+ (D:\MikTex\tex/latex/hyperref\nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (D:\MikTex\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (D:\MikTex\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count283
+)
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
+\@outlinefile=\write3
+\openout3 = `Microservices-and_BD-Journal.out'.
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -288,6 +414,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 128.
 
 
+LaTeX Warning: Reference `bmc@corref@authorthanks' on page 1 undefined on input line 128.
+
+
 LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 132.
 
 
@@ -295,6 +424,12 @@ LaTeX Warning: Reference `aff2thanks' on page 1 undefined on input line 132.
 
 \address@aff1=\toks36
 \address@aff2=\toks37
+
+LaTeX Warning: Reference `bmc@corref@authorthanks' on page 1 undefined on input line 172.
+
+
+LaTeX Warning: Reference `au1@email' on page 1 undefined on input line 172.
+
 
 LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 172.
 
@@ -339,6 +474,9 @@ LaTeX Warning: Citation `Page.2021' on page 2 undefined on input line 287.
 
 LaTeX Warning: Citation `Cruzes.2011' on page 2 undefined on input line 287.
 
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 288.
+
 [2]
 
 LaTeX Warning: Citation `Ataei.2020' on page 3 undefined on input line 301.
@@ -349,6 +487,9 @@ LaTeX Warning: Citation `Ataei.2020' on page 3 undefined on input line 303.
 
 LaTeX Warning: Citation `SLRsearchTerms' on page 3 undefined on input line 316.
 
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 317.
+
 [3]
 
 LaTeX Warning: Citation `tricco2018prisma' on page 4 undefined on input line 421.
@@ -356,7 +497,22 @@ LaTeX Warning: Citation `tricco2018prisma' on page 4 undefined on input line 421
 
 LaTeX Warning: Citation `Kitchenham.2004' on page 4 undefined on input line 429.
 
+
+LaTeX Warning: Reference `qualityFramework' on page 4 undefined on input line 429.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 443.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 451.
+
 [4]
+
+LaTeX Warning: Reference `qualityFramework' on page 5 undefined on input line 472.
+
+
 Overfull \hbox (5.63907pt too wide) in paragraph at lines 492--492
 []|\OT1/cmss/m/n/8 Quality
  []
@@ -374,9 +530,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 535.
+
 [5]
 
 LaTeX Warning: Citation `Cruzes.2011' on page 6 undefined on input line 537.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 552.
 
 [6]
 
@@ -407,6 +569,9 @@ LaTeX Warning: Citation `ISO29148' on page 7 undefined on input line 566.
 LaTeX Warning: Citation `abran2004software' on page 7 undefined on input line 566.
 
 
+LaTeX Warning: Reference `table-requirements' on page 7 undefined on input line 566.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 604--604
 []|\OT1/cmss/m/n/8 Security
  []
@@ -430,6 +595,9 @@ LaTeX Warning: Citation `Richardson.2022' on page 7 undefined on input line 624.
 
 LaTeX Warning: Citation `MSPatterns' on page 7 undefined on input line 624.
 
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 625.
+
 [7]
 
 LaTeX Warning: Citation `lankhorst2013language' on page 8 undefined on input line 1026.
@@ -437,20 +605,64 @@ LaTeX Warning: Citation `lankhorst2013language' on page 8 undefined on input lin
 
 LaTeX Warning: Citation `Chaabane' on page 8 undefined on input line 1026.
 
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 1039.
+
 [8]
 
 LaTeX Warning: Citation `ataei2020big' on page 9 undefined on input line 1043.
 
+
+LaTeX Warning: Reference `fig:RA' on page 9 undefined on input line 1049.
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 1054.
+
 [9]
+
+LaTeX Warning: Reference `fig:RA' on page 10 undefined on input line 1057.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1062.
+See the caption package documentation for explanation.
+
 
 LaTeX Warning: Citation `DataBricksSurvey' on page 10 undefined on input line 1072.
 
 
 LaTeX Warning: Citation `ataei2021neomycelia' on page 10 undefined on input line 1076.
 
-[10] [11] [12] [13]
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 1077.
+
+[10]
+
+LaTeX Warning: Reference `fig:RA' on page 11 undefined on input line 1090.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 1091.
+
+[11]
+
+LaTeX Warning: Reference `fig:RA' on page 12 undefined on input line 1108.
+
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 1117.
+
+[12]
+
+LaTeX Warning: Reference `fig:RA' on page 13 undefined on input line 1126.
+
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 1141.
+
+[13]
 
 LaTeX Warning: Citation `eryurek2021data' on page 14 undefined on input line 1149.
+
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 1154.
 
 [14]
 
@@ -459,6 +671,9 @@ LaTeX Warning: Citation `wieringa2014design' on page 15 undefined on input line 
 
 LaTeX Warning: Citation `kallio2016systematic' on page 15 undefined on input line 1167.
 
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 1176.
+
 [15]
 
 LaTeX Warning: Citation `kallio2016systematic' on page 16 undefined on input line 1176.
@@ -466,9 +681,31 @@ LaTeX Warning: Citation `kallio2016systematic' on page 16 undefined on input lin
 
 LaTeX Warning: Citation `interviewGuide' on page 16 undefined on input line 1186.
 
-[16] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\bmc_article.bbl") 
+
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 1208.
+
+[16]
+No file Microservices-and_BD-Journal.bbl.
+
 AED: lastpage setting LastPage
-[17] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\bmc_article.aux")
+
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 1279.
+
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1279.
+ ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1279.
+
+
+Package rerunfilecheck Warning: File `Microservices-and_BD-Journal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Microservices-and_BD-Journal.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  2A654DAA37D5361560C812D6CD4BDB8F;3143.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -476,19 +713,29 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
- ) 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1279.
+ )
+(\end occurred when \ifx on line 172 was incomplete)
+(\end occurred when \iffalse on line 172 was incomplete) 
 Here is how much of TeX's memory you used:
- 5218 strings out of 480795
- 72814 string characters out of 2913777
- 324620 words of memory out of 3000000
- 21167 multiletter control sequences out of 15000+200000
- 544192 words of font info for 69 fonts, out of 3000000 for 9000
+ 9303 strings out of 480795
+ 135470 string characters out of 2913777
+ 412568 words of memory out of 3000000
+ 25077 multiletter control sequences out of 15000+200000
+ 544502 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,1540b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\bmc_article.pdf" (17 pages, 185090 bytes).
+ 38i,10n,43p,1562b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{aff2} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{aff1} has been referenced but does not exist, replaced by a fixed one
+
+<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (17 pages, 204786 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
