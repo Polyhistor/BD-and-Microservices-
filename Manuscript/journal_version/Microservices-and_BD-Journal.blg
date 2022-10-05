@@ -1,56 +1,71 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Microservices-and_BD-Journal.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
-The style file: spbasic.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: vancouver.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Database file #1: references.bib
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-`journal' is a missing field, not a string, for entry ataei2020big
-while executing---line 1650 of file spbasic.bst
-Warning--empty journal in ataei2020big
-Warning--empty year in Chaabane; set to ????
-Warning--there's a number but no volume in staegemann2021examining
+Database file #1: references.bib
+Warning--empty author and editor in NewVantageSurvey
+Warning--empty author and editor in DataBricksSurvey
+Warning--empty author and editor in Richardson.2022
+Warning--missing publisher in Richardson.2022
+Warning--empty pages in Ataei.2020
 Warning--can't use both volume and number fields in zhelev2019using
+Warning--there's a number but no volume in staegemann2021examining
+Warning--empty author and editor in SLRsearchTerms
+Warning--missing publisher in SLRsearchTerms
+Warning--empty author and editor in Chang.2019
+Warning--missing publisher in Chang.2019
+Warning--empty author and editor in ISO29148
+Warning--missing publisher in ISO29148
+Warning--empty author and editor in MSPatterns
+Warning--missing publisher in MSPatterns
+Warning--there's a month but no year in Chaabane
+Warning--empty author and editor in interviewGuide
+Warning--missing publisher in interviewGuide
 You've used 30 entries,
-            3270 wiz_defined-function locations,
-            848 strings with 11199 characters,
-and the built_in function-call counts, 39318 in all, are:
-= -- 4094
-> -- 1058
-< -- 28
-+ -- 452
-- -- 336
-* -- 3018
-:= -- 4772
-add.period$ -- 29
+            3170 wiz_defined-function locations,
+            821 strings with 10863 characters,
+and the built_in function-call counts, 47078 in all, are:
+= -- 5761
+> -- 341
+< -- 10
++ -- 194
+- -- 85
+* -- 3904
+:= -- 5127
+add.period$ -- 99
 call.type$ -- 30
-change.case$ -- 276
-chr.to.int$ -- 27
-cite$ -- 34
-duplicate$ -- 3802
-empty$ -- 3107
-format.name$ -- 430
-if$ -- 8240
-int.to.chr$ -- 4
-int.to.str$ -- 1
-missing$ -- 305
-newline$ -- 100
-num.names$ -- 120
-pop$ -- 1076
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 48
+duplicate$ -- 3507
+empty$ -- 4612
+format.name$ -- 106
+if$ -- 11079
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 269
+newline$ -- 145
+num.names$ -- 29
+pop$ -- 603
 preamble$ -- 1
-purify$ -- 231
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1298
+skip$ -- 618
 stack$ -- 0
-substring$ -- 3866
-swap$ -- 1708
+substring$ -- 9185
+swap$ -- 672
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 261
-warning$ -- 4
-while$ -- 262
-width$ -- 0
-write$ -- 338
-(There was 1 error message)
+type$ -- 0
+warning$ -- 18
+while$ -- 225
+width$ -- 32
+write$ -- 320
+(There were 18 warnings)

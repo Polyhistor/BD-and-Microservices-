@@ -1,169 +1,174 @@
-\begin{thebibliography}{30}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{{#1}}
-\providecommand{\urlprefix}{URL }
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
-  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
-  \urlstyle{rm}\Url}\fi
-\providecommand{\eprint}[2][]{\url{#2}}
+\begin{thebibliography}{10}
 
-\bibitem[{29148:2018(2018)}]{ISO29148}
-29148:2018 I (2018) Iso/iec 29148:2018.
-  \urlprefix\url{https://www.iso.org/standard/72089.html}
+\bibitem{NewVantageSurvey}
+Partners N. Big Data and AI Executive Survey 2021.
+\newblock NewVantage Partners; 2022.
+\newblock Available from: \url{https://www.newvantage.com/thoughtleadership}.
 
-\bibitem[{Abran et~al(2004)Abran, Moore, Bourque, Dupuis, and
-  Tripp}]{abran2004software}
-Abran A, Moore JW, Bourque P, Dupuis R, Tripp L (2004) Software engineering
-  body of knowledge. IEEE Computer Society, Angela Burgess p~25
-
-\bibitem[{Ataei and Litchfield(2020{\natexlab{a}})}]{Ataei.2020}
-Ataei P, Litchfield A (2020{\natexlab{a}}) Big data reference architectures, a
-  systematic literature review. In: Australasian Conference on Information
-  Systems (ACIS) 2020, AIS
-
-\bibitem[{Ataei and Litchfield(2021)}]{ataei2021neomycelia}
-Ataei P, Litchfield A (2021) Neomycelia: A software reference architecturefor
-  big data systems. In: 2021 28th Asia-Pacific Software Engineering Conference
-  (APSEC), IEEE, pp 452--462
-
-\bibitem[{Ataei and Litchfield(2020{\natexlab{b}})}]{ataei2020big}
-Ataei P, Litchfield AT (2020{\natexlab{b}}) Big data reference architectures, a
-  systematic literature review
-
-\bibitem[{Ataei and Staegemann(2022{\natexlab{a}})}]{interviewGuide}
-Ataei P, Staegemann D (2022{\natexlab{a}}) Interview guide for the paper:
-  Application of microservices patterns to big data systems.
-  \urlprefix\url{https://anonymous.4open.science/r/SSI-Repo-F90E/SSI.pdf}
-
-\bibitem[{Ataei and Staegemann(2022{\natexlab{b}})}]{MSPatterns}
-Ataei P, Staegemann D (2022{\natexlab{b}}) Microservices patterns classified
-  for the paper titled: Application of microservices patterns to big data
-  systems. \urlprefix\url{https://anonymous.4open.science/r/MS-Patterns-5519/}
-
-\bibitem[{Ataei and Staegemann(2022{\natexlab{c}})}]{SLRsearchTerms}
-Ataei P, Staegemann D (2022{\natexlab{c}}) Systematic literature review search
-  terms table for the paper titled: Application of microservices patterns to
-  big data systems.
-  \urlprefix\url{https://anonymous.4open.science/r/SLR-Search-Terms-3147/}
-
-\bibitem[{Bughin(2016)}]{Bughin2016}
-Bughin J (2016) Big data, big bang? Journal of Big Data 3(1):2,
-  \doi{10.1186/s40537-015-0014-3}
-
-\bibitem[{Chaabane et~al(????)Chaabane, Bouassida, and Jmaiel}]{Chaabane}
-Chaabane M, Bouassida I, Jmaiel M (????) System of systems software
-  architecture description using the iso/iec/ieee 42010 standard. In:
-  Proceedings of the Symposium on Applied Computing, pp 1793--1798
-
-\bibitem[{Chang and Grady(2019)}]{Chang.2019}
-Chang WL, Grady N (2019) Nist big data interoperability framework: Volume 1,
-  definitions. \urlprefix\url{https://doi.org/10.6028/NIST.SP.1500-1r2}
-
-\bibitem[{Cruzes and Dyba(2011)}]{Cruzes.2011}
-Cruzes DS, Dyba T (2011) Recommended steps for thematic synthesis in software
-  engineering. In: 2011 International Symposium on Empirical Software
-  Engineering and Measurement, IEEE, pp 275--284, \doi{10.1109/ESEM.2011.36}
-
-\bibitem[{technology review insights in partnership~with
-  Databricks(2021)}]{DataBricksSurvey}
-technology review insights in partnership~with Databricks M (2021) Building a
+\bibitem{DataBricksSurvey}
+technology review insights in partnership~with Databricks M. Building a
   high-performance data organization.
-  \urlprefix\url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}
+\newblock Databricks; 2021.
+\newblock Available from:
+  \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}.
 
-\bibitem[{Eryurek et~al(2021)Eryurek, Gilad, Lakshmanan, Kibunguchy-Grant, and
-  Ashdown}]{eryurek2021data}
-Eryurek E, Gilad U, Lakshmanan V, Kibunguchy-Grant A, Ashdown J (2021) Data
-  Governance: The Definitive Guide. " O'Reilly Media, Inc."
+\bibitem{Richardson.2022}
+Richardson C. A pattern language for microservices; 2022.
+\newblock Available from: \url{https://microservices.io/patterns/index.html}.
 
-\bibitem[{Kallio et~al(2016)Kallio, Pietil{\"a}, Johnson, and
-  Kangasniemi}]{kallio2016systematic}
-Kallio H, Pietil{\"a} AM, Johnson M, Kangasniemi M (2016) Systematic
-  methodological review: developing a framework for a qualitative
-  semi-structured interview guide. Journal of advanced nursing
-  72(12):2954--2965
+\bibitem{Ataei.2020}
+Ataei P, Litchfield A.
+\newblock Big Data Reference Architectures, a systematic literature review.
+\newblock In: Australasian Conference on Information Systems (ACIS) 2020. AIS;
+  2020. .
 
-\bibitem[{Kassab et~al(2014)Kassab, Neill, and Laplante}]{kassab2014state}
-Kassab M, Neill C, Laplante P (2014) State of practice in requirements
-  engineering: contemporary data. Innovations in Systems and Software
-  Engineering 10(4):235--241
+\bibitem{laigner2020monolithic}
+Laigner R, Kalinowski M, Diniz P, Barros L, Cassino C, Lemos M, et~al.
+\newblock From a monolithic big data system to a microservices event-driven
+  architecture.
+\newblock In: 2020 46th Euromicro Conference on Software Engineering and
+  Advanced Applications (SEAA). IEEE; 2020. p. 213--220.
 
-\bibitem[{Kitchenham et~al(2004)Kitchenham, Dyba, and
-  Jorgensen}]{Kitchenham.2004}
-Kitchenham BA, Dyba T, Jorgensen M (2004) Evidence-based software engineering.
-  In: Proceedings of the 26th International Conference on Software Engineering,
-  {IEEE Comput. Soc}, pp 273--281, \doi{10.1109/ICSE.2004.1317449}
+\bibitem{zhelev2019using}
+Zhelev S, Rozeva A.
+\newblock Using microservices and event driven architecture for big data stream
+  processing.
+\newblock In: AIP Conference Proceedings. vol. 2172. AIP Publishing LLC; 2019.
+  p. 090010.
 
-\bibitem[{Laigner et~al(2020)Laigner, Kalinowski, Diniz, Barros, Cassino,
-  Lemos, Arruda, Lifschitz, and Zhou}]{laigner2020monolithic}
-Laigner R, Kalinowski M, Diniz P, Barros L, Cassino C, Lemos M, Arruda D,
-  Lifschitz S, Zhou Y (2020) From a monolithic big data system to a
-  microservices event-driven architecture. In: 2020 46th Euromicro Conference
-  on Software Engineering and Advanced Applications (SEAA), IEEE, pp 213--220
+\bibitem{staegemann2021examining}
+Staegemann D, Volk M, Shakir A, Lautenschl{\"a}ger E, Turowski K.
+\newblock Examining the Interplay Between Big Data and Microservices--A
+  Bibliometric Review.
+\newblock Complex Systems Informatics and Modeling Quarterly.
+  2021;(27):87--118.
 
-\bibitem[{Lankhorst(2013)}]{lankhorst2013language}
-Lankhorst M (2013) A language for enterprise modelling. In: Enterprise
-  Architecture at Work, Springer, pp 75--114
+\bibitem{Phi}
+Maamouri A, Sfaxi L, Robbana R.
+\newblock Phi: A Generic Microservices-Based Big Data Architecture.
+\newblock In: European, Mediterranean, and Middle Eastern Conference on
+  Information Systems. Springer; 2021. p. 3--16.
 
-\bibitem[{Laplante(2017)}]{laplante2017requirements}
-Laplante PA (2017) Requirements engineering for software and systems. Auerbach
-  Publications
+\bibitem{ataei2021neomycelia}
+Ataei P, Litchfield A.
+\newblock NeoMycelia: A software reference architecturefor big data systems.
+\newblock In: 2021 28th Asia-Pacific Software Engineering Conference (APSEC).
+  IEEE; 2021. p. 452--462.
 
-\bibitem[{Maamouri et~al(2021)Maamouri, Sfaxi, and Robbana}]{Phi}
-Maamouri A, Sfaxi L, Robbana R (2021) Phi: A generic microservices-based big
-  data architecture. In: European, Mediterranean, and Middle Eastern Conference
-  on Information Systems, Springer, pp 3--16
+\bibitem{Kitchenham.2004}
+Kitchenham BA, Dyba T, Jorgensen M.
+\newblock Evidence-based software engineering.
+\newblock In: Proceedings of the 26th International Conference on Software
+  Engineering. {IEEE Comput. Soc}; 2004. p. 273--281.
 
-\bibitem[{Nadal et~al(2017)Nadal, Herrero, Romero, Abell{\'o}, Franch,
-  Vansummeren, and Valerio}]{nadal2017software}
-Nadal S, Herrero V, Romero O, Abell{\'o} A, Franch X, Vansummeren S, Valerio D
-  (2017) A software reference architecture for semantic-aware big data systems.
-  Information and software technology 90:75--92
+\bibitem{Page.2021}
+Page MJ, Moher D, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et~al.
+\newblock PRISMA 2020 explanation and elaboration: updated guidance and
+  exemplars for reporting systematic reviews.
+\newblock BMJ (Clinical research ed). 2021;372:n160.
 
-\bibitem[{Page et~al(2021)Page, Moher, Bossuyt, Boutron, Hoffmann, Mulrow,
-  Shamseer, Tetzlaff, Akl, Brennan, Chou, Glanville, Grimshaw,
-  Hr{\'o}bjartsson, Lalu, Li, Loder, Mayo-Wilson, McDonald, McGuinness,
-  Stewart, Thomas, Tricco, Welch, Whiting, and McKenzie}]{Page.2021}
-Page MJ, Moher D, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L,
-  Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM,
-  Hr{\'o}bjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S,
-  McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, McKenzie
-  JE (2021) Prisma 2020 explanation and elaboration: updated guidance and
-  exemplars for reporting systematic reviews. BMJ (Clinical research ed)
-  372:n160, \doi{10.1136/bmj.n160}
+\bibitem{Cruzes.2011}
+Cruzes DS, Dyba T.
+\newblock Recommended Steps for Thematic Synthesis in Software Engineering.
+\newblock In: 2011 International Symposium on Empirical Software Engineering
+  and Measurement. IEEE; 2011. p. 275--284.
 
-\bibitem[{Partners(2022)}]{NewVantageSurvey}
-Partners N (2022) Big data and ai executive survey 2021.
-  \urlprefix\url{https://www.newvantage.com/thoughtleadership}
+\bibitem{SLRsearchTerms}
+Ataei P, Staegemann D. Systematic literature review search terms table for the
+  Paper Titled: Application of Microservices Patterns to Big Data Systems;
+  2022.
+\newblock Available from:
+  \url{https://anonymous.4open.science/r/SLR-Search-Terms-3147/}.
 
-\bibitem[{Rad and Ataei(2017)}]{rad2017big}
-Rad BB, Ataei P (2017) The big data ecosystem and its environs. International
-  Journal of Computer Science and Network Security (IJCSNS) 17(3):38
+\bibitem{tricco2018prisma}
+Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, et~al.
+\newblock PRISMA extension for scoping reviews (PRISMA-ScR): checklist and
+  explanation.
+\newblock Annals of internal medicine. 2018;169(7):467--473.
 
-\bibitem[{Richardson(2022)}]{Richardson.2022}
-Richardson C (2022) A pattern language for microservices.
-  \urlprefix\url{https://microservices.io/patterns/index.html}
+\bibitem{laplante2017requirements}
+Laplante PA.
+\newblock Requirements engineering for software and systems.
+\newblock Auerbach Publications; 2017.
 
-\bibitem[{Staegemann et~al(2021)Staegemann, Volk, Shakir, Lautenschl{\"a}ger,
-  and Turowski}]{staegemann2021examining}
-Staegemann D, Volk M, Shakir A, Lautenschl{\"a}ger E, Turowski K (2021)
-  Examining the interplay between big data and microservices--a bibliometric
-  review. Complex Systems Informatics and Modeling Quarterly (27):87--118
+\bibitem{Bughin2016}
+Bughin J.
+\newblock Big data, Big bang? [Journal Article].
+\newblock Journal of Big Data. 2016;3(1):2.
 
-\bibitem[{Tricco et~al(2018)Tricco, Lillie, Zarin, O'Brien, Colquhoun, Levac,
-  Moher, Peters, Horsley, Weeks et~al}]{tricco2018prisma}
-Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, Moher D, Peters
-  MD, Horsley T, Weeks L, et~al (2018) Prisma extension for scoping reviews
-  (prisma-scr): checklist and explanation. Annals of internal medicine
-  169(7):467--473
+\bibitem{rad2017big}
+Rad BB, Ataei P.
+\newblock The big data ecosystem and its environs.
+\newblock International Journal of Computer Science and Network Security
+  (IJCSNS). 2017;17(3):38.
 
-\bibitem[{Wieringa(2014)}]{wieringa2014design}
-Wieringa RJ (2014) Design science methodology for information systems and
-  software engineering. Springer
+\bibitem{nadal2017software}
+Nadal S, Herrero V, Romero O, Abell{\'o} A, Franch X, Vansummeren S, et~al.
+\newblock A software reference architecture for semantic-aware Big Data
+  systems.
+\newblock Information and software technology. 2017;90:75--92.
 
-\bibitem[{Zhelev and Rozeva(2019)}]{zhelev2019using}
-Zhelev S, Rozeva A (2019) Using microservices and event driven architecture for
-  big data stream processing. In: AIP Conference Proceedings, AIP Publishing
-  LLC, vol 2172, p 090010
+\bibitem{Chang.2019}
+Chang WL, Grady N. NIST Big Data Interoperability Framework: Volume 1,
+  Definitions; 2019.
+\newblock Available from: \url{https://doi.org/10.6028/NIST.SP.1500-1r2}.
+
+\bibitem{ataei2020big}
+Big data reference architectures, a systematic literature review; 2020.
+
+\bibitem{kassab2014state}
+Kassab M, Neill C, Laplante P.
+\newblock State of practice in requirements engineering: contemporary data.
+\newblock Innovations in Systems and Software Engineering. 2014;10(4):235--241.
+
+\bibitem{ISO29148}
+29148:2018 I. ISO/IEC 29148:2018; 2018.
+\newblock Available from: \url{https://www.iso.org/standard/72089.html}.
+
+\bibitem{abran2004software}
+Abran A, Moore JW, Bourque P, Dupuis R, Tripp L.
+\newblock Software engineering body of knowledge.
+\newblock IEEE Computer Society, Angela Burgess. 2004;p.~25.
+
+\bibitem{MSPatterns}
+Ataei P, Staegemann D. Microservices patterns classified for the Paper Titled:
+  Application of Microservices Patterns to Big Data Systems; 2022.
+\newblock Available from:
+  \url{https://anonymous.4open.science/r/MS-Patterns-5519/}.
+
+\bibitem{lankhorst2013language}
+Lankhorst M.
+\newblock A Language for Enterprise Modelling.
+\newblock In: Enterprise Architecture at Work. Springer; 2013. p. 75--114.
+
+\bibitem{Chaabane}
+Chaabane M, Bouassida I, Jmaiel M.
+\newblock System of systems software architecture description using the
+  ISO/IEC/IEEE 42010 standard.
+\newblock In: Proceedings of the Symposium on Applied Computing;. p.
+  1793--1798.
+
+\bibitem{eryurek2021data}
+Eryurek E, Gilad U, Lakshmanan V, Kibunguchy-Grant A, Ashdown J.
+\newblock Data Governance: The Definitive Guide.
+\newblock " O'Reilly Media, Inc."; 2021.
+
+\bibitem{wieringa2014design}
+Wieringa RJ.
+\newblock Design science methodology for information systems and software
+  engineering.
+\newblock Springer; 2014.
+
+\bibitem{kallio2016systematic}
+Kallio H, Pietil{\"a} AM, Johnson M, Kangasniemi M.
+\newblock Systematic methodological review: developing a framework for a
+  qualitative semi-structured interview guide.
+\newblock Journal of advanced nursing. 2016;72(12):2954--2965.
+
+\bibitem{interviewGuide}
+Ataei P, Staegemann D. Interview guide for the paper: Application of
+  microservices patterns to big data systems; 2022.
+\newblock Available from:
+  \url{https://anonymous.4open.science/r/SSI-Repo-F90E/SSI.pdf}.
 
 \end{thebibliography}

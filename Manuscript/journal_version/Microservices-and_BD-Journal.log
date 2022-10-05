@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 OCT 2022 22:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  5 OCT 2022 21:30
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
@@ -375,6 +375,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 93.
 LaTeX Info: Redefining \pageref on input line 93.
 LaTeX Info: Redefining \nameref on input line 93.
+ ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out") ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out")
 \@outlinefile=\write3
 \openout3 = `Microservices-and_BD-Journal.out'.
 
@@ -410,332 +411,88 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 128.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 128.
-
-
-LaTeX Warning: Reference `bmc@corref@authorthanks' on page 1 undefined on input line 128.
-
-
-LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 132.
-
-
-LaTeX Warning: Reference `aff2thanks' on page 1 undefined on input line 132.
-
 \address@aff1=\toks36
 \address@aff2=\toks37
-
-LaTeX Warning: Reference `bmc@corref@authorthanks' on page 1 undefined on input line 172.
-
-
-LaTeX Warning: Reference `au1@email' on page 1 undefined on input line 172.
-
-
-LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 172.
-
-
-LaTeX Warning: Citation `NewVantageSurvey' on page 1 undefined on input line 251.
-
-
-LaTeX Warning: Citation `DataBricksSurvey' on page 1 undefined on input line 251.
-
-
-LaTeX Warning: Citation `Richardson.2022' on page 1 undefined on input line 264.
-
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 265.
-[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 264.
+ [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-]
-
-LaTeX Warning: Citation `Ataei.2020' on page 2 undefined on input line 268.
-
-
-LaTeX Warning: Citation `laigner2020monolithic' on page 2 undefined on input line 279.
-
-
-LaTeX Warning: Citation `zhelev2019using' on page 2 undefined on input line 279.
-
-
-LaTeX Warning: Citation `staegemann2021examining' on page 2 undefined on input line 281.
-
-
-LaTeX Warning: Citation `Phi' on page 2 undefined on input line 281.
-
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 2 undefined on input line 281.
-
-
-LaTeX Warning: Citation `Kitchenham.2004' on page 2 undefined on input line 287.
-
-
-LaTeX Warning: Citation `Page.2021' on page 2 undefined on input line 287.
-
-
-LaTeX Warning: Citation `Cruzes.2011' on page 2 undefined on input line 287.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 288.
-
-[2]
-
-LaTeX Warning: Citation `Ataei.2020' on page 3 undefined on input line 301.
-
-
-LaTeX Warning: Citation `Ataei.2020' on page 3 undefined on input line 303.
-
-
-LaTeX Warning: Citation `SLRsearchTerms' on page 3 undefined on input line 316.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 317.
-
-[3]
-
-LaTeX Warning: Citation `tricco2018prisma' on page 4 undefined on input line 421.
-
-
-LaTeX Warning: Citation `Kitchenham.2004' on page 4 undefined on input line 429.
-
-
-LaTeX Warning: Reference `qualityFramework' on page 4 undefined on input line 429.
+] [2] [3]
+<Media/PRISMA-Flowchart.JPG, id=237, 638.385pt x 822.82407pt>
+File: Media/PRISMA-Flowchart.JPG Graphic file (type jpg)
+<use Media/PRISMA-Flowchart.JPG>
+Package pdftex.def Info: Media/PRISMA-Flowchart.JPG  used on input line 441.
+(pdftex.def)             Requested size: 227.62204pt x 293.37895pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 443.
+(caption)                particular \caption on input line 442.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 451.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4]
-
-LaTeX Warning: Reference `qualityFramework' on page 5 undefined on input line 472.
-
-
-Overfull \hbox (5.63907pt too wide) in paragraph at lines 492--492
+[4] [5 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/PRISMA-Flowchart.JPG>]
+Overfull \hbox (5.63907pt too wide) in paragraph at lines 491--491
 []|\OT1/cmss/m/n/8 Quality
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 []|\OT1/cmss/m/n/8 Rating to
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
-\OT1/cmss/m/n/8 clearly com-mu-ni-cated,
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 535.
-
-[5]
-
-LaTeX Warning: Citation `Cruzes.2011' on page 6 undefined on input line 537.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 552.
-
-[6]
-
-LaTeX Warning: Citation `laplante2017requirements' on page 7 undefined on input line 553.
-
-
-LaTeX Warning: Citation `Bughin2016' on page 7 undefined on input line 557.
-
-
-LaTeX Warning: Citation `rad2017big' on page 7 undefined on input line 557.
-
-
-LaTeX Warning: Citation `nadal2017software' on page 7 undefined on input line 557.
-
-
-LaTeX Warning: Citation `Chang.2019' on page 7 undefined on input line 557.
-
-
-LaTeX Warning: Citation `ataei2020big' on page 7 undefined on input line 563.
-
-
-LaTeX Warning: Citation `kassab2014state' on page 7 undefined on input line 566.
-
-
-LaTeX Warning: Citation `ISO29148' on page 7 undefined on input line 566.
-
-
-LaTeX Warning: Citation `abran2004software' on page 7 undefined on input line 566.
-
-
-LaTeX Warning: Reference `table-requirements' on page 7 undefined on input line 566.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []|\OT1/cmss/m/n/8 Security
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \OT1/cmss/m/n/8 & Pri-
  []
 
-
-Overfull \hbox (153.58728pt too wide) in paragraph at lines 574--619
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `Richardson.2022' on page 7 undefined on input line 624.
-
-
-LaTeX Warning: Citation `MSPatterns' on page 7 undefined on input line 624.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 625.
-
-[7]
-
-LaTeX Warning: Citation `lankhorst2013language' on page 8 undefined on input line 1026.
-
-
-LaTeX Warning: Citation `Chaabane' on page 8 undefined on input line 1026.
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 1039.
-
-[8]
-
-LaTeX Warning: Citation `ataei2020big' on page 9 undefined on input line 1043.
-
-
-LaTeX Warning: Reference `fig:RA' on page 9 undefined on input line 1049.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 1054.
-
-[9]
-
-LaTeX Warning: Reference `fig:RA' on page 10 undefined on input line 1057.
+[8] [9]
+<Media/All together.jpg, id=307, 1896.08376pt x 728.7225pt>
+File: Media/All together.jpg Graphic file (type jpg)
+<use Media/All together.jpg>
+Package pdftex.def Info: Media/All together.jpg  used on input line 1063.
+(pdftex.def)             Requested size: 341.43306pt x 131.21999pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1062.
+(caption)                particular \caption on input line 1064.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: Citation `DataBricksSurvey' on page 10 undefined on input line 1072.
-
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 10 undefined on input line 1076.
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 1077.
-
-[10]
-
-LaTeX Warning: Reference `fig:RA' on page 11 undefined on input line 1090.
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 1091.
-
-[11]
-
-LaTeX Warning: Reference `fig:RA' on page 12 undefined on input line 1108.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 1117.
-
-[12]
-
-LaTeX Warning: Reference `fig:RA' on page 13 undefined on input line 1126.
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 1141.
-
-[13]
-
-LaTeX Warning: Citation `eryurek2021data' on page 14 undefined on input line 1149.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 1154.
-
-[14]
-
-LaTeX Warning: Citation `wieringa2014design' on page 15 undefined on input line 1167.
-
-
-LaTeX Warning: Citation `kallio2016systematic' on page 15 undefined on input line 1167.
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 1176.
-
-[15]
-
-LaTeX Warning: Citation `kallio2016systematic' on page 16 undefined on input line 1176.
-
-
-LaTeX Warning: Citation `interviewGuide' on page 16 undefined on input line 1186.
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 1208.
-
-[16]
-No file Microservices-and_BD-Journal.bbl.
-
+[10 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/All together.jpg>] [11] [12] [13] [14] [15] [16] [17] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl" [18]) 
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 1279.
-
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1279.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1279.
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1281.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1281.
  ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1279.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1281.
+Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
+(rerunfilecheck)             Checksum: 2A654DAA37D5361560C812D6CD4BDB8F;3143.
 
-
-Package rerunfilecheck Warning: File `Microservices-and_BD-Journal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Microservices-and_BD-Journal.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2A654DAA37D5361560C812D6CD4BDB8F;3143.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1279.
- )
-(\end occurred when \ifx on line 172 was incomplete)
-(\end occurred when \iffalse on line 172 was incomplete) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1281.
+ ) 
 Here is how much of TeX's memory you used:
- 9303 strings out of 480795
- 135470 string characters out of 2913777
- 412568 words of memory out of 3000000
- 25077 multiletter control sequences out of 15000+200000
- 544502 words of font info for 70 fonts, out of 3000000 for 9000
+ 9404 strings out of 480795
+ 138125 string characters out of 2913777
+ 415548 words of memory out of 3000000
+ 25133 multiletter control sequences out of 15000+200000
+ 544036 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,1562b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{aff2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{aff1} has been referenced but does not exist, replaced by a fixed one
-
-<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (17 pages, 204786 bytes).
+ 38i,10n,43p,1562b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (19 pages, 600158 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
