@@ -26,7 +26,7 @@
 \BOOKMARK [2][-]{subsection.4.8}{Microservice Patterns}{section.4}% 26
 \BOOKMARK [1][-]{section.5}{Application of Microservices Design Patterns to Big Data Systems}{}% 27
 \BOOKMARK [2][-]{subsection.5.1}{Volume}{section.5}% 28
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Gateway Offloading and API Gateway}{subsection.5.1}% 29
+\BOOKMARK [3][-]{subsubsection.5.1.1}{API Gateway and Gateway Offloading}{subsection.5.1}% 29
 \BOOKMARK [3][-]{subsubsection.5.1.2}{External Configuration Store}{subsection.5.1}% 30
 \BOOKMARK [2][-]{subsection.5.2}{Velocity}{section.5}% 31
 \BOOKMARK [3][-]{subsubsection.5.2.1}{Competing Consumers}{subsection.5.2}% 32

@@ -619,12 +619,12 @@ After knowing the type and category of requirements, We looked for a rigorous ap
 %     \end{table*}
 
 
-\setlist{leftmargin=1.8cm,before=\vspace{\baselineskip}}
+\setlist{leftmargin=1.5cm,before=\vspace{\baselineskip}}
 
 \subsection{Volume}
 
 Volume refers to addressing multitude of data for the purposes of storage and analysis. An architecture needs to be elastic enough to address volume demands at different rates. Storing and computing large volume of data with attention to efficiency is a complex process that requires distributed and parallel processing. Therefore, volume requirements for Cybermycelium are as following:
-
+`'
 % in Table \ref{table-requirements}. These requirements are mapped against our components discussed in \ref{the-artifact}.
 
 \begin{enumerate}[label=\textbf{Vol-\arabic*}]
@@ -1107,9 +1107,15 @@ We posit that a pattern alone would not be significantly useful to a data engine
 
 % There has been two requirements associated to the Volume aspect of big data systems which are about handling various data types (Vol-1) and providing with a scalable storage (Vol-2). 
 
-To address the volume requirements of BD , and in specific for Vol-1 and Vol-2 we suggest the following patterns to be effective; 1) Gateway offloading, 2) API gateway, 3) External Configuration Store
+To address the volume requirements of BD , and in specific for Vol-1 and Vol-2 we suggest the following patterns to be effective:
 
-\subsubsection{Gateway Offloading and API Gateway}
+\begin{enumerate}
+  \item Gateway offloading
+  \item API gateway
+  \item External Configuration Store
+\end{enumerate}
+
+\subsubsection{API Gateway and Gateway Offloading}
 
 In a typical flow of data engineering, data goes from ingestion, to storage, to transformation and finally to serving. However there are various challenges to achieve this process. One challenge is the realization of various data sources as described in Vol-1. Data comes in various formats from structured to semi-structured to unstructured, and system needs to handle different data through different interfaces. There is also streaming data that needs to be handled separately with different architectural constructs and data types. So some of the key engineering consideration for the ingestion process is that; 1) is the BD system ingesting data reliably? How frequently should data be ingested? In what volume the data typically arrives?
 
@@ -1119,7 +1125,7 @@ This means that each node needs to reimplement the same interface for the aforem
 
 Moreover, if data producers directly communicate with the processing nodes, they will have to update the endpoint address every now and on. This issue is exacerbated when the data producer tries to communicate to a service that is down. Given that lifecycle of a service in a typical distributed cloud environment is not deterministic and many container orchestration systems constantly recycle services to proactively address this issue, reliability and maintainability of the BD system can be compromised.
 
-Additionally, the gateway can increase the system reliability and availability by doing a constant health check on services, and distribute traffic based on liveliness probes. The is also an array of other benefits such as having a weighted distribution, and creating a special cache mechanism through specific HTTP headers. This also means that if the gateway is down, service nodes won't introduce bad state into the overall system. We have portrayed a very simplistic representation of this pattern in Fig \ref{fig:RA}. 
+Additionally, the gateway can increase the system reliability and availability by doing a constant health check on services, and distribute traffic based on liveliness probes. The is also an array of other benefits such as having a weighted distribution, and creating a special cache mechanism through specific HTTP headers. This also means that if the gateway is down, service nodes won't introduce bad state into the overall system. We have portrayed a very simplistic representation of this pattern in Fig \ref{fig:VolReq}. 
 
 \subsubsection{External Configuration Store}
 
@@ -1127,13 +1133,13 @@ As discussed earlier, BD systems are made up of various nodes in order to achiev
 
 These configurations could be database network locations, feature flags, and third party credentials. Moreover, different stages of the data engineering may have different environments for different purposes, for instance, privacy engineers may require a completely different environment to achieve their requirements. Therefore, the challenge is the management of these configurations as the system scales, and enabling services to run in different environments without modification. To address this problem, we propose the external configuration store pattern.
 
-By externalizing all nodes configuration to another service, each node can request its configuration from an external store on boot up. This can be achieved in Docker files through the CMD command, or could be written in Terraform codes for a Kubernetes pod. This pattern solves the challenges of handling large number of nodes in BD systems and provide with a scalable solution for handling configurations. This pattern is portrayed in Fig \ref{fig:RA}.
+By externalizing all nodes configuration to another service, each node can request its configuration from an external store on boot up. This can be achieved in Docker files through the CMD command, or could be written in Terraform codes for a Kubernetes pod. This pattern solves the challenges of handling large number of nodes in BD systems and provide with a scalable solution for handling configurations. This pattern is portrayed in Fig \ref{fig:VolReq}.
 
 \begin{figure*}[h]
     \centering 
-    \includegraphics[width=12cm]{Media/All together.jpg}
-    \caption{Big data reference architecture with microservices patterns}
-    \label{fig:RA}
+    \includegraphics[width=12cm]{Media/Vol-1 Requirement RA.jpg}
+    \caption{Microservices Patterns for BD Volume Requirements}
+    \label{fig:VolReq}
 \end{figure*}
 
 \subsection{Velocity}
@@ -1160,14 +1166,14 @@ On the other hand, given the large number of nodes one can assume for any BD sys
 
 Given that BD systems are comprising of many services, log aggregation can be implemented to shed lights on these services and their audit trail. Traditional single node logging does not work very well in distributed environments, as engineers are required to understand the whole flow of data from one end to another. To address this issue, log aggregation can be implemented, which usually comes with a unified interface that services communicates to and log their processes from. This interface then, does the necessary processes on the logs, and finally store the logs. 
 
-In addition, reliability engineers can configure alerts to be triggered underlying certain metrics. This increases teams agility to proactively resolve issues, which in turn increases reliability and availability which in turn addresses the velocity requirement of BD systems. While this design pattern does not directly affect any system requirements, it indirectly affects all of them. A simplistic presentation of this pattern is portrayed in Fig \ref{fig:RA}. 
+In addition, reliability engineers can configure alerts to be triggered underlying certain metrics. This increases teams agility to proactively resolve issues, which in turn increases reliability and availability which in turn addresses the velocity requirement of BD systems. While this design pattern does not directly affect any system requirements, it indirectly affects all of them. A simplistic presentation of this pattern is portrayed in Fig \ref{fig-vel-ra}. 
 
 
-% % \begin{figure*}[h!]
-% %     \includegraphics[width=17cm]{../Media/Velocity Requirement.jpg}
-% %     \caption{Design patterns for velocity requirements}
-% %     \label{fig-vel-ra}
-% % \end{figure*}
+\begin{figure*}[h!]
+    \includegraphics[width=12cm]{Media/Velocity Requirement.jpg}
+    \caption{Design patterns for velocity requirements}
+    \label{fig-vel-ra}
+\end{figure*}
 
 
 \subsection{Variety}
@@ -1178,7 +1184,7 @@ Variety, being another important aspect of BD, implies the range of different da
 
 We have previously discussed the benefits of API Gateway and Gateway Offloading, however in this section we aim to relate it more to BD system requirements Var-1, Var-3, and Var-4. Data engineers need to keep an open line of communication to data producers on changes that could break the data pipelines and analytics. Suppose that developer A changes a field in a schema of an object that may break a data pipeline or introduce a privacy threat. How can data engineers handle this scenario effectively? 
 
-To address this problem, API Gateway and Gateway Offloading can be used. API Gateway and Gateway Offloading could be good patterns to offload some of the light-weight processes that maybe associated to the data structure or the type of data. For instance, a light weight metadata check or data scrubbing can be achieved in the gateway. However, Gateways themselves should not be taking a lot of responsibility and become a bottleneck to the system. Therefore, as nodes increase and requirements emerge, one might chose to opt for 'Backend for Frontend' pattern. We do not do any modeling for this section, as the high-level overview of API Gateway pattern is portrayed in Fig \ref{fig:RA}.
+To address this problem, API Gateway and Gateway Offloading can be used. API Gateway and Gateway Offloading could be good patterns to offload some of the light-weight processes that maybe associated to the data structure or the type of data. For instance, a light weight metadata check or data scrubbing can be achieved in the gateway. However, Gateways themselves should not be taking a lot of responsibility and become a bottleneck to the system. Therefore, as nodes increase and requirements emerge, one might chose to opt for 'Backend for Frontend' pattern. We do not do any modeling for this section, as the high-level overview of API Gateway pattern is portrayed in Figure \ref{fig:VolReq}.
 
 \subsection{Value}
 
@@ -1196,13 +1202,13 @@ To address some of these challenges, we suggest CQRS pattern. CQRS separates the
 
 Another pattern that comes useful when handling large number of data consumers is the anti-corruption layer. Given that the number of consumers and producers can grow and data can be created and requested in different formats with different characteristics, the ingestion and serving layer may be coupled to these foreign domains and try to account for an abstraction that aims to encapsulate all the logic in regards to all the external nodes. As the system grows, this abstraction layer becomes harder to maintain, and its maintainability becomes more difficult. 
 
-One approach to solve this issue is anti-corruption layer. Anti-corruption layer is a node that can be placed between the serving layer and data consumers or data producer, isolating different systems and translating between domains. This eliminates all the complexity and coupling that could have been otherwise introduced to the ingestion layer or the serving layer. This also allows for nodes to follow the 'single responsibility' pattern. Anti-corruption layer can define strong interfaces and quickly serve new demands without affecting much of the serving node's abstraction. In another terms, it avoids corruption that may happen among systems, by separating them. This pattern can help with requirements Val-3 and Val-4. We have portrayed this pattern and CQRS in Fig \ref{fig:RA}.
+One approach to solve this issue is anti-corruption layer. Anti-corruption layer is a node that can be placed between the serving layer and data consumers or data producer, isolating different systems and translating between domains. This eliminates all the complexity and coupling that could have been otherwise introduced to the ingestion layer or the serving layer. This also allows for nodes to follow the 'single responsibility' pattern. Anti-corruption layer can define strong interfaces and quickly serve new demands without affecting much of the serving node's abstraction. In another terms, it avoids corruption that may happen among systems, by separating them. This pattern can help with requirements Val-3 and Val-4. We have portrayed this pattern and CQRS in Figure \ref{fig:Value Requirements}.
 
-% % \begin{figure*}[h]
-% %     \includegraphics[width=17cm]{../Media/Value Requirement.jpg}
-% %     \caption[]{Design patterns for value requirement }
-% %     \label{fig:Value Requirements}
-% % \end{figure*}
+\begin{figure*}[h]
+    \includegraphics[width=12cm]{Media/Value Requirement.jpg}
+    \caption[]{Design patterns for value requirement }
+    \label{fig:Value Requirements}
+\end{figure*}
 
 \subsection{Security and Privacy}
 
@@ -1214,7 +1220,13 @@ API gateway has been discussed in several sections in this study, however, in th
 
 On approach to this problem can be the BFF pattern. By creating backends (services) for frontends (data producers), we can logically segregate API gateways for data that requires different level of privacy and security. This logical separation can include other factors such as QoS, key accounts, and even the nature of the API (GraphQL or RPC). Implementing this pattern means that instead of trying to account for all privacy related concerns in one node (API gateway), we separate the concerns to a number of nodes that are each responsible for a specific requirement. This means, instead of creating a coupled, loosely abstracted implementation of privacy mechanisms, the system can benefit from hiding sensitive or unnecessary data in a logically separated node. This is also a great opportunity for data mutation, schema validation, and potentially protocol change (receive REST, and return GraphQL).
 
-On the other hand, from the security point of view, and in specific in relation to authorization and authentication, this pattern provides with a considerable advantage. BFF can be implemented to achieve token isolation, cookie termination, and a security gate before requests can reach to upstream servers. Other security procedures such as sanitization, data masking, tokenization, and obfuscation can be done in this layer as well. As these BFF servers are logically isolated for specific requirements, maintainability and scalability is increased. This addresses the requirements SaP-1 and SaP-2. 
+On the other hand, from the security point of view, and in specific in relation to authorization and authentication, this pattern provides with a considerable advantage. BFF can be implemented to achieve token isolation, cookie termination, and a security gate before requests can reach to upstream servers. Other security procedures such as sanitization, data masking, tokenization, and obfuscation can be done in this layer as well. As these BFF servers are logically isolated for specific requirements, maintainability and scalability is increased. This addresses the requirements SaP-1 and SaP-2. We have modeled this pattern in Figure~\ref{fig:SaP Requirements}
+
+\begin{figure*}[h]
+  \includegraphics[width=12cm]{Media/Privacy and Security Requirements.jpg}
+  \caption[]{Design patterns for security and privacy requirements}
+  \label{fig:SaP Requirements}
+\end{figure*}
 
 
 \subsection{Veracity}
@@ -1225,13 +1237,13 @@ Next to value, veracity is an integral component of any effective BD system. Ver
 
 Suppose that there is a data processing node that is responsible for performing variety of data transformation and other processes with different level of complexities. As requirements emerge, newer approaches of processing may be required, and soon this node will turn into a big monolithic unit that aims to achieve too much. Furthermore, this node is likely to reduce the opportunities of optimization, refactoring, testing and reusing. In addition, as the business requirements emerge, the nature of some of these tasks may be different. Some processes may require a different metadata strategy that requires more computing resources, while others might not require such expensive resources. This is not elastic and can produce unwanted idle times. 
 
-One approach to this problem could be the pipes and filters pattern. By implementing pipes and filters, processing required for each stream can be separated into its own node (filter) that performs a single task. This is a well-established approach in unix-like operating systems. Following this approach allows for standardization of the format of the data and processing required for each step. This can help avoiding code duplication, and results in easier removal, replacement, augmentation and customization of data processing pipelines, addressing the requirements Ver-1 and Ver-4.
+One approach to this problem could be the pipes and filters pattern. By implementing pipes and filters, processing required for each stream can be separated into its own node (filter) that performs a single task. This is a well-established approach in unix-like operating systems. Following this approach allows for standardization of the format of the data and processing required for each step. This can help avoiding code duplication, and results in easier removal, replacement, augmentation and customization of data processing pipelines, addressing the requirements Ver-1 and Ver-4. This pattern is basically portrayed in all of our models.
 
 \subsubsection{Circuit breaker}
  
 In an inherently distributed environment like BD, calls to different services may fail due to various issues such as timeouts, transient faults or service being unavailable. While these faults may be transient, this can have a ripple effect on other services in the system, causing a cascading failure across several nodes. This affects system availability and reliability and can cause major losses to the business. 
 
-One solution to this problem can be the circuit breaker pattern. Circuit breaker is a pattern that prevents an application from from repeatedly trying to access a service that is not available. This improves the fault tolerance among services, and signals the service unavailability. The requesting application can decide accordingly on how to handle the situation. In other terms, circuit breakers are like proxies for operations that might fail. This proxy is usually implemented as a state machine having the states close, open, and half-open. Having this proxy in place provides stability to the overall BD system, when the service of interest is recovering from an incident. This can indirectly help with Ver-4.
+One solution to this problem can be the circuit breaker pattern. Circuit breaker is a pattern that prevents an application from from repeatedly trying to access a service that is not available. This improves the fault tolerance among services, and signals the service unavailability. The requesting application can decide accordingly on how to handle the situation. In other terms, circuit breakers are like proxies for operations that might fail. This proxy is usually implemented as a state machine having the states close, open, and half-open. Having this proxy in place provides stability to the overall BD system, when the service of interest is recovering from an incident. This can indirectly help with Ver-4. We have portrayed this pattern in Figure~\ref{fig-vel-ra}.
 
 
 % % Pouya
