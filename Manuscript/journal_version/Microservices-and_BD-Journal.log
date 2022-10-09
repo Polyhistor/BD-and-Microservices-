@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  9 OCT 2022 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  9 OCT 2022 22:34
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
@@ -419,19 +419,83 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 129.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 129.
+
+
+LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 133.
+
+
+LaTeX Warning: Reference `aff2thanks' on page 1 undefined on input line 133.
+
 \address@aff1=\toks37
 \address@aff2=\toks38
+
+LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 173.
+
+
+LaTeX Warning: Citation `NewVantageSurvey' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Citation `DataBricksSurvey' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Citation `Richardson.2022' on page 1 undefined on input line 264.
+
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 265.
- [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] [2] [3]
-<Media/PRISMA-Flowchart.JPG, id=261, 638.385pt x 822.82407pt>
+]
+
+LaTeX Warning: Citation `Ataei.2020' on page 2 undefined on input line 268.
+
+
+LaTeX Warning: Citation `laigner2020monolithic' on page 2 undefined on input line 279.
+
+
+LaTeX Warning: Citation `zhelev2019using' on page 2 undefined on input line 279.
+
+
+LaTeX Warning: Citation `staegemann2021examining' on page 2 undefined on input line 281.
+
+
+LaTeX Warning: Citation `Phi' on page 2 undefined on input line 281.
+
+
+LaTeX Warning: Citation `ataei2021neomycelia' on page 2 undefined on input line 281.
+
+
+LaTeX Warning: Citation `Kitchenham.2004' on page 2 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Page.2021' on page 2 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Cruzes.2011' on page 2 undefined on input line 287.
+
+[2]
+
+LaTeX Warning: Citation `Ataei.2020' on page 3 undefined on input line 301.
+
+
+LaTeX Warning: Citation `Ataei.2020' on page 3 undefined on input line 303.
+
+
+LaTeX Warning: Citation `SLRsearchTerms' on page 3 undefined on input line 316.
+
+[3]
+
+LaTeX Warning: Citation `tricco2018prisma' on page 4 undefined on input line 421.
+
+
+LaTeX Warning: Citation `Kitchenham.2004' on page 4 undefined on input line 429.
+
+<Media/PRISMA-Flowchart.JPG, id=239, 638.385pt x 822.82407pt>
 File: Media/PRISMA-Flowchart.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart.JPG>
 Package pdftex.def Info: Media/PRISMA-Flowchart.JPG  used on input line 442.
 (pdftex.def)             Requested size: 227.62204pt x 293.37895pt.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 443.
@@ -450,89 +514,234 @@ Underfull \hbox (badness 10000) in paragraph at lines 492--493
 []|\OT1/cmss/m/n/8 Rating to
  []
 
-[6] [7] [8] [9] [10]
-<Media/Vol-1 Requirement RA.jpg, id=356, 1469.49pt x 743.77875pt>
+
+LaTeX Warning: Citation `Taibi.2018' on page 6 undefined on input line 539.
+
+[6]
+
+LaTeX Warning: Citation `Marquez.2018' on page 7 undefined on input line 541.
+
+
+LaTeX Warning: Citation `Ntentos.2019' on page 7 undefined on input line 543.
+
+
+LaTeX Warning: Citation `Bogner.2019' on page 7 undefined on input line 545.
+
+
+LaTeX Warning: Citation `Valdivia.2020' on page 7 undefined on input line 547.
+
+[7]
+
+LaTeX Warning: Citation `Laigner.2021' on page 8 undefined on input line 549.
+
+
+LaTeX Warning: Citation `Laigner.2021' on page 8 undefined on input line 549.
+
+
+LaTeX Warning: Citation `KarabeyAksakalli.2021' on page 8 undefined on input line 551.
+
+
+LaTeX Warning: Citation `Waseem.2022' on page 8 undefined on input line 553.
+
+
+LaTeX Warning: Citation `Vale.2022' on page 8 undefined on input line 555.
+
+
+LaTeX Warning: Citation `AAC.2022' on page 8 undefined on input line 555.
+
+[8]
+
+LaTeX Warning: Citation `Weerasinghe.2022' on page 9 undefined on input line 557.
+
+
+LaTeX Warning: Citation `Page.2021' on page 9 undefined on input line 557.
+
+
+LaTeX Warning: Citation `Cruzes.2011' on page 9 undefined on input line 561.
+
+
+LaTeX Warning: Citation `laplante2017requirements' on page 9 undefined on input line 577.
+
+[9]
+
+LaTeX Warning: Citation `Bughin2016' on page 10 undefined on input line 581.
+
+
+LaTeX Warning: Citation `rad2017big' on page 10 undefined on input line 581.
+
+
+LaTeX Warning: Citation `nadal2017software' on page 10 undefined on input line 581.
+
+
+LaTeX Warning: Citation `Chang.2019' on page 10 undefined on input line 581.
+
+
+LaTeX Warning: Citation `ataei2020big' on page 10 undefined on input line 587.
+
+
+LaTeX Warning: Citation `kassab2014state' on page 10 undefined on input line 590.
+
+
+LaTeX Warning: Citation `ISO29148' on page 10 undefined on input line 590.
+
+
+LaTeX Warning: Citation `abran2004software' on page 10 undefined on input line 590.
+
+[10] [11]
+
+LaTeX Warning: Citation `Richardson.2022' on page 12 undefined on input line 720.
+
+
+LaTeX Warning: Citation `MSPatterns' on page 12 undefined on input line 720.
+
+
+LaTeX Warning: Citation `lankhorst2013language' on page 12 undefined on input line 1123.
+
+
+LaTeX Warning: Citation `Chaabane' on page 12 undefined on input line 1123.
+
+[12]
+
+LaTeX Warning: Citation `ataei2020big' on page 13 undefined on input line 1146.
+
+[13]
+<Media/Vol-1 Requirement RA.jpg, id=320, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 1140.
+Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 1164.
 (pdftex.def)             Requested size: 341.43306pt x 172.81328pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1141.
-See the caption package documentation for explanation.
-
-[11] [12 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Vol-1 Requirement RA.jpg>]
-<Media/Velocity Requirement.jpg, id=372, 1512.65125pt x 726.715pt>
-File: Media/Velocity Requirement.jpg Graphic file (type jpg)
-<use Media/Velocity Requirement.jpg>
-Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 1173.
-(pdftex.def)             Requested size: 341.43306pt x 164.02498pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1174.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13] [14 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Velocity Requirement.jpg>]
-<Media/Value Requirement.jpg, id=388, 1752.5475pt x 729.72626pt>
-File: Media/Value Requirement.jpg Graphic file (type jpg)
-<use Media/Value Requirement.jpg>
-Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 1208.
-(pdftex.def)             Requested size: 341.43306pt x 142.15686pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1209.
+(caption)                particular \caption on input line 1165.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15] [16 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Value Requirement.jpg>]
-<Media/Privacy and Security Requirements.jpg, id=402, 1590.94376pt x 538.01pt>
+
+LaTeX Warning: Citation `DataBricksSurvey' on page 14 undefined on input line 1175.
+
+[14]
+
+LaTeX Warning: Citation `ataei2021neomycelia' on page 15 undefined on input line 1179.
+
+[15 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Vol-1 Requirement RA.jpg>]
+<Media/Velocity Requirement.jpg, id=334, 1512.65125pt x 726.715pt>
+File: Media/Velocity Requirement.jpg Graphic file (type jpg)
+<use Media/Velocity Requirement.jpg>
+Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 1197.
+(pdftex.def)             Requested size: 341.43306pt x 164.02498pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1198.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16] [17 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Velocity Requirement.jpg>]
+<Media/Value Requirement.jpg, id=349, 1752.5475pt x 729.72626pt>
+File: Media/Value Requirement.jpg Graphic file (type jpg)
+<use Media/Value Requirement.jpg>
+Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 1232.
+(pdftex.def)             Requested size: 341.43306pt x 142.15686pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1233.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18]
+<Media/Privacy and Security Requirements.jpg, id=357, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
-Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 1226.
+Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 1250.
 (pdftex.def)             Requested size: 341.43306pt x 115.45645pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1227.
+(caption)                particular \caption on input line 1251.
 See the caption package documentation for explanation.
 
-[17 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Privacy and Security Requirements.jpg>] [18] [19] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl" [20]) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `eryurek2021data' on page 19 undefined on input line 1258.
+
+[19 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Value Requirement.jpg>] [20 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Privacy and Security Requirements.jpg>]
+
+LaTeX Warning: Citation `wieringa2014design' on page 21 undefined on input line 1276.
+
+
+LaTeX Warning: Citation `kallio2016systematic' on page 21 undefined on input line 1276.
+
+
+LaTeX Warning: Citation `kallio2016systematic' on page 21 undefined on input line 1285.
+
+
+LaTeX Warning: Citation `interviewGuide' on page 21 undefined on input line 1295.
+
+[21] [22] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl"
+
+LaTeX Warning: Reference `aff1thanks' on page 23 undefined on input line 1.
+
+
+LaTeX Warning: Reference `aff2thanks' on page 23 undefined on input line 1.
+
+
+c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl:133: Package inputenc Error: Unicode character ̇ (U+0307)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...sakalli} I, {\c{C}}elik T, Can AB, Teki̇
+                                                  nerdo{\u{g}}an B.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[23]) 
 AED: lastpage setting LastPage
-[21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1364.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1364.
+[24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1388.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1388.
  ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1364.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1364.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1388.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1388.
 Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
-(rerunfilecheck)             Checksum: B1D0994E9732C0FE5F2DB1026446611D;3497.
+(rerunfilecheck)             Checksum: 9824C4D814E53FD94AF45CFCDA121645;3573.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1364.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1388.
  ) 
 Here is how much of TeX's memory you used:
- 9783 strings out of 480795
- 144543 string characters out of 2913777
- 422131 words of memory out of 3000000
- 25470 multiletter control sequences out of 15000+200000
- 543742 words of font info for 68 fonts, out of 3000000 for 9000
+ 9818 strings out of 480795
+ 145030 string characters out of 2913777
+ 422000 words of memory out of 3000000
+ 25488 multiletter control sequences out of 15000+200000
+ 544360 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,1562b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (21 pages, 816292 bytes).
+ 38i,10n,43p,1562b,530s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (24 pages, 840241 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 418 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 426 words of extra memory for PDF output out of 10000 (max. 10000000)
 

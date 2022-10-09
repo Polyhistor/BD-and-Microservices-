@@ -11,39 +11,40 @@
 \BOOKMARK [3][-]{subsubsection.3.2.5}{Pooling literature based on the search strategy}{subsection.3.2}% 11
 \BOOKMARK [3][-]{subsubsection.3.2.6}{Evaluating papers based on inclusion and exclusion criteria}{subsection.3.2}% 12
 \BOOKMARK [3][-]{subsubsection.3.2.7}{Evaluating papers based on the quality framework}{subsection.3.2}% 13
-\BOOKMARK [3][-]{subsubsection.3.2.8}{Data synthesis}{subsection.3.2}% 14
-\BOOKMARK [1][-]{section.4}{Results}{}% 15
-\BOOKMARK [2][-]{subsection.4.1}{Requirements specification}{section.4}% 16
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Type of requirements}{subsection.4.1}% 17
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Categorizing requirements}{subsection.4.1}% 18
-\BOOKMARK [3][-]{subsubsection.4.1.3}{Present requirements}{subsection.4.1}% 19
-\BOOKMARK [2][-]{subsection.4.2}{Volume}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.3}{Velocity}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.4}{Variety}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.5}{Value}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.6}{Security and Privacy}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.7}{Veracity}{section.4}% 25
-\BOOKMARK [2][-]{subsection.4.8}{Microservice Patterns}{section.4}% 26
-\BOOKMARK [1][-]{section.5}{Application of Microservices Design Patterns to Big Data Systems}{}% 27
-\BOOKMARK [2][-]{subsection.5.1}{Volume}{section.5}% 28
-\BOOKMARK [3][-]{subsubsection.5.1.1}{API Gateway and Gateway Offloading}{subsection.5.1}% 29
-\BOOKMARK [3][-]{subsubsection.5.1.2}{External Configuration Store}{subsection.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.2}{Velocity}{section.5}% 31
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Competing Consumers}{subsection.5.2}% 32
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Circuit Breaker}{subsection.5.2}% 33
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Log Aggregator}{subsection.5.2}% 34
-\BOOKMARK [2][-]{subsection.5.3}{Variety}{section.5}% 35
-\BOOKMARK [3][-]{subsubsection.5.3.1}{API Gateway and Gateway Offloading}{subsection.5.3}% 36
-\BOOKMARK [2][-]{subsection.5.4}{Value}{section.5}% 37
-\BOOKMARK [3][-]{subsubsection.5.4.1}{Command and Query Responsibility Segregation}{subsection.5.4}% 38
-\BOOKMARK [3][-]{subsubsection.5.4.2}{Anti-Corruption Layer}{subsection.5.4}% 39
-\BOOKMARK [2][-]{subsection.5.5}{Security and Privacy}{section.5}% 40
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Backend for Frontend}{subsection.5.5}% 41
-\BOOKMARK [2][-]{subsection.5.6}{Veracity}{section.5}% 42
-\BOOKMARK [3][-]{subsubsection.5.6.1}{Pipes and Filters}{subsection.5.6}% 43
-\BOOKMARK [3][-]{subsubsection.5.6.2}{Circuit breaker}{subsection.5.6}% 44
-\BOOKMARK [1][-]{section.6}{Validation}{}% 45
-\BOOKMARK [2][-]{subsection.6.1}{Methodology}{section.6}% 46
-\BOOKMARK [2][-]{subsection.6.2}{Results}{section.6}% 47
-\BOOKMARK [1][-]{section.7}{Discussion}{}% 48
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 49
+\BOOKMARK [3][-]{subsubsection.3.2.8}{The found papers}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.9}{Data synthesis}{subsection.3.2}% 15
+\BOOKMARK [1][-]{section.4}{Results}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Requirements specification}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Type of requirements}{subsection.4.1}% 18
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Categorizing requirements}{subsection.4.1}% 19
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Present requirements}{subsection.4.1}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Volume}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Velocity}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.4}{Variety}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.5}{Value}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.6}{Security and Privacy}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.7}{Veracity}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.8}{Microservice Patterns}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Application of Microservices Design Patterns to Big Data Systems}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Volume}{section.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.1.1}{API Gateway and Gateway Offloading}{subsection.5.1}% 30
+\BOOKMARK [3][-]{subsubsection.5.1.2}{External Configuration Store}{subsection.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.2}{Velocity}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Competing Consumers}{subsection.5.2}% 33
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Circuit Breaker}{subsection.5.2}% 34
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Log Aggregator}{subsection.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.3}{Variety}{section.5}% 36
+\BOOKMARK [3][-]{subsubsection.5.3.1}{API Gateway and Gateway Offloading}{subsection.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.4}{Value}{section.5}% 38
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Command and Query Responsibility Segregation}{subsection.5.4}% 39
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Anti-Corruption Layer}{subsection.5.4}% 40
+\BOOKMARK [2][-]{subsection.5.5}{Security and Privacy}{section.5}% 41
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Backend for Frontend}{subsection.5.5}% 42
+\BOOKMARK [2][-]{subsection.5.6}{Veracity}{section.5}% 43
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Pipes and Filters}{subsection.5.6}% 44
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Circuit breaker}{subsection.5.6}% 45
+\BOOKMARK [1][-]{section.6}{Validation}{}% 46
+\BOOKMARK [2][-]{subsection.6.1}{Methodology}{section.6}% 47
+\BOOKMARK [2][-]{subsection.6.2}{Results}{section.6}% 48
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 49
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 50

@@ -18,6 +18,9 @@ Warning--can't use both volume and number fields in zhelev2019using
 Warning--there's a number but no volume in staegemann2021examining
 Warning--empty author and editor in SLRsearchTerms
 Warning--missing publisher in SLRsearchTerms
+Warning--empty author in AAC.2022
+Warning--empty author and editor in AAC.2022
+Warning--missing publisher in AAC.2022
 Warning--empty author and editor in Chang.2019
 Warning--missing publisher in Chang.2019
 Warning--empty author and editor in ISO29148
@@ -27,45 +30,45 @@ Warning--missing publisher in MSPatterns
 Warning--there's a month but no year in Chaabane
 Warning--empty author and editor in interviewGuide
 Warning--missing publisher in interviewGuide
-You've used 30 entries,
+You've used 41 entries,
             3170 wiz_defined-function locations,
-            821 strings with 10863 characters,
-and the built_in function-call counts, 47078 in all, are:
-= -- 5761
-> -- 341
-< -- 10
-+ -- 194
-- -- 85
-* -- 3904
-:= -- 5127
-add.period$ -- 99
-call.type$ -- 30
-change.case$ -- 18
+            909 strings with 14197 characters,
+and the built_in function-call counts, 69849 in all, are:
+= -- 8614
+> -- 522
+< -- 16
++ -- 291
+- -- 130
+* -- 5826
+:= -- 7539
+add.period$ -- 141
+call.type$ -- 41
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 3507
-empty$ -- 4612
-format.name$ -- 106
-if$ -- 11079
+cite$ -- 62
+duplicate$ -- 5345
+empty$ -- 6784
+format.name$ -- 162
+if$ -- 16436
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 269
-newline$ -- 145
-num.names$ -- 29
-pop$ -- 603
+int.to.str$ -- 41
+missing$ -- 395
+newline$ -- 199
+num.names$ -- 41
+pop$ -- 854
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 618
+skip$ -- 875
 stack$ -- 0
-substring$ -- 9185
-swap$ -- 672
-text.length$ -- 10
+substring$ -- 13648
+swap$ -- 997
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 18
-while$ -- 225
-width$ -- 32
-write$ -- 320
-(There were 18 warnings)
+warning$ -- 21
+while$ -- 337
+width$ -- 43
+write$ -- 444
+(There were 21 warnings)

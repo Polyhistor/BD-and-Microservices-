@@ -86,6 +86,81 @@ Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, et~al.
   explanation.
 \newblock Annals of internal medicine. 2018;169(7):467--473.
 
+\bibitem{Taibi.2018}
+Taibi D, Lenarduzzi V, Pahl C.
+\newblock Architectural Patterns for Microservices: A Systematic Mapping Study.
+\newblock In: Proceedings of the 8th International Conference on Cloud
+  Computing and Services Science. {SCITEPRESS - Science and Technology
+  Publications}; 2018. p. 221--232.
+
+\bibitem{Marquez.2018}
+Marquez G, Astudillo H.
+\newblock Actual Use of Architectural Patterns in Microservices-Based Open
+  Source Projects.
+\newblock In: 2018 25th Asia-Pacific Software Engineering Conference (APSEC).
+  IEEE; 2018. p. 31--40.
+
+\bibitem{Ntentos.2019}
+Ntentos E, Zdun U, Plakidas K, Schall D, Li F, Meixner S.
+\newblock Supporting Architectural Decision Making on Data Management in
+  Microservice Architectures.
+\newblock In: Bures T, Duchien L, Inverardi P, editors. Software Architecture.
+  vol. 11681 of Lecture Notes in Computer Science. Cham: {Springer
+  International Publishing}; 2019. p. 20--36.
+
+\bibitem{Bogner.2019}
+Bogner J, Wagner S, Zimmermann A.
+\newblock Using architectural modifiability tactics to examine evolution
+  qualities of Service- and Microservice-Based Systems: An approach based on
+  principles and patterns.
+\newblock SICS Software-Intensive Cyber-Physical Systems.
+  2019;34(2-3):141--149.
+
+\bibitem{Valdivia.2020}
+Valdivia JA, Lora-Gonz{\'a}lez A, Lim{\'o}n X, Cortes-Verdin K,
+  Ochar{\'a}n-Hern{\'a}ndez JO.
+\newblock Patterns Related to Microservice Architecture: a Multivocal
+  Literature Review.
+\newblock Programming and Computer Software. 2020;46(8):594--608.
+
+\bibitem{Laigner.2021}
+Laigner R, Zhou Y, Salles MAV, Liu Y, Kalinowski M.
+\newblock Data management in microservices: State of the practice, challenges,
+  and research directions.
+\newblock Proceedings of the VLDB Endowment. 2021;14(13):3348--3361.
+
+\bibitem{KarabeyAksakalli.2021}
+{Karabey Aksakalli} I, {\c{C}}elik T, Can AB, Teki̇nerdo{\u{g}}an B.
+\newblock Deployment and communication patterns in microservice architectures:
+  A systematic literature review.
+\newblock Journal of Systems and Software. 2021;180:111014.
+
+\bibitem{Waseem.2022}
+Waseem M, Liang P, Ahmad A, Shahin M, Khan AA, Marquez G.
+\newblock Decision Models for Selecting Patterns and Strategies in
+  Microservices Systems and their Evaluation by Practitioners.
+\newblock In: 2022 IEEE/ACM 44th International Conference on Software
+  Engineering: Software Engineering in Practice (ICSE-SEIP). IEEE; 2022. p.
+  135--144.
+
+\bibitem{Vale.2022}
+Vale G, Correia FF, Guerra EM, de~{Oliveira Rosa} T, Fritzsch J, Bogner J.
+\newblock Designing Microservice Systems Using Patterns: An Empirical Study on
+  Quality Trade-Offs.
+\newblock In: 2022 IEEE 19th International Conference on Software Architecture
+  (ICSA). IEEE; 2022. p. 69--79.
+
+\bibitem{AAC.2022}
+Design and implementation patterns; 2022.
+\newblock Available from:
+  \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
+
+\bibitem{Weerasinghe.2022}
+Weerasinghe S, Perera I.
+\newblock Taxonomical Classification and Systematic Review on Microservices.
+\newblock International Journal of Engineering Trends and Technology.
+  2022;70(3):222--233.
+
 \bibitem{laplante2017requirements}
 Laplante PA.
 \newblock Requirements engineering for software and systems.
