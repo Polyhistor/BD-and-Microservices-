@@ -32,36 +32,36 @@ Warning--empty author and editor in interviewGuide
 Warning--missing publisher in interviewGuide
 You've used 41 entries,
             3170 wiz_defined-function locations,
-            909 strings with 14197 characters,
-and the built_in function-call counts, 69849 in all, are:
-= -- 8614
+            907 strings with 14144 characters,
+and the built_in function-call counts, 69566 in all, are:
+= -- 8573
 > -- 522
 < -- 16
 + -- 291
 - -- 130
-* -- 5826
-:= -- 7539
+* -- 5799
+:= -- 7512
 add.period$ -- 141
 call.type$ -- 41
 change.case$ -- 28
 chr.to.int$ -- 0
 cite$ -- 62
-duplicate$ -- 5345
-empty$ -- 6784
+duplicate$ -- 5314
+empty$ -- 6758
 format.name$ -- 162
-if$ -- 16436
+if$ -- 16369
 int.to.chr$ -- 0
 int.to.str$ -- 41
 missing$ -- 395
 newline$ -- 199
 num.names$ -- 41
-pop$ -- 854
+pop$ -- 855
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 875
+skip$ -- 874
 stack$ -- 0
-substring$ -- 13648
+substring$ -- 13584
 swap$ -- 997
 text.length$ -- 16
 text.prefix$ -- 0

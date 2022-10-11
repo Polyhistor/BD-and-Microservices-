@@ -129,8 +129,8 @@ Laigner R, Zhou Y, Salles MAV, Liu Y, Kalinowski M.
   and research directions.
 \newblock Proceedings of the VLDB Endowment. 2021;14(13):3348--3361.
 
-\bibitem{KarabeyAksakalli.2021}
-{Karabey Aksakalli} I, {\c{C}}elik T, Can AB, Teki̇nerdo{\u{g}}an B.
+\bibitem{aksakalli2021deployment}
+Aksakalli IK, {\c{C}}elik T, Can AB, Tekinerdogan B.
 \newblock Deployment and communication patterns in microservice architectures:
   A systematic literature review.
 \newblock Journal of Systems and Software. 2021;180:111014.
@@ -226,7 +226,7 @@ Chaabane M, Bouassida I, Jmaiel M.
 \bibitem{eryurek2021data}
 Eryurek E, Gilad U, Lakshmanan V, Kibunguchy-Grant A, Ashdown J.
 \newblock Data Governance: The Definitive Guide.
-\newblock " O'Reilly Media, Inc."; 2021.
+\newblock " O\'Reilly Media, Inc."; 2021.
 
 \bibitem{wieringa2014design}
 Wieringa RJ.
