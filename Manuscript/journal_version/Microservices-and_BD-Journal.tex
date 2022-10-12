@@ -310,7 +310,7 @@ To assure the comprehensiveness of the review, a broad set of scientific search 
 
 \subsubsection{Developing a search strategy}
 
-Since there are differences in the filters of the included search engines, it was not possible to always use the exact same search terms and settings. Nevertheless, the configurations for the search were kept as similar as possible. The exact keywords and search strategy used can be found at \cite{SLRsearchTerms}. These search terms are chosen because \emph{patterns} are exactly what was sought for, \emph{architectures} can contain such patterns, and \emph{design} is often used as a synonym for architecture. Further, patterns can be seen as \emph{building blocks}, therefore, the building blocks was also included. 
+Since there are differences in the filters of the included search engines, it was not possible to always use the exact same search terms and settings. Nevertheless, the configurations for the search were kept as similar as possible. The exact keywords and search strategy used can be found at \ref{SLRsearchTerms}. These search terms are chosen because \emph{patterns} are exactly what was sought for, \emph{architectures} can contain such patterns, and \emph{design} is often used as a synonym for architecture. Further, patterns can be seen as \emph{building blocks}, therefore, the building blocks was also included. 
 
 % Finally, the use of patterns is often highlighted as a best practice and hence, in reverse, papers that refer to best practices might also contain information regarding the use of patterns. 
 
@@ -324,92 +324,90 @@ Since there are differences in the filters of the included search engines, it wa
 %  If this could not be realized because of the interface, the most similar setting that is more lenient (therefore, potentially yielding more results) was chosen. This was the case for IEEE Xplore and SpringerLink. 
  
 
+\begin{table*}
+    \renewcommand{\arraystretch}{1.5}
+    \caption[]{Mapping of databases/registers and search terms}
+    \begin{tabular}{|p{3cm}|p{7cm}|p{1.5cm}|}
+        \hline
+        Database/Register & Search Term & Records \\ 
 
-
-% \begin{table*}[h]
-%     \renewcommand{\arraystretch}{1.5}
-%     \caption[]{Mapping of databases/registers and search terms}
-%     \begin{tabular}{|p{5cm}|p{10cm}|p{2cm}|}
-%         \hline
-%         Database/Register & Search Term & Records \\ 
-
-%         \hline
-%         ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
-%         &  
+        \hline
+        ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
+        &  
         
         
-%         1) [Title: microservice*] AND [[Title: pattern*] OR [Title: architecture*] OR [Title: design*] OR [Title: building block*] OR [Title: best practice*]]
+        1) [Title: microservice*] AND [[Title: pattern*] OR [Title: architecture*] OR [Title: design*] OR [Title: building block*] OR [Title: best practice*]]
         
-%         \hspace{1cm}
+        \hspace{1cm}
 
-%         2) [Title: microservice*] AND [[Abstract: pattern*] OR [Abstract: architecture*] OR [Abstract: design*] OR [Abstract: building block*] OR [Abstract: best practice*]]
+        2) [Title: microservice*] AND [[Abstract: pattern*] OR [Abstract: architecture*] OR [Abstract: design*] OR [Abstract: building block*] OR [Abstract: best practice*]]
 
-%         \hspace{1cm}
+        \hspace{1cm}
 
-%         3) [Title: microservice*] AND [[Keywords: pattern*] OR [Keywords: architecture*] OR [Keywords: design*] OR [Keywords: building block*] OR [Keywords: best practice*]]
-%         & 
-%         1) 91
-
-
-
-%         2) 194
+        3) [Title: microservice*] AND [[Keywords: pattern*] OR [Keywords: architecture*] OR [Keywords: design*] OR [Keywords: building block*] OR [Keywords: best practice*]]
+        & 
+        1) 91
 
 
 
-%         3) 65
+        2) 194
+
+
+
+        3) 65
         
-%         \\ 
+        \\ 
 
-%         \hline
-%         AISeL & \textbf{Title}: microservice OR microservices & 10 \\ 
-%         \hline
+        \hline
+        AISeL & \textbf{Title}: microservice OR microservices & 10 \\ 
+        \hline
 
-%         IEEE Xplore & "Document Title": microservice*  AND ("All Metadata": pattern* OR "All Metadata": architecture* OR "All Metadata": design* OR "All Metadata": building block* OR "All Metadata": best practice*)  & 759 \\ 
-%         \hline
+        IEEE Xplore & "Document Title": microservice*  AND ("All Metadata": pattern* OR "All Metadata": architecture* OR "All Metadata": design* OR "All Metadata": building block* OR "All Metadata": best practice*)  & 759 \\ 
+        \hline
 
-%         JSTOR & 
+        JSTOR & 
         
-%         \textbf{Title:} microservice 
+        \textbf{Title:} microservice 
 
-%         \textbf{Title:} microservices 
-%         & 0 \\ 
+        \textbf{Title:} microservices 
+        & 0 \\ 
 
-%         \hline
+        \hline
 
-%         ScienceDirect & 
+        ScienceDirect & 
         
-%         1) \textbf{Title, abstract, keywords}: pattern OR architecture OR design OR (building block) OR (best practice)
+        1) \textbf{Title, abstract, keywords}: pattern OR architecture OR design OR (building block) OR (best practice)
 
-%            \textbf{Title}: microservice OR microservices
+           \textbf{Title}: microservice OR microservices
 
-%         2) \textbf{Title, abstract, keywords}: patterns OR architectures OR designs OR (building blocks) OR (best practices)
+        2) \textbf{Title, abstract, keywords}: patterns OR architectures OR designs OR (building blocks) OR (best practices)
 
-%             \textbf{Title}: microservice OR microservices
-%         & 
-%         1) 79
+            \textbf{Title}: microservice OR microservices
+        & 
+        1) 79
 
-%         2) 76
-%         \\ 
+        2) 76
+        \\ 
 
-%         \hline
+        \hline
 
-%         Scopus & ( TITLE-ABS-KEY ( pattern*  OR  architecture*  OR  design*  OR  ( "building block" )  OR  ( "building blocks" )  OR  ( "best practice" )  OR  ( "best practices" ) )  AND  TITLE ( microservice* ) ) & 1534 \\ 
-%         \hline
+        Scopus & ( TITLE-ABS-KEY ( pattern*  OR  architecture*  OR  design*  OR  ( "building block" )  OR  ( "building blocks" )  OR  ( "best practice" )  OR  ( "best practices" ) )  AND  TITLE ( microservice* ) ) & 1534 \\ 
+        \hline
 
-%         SpringerLink & \textbf{Title}: microservice*
+        SpringerLink & \textbf{Title}: microservice*
 
 
-%         \textbf{With at least one of the words}: pattern* architecture* design* "building block" "building blocks" "best practice" "best practices
-%          & 433 \\ 
-%         \hline
+        \textbf{With at least one of the words}: pattern* architecture* design* "building block" "building blocks" "best practice" "best practices
+         & 433 \\ 
+        \hline
 
-%         Wiley & \textbf{Title}: microservice* & 38 \\ 
+        Wiley & \textbf{Title}: microservice* & 38 \\ 
 
-%         \hline
-%     \end{tabular}
+        \hline
+    \end{tabular}
     
-%     \label{searchTerms}
-% \end{table*}
+    \label{searchTerms}
+\end{table*}
 
 % As it can be seen at \cite{SLRsearchTerms}, due to the specifics of their search masks, the searches in the ACM Digital Library (title, abstract, keywords could only be searched separately), JSTOR (no support of wildcards), and Science Direct (no support of wildcards) had to be split in several parts. Those were afterwards merged for each of them, and duplicates were removed. 
 
@@ -570,7 +568,93 @@ The second SLR was the less extensive one, since it is just an update to an alre
   \item inclusion criteria for this SLR covers the years 1st 2010 and 10th October 2022 
   \item inclusion criteria for this SLR selects studies that are focused on BD architecture, BD reference architectures, and BD system and software requirements.
   \item our Nvivo codes are as following: 1) BD Architectural components, 2) BD requirements, 3) Fundamental concepts of BD RAs
+  \item the keywords searched are: ("Document Title":big data) AND ("Document Title":reference architecture) OR ("Document Title":big data architecture)
 \end{enumerate}
+
+\begin{table*}
+  \renewcommand{\arraystretch}{1.5}
+  \caption[]{Mapping of databases/registers and search terms for the second review}
+  \begin{tabular}{|p{3cm}|p{7cm}|p{1.5cm}|}
+      \hline
+      Database/Register & Search Term & Records \\ 
+
+      \hline
+      ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
+      &  
+      
+      
+      1) [Title: microservice*] AND [[Title: pattern*] OR [Title: architecture*] OR [Title: design*] OR [Title: building block*] OR [Title: best practice*]]
+      
+      \hspace{1cm}
+
+      2) [Title: microservice*] AND [[Abstract: pattern*] OR [Abstract: architecture*] OR [Abstract: design*] OR [Abstract: building block*] OR [Abstract: best practice*]]
+
+      \hspace{1cm}
+
+      3) [Title: microservice*] AND [[Keywords: pattern*] OR [Keywords: architecture*] OR [Keywords: design*] OR [Keywords: building block*] OR [Keywords: best practice*]]
+      & 
+      1) 91
+
+
+
+      2) 194
+
+
+
+      3) 65
+      
+      \\ 
+
+      \hline
+      AISeL & \textbf{Title}: microservice OR microservices & 10 \\ 
+      \hline
+
+      IEEE Xplore & "Document Title": microservice*  AND ("All Metadata": pattern* OR "All Metadata": architecture* OR "All Metadata": design* OR "All Metadata": building block* OR "All Metadata": best practice*)  & 759 \\ 
+      \hline
+
+      JSTOR & 
+      
+      \textbf{Title:} microservice 
+
+      \textbf{Title:} microservices 
+      & 0 \\ 
+
+      \hline
+
+      ScienceDirect & 
+      
+      1) \textbf{Title, abstract, keywords}: pattern OR architecture OR design OR (building block) OR (best practice)
+
+         \textbf{Title}: microservice OR microservices
+
+      2) \textbf{Title, abstract, keywords}: patterns OR architectures OR designs OR (building blocks) OR (best practices)
+
+          \textbf{Title}: microservice OR microservices
+      & 
+      1) 79
+
+      2) 76
+      \\ 
+
+      \hline
+
+      Scopus & ( TITLE-ABS-KEY ( pattern*  OR  architecture*  OR  design*  OR  ( "building block" )  OR  ( "building blocks" )  OR  ( "best practice" )  OR  ( "best practices" ) )  AND  TITLE ( microservice* ) ) & 1534 \\ 
+      \hline
+
+      SpringerLink & \textbf{Title}: microservice*
+
+
+      \textbf{With at least one of the words}: pattern* architecture* design* "building block" "building blocks" "best practice" "best practices
+       & 433 \\ 
+      \hline
+
+      Wiley & \textbf{Title}: microservice* & 38 \\ 
+
+      \hline
+  \end{tabular}
+  
+  \label{searchTerms}
+\end{table*}
 
 In the first phase of this SLR, a total of 138 literature has been pooled from academia, and 24 from grey literature. Some of this literature has been added to the pool by the process of forward and backward searching. For instance, by reading NIST RA \cite{Chang.2019}, we found out about Oracle, Facebook, and Amazon RAs and included those in the pool of the literature as well. 
 

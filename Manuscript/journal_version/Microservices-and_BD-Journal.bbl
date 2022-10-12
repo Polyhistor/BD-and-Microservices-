@@ -72,13 +72,6 @@ Cruzes DS, Dyba T.
 \newblock In: 2011 International Symposium on Empirical Software Engineering
   and Measurement. IEEE; 2011. p. 275--284.
 
-\bibitem{SLRsearchTerms}
-Ataei P, Staegemann D. Systematic literature review search terms table for the
-  Paper Titled: Application of Microservices Patterns to Big Data Systems;
-  2022.
-\newblock Available from:
-  \url{https://anonymous.4open.science/r/SLR-Search-Terms-3147/}.
-
 \bibitem{tricco2018prisma}
 Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, et~al.
 \newblock PRISMA extension for scoping reviews (PRISMA-ScR): checklist and
@@ -150,7 +143,7 @@ Vale G, Correia FF, Guerra EM, de~{Oliveira Rosa} T, Fritzsch J, Bogner J.
   (ICSA). IEEE; 2022. p. 69--79.
 
 \bibitem{AAC.2022}
-Design and implementation patterns; 2022.
+Microsoft. Design and implementation patterns; 2022.
 \newblock Available from:
   \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
 
@@ -203,12 +196,6 @@ Kassab M, Neill C, Laplante P.
 Abran A, Moore JW, Bourque P, Dupuis R, Tripp L.
 \newblock Software engineering body of knowledge.
 \newblock IEEE Computer Society, Angela Burgess. 2004;p.~25.
-
-\bibitem{MSPatterns}
-Ataei P, Staegemann D. Microservices patterns classified for the Paper Titled:
-  Application of Microservices Patterns to Big Data Systems; 2022.
-\newblock Available from:
-  \url{https://anonymous.4open.science/r/MS-Patterns-5519/}.
 
 \bibitem{lankhorst2013language}
 Lankhorst M.

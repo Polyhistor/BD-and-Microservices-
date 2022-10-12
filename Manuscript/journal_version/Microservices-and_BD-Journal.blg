@@ -9,63 +9,59 @@ Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "MSPatterns"
 Warning--empty author and editor in NewVantageSurvey
 Warning--empty author and editor in Richardson.2022
 Warning--missing publisher in Richardson.2022
 Warning--empty pages in Ataei.2020
 Warning--can't use both volume and number fields in zhelev2019using
 Warning--there's a number but no volume in staegemann2021examining
-Warning--empty author and editor in SLRsearchTerms
-Warning--missing publisher in SLRsearchTerms
-Warning--empty author in AAC.2022
 Warning--empty author and editor in AAC.2022
 Warning--missing publisher in AAC.2022
 Warning--empty author and editor in Chang.2019
 Warning--missing publisher in Chang.2019
 Warning--empty author and editor in ISO29148
 Warning--missing publisher in ISO29148
-Warning--empty author and editor in MSPatterns
-Warning--missing publisher in MSPatterns
 Warning--there's a month but no year in Chaabane
-You've used 40 entries,
+You've used 38 entries,
             3170 wiz_defined-function locations,
-            903 strings with 13973 characters,
-and the built_in function-call counts, 68640 in all, are:
-= -- 8474
-> -- 514
+            897 strings with 13574 characters,
+and the built_in function-call counts, 67148 in all, are:
+= -- 8307
+> -- 501
 < -- 16
-+ -- 287
-- -- 128
-* -- 5726
-:= -- 7412
-add.period$ -- 139
-call.type$ -- 40
++ -- 280
+- -- 125
+* -- 5606
+:= -- 7250
+add.period$ -- 135
+call.type$ -- 38
 change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 5243
-empty$ -- 6656
-format.name$ -- 159
-if$ -- 16150
+cite$ -- 51
+duplicate$ -- 5135
+empty$ -- 6501
+format.name$ -- 154
+if$ -- 15798
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 386
-newline$ -- 195
-num.names$ -- 40
-pop$ -- 827
+int.to.str$ -- 38
+missing$ -- 373
+newline$ -- 187
+num.names$ -- 39
+pop$ -- 786
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 852
+skip$ -- 818
 stack$ -- 0
-substring$ -- 13446
-swap$ -- 980
+substring$ -- 13216
+swap$ -- 952
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 18
-while$ -- 332
-width$ -- 42
-write$ -- 435
-(There were 18 warnings)
+warning$ -- 13
+while$ -- 326
+width$ -- 40
+write$ -- 418
+(There were 14 warnings)
