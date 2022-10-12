@@ -62,6 +62,8 @@
 \usepackage{caption} 
 \usepackage{multirow}
 \usepackage{enumitem}
+\usepackage{lscape}
+\usepackage{lineno,hyperref,longtable}
 \captionsetup[table]{skip=6pt}
 
 
@@ -527,6 +529,11 @@ Once more, the papers with the highest score (this time two) were discussed befo
 
 All ten publications have been published in 2018 or later, with three of them being published in 2022, which shows the timeliness of the topic. Eight of the ten papers were found via Scopus, whereas the remaining two have been identified through IEEE Xplore. 
 
+\subsubsection{Data synthesis}
+
+After selecting the quality papers, we embarked on the data synthesis process. For this phase we follow the guidelines of thematic synthesis discussed by Cruzes et al. \cite{Cruzes.2011}. To begin, we first extracted the following data from each paper: 1) findings, 2) research motivation, 3) author, 4) title, 5) research objectives, 6) research method, 7) year. We extracted these data through coding, using the software Nvivo. After that, we created two codes: 1) patterns, and 2) quality attributes, and coded the findings based on it. By the end of this process, various themes emerged.
+
+
 \subsubsection{The found papers}
 
 To give an overview of the papers found in the literature review and, thereby, also provide context to the extracted knowledge, they are briefly described in the following.
@@ -551,9 +558,7 @@ How the use of patterns for the development of microservice systems affects the 
 
 The list is concluded by a paper that focusses on a rather broad overview of the microservice domain \cite{Weerasinghe.2022}. For this purpose, a systematic literature review, following the PRISMA model \cite{Page.2021} was conducted. Hereby, an initial collection of 4056 items was reduced to a final set of 49 papers. The primarily regarded topics are the motivators for the conversion from a monolithic architecture to a microservice architecture, which technologies and architectural patterns occur in modern systems and which challenges arise when using the microservice architecture. Additionally, future trends are discussed. Here, the the increasing importance of cloud computing is highlighted. Other themes are the need to assure a low latency, due to the inherent inter-service communication, as well as the required skill for the development, which could be somewhat counteracted by the development of corresponding tools.
 
-\subsubsection{Data synthesis}
-
-After selecting the quality papers, we embarked on the data synthesis process. For this phase we follow the guidelines of thematic synthesis discussed by Cruzes et al. \cite{Cruzes.2011}. To begin, we first extracted the following data from each paper: 1) findings, 2) research motivation, 3) author, 4) title, 5) research objectives, 6) research method, 7) year. We extracted these data through coding, using the software Nvivo. After that, we created two codes: 1) patterns, and 2) quality attributes, and coded the findings based on it. By the end of this process, various themes emerged. 
+ 
 
 
 
@@ -562,18 +567,80 @@ After selecting the quality papers, we embarked on the data synthesis process. F
 The second SLR was the less extensive one, since it is just an update to an already existing study. For this purpose, the SLR conducted by Ataei et al. \cite{Ataei.2020}, was extended up unto the current date, providing us with the necessary overview. The original study covered up to 2020, ths we followed the same methodology as discussed in Section~\ref{firstReview} with the following difference: 
 
 \begin{enumerate}
-  \item inclusion criteria for this SLR covers the years 1st 2020 and 10th October 2022 
-  \item inclusion criteria for this SLR selects studies that are focused on BD architecture, BD reference architectures, and BD system and software requirements. 
+  \item inclusion criteria for this SLR covers the years 1st 2010 and 10th October 2022 
+  \item inclusion criteria for this SLR selects studies that are focused on BD architecture, BD reference architectures, and BD system and software requirements.
+  \item our Nvivo codes are as following: 1) BD Architectural components, 2) BD requirements, 3) Fundamental concepts of BD RAs
 \end{enumerate}
 
-and covered the years 2020-2022. Our main objective for this SLR was to highlight the fundamental building blocks and requirements of BD systems. 
+In the first phase of this SLR, a total of 138 literature has been pooled from academia, and 24 from grey literature. Some of this literature has been added to the pool by the process of forward and backward searching. For instance, by reading NIST RA \cite{Chang.2019}, we found out about Oracle, Facebook, and Amazon RAs and included those in the pool of the literature as well. 
 
-While the common architectural constructs was discussed in the work of Ataei et al. \cite{Ataei.2020}, the study was not focused on requirements. We therefore extended the data synthesis by adding a new code: software and system requirements. This code had sub-codes each being named after one characteristics of BD. This was necessary as we needed to map patterns against requirements. This is further elaborated in the results section, subsection A.
+In the screening phase, the literature that were not in-line with our inclusion and exclusion criteria have been eliminated. For example, if the paper was very short and was not on the topic of BD RA, or its ecosystem or limitations, it was excluded. As a result of this phase, 50 papers excluded. In the next phase, by assessing studies against the quality framework, 21 studies from academia, and 12 studies from grey literature pool has been eliminated.
+
+Finally, 79 studies have been selected comprising of proceedings, journal articles, book chapters, and white papers. Out of the pool of articles, 33.3\% are from IEEE Explore, 5.2\% from ScienceDirect, 24.5\% from SpringerLink, 15.7\% from ACM, and 21\% from other sources such as Google Scholar, Research Gate and gray literature. 30 journal articles, 29 conference proceedings, 12 book chapters, 6 white papers, 1 Master’s Thesis and 1 PhD thesis were selected. 55\% of the articles were selected from the years 2016- 2022, 33\% belonged to years 2013-2016, and the rest to years 2010-2013. The PRISMA flowchart is depicted in \ref{fig:PRISMA}.
+
+\begin{figure*}[t]
+  \includegraphics[width=13cm]{PRISMA/PRISMA_Flow_Diagram-2.pdf}
+  \caption{PRISMA flowchart}
+  \label{fig:PRISMA}
+\end{figure*}
+
+By the result of this SLR, 22 BD RAs have been found as portrayed in Table \ref{table:bdRAs}. By analyzing these RAs and the theory that derives them, two kinds of theory have been attained: 1) software and system requirements  as per the Section~\ref{requirementSpec} 2) design theories and architectural constructs as per the Section~\ref{Mapping}.
 
 
-
-
-
+% \begin{table*}
+%   \renewcommand*{\arraystretch}{1.4}
+%   \caption{BD RAs}
+%   \label{table:bdRAs}
+%   \begin{tabular}{|p{0.4cm}|p{12cm}|p{1.2cm}|p{0.5cm}|}
+%   \hline
+%   \textbf{ID} & \textbf{Title} & \textbf{Domain} & \textbf{Year} \\
+%   \hline
+%   s1 & Lambda architecture (\cite{kiran2015lambda} ) & Practice  &  2011   \\
+%   \hline
+%   s2 & IBM - Reference architecture for high performance analytics in healthcare and life science (\cite{quintero2019ibm} ) & Practice  &  2013   \\
+%   \hline
+%   s3 &  Microsoft - Big Data ecosystem reference architecture  (\cite{levin2013big} ) & Practice  &  2013   \\
+%   \hline
+%   s4 &  Oracle - Information Management and Big Data: A Reference Architecture  (\cite{cackett2013information} ) & Practice  &  2014   \\
+%   \hline
+%   s5 & Towards a big Data reference architecture (\cite{Maier} ) & Academia  &  2013   \\
+%   \hline
+%   s6 & A reference architecture for Big Data solutions introducing a model to perform predictive analytics using Big Data technology (\cite{geerdink2013reference} ) & Academia  &  2013   \\
+%   \hline
+%   s7 & A proposal for a reference architecture for long-term archiving, preservation, and retrieval of Big Data (\cite{viana2014proposal} ) & Academia  &  2014   \\
+%   \hline
+%   s8 & Questioning the Lambda architecture; Kappa Architecture (\cite{kreps2014questioning} ) & Academia  &  2014   \\
+%   \hline
+%   s9 & Accelerating Secondary Genome Analysis Using Intel Big Data Reference Architecture. (\cite{SikoraWohlfeld2014} ) & Practice  &  2014  \\
+%   \hline
+%   s10 & Reference architecture and classification of technologies, products and services for big data systems (\cite{paakkonen2015reference} ) & Academia  &  2015   \\
+%   \hline
+%   s11 &  SAP - NEC Reference Architecture for SAP HANA \& Hadoop (\cite{SAPRA} ) & Practice  &  2016   \\
+%   \hline
+%   s12 & Big data architecture for construction waste analytics (CWA ): A conceptual framework (\cite{bilal2016big} ) & Academia  &  2016   \\
+%   \hline
+%   s13 & A reference architecture for Big Data systems in the national security domain (\cite{Klein} ) & Academia  &  2016   \\
+%   \hline
+%   s14 & Managing Cloud-Based Big Data Platforms: A Reference Architecture and Cost Perspective (\cite{heilig2017managing} ) & Academia  &  2017   \\
+%   \hline
+%   s15 & A software reference architecture for semantic-aware Big Data systems; Bolster Architecture (\cite{Nadal} ) & Academia  &  2017   \\
+%   \hline
+%   s16 & Simplifying big data analytics systems with a reference architecture (\cite{sang2017simplifying} ) & Academia  &  2017   \\
+%   \hline
+%   s17 & NIST Big Data interoperability framework (\cite{Chang} ) & Practice  &  2018  \\
+%   \hline
+%   s18 & Extending reference architecture of big data systems towards machine learning in edge computing environments (\cite{paakkonen2020extending} )  & Academia & 2020   \\
+%   \hline
+%   s19 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big} )  & Academia & 2020   \\
+%   \hline
+%   s20 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547} ) & Practice  &  2020  \\
+%   \hline
+%   s21 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi} )  & Academia & 2021   \\
+%   \hline
+%   s22 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec} )  & Academia & 2021   \\
+%   \hline
+%   \end{tabular}
+% \end{table*}
 
 % Consequently, for the search conducted for this paper, the other databases and registers have not been necessary. However, since this fact is only determinable now, their inclusion in the initial search was still sensible.
 
@@ -584,7 +651,7 @@ While the common architectural constructs was discussed in the work of Ataei et 
 
 In this section, we present with three integral elements: 1) BD requirements, 2) MS patterns, 3) the mapping between the two and theories that emerged as a result.  
 
-\subsection{Requirements specification}
+\subsection{Requirements specification} \label{requirementSpec}
 
 The results of our data synthesis emerged a few themes in regards to BD requirements. While we could find BD major building blocks and system requirements from the result of our SLR, our SLR did not include categorization and representation of these requirements. We also did not know what type of requirements is the most suitable to the goal of this study. To this end, we performed a lightweight literature review in the body of knowledge to realize three major elements: 1) the type of requirements that we need, 2) an approach to categorizing the requirements, 3) presentation of these requirements. 
 
@@ -1129,7 +1196,7 @@ As a result of this SLR, our data synthesis yielded 50 MS patterns. These patter
 %     \end{tabular}
 %     \end{table*}
 % \end{center}
-\section{Application of Microservices Design Patterns to Big Data Systems}
+\section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
 
 In this section, we combine our findings from both SLRs, and present new theories on application of MS design patterns for BD systems. The patterns gleaned, are established theories that are derived from actual problems in MS systems in practice, thus we do not aim to re-validate them in this study. 
@@ -1306,7 +1373,7 @@ Our questions are categorized into main themes and follow-up questions, with mai
 
 \subsection{Results}
 
-From the results of these interviews, we gathered a lot of insights and probed deeper some of our architectural decisions. Every interview involved in deep analysis of the design patterns with one question from the interviewee trying to understand the problem space and solution better. Our interviewees had at least 8 years of experience and held titles such as 'lead development architect' and 'solution architect'. While some of our interviewees had more experience with BD and AI, some others were well-versed in MS architecture. We first asked interviewees about their depth of understanding with MS and BD, and then asked them if patterns discussed for each characteristic makes sense. We asked every interviewee if they can think of a pattern that we failed to consider. Our interview guide is available at \cite{interviewGuide}.
+From the results of these interviews, we gathered a lot of insights and probed deeper some of our architectural decisions. Every interview involved in deep analysis of the design patterns with one question from the interviewee trying to understand the problem space and solution better. Our interviewees had at least 8 years of experience and held titles such as 'lead development architect' and 'solution architect'. While some of our interviewees had more experience with BD and AI, some others were well-versed in MS architecture. We first asked interviewees about their depth of understanding with MS and BD, and then asked them if patterns discussed for each characteristic makes sense. We asked every interviewee if they can think of a pattern that we failed to consider. Our interview guide is available at Appendix~\ref{interviewGuide}.
 
 % We went through each pattern using our Archimate model, and explained and discussed why we've chosen it. 
 
@@ -1350,8 +1417,63 @@ The aim of this study was to explore the relationship and application of MS arch
 
 \begin{backmatter}
 
-% \section*{Acknowledgements}%% if any
-% Text for this section\ldots
+\section*{Semi-Structured Interview Guide} \label{interviewGuide}
+
+\subsection*{Introduction}
+
+Thanks for your participation. We are interviewing you to validate our theories in regards to application of microservices patterns to big data systems. There are no right or wrong answers, and we are really interested in your opinion and experiences. The interview should take approximately one hour depending on the flow of our dialogues. With you permission I will be recoding this interview because I don't want to miss any valuable information. This recording will be shared with my research team for further analysis. 
+
+All your responses will be confidential, and the results of this interview will be presented without mentioning your name. The interview should take approximately one hour depending on how much information you would like to share. You may decline to answer any question or stop the interview at any time and for any reason. Are there any questions about what I have just explained?ion of any individual name. Should you wish to not answer any of the questions, you may decline the question or stop the interview at any time. Are there any questions in regards to what I have just explained ?
+
+\hspace{2cm}
+
+\textbf{Note to the reader/researcher:} Please not that this guide aims to only encompass the main themes being discussed with the interviewee and as such does not include the prompts that may have emerged in the process of interview. Some general prompts and close-ended questions are included.
+
+
+\subsection*{\textbf{Establishing Rapport}}
+
+Before the interview begin, it would be nice if you could introduce yourself and tell me a bit about your background and your area of interest. 
+
+\subsection*{\textbf{Candidates background}}
+
+\begin{enumerate}
+    \item Could you please tell me your job title ? 
+    \item Could you please tell me how many years of professional experience have you got in software engineering or data engineering ? 
+    % \item Could you please tell me in which level of proficiency do you consider yourself to be ? (answer from 1 to 5, 1 being novice, and 5 being expert)
+\end{enumerate}
+
+\subsection*{\textbf{Familiarity with big data systems}}
+
+\begin{enumerate}
+    \item Could you please tell how many years of experience have you got related to data engineering or big data ?
+    \item Could you please elaborate on your experience/s with big data systems ( or any related systems ) ? 
+    % \item Are you familiar with challenges of big data system development ?
+\end{enumerate}
+
+
+\subsection*{\textbf{Familiarity with Microservices}}
+
+\begin{enumerate}
+    \item Could you please tell how many years of experience have you got related to microservices architecture ?
+    \item Could you please elaborate on your experience/s with microservices architecture ( or any related systems ) ?
+    % \item Are you familiar with challenges of microservices architecture ?
+\end{enumerate}
+
+
+\subsection*{\textbf{Microservices patterns for big data systems}}
+
+\begin{enumerate}
+    \item How do you find the mapping of the patterns to the mentioned characteristics ? 
+    \item Overall, do you think the concepts discussed could be helpful to practitioners or academics ?  
+    \item Do you see any limitations with our study ? 
+    \item Have we missed any pattern for any problem ?
+\end{enumerate}
+
+\subsection*{\textbf{Closing thoughts}}
+
+\begin{enumerate}
+    \item Are there any further comments/suggestions/improvements that you have got for our study ?
+\end{enumerate}
 
 % \section*{Funding}%% if any
 % Text for this section\ldots

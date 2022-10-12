@@ -10,7 +10,6 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: references.bib
 Warning--empty author and editor in NewVantageSurvey
-Warning--empty author and editor in DataBricksSurvey
 Warning--empty author and editor in Richardson.2022
 Warning--missing publisher in Richardson.2022
 Warning--empty pages in Ataei.2020
@@ -28,47 +27,45 @@ Warning--missing publisher in ISO29148
 Warning--empty author and editor in MSPatterns
 Warning--missing publisher in MSPatterns
 Warning--there's a month but no year in Chaabane
-Warning--empty author and editor in interviewGuide
-Warning--missing publisher in interviewGuide
-You've used 41 entries,
+You've used 40 entries,
             3170 wiz_defined-function locations,
-            907 strings with 14144 characters,
-and the built_in function-call counts, 69566 in all, are:
-= -- 8573
-> -- 522
+            903 strings with 13973 characters,
+and the built_in function-call counts, 68640 in all, are:
+= -- 8474
+> -- 514
 < -- 16
-+ -- 291
-- -- 130
-* -- 5799
-:= -- 7512
-add.period$ -- 141
-call.type$ -- 41
++ -- 287
+- -- 128
+* -- 5726
+:= -- 7412
+add.period$ -- 139
+call.type$ -- 40
 change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 5314
-empty$ -- 6758
-format.name$ -- 162
-if$ -- 16369
+cite$ -- 58
+duplicate$ -- 5243
+empty$ -- 6656
+format.name$ -- 159
+if$ -- 16150
 int.to.chr$ -- 0
-int.to.str$ -- 41
-missing$ -- 395
-newline$ -- 199
-num.names$ -- 41
-pop$ -- 855
+int.to.str$ -- 40
+missing$ -- 386
+newline$ -- 195
+num.names$ -- 40
+pop$ -- 827
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 874
+skip$ -- 852
 stack$ -- 0
-substring$ -- 13584
-swap$ -- 997
+substring$ -- 13446
+swap$ -- 980
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 21
-while$ -- 337
-width$ -- 43
-write$ -- 444
-(There were 21 warnings)
+warning$ -- 18
+while$ -- 332
+width$ -- 42
+write$ -- 435
+(There were 18 warnings)

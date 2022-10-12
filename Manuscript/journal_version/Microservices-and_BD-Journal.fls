@@ -112,6 +112,12 @@ INPUT D:\MikTex\tex\latex\caption\caption3.sty
 INPUT D:\MikTex\tex\latex\caption\caption3.sty
 INPUT D:\MikTex\tex\latex\enumitem\enumitem.sty
 INPUT D:\MikTex\tex\latex\enumitem\enumitem.sty
+INPUT D:\MikTex\tex\latex\graphics\lscape.sty
+INPUT D:\MikTex\tex\latex\graphics\lscape.sty
+INPUT D:\MikTex\tex\latex\lineno\lineno.sty
+INPUT D:\MikTex\tex\latex\lineno\lineno.sty
+INPUT D:\MikTex\tex\latex\tools\longtable.sty
+INPUT D:\MikTex\tex\latex\tools\longtable.sty
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux
@@ -135,6 +141,8 @@ OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of bi
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
+INPUT D:\MikTex\tex\latex\caption\ltcaption.sty
+INPUT D:\MikTex\tex\latex\caption\ltcaption.sty
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss17.tfm
@@ -187,6 +195,10 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\PRISMA\PRISMA_Flow_Diagram-2.pdf
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\PRISMA\PRISMA_Flow_Diagram-2.pdf
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\PRISMA\PRISMA_Flow_Diagram-2.pdf
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\PRISMA\PRISMA_Flow_Diagram-2.pdf
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Vol-1 Requirement RA.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Vol-1 Requirement RA.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Vol-1 Requirement RA.jpg
@@ -207,9 +219,9 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Privacy and Security Requirements.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Privacy and Security Requirements.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Privacy and Security Requirements.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl
 INPUT D:\MikTex\fonts\tfm\public\cm\cmtt8.tfm
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out

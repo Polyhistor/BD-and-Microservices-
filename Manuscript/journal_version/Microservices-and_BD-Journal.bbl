@@ -6,9 +6,8 @@ Partners N. Big Data and AI Executive Survey 2021.
 \newblock Available from: \url{https://www.newvantage.com/thoughtleadership}.
 
 \bibitem{DataBricksSurvey}
-technology review insights in partnership~with Databricks M. Building a
-  high-performance data organization.
-\newblock Databricks; 2021.
+technology review insights in partnership~with Databricks M.
+\newblock Building a high-performance data organization; 2021.
 \newblock Available from:
   \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}.
 
@@ -161,6 +160,11 @@ Weerasinghe S, Perera I.
 \newblock International Journal of Engineering Trends and Technology.
   2022;70(3):222--233.
 
+\bibitem{Chang.2019}
+Chang WL, Grady N. NIST Big Data Interoperability Framework: Volume 1,
+  Definitions; 2019.
+\newblock Available from: \url{https://doi.org/10.6028/NIST.SP.1500-1r2}.
+
 \bibitem{laplante2017requirements}
 Laplante PA.
 \newblock Requirements engineering for software and systems.
@@ -182,11 +186,6 @@ Nadal S, Herrero V, Romero O, Abell{\'o} A, Franch X, Vansummeren S, et~al.
 \newblock A software reference architecture for semantic-aware Big Data
   systems.
 \newblock Information and software technology. 2017;90:75--92.
-
-\bibitem{Chang.2019}
-Chang WL, Grady N. NIST Big Data Interoperability Framework: Volume 1,
-  Definitions; 2019.
-\newblock Available from: \url{https://doi.org/10.6028/NIST.SP.1500-1r2}.
 
 \bibitem{ataei2020big}
 Big data reference architectures, a systematic literature review; 2020.
@@ -239,11 +238,5 @@ Kallio H, Pietil{\"a} AM, Johnson M, Kangasniemi M.
 \newblock Systematic methodological review: developing a framework for a
   qualitative semi-structured interview guide.
 \newblock Journal of advanced nursing. 2016;72(12):2954--2965.
-
-\bibitem{interviewGuide}
-Ataei P, Staegemann D. Interview guide for the paper: Application of
-  microservices patterns to big data systems; 2022.
-\newblock Available from:
-  \url{https://anonymous.4open.science/r/SSI-Repo-F90E/SSI.pdf}.
 
 \end{thebibliography}
