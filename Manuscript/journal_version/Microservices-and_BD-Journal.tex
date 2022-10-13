@@ -568,13 +568,13 @@ The second SLR was the less extensive one, since it is just an update to an alre
   \item inclusion criteria for this SLR covers the years 1st 2010 and 10th October 2022 
   \item inclusion criteria for this SLR selects studies that are focused on BD architecture, BD reference architectures, and BD system and software requirements.
   \item our Nvivo codes are as following: 1) BD Architectural components, 2) BD requirements, 3) Fundamental concepts of BD RAs
-  \item the keywords searched are: ("Document Title":big data) AND ("Document Title":reference architecture) OR ("Document Title":big data architecture)
+  \item the keywords searched are illustrated in Table \ref{searchTermsSecond}
 \end{enumerate}
 
 \begin{table*}
   \renewcommand{\arraystretch}{1.5}
   \caption[]{Mapping of databases/registers and search terms for the second review}
-  \begin{tabular}{|p{3cm}|p{7cm}|p{1.5cm}|}
+  \begin{tabular}{|p{2.8cm}|p{7cm}|p{1.5cm}|}
       \hline
       Database/Register & Search Term & Records \\ 
 
@@ -582,78 +582,84 @@ The second SLR was the less extensive one, since it is just an update to an alre
       ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
       &  
       
-      
-      1) [Title: microservice*] AND [[Title: pattern*] OR [Title: architecture*] OR [Title: design*] OR [Title: building block*] OR [Title: best practice*]]
-      
-      \hspace{1cm}
+      [Title: big data] AND [[Title: reference architecture*] OR [Title: big data architecture]
 
-      2) [Title: microservice*] AND [[Abstract: pattern*] OR [Abstract: architecture*] OR [Abstract: design*] OR [Abstract: building block*] OR [Abstract: best practice*]]
-
-      \hspace{1cm}
-
-      3) [Title: microservice*] AND [[Keywords: pattern*] OR [Keywords: architecture*] OR [Keywords: design*] OR [Keywords: building block*] OR [Keywords: best practice*]]
       & 
-      1) 91
-
-
-
-      2) 194
-
-
-
-      3) 65
+      696
       
       \\ 
 
       \hline
-      AISeL & \textbf{Title}: microservice OR microservices & 10 \\ 
+      AISeL & \textbf{Title}: microservice OR microservices & 11 \\ 
       \hline
 
-      IEEE Xplore & "Document Title": microservice*  AND ("All Metadata": pattern* OR "All Metadata": architecture* OR "All Metadata": design* OR "All Metadata": building block* OR "All Metadata": best practice*)  & 759 \\ 
+      IEEE Xplore & ("Document Title":big data) AND ("Document Title":reference architecture) OR ("Document Title":big data ) AND ("Document Title":architecture)
+      
+      & 302  \\ 
       \hline
 
       JSTOR & 
       
-      \textbf{Title:} microservice 
+      \textbf{Title:} 1) big data reference architecture 
 
-      \textbf{Title:} microservices 
-      & 0 \\ 
+      \textbf{Title:} 2) big data architecture 
+      & 
+      
+      1) 6,682
+
+
+      2) 671
+
+      \\ 
 
       \hline
 
       ScienceDirect & 
       
-      1) \textbf{Title, abstract, keywords}: pattern OR architecture OR design OR (building block) OR (best practice)
+    \textbf{Title}: big data AND ( reference architecture OR architecture )
 
-         \textbf{Title}: microservice OR microservices
-
-      2) \textbf{Title, abstract, keywords}: patterns OR architectures OR designs OR (building blocks) OR (best practices)
-
-          \textbf{Title}: microservice OR microservices
       & 
-      1) 79
+       70 
 
-      2) 76
       \\ 
 
       \hline
 
-      Scopus & ( TITLE-ABS-KEY ( pattern*  OR  architecture*  OR  design*  OR  ( "building block" )  OR  ( "building blocks" )  OR  ( "best practice" )  OR  ( "best practices" ) )  AND  TITLE ( microservice* ) ) & 1534 \\ 
+      Scopus &
+
+      ( TITLE ( big  AND  data  AND  reference  AND  architecture )  OR  TITLE ( big  AND data  AND architecture ) ) 
+      
+      & 
+      
+      814 
+      
+      \\ 
       \hline
 
-      SpringerLink & \textbf{Title}: microservice*
+      SpringerLink & \textbf{Title}: big data
 
 
-      \textbf{With at least one of the words}: pattern* architecture* design* "building block" "building blocks" "best practice" "best practices
-       & 433 \\ 
+      \textbf{With at least one of the words}: architecture reference architecture
+
+       & 27 \\ 
       \hline
 
-      Wiley & \textbf{Title}: microservice* & 38 \\ 
+      Wiley & 
+      \textbf{Title}: 1) big data reference architecture  
+      
+      \textbf{Title}: 2) big data architecture
+      & 
+      1) 1
+
+
+      2) 132
+      
+      \\ 
 
       \hline
   \end{tabular}
   
-  \label{searchTerms}
+  \label{searchTermsSecond}
 \end{table*}
 
 In the first phase of this SLR, a total of 138 literature has been pooled from academia, and 24 from grey literature. Some of this literature has been added to the pool by the process of forward and backward searching. For instance, by reading NIST RA \cite{Chang.2019}, we found out about Oracle, Facebook, and Amazon RAs and included those in the pool of the literature as well. 
