@@ -15,53 +15,49 @@ Warning--empty author and editor in Richardson.2022
 Warning--missing publisher in Richardson.2022
 Warning--empty pages in Ataei.2020
 Warning--can't use both volume and number fields in zhelev2019using
-Warning--there's a number but no volume in staegemann2021examining
-Warning--empty author and editor in AAC.2022
-Warning--missing publisher in AAC.2022
-Warning--empty author and editor in Chang.2019
-Warning--missing publisher in Chang.2019
-Warning--empty author and editor in ISO29148
-Warning--missing publisher in ISO29148
+Warning--there's a month but no year in Klein
+Warning--empty author and editor in ISO20547
+Warning--missing publisher in ISO20547
 Warning--there's a month but no year in Chaabane
-You've used 38 entries,
+You've used 60 entries,
             3170 wiz_defined-function locations,
-            897 strings with 13574 characters,
-and the built_in function-call counts, 67148 in all, are:
-= -- 8307
-> -- 501
-< -- 16
-+ -- 280
-- -- 125
-* -- 5606
-:= -- 7250
-add.period$ -- 135
-call.type$ -- 38
-change.case$ -- 28
+            1010 strings with 17507 characters,
+and the built_in function-call counts, 98746 in all, are:
+= -- 12216
+> -- 765
+< -- 24
++ -- 411
+- -- 191
+* -- 8090
+:= -- 10755
+add.period$ -- 222
+call.type$ -- 60
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 5135
-empty$ -- 6501
-format.name$ -- 154
-if$ -- 15798
+cite$ -- 69
+duplicate$ -- 7704
+empty$ -- 9525
+format.name$ -- 237
+if$ -- 23276
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 373
-newline$ -- 187
-num.names$ -- 39
-pop$ -- 786
+int.to.str$ -- 60
+missing$ -- 583
+newline$ -- 300
+num.names$ -- 69
+pop$ -- 1232
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 818
+skip$ -- 1270
 stack$ -- 0
-substring$ -- 13216
-swap$ -- 952
-text.length$ -- 16
+substring$ -- 18898
+swap$ -- 1455
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 326
-width$ -- 40
-write$ -- 418
-(There were 14 warnings)
+warning$ -- 9
+while$ -- 520
+width$ -- 62
+write$ -- 674
+(There were 10 warnings)

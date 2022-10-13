@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  13 OCT 2022 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  13 OCT 2022 21:50
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
@@ -543,15 +543,132 @@ Overfull \hbox (21.38582pt too wide) in paragraph at lines 672--673
  [][] 
  []
 
+[10]
+Overfull \hbox (2.05151pt too wide) in paragraph at lines 686--687
+[]|\OT1/cmss/bx/n/8 Year| 
+ []
 
-LaTeX Warning: Reference `table:bdRAs' on page 10 undefined on input line 677.
 
-[10] [11] [12 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/PRISMA/PRISMA_Flow_Diagram-2.pdf>] [13] [14]
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 688--689
+[]|\OT1/cmss/m/n/8 2011| 
+ []
 
-LaTeX Warning: Citation `MSPatterns' on page 15 undefined on input line 892.
 
-[15] [16]
-<Media/Vol-1 Requirement RA.jpg, id=457, 1469.49pt x 743.77875pt>
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 690--691
+[]|\OT1/cmss/m/n/8 2013| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 692--693
+[]|\OT1/cmss/m/n/8 2013| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 694--695
+[]|\OT1/cmss/m/n/8 2014| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 696--697
+[]|\OT1/cmss/m/n/8 2013| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 698--699
+[]|\OT1/cmss/m/n/8 2013| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 700--701
+[]|\OT1/cmss/m/n/8 2014| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 702--703
+[]|\OT1/cmss/m/n/8 2014| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 704--705
+[]|\OT1/cmss/m/n/8 2014| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 706--707
+[]|\OT1/cmss/m/n/8 2015| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 708--709
+[]|\OT1/cmss/m/n/8 2016| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 710--711
+[]|\OT1/cmss/m/n/8 2016| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 712--713
+[]|\OT1/cmss/m/n/8 2016| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 714--715
+[]|\OT1/cmss/m/n/8 2017| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 716--717
+[]|\OT1/cmss/m/n/8 2017| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 718--719
+[]|\OT1/cmss/m/n/8 2017| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 720--721
+[]|\OT1/cmss/m/n/8 2018| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 722--723
+[]|\OT1/cmss/m/n/8 2020| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 724--725
+[]|\OT1/cmss/m/n/8 2020| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 726--727
+[]|\OT1/cmss/m/n/8 2020| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 728--729
+[]|\OT1/cmss/m/n/8 2021| 
+ []
+
+
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 730--731
+[]|\OT1/cmss/m/n/8 2021| 
+ []
+
+
+Overfull \hbox (90.18353pt too wide) in paragraph at lines 684--733
+ [][] 
+ []
+
+[11] [12] [13 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/PRISMA/PRISMA_Flow_Diagram-2.pdf>] [14] [15]
+
+LaTeX Warning: Citation `MSPatterns' on page 16 undefined on input line 892.
+
+[16] [17]
+<Media/Vol-1 Requirement RA.jpg, id=508, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
 Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 1335.
@@ -562,8 +679,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1336.
 See the caption package documentation for explanation.
 
-[17 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Vol-1 Requirement RA.jpg>] [18]
-<Media/Velocity Requirement.jpg, id=472, 1512.65125pt x 726.715pt>
+[18 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Vol-1 Requirement RA.jpg>] [19]
+<Media/Velocity Requirement.jpg, id=524, 1512.65125pt x 726.715pt>
 File: Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use Media/Velocity Requirement.jpg>
 Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 1368.
@@ -574,8 +691,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1369.
 See the caption package documentation for explanation.
 
-[19 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Velocity Requirement.jpg>] [20]
-<Media/Value Requirement.jpg, id=488, 1752.5475pt x 729.72626pt>
+[20 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Velocity Requirement.jpg>] [21]
+<Media/Value Requirement.jpg, id=539, 1752.5475pt x 729.72626pt>
 File: Media/Value Requirement.jpg Graphic file (type jpg)
 <use Media/Value Requirement.jpg>
 Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 1403.
@@ -586,8 +703,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1404.
 See the caption package documentation for explanation.
 
-[21 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Value Requirement.jpg>]
-<Media/Privacy and Security Requirements.jpg, id=497, 1590.94376pt x 538.01pt>
+[22 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Value Requirement.jpg>]
+<Media/Privacy and Security Requirements.jpg, id=548, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
 Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 1421.
@@ -598,9 +715,9 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1422.
 See the caption package documentation for explanation.
 
-[22 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Privacy and Security Requirements.jpg>] [23] [24] [25] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl" [26]) 
+[23 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Privacy and Security Requirements.jpg>] [24] [25] [26] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl" [27] [28]) 
 AED: lastpage setting LastPage
-[27]
+[29]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1613.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1613.
  ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux")
@@ -622,19 +739,17 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1613.
  ) 
 Here is how much of TeX's memory you used:
- 10222 strings out of 480795
- 150740 string characters out of 2913777
- 430923 words of memory out of 3000000
- 25851 multiletter control sequences out of 15000+200000
+ 10248 strings out of 480795
+ 151195 string characters out of 2913777
+ 439960 words of memory out of 3000000
+ 25853 multiletter control sequences out of 15000+200000
  544036 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,10n,43p,1562b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{page.28} has been referenced but does not exist, replaced by a fixed one
-
 <D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (27 pages, 989160 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (29 pages, 1007115 bytes).
 PDF statistics:
- 637 PDF objects out of 1000 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
  431 words of extra memory for PDF output out of 10000 (max. 10000000)
 
