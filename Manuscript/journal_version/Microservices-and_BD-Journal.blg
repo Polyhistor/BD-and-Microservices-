@@ -9,7 +9,6 @@ Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: references.bib
-Warning--I didn't find a database entry for "MSPatterns"
 Warning--empty author and editor in NewVantageSurvey
 Warning--empty author and editor in Richardson.2022
 Warning--missing publisher in Richardson.2022
@@ -19,45 +18,45 @@ Warning--there's a month but no year in Klein
 Warning--empty author and editor in ISO20547
 Warning--missing publisher in ISO20547
 Warning--there's a month but no year in Chaabane
-You've used 60 entries,
+You've used 61 entries,
             3170 wiz_defined-function locations,
-            1010 strings with 17507 characters,
-and the built_in function-call counts, 98746 in all, are:
-= -- 12216
-> -- 765
+            1011 strings with 17577 characters,
+and the built_in function-call counts, 99325 in all, are:
+= -- 12282
+> -- 769
 < -- 24
-+ -- 411
-- -- 191
-* -- 8090
-:= -- 10755
-add.period$ -- 222
-call.type$ -- 60
++ -- 413
+- -- 192
+* -- 8124
+:= -- 10823
+add.period$ -- 225
+call.type$ -- 61
 change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 69
-duplicate$ -- 7704
-empty$ -- 9525
-format.name$ -- 237
-if$ -- 23276
+cite$ -- 70
+duplicate$ -- 7752
+empty$ -- 9588
+format.name$ -- 238
+if$ -- 23418
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 583
-newline$ -- 300
-num.names$ -- 69
-pop$ -- 1232
+int.to.str$ -- 61
+missing$ -- 588
+newline$ -- 305
+num.names$ -- 70
+pop$ -- 1249
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1270
+skip$ -- 1283
 stack$ -- 0
-substring$ -- 18898
-swap$ -- 1455
+substring$ -- 18974
+swap$ -- 1467
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 520
-width$ -- 62
-write$ -- 674
-(There were 10 warnings)
+while$ -- 524
+width$ -- 63
+write$ -- 684
+(There were 9 warnings)

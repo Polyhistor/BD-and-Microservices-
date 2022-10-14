@@ -889,56 +889,55 @@ Veracity refers to keeping a certain level of quality for data. Data veracity re
 
 
 
-As a result of this SLR, our data synthesis yielded 50 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{MSPatterns}.
+As a result of this SLR, our data synthesis yielded 50 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}.
   
-% \begin{center}
-%     \begin{table*}
-%     \renewcommand*{\arraystretch}{1.8}
-%     \begin{tabular}{ | m{3cm} | m{12cm} | }
+\begin{center}
+    \begin{table*}
+    \renewcommand*{\arraystretch}{1.8}
+    \begin{tabular}{ | m{3cm} | m{10cm} | }
 
-%         \hline
+        \hline
 
-%         Category & Pattern
+        Category & Pattern
+        \\
+
+        \hline
+
+        Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
  
-%         \\
+        \\
 
-%         \hline
+        \hline
 
-%         Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
+        Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
  
-%         \\
+        \\
 
-%         \hline
+        \hline
 
-%         Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
- 
-%         \\
-
-%         \hline
-
-%         Communicational & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
+        Communicational, Transactional & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
         
  
-%         \\
+        \\
 
-%         \hline
+        \hline
 
-%         Fault Tolerance & Circuit breaker, Bulkhead pattern
+        Fault Tolerance & Circuit breaker, Bulkhead pattern
  
-%         \\
-%         \hline
+        \\
+        \hline
 
-%         Observability & Log Aggregation Pattern
+        Observability & Log Aggregation Pattern
  
-%         \\
-%         \hline
+        \\
+        \hline
 
 
-%     \end{tabular}
-%     \caption{Microservices categorization}
-%     \label{microservices-categorization}
-%     \end{table*}
-% \end{center}
+    \end{tabular}
+    \caption{Microservices categorization}
+    \label{microservices-categorization}
+    \end{table*}
+\end{center}
 
 
 % \begin{center}
@@ -1286,6 +1285,8 @@ As a result of this SLR, our data synthesis yielded 50 MS patterns. These patter
 %     \end{tabular}
 %     \end{table*}
 % \end{center}
+
+
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
 
