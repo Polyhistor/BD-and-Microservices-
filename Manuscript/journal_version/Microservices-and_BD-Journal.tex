@@ -681,7 +681,7 @@ By the result of this SLR, 22 BD RAs have been found as portrayed in Table \ref{
   \renewcommand*{\arraystretch}{1.4}
   \caption{BD RAs}
   \label{table:bdRAs}
-  \begin{tabular}{|p{0.4cm}|p{12cm}|p{1.2cm}|p{0.5cm}|}
+  \begin{tabular}{|p{0.4cm}|p{9cm}|p{1.2cm}|p{0.5cm}|}
   \hline
   \textbf{ID} & \textbf{Title} & \textbf{Domain} & \textbf{Year} \\
   \hline
@@ -1299,7 +1299,7 @@ The main contribution of our work is to propose new theories and try to apply so
 We posit that a pattern alone would not be significantly useful to a data engineering or a data architect, and propose that a collection of patterns in relation to current defacto standard of BD architectures is a better means of communication. To achieve this, we've portray patterns selected for each requirement in a reference architecture. We then justify the components and describe how patterns could address the requirement. These descriptions are presented as sub section, each describing one characteristic of BD systems. 
 
 
-\subsection{Volume}
+\subsection{Volume} \label{volume}
 
 % There has been two requirements associated to the Volume aspect of big data systems which are about handling various data types (Vol-1) and providing with a scalable storage (Vol-2). 
 
@@ -1443,6 +1443,7 @@ One solution to this problem can be the circuit breaker pattern. Circuit breaker
 
 
 % % Pouya
+
 \section{Validation}
 
 After the generation of the design theories, we sought for a suitable model of validation. This involved a thorough research in some of the well-established methods for validation such as single-case mechanism experiment, technical action research and focus groups \cite{wieringa2014design}. For the purposes of this study we chose semi-structured interviews (SSIs), following the guidelines of Kallio et al. \cite{kallio2016systematic}.
@@ -1450,27 +1451,48 @@ After the generation of the design theories, we sought for a suitable model of v
 \subsection{Methodology}
 Our SSI methodology is made up of four phases: 1) identifying the rationale for using semi-structured interviews, 2) formulating the preliminary semi-structured interview guide, 3) pilot testing the interview guide, 4) presenting the results of the interview. 
 
-SSI are suitable for our study, because our conceptual framework is made up of architectural constructs that can benefit from in-depth probing and analysis. As we examine an uncharted territory with a lot of potential, we posit that these interviews can post useful leads which we can pursue to further improve the theories of this study. We've formulated our SSI guide based on our research objective to achieve the richest possible data. 
-
-% Our guide is flexible, to increase our opportunity to explore new ideas, and allow for participant-orientation. Nevertheless, we do have some close-ended questions at the start of our interview which is a good starter, and also helps us with some statistics. 
+SSI are suitable for our study, because our conceptual framework is made up of architectural constructs that can benefit from in-depth probing and analysis. As we examine an uncharted territory with a lot of potential, we posit that these interviews can post useful leads which we can pursue to further improve the theories of this study. We've formulated our SSI guide based on our research objective to achieve the richest possible data. Our guide is flexible, to increase our opportunity to explore new ideas, and allow for participant-orientation. Nevertheless, we do have some close-ended questions at the start of our interview which is a good starter, and also helps us with some statistics. 
 
 Our questions are categorized into main themes and follow-up questions, with main themes being progressing and logical, as recommended by Kallio et al. \cite{kallio2016systematic}. We pilot tested our interview guide using internal testing, which involved an evaluation of the preliminary interview guide with the members of the research team. We aimed to assume the role of the interviewee and gain insight into the limitations of our guide.
 
-% This approach helped us capture some issues with the questions, and remove some questions that may be deemed eccentric. From there on, we presented the results as theories with some statistics attained from close-ended questions. 
-
-% Follow-up questions were utilized to direct the dialogue towards the subject of our study, and make things easier for candidate to understand. Some of these follow-up questions were improvised, as we did not aim to rigidly control the flow of the interview. After this, to ensure the rigour and relevance of the interview guide, we've conducted a pilot test. This step was necessary to make informed adjustments to the guide, and to improve quality of data collection. 
+This approach helped us capture some issues with the questions, and remove some questions that may be deemed eccentric. Follow-up questions were utilized to direct the dialogue towards the subject of our study, and make things easier for candidate to understand. Some of these follow-up questions were improvised, as we did not aim to rigidly control the flow of the interview. After this, to ensure the rigour and relevance of the interview guide, we've conducted a pilot test. This step was necessary to make informed adjustments to the guide, and to improve quality of data collection. 
 
 
 
 \subsection{Results}
 
-From the results of these interviews, we gathered a lot of insights and probed deeper some of our architectural decisions. Every interview involved in deep analysis of the design patterns with one question from the interviewee trying to understand the problem space and solution better. Our interviewees had at least 8 years of experience and held titles such as 'lead development architect' and 'solution architect'. While some of our interviewees had more experience with BD and AI, some others were well-versed in MS architecture. We first asked interviewees about their depth of understanding with MS and BD, and then asked them if patterns discussed for each characteristic makes sense. We asked every interviewee if they can think of a pattern that we failed to consider. Our interview guide is available at Appendix~\ref{interviewGuide}.
+From the results of these interviews, we gathered a lot of insights and probed deep into our architectural constructs. Every interview involved in deep analysis of the design patterns with one question from the interviewee trying to understand the problem space and solution better. Our interviewees had at least 8 years of experience and held titles such as 'lead development architect' and 'solution architect'. While some of our interviewees had more experience with BD and AI, some others were well-versed in MS architecture. We first asked interviewees about their depth of understanding with MS and BD, and then asked them if patterns discussed for each characteristic makes sense. We asked every interviewee if they can think of a pattern that we failed to consider. Our interview guide is available at Appendix~\ref{interviewGuide}. While we designed the interview to be only one hour, the interview has always exceeded this time. We present the result of the interviews in sub-section each associated to the corresponding BD characteristic.
 
-% We went through each pattern using our Archimate model, and explained and discussed why we've chosen it. 
+\subsection{Volume}
+
+For volume, we went through the theories elaborated in Section~\ref{volume}. This was accompanied by the model created, and sometimes even live modeling to help with understanding. All of the interviewees took the idea of API gateway and gateway offloading naturally, while we had to explore the 'external configuration store' a bit deeper. We used the idea of Kubernetes ingress to help with elaboration of API gateway. We used AWS load balancer example, and discussed the challenges of maintaining certificates and authentication. For the externalized configuration pattern we had to go a bit deeper and talk about a scenario in a which the developer of the batch processing node or the stream processing node, may need to account for the development, trial and production workloads that have different DNS requirements, and configurations. We discussed how environment variables may vary, have development and trial environments may not need as much resources as the production, how ingress may vary, how recursive DNS resolution would be different, and how buffers, and hardware may vary. 
+
+After explaining a scenario, interviewees agreed that this pattern can help with some of the challenges of data engineering. One interviewee mentioned that this can even be utilized for special privacy requirements. That is, different nodes may have different configuration based on the privacy policies needed. In addition, there's been discussion in regards to regional privacy and security requirements and how configuration can help derive them. Some interviewees discussed that this is a general pattern that any system can utilize to its benefit. 
 
 
+\subsection{Velocity}
 
-We realized that API gateway and gateway offloading pattern is easily accepted as an effective pattern, while CQRS needed more reasoning and explanation. One interviewee had a concern about the write and read services being the single point of failure in the CQRS pattern and how those services can scale. Another interviewee wanted to know if we looked into event sourcing and if that could be applied. We've also received comments on the usage of priority queue for sensitive stream processing requirements. The most experienced interviewee (14 years) suggested us to further break down our processing requirements into domains and then utilize gateway aggregate patterns to do 'data as a service'. This idea was driven by data mesh and data fabrics. All of our interviewees found the study interesting, and were eager to know more after the interview. 
+For Velocity, we first started by exploring an event-driven data engineering architecture, and then justified the idea of competing consumers. We then explored how competing consumers can fail, and how circuit breaker pattern can help. Finally we explore the idea of logging and how tail logging and distributed tracing can be achieved through it. An interviewee challenged the idea of competing consumer and stated that a leader election may be a better choice for a distributed setup as such. The interviewee also mentioned that circuit breakers could be implemented on the competing consumers themselves, but he could see the value of separating it to its own service. Of particular argument was the fact that circuit breaker's implementation may not be that complicated and a dedicated service for it can increase costs.  
+
+In another interview, interviewee asked about the amalgamation technique for the logs, and discussed how dimensionality of the logs can be challenging. We took both feedbacks 'leader election' and 'more in-detailed logging approach' into consideration. We researched deeper into leader election, logging approaches, and distributed tracing. We found leader election a bit hard to justify, as it introduces a single point of failure, can potentially introduce faulty data as there's only one point of trust, and partial deployments are really hard to apply. We found that benefits of 'leader election' pattern to be outweighed by the complexity it introduces. In regards to logging, we found various approaches to distributed tracing and log merging, however these were mostly in-detailed micro approaches, which is not in the scope of our study. 
+
+
+\subsection{Variety}
+
+For variety, we discussed common data types that need support, and how system may use parquet, JSON, or how unstructured data can introduce challenges. By this point, interviewees had a better grasp of our models and the gateway patterns, thus there wasn't much questions. An interviewee suggested the 'API composition' pattern and suggested that we may have various services that handle different data types, but the composition of these data may be necessary. The interviewee suggested that 'API composition' can occur at the egress level. 
+
+\subsection{Value}
+
+For value, we discussed CQRS and anti-corruption layer. We first began by exploring the challenges of having to optimize for read and write loads. We discussed how it could be essential for the business to provide read queries in a timely manner, and how trying to model for both read and write queries may not be efficient. For instance, we explored snowflake schemas against star schemas, discussed a typical data analysis flow and provided with challenges. None of our interviewees have had an experience with CQRS in practice, but they were aware of the pattern. 
+
+An interviewee discussed how this pattern can be helpful in companies that have adopted domain-driven design, and how each bounded context can decide how the data should be modeled. Our interviewees shared the same idea that CQRS should only be applied when the needs arise and not proactively. This is due to the fact that implementing and getting CQRS right comes with complexity, and can dramatically increase cost. An interviewee suggested that CQRS is perhaps unnecessary in many cases and should be utilized only in special cases. The interviewee also suggested that a reporting database should suffice, and discussed other optimization strategies that could be applied to optimize for read and write without needing to implement CQRS. One example is using different access techniques for reads and writes. 
+
+These interviews shed some lights on how complex implementing CQRS can be, and we deduced that this pattern can introduce challenges and should be adopted when the benefits outweigh the challenges. We also received questions about event sourcing and if that could be applied, as CQRS is usually implemented with event sourcing. However, we do not think that event sourcing can scale to account for big data systems, and the challenges of maintaining event logs can introduce risk to modifiability and performance of the overall system. 
+
+
+We realized that API gateway and gateway offloading pattern is easily accepted as an effective pattern, while CQRS needed more reasoning and explanation. One interviewee had a concern about the write and read services being the single point of failure in the CQRS pattern and how those services can scale. 
+
+Another interviewee wanted to know if we looked into event sourcing and if that could be applied. We've also received comments on the usage of priority queue for sensitive stream processing requirements. The most experienced interviewee (14 years) suggested us to further break down our processing requirements into domains and then utilize gateway aggregate patterns to do 'data as a service'. This idea was driven by data mesh and data fabrics. All of our interviewees found the study interesting, and were eager to know more after the interview. 
 
 Another feedback was the idea of having an egress that encapsulate the anti-corruption layer and adds some more into it as well. The pattern 'backend for frontend' was well received, and our event driven thinking seemed to be very well accepted by the interviewees. By the result of this interview we realized that we have missed an architectural construct while discussing velocity requirements, which was the message queue. These interviews increased our confidence in our results and reasoning and have shed some lights on possible new patterns that we could employ.
 
