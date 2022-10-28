@@ -18,45 +18,45 @@ Warning--there's a month but no year in Klein
 Warning--empty author and editor in ISO20547
 Warning--missing publisher in ISO20547
 Warning--there's a month but no year in Chaabane
-You've used 61 entries,
+You've used 62 entries,
             3170 wiz_defined-function locations,
-            1011 strings with 17577 characters,
-and the built_in function-call counts, 99325 in all, are:
-= -- 12282
-> -- 769
+            1016 strings with 17738 characters,
+and the built_in function-call counts, 100628 in all, are:
+= -- 12453
+> -- 777
 < -- 24
-+ -- 413
-- -- 192
-* -- 8124
-:= -- 10823
-add.period$ -- 225
-call.type$ -- 61
++ -- 417
+- -- 194
+* -- 8223
+:= -- 10962
+add.period$ -- 229
+call.type$ -- 62
 change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 7752
-empty$ -- 9588
-format.name$ -- 238
-if$ -- 23418
+cite$ -- 71
+duplicate$ -- 7886
+empty$ -- 9709
+format.name$ -- 241
+if$ -- 23727
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 588
-newline$ -- 305
-num.names$ -- 70
-pop$ -- 1249
+int.to.str$ -- 62
+missing$ -- 598
+newline$ -- 310
+num.names$ -- 71
+pop$ -- 1265
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1283
+skip$ -- 1299
 stack$ -- 0
-substring$ -- 18974
-swap$ -- 1467
+substring$ -- 19188
+swap$ -- 1490
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 524
-width$ -- 63
-write$ -- 684
+while$ -- 533
+width$ -- 64
+write$ -- 695
 (There were 9 warnings)
