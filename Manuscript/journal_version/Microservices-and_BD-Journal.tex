@@ -1466,7 +1466,7 @@ This approach helped us capture some issues with the questions, and remove some 
 
 After having our interview guide designed, we used purposive sampling \cite{baltes2022sampling} to select experts. We chose purposive sampling because it allowed us to collect rich information by expert sampling. In addition, this approach enabled us to ensure representativeness and removed the need for a sampling frame. We also attempted `heterogeneity sampling' by approaching candidates from various industries. 
 
-We reached out to colleagues, our connections on ResearchGate and Linkedin, and tried to look for experts with the titles 'data engineer', 'data architect', 'senior data engineer', 'solution architect', 'lead architect', and 'big data architect'. We also included founders of big data companies, or academic who have been working on BD systems. We interviewed 6 experts from various industries over a period of 3 months. An overview of these experts are portrayed in Table~\ref{interviewees}. 
+We reached out to colleagues, our connections on ResearchGate and Linkedin, and tried to look for experts with the titles 'data engineer', 'data architect', 'senior data engineer', 'solution architect', 'lead architect', and 'big data architect'. We also included founders of big data companies, or academics who have been working on BD systems. We interviewed 6 experts from various industries over a period of 3 months. An overview of these experts are portrayed in Table~\ref{interviewees}. 
 
 
 \begin{table}[h]
@@ -1485,21 +1485,39 @@ We reached out to colleagues, our connections on ResearchGate and Linkedin, and 
       \hline
       i4 & Senior Data Engineer & 20 &  Software as a Service (SaaS) \\   
       \hline
+      i5 & Big Data Architect & 15 &  Software as a Service (SaaS) \\   
+      \hline
       
   \end{tabular}
   \label{interviewees}
 \end{table}
 
 
+\subsection{Data Synthesis}
 
+All the interviews have been done through the software Zoom. We saved all of the recordings, and then downloaded the automatically generated transcripts. Transcripts for each interview has been added to Nvivo and then codes are created. We created a code for each BD characteristics discussed in Section~\ref{requirementSpec}. Additionally, we added a code named 'comments/suggestions'. After having analyzed all the transcripts, we added a new code named 'limitation'. This last code discussed how some of patterns of microservices may not be relevant at all, or some of the patterns we proposed may introduce challenges. 
 
-
-This has enabled us to ensure representativeness on a specific dimension and removed the need to define broad sampling frames. 
+After the initial coding process, through axial coding, we created higher level codes. These higher level codes were connected to create themes. 
 
 
 \subsection{Results}
 
-From the results of these interviews, we gathered a lot of insights and probed deep into our architectural constructs. Every interview involved in deep analysis of the design patterns with one question from the interviewee trying to understand the problem space and solution better. Our interviewees had at least 8 years of experience and held titles such as 'lead development architect' and 'solution architect'. While some of our interviewees had more experience with BD and AI, some others were well-versed in MS architecture. We first asked interviewees about their depth of understanding with MS and BD, and then asked them if patterns discussed for each characteristic makes sense. We asked every interviewee if they can think of a pattern that we failed to consider. Our interview guide is available at Appendix~\ref{interviewGuide}. While we designed the interview to be only one hour, the interview has always exceeded this time. We present the result of the interviews in sub-section each associated to the corresponding BD characteristic.
+From the results of these interviews, we gathered a lot of insights and probed deep into our architectural constructs. Every interview involved in deep analysis of the design patterns with one question from the interviewee trying to understand the problem space and solution better. Our interviewees had at least 8 years of experience. While some of our interviewees had more experience with BD and AI, some others were well-versed in MS architecture. We first asked interviewees about their depth of understanding with MS and BD, and then asked them if patterns discussed for each characteristic makes sense. We asked every interviewee if they can think of a pattern that we failed to consider. Our interview guide is available at Appendix~\ref{interviewGuide}. While we designed the interview to be only an hour, the interview has always exceeded this time. We present the result of the interviews in sub-section each associated to the corresponding BD characteristic.
+
+
+people don't really follow design patterns, they decise their own thing 
+
+we use api gateway for conversion, when we created a new ETL process we constalty feed data to API Gateway to different regions across the world. 
+
+event driven data is on our plan. we want to store the source data and wants its landing in the S3, we will trigger the lamda function to start the ETL process.
+
+this is diffuclt because we have to get the configuration from the third-party. we like to go even-driven fully. 
+
+configurations will be stored in DynamoDB and decide what should be done for what.
+
+
+. There are known reasons for not applying microservice patterns in BD systems. For example, the CQRS pattern mentioned in Section V.D.1. to separate readers from writers would increase the overall data volume and stress the storage media. This even worsens in the Bigdata systems due to the large volume of data in these systems. Thus, the direct adaptation of the CQRS pattern in the BD system might not perform well. In addition, the microservice architecture itself has a few general overheads as well. For example, it is well known that microservice architecture would incur high operation overhead, and the authors failed to address any such issues.
+
 
 \subsection{Volume}
 
