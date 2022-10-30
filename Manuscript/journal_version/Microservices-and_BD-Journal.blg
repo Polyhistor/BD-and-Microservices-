@@ -9,10 +9,6 @@ Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: references.bib
-Repeated entry---line 1590 of file references.bib
- : @inproceedings{sriraman2018mu
- :                              ,
-I'm skipping whatever remains of this entry
 Warning--empty author and editor in NewVantageSurvey
 Warning--empty author and editor in Richardson.2022
 Warning--missing publisher in Richardson.2022
@@ -22,45 +18,45 @@ Warning--there's a month but no year in Klein
 Warning--empty author and editor in ISO20547
 Warning--missing publisher in ISO20547
 Warning--there's a month but no year in Chaabane
-You've used 63 entries,
+You've used 65 entries,
             3170 wiz_defined-function locations,
-            1021 strings with 17915 characters,
-and the built_in function-call counts, 101729 in all, are:
-= -- 12586
-> -- 785
-< -- 25
-+ -- 421
-- -- 196
-* -- 8305
-:= -- 11088
-add.period$ -- 233
-call.type$ -- 63
+            1031 strings with 18224 characters,
+and the built_in function-call counts, 104077 in all, are:
+= -- 12860
+> -- 809
+< -- 26
++ -- 433
+- -- 202
+* -- 8488
+:= -- 11345
+add.period$ -- 239
+call.type$ -- 65
 change.case$ -- 46
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 7967
-empty$ -- 9816
-format.name$ -- 244
-if$ -- 23990
+cite$ -- 74
+duplicate$ -- 8136
+empty$ -- 10054
+format.name$ -- 251
+if$ -- 24547
 int.to.chr$ -- 0
-int.to.str$ -- 63
-missing$ -- 606
-newline$ -- 315
-num.names$ -- 72
-pop$ -- 1285
+int.to.str$ -- 65
+missing$ -- 622
+newline$ -- 325
+num.names$ -- 74
+pop$ -- 1331
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1320
+skip$ -- 1351
 stack$ -- 0
-substring$ -- 19368
-swap$ -- 1515
-text.length$ -- 25
+substring$ -- 19799
+swap$ -- 1551
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 541
-width$ -- 65
-write$ -- 707
-(There was 1 error message)
+while$ -- 553
+width$ -- 67
+write$ -- 728
+(There were 9 warnings)

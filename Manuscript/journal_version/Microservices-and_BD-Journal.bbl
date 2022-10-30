@@ -339,6 +339,17 @@ Richardson C.
 \newblock Microservices patterns: with examples in Java.
 \newblock Simon and Schuster; 2018.
 
+\bibitem{fowler1997analysis}
+Fowler M.
+\newblock Analysis patterns: reusable object models.
+\newblock Addison-Wesley Professional; 1997.
+
+\bibitem{buschmann2008pattern}
+Buschmann F, Meunier R, Rohnert H, Sommerlad P, Stal M.
+\newblock Pattern-Oriented Software Architecture: A System of Patterns, Volume
+  1. vol.~1.
+\newblock John wiley \& sons; 2008.
+
 \bibitem{lankhorst2013language}
 Lankhorst M.
 \newblock A Language for Enterprise Modelling.

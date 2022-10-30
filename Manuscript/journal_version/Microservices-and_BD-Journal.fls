@@ -136,6 +136,8 @@ INPUT D:\MikTex\tex\latex\needspace\needspace.sty
 INPUT D:\MikTex\tex\latex\needspace\needspace.sty
 INPUT D:\MikTex\tex\latex\mdframed\md-frame-0.mdf
 INPUT D:\MikTex\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\MikTex\tex\latex\titlesec\titlesec.sty
+INPUT D:\MikTex\tex\latex\titlesec\titlesec.sty
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux
@@ -149,8 +151,14 @@ INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
 INPUT D:\MikTex\tex\latex\caption\ltcaption.sty
 INPUT D:\MikTex\tex\latex\caption\ltcaption.sty
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss10.tfm
@@ -177,7 +185,6 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx8.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -186,14 +193,12 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx5.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx7.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss12.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssi8.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT D:\MikTex\fonts\tfm\public\cm\cmti10.tfm
+INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmr6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmmi6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmsy6.tfm
@@ -234,17 +239,16 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Privacy and Security Requirements.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\Privacy and Security Requirements.jpg
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl
+INPUT D:\MikTex\fonts\tfm\public\cm\cmtt8.tfm
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx5.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx5.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmss10.pfb
@@ -257,3 +261,5 @@ INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb

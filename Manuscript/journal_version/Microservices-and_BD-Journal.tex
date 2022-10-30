@@ -65,8 +65,15 @@
 \usepackage{lscape}
 \usepackage{lineno,hyperref,longtable}
 \usepackage[]{mdframed}
+\usepackage{titlesec}
 \captionsetup[table]{skip=6pt}
 
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\itshape}{\theparagraph}{0.3em}{}
+\titlespacing*{\paragraph}
+{0pt}{1.6ex plus 1ex minus .2ex}{.5ex plus .2ex}
 
 % \usepackage[applemac]{inputenc} %applemac support if unicode package fails
 % \usepackage[latin1]{inputenc} %UNIX support if unicode package fails
@@ -129,11 +136,11 @@
   corref={aff1},                       % id of corresponding address, if any
 % noteref={n1},                        % id's of article notes, if any
   email={jane.e.doe@cambridge.co.uk}   % email address
-]{\inits{J.E.}\fnm{Jane E.} \snm{Doe}}
+]{\inits{P.A.}\fnm{Pouya} \snm{Ataei}}
 \author[
   addressref={aff1,aff2},
   email={john.RS.Smith@cambridge.co.uk}
-]{\inits{J.R.S.}\fnm{John R.S.} \snm{Smith}}
+]{\inits{D.S.}\fnm{Daniel} \snm{Staegemann}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -818,7 +825,7 @@ After knowing the type and category of requirements, We looked for a rigorous ap
 
 \setlist{leftmargin=1.5cm,before=\vspace{\baselineskip}}
 
-\subsection{Volume}
+\paragraph{Volume}
 
 Volume refers to addressing multitude of data for the purposes of storage and analysis. An architecture needs to be elastic enough to address volume demands at different rates. Storing and computing large volume of data with attention to efficiency is a complex process that requires distributed and parallel processing. Therefore, volume requirements for Cybermycelium are as following:
 `'
@@ -830,7 +837,7 @@ Volume refers to addressing multitude of data for the purposes of storage and an
 \end{enumerate}
 
 
-\subsection{Velocity}
+\paragraph{Velocity}
 
 Velocity refers to addressing the rate at which data flows into system for different analytical requirements. Processing of data to expedite the decision-making process quickly on one hand and handling the variety of data and storing them for batch processing, stream processing or micro-batch processing on other hand bring considerable technical challenge. Therefore, velocity requirements of Cybermycelium are as following: 
 
@@ -843,7 +850,7 @@ Velocity refers to addressing the rate at which data flows into system for diffe
 \end{enumerate}
 
 
-\subsection{Variety}
+\paragraph{Variety}
 
 Variety refers to addressing data in different format, such as structured, unstructured, and semi-structured. Different formats may require different processing techniques, may have different storage requirements and may be optimized in different ways. Hence, an effective BD architecture can handle various data types and enable the processing and transformation of them in an efficient manner. Therefore, the variety requirements of Cybermycelium are as following: 
 
@@ -855,7 +862,7 @@ Variety refers to addressing data in different format, such as structured, unstr
 \end{enumerate}
 
 
-\subsection{Value}
+\paragraph{Value}
 
 Value refers to addressing the process of knowledge extraction from large datasets. Value is perhaps one of the most challenging aspect of BD architecture as it involves a variety of cross-cutting concerns such as data quality, metadata and data interoperability. Gleaning, crunching and extracting value from data, requires an integrated approach of storage and computing. Value requirements for Cybermycelium are as following:
 
@@ -866,7 +873,7 @@ Value refers to addressing the process of knowledge extraction from large datase
     \item System needs to support streaming results to the consumers 
 \end{enumerate}
 
-\subsection{Security and Privacy}
+\paragraph{Security and Privacy}
 
 Security and privacy should be some of the top concerns for the design of any effective BD system. An effective architecture should be secure, adopting the best security practices (principles of least privilege) and in the meantime respect regional and global privacy rules (GDPR). The security and privacy requirements of Cybermycelium are as following:
 
@@ -875,7 +882,7 @@ Security and privacy should be some of the top concerns for the design of any ef
     \item System needs to have access control, and multi-level, policy-driven authentication on protected data and processing nodes.
 \end{enumerate}
 
-\subsection{Veracity}
+\paragraph{Veracity}
 
 Veracity refers to keeping a certain level of quality for data. Data veracity refers to truthfulness and accuracy of data; in simpler terms, it is to ensure that data possess qualities necessary for crunching and analysis. Veracity requirements for Cybermycelium are as following: 
 
@@ -890,55 +897,91 @@ Veracity refers to keeping a certain level of quality for data. Data veracity re
 
 
 
-As a result of this SLR, our data synthesis yielded 50 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}.
+As a result of this SLR, our data synthesis yielded 50 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}. Nevertheless, we explain the patterns discussed in this study. These 10 patterns are as following: 
+
+\begin{enumerate}
+  \item API gateway 
+  \item Gateway offloading 
+  \item External configuration store
+  \item Competing Consumers
+  \item Circuit Breaker
+  \item Log Aggregation
+  \item Command and Query Responsibility Segregation (CQRS)
+  \item Anti-Corruption Layer
+  \item Backend for Frontend (BFF)
+  \item Pipes and filters
+\end{enumerate}
   
+\hspace{1cm}
+
+For the purposes of this study, we use Fowler's definition \cite{fowler1997analysis} of patterns as 'an idea that has been useful in one practical context and will probably be useful in others'. Several formats are used in the literature to describe patterns. While there is no single format that is widely accepted, there is a broad agreement on what elements should a pattern description include. In this study we use the pattern description template taken from Buschmann et al's work \cite{buschmann2008pattern}. 
+
+This pattern description language has several elements that does not relate directly to our study. For instance, we do not aim to provide a code example for each patterns, as that's not in-line with our study. Therefore we omitted the headings `forces', `variation', `examples', `resulting context', `related patterns', `known uses', and `example application'. Each pattern is discussed in following subsections in the order of context, problem, forces and solution. The starting paragraph of each pattern is the context. 
+
 \begin{center}
-    \begin{table*}
-    \renewcommand*{\arraystretch}{1.8}
-    \begin{tabular}{ | m{3cm} | m{10cm} | }
+  \begin{table*}
+  \renewcommand*{\arraystretch}{1.8}
+  \begin{tabular}{ | m{3cm} | m{10cm} | }
 
-        \hline
+      \hline
 
-        Category & Pattern
-        \\
+      Category & Pattern
+      \\
 
-        \hline
+      \hline
 
-        Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
- 
-        \\
+      Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
 
-        \hline
+      \\
 
-        Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
- 
-        \\
+      \hline
 
-        \hline
+      Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
 
-        Communicational, Transactional & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
-        
- 
-        \\
+      \\
 
-        \hline
+      \hline
 
-        Fault Tolerance & Circuit breaker, Bulkhead pattern
- 
-        \\
-        \hline
+      Communicational, Transactional & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
+      
 
-        Observability & Log Aggregation Pattern
- 
-        \\
-        \hline
+      \\
+
+      \hline
+
+      Fault Tolerance & Circuit breaker, Bulkhead pattern
+
+      \\
+      \hline
+
+      Observability & Log Aggregation Pattern
+
+      \\
+      \hline
 
 
-    \end{tabular}
-    \caption{Microservices categorization}
-    \label{microservices-categorization}
-    \end{table*}
+  \end{tabular}
+  \caption{Microservices categorization}
+  \label{microservices-categorization}
+  \end{table*}
 \end{center}
+
+\subsubsection{API gateway}
+
+\paragraph{Context}
+
+Suppose that a company runs a multi-region software as a service (SaaS) practice management system for veterinarian, and is using microservices for different aspect of the system such as financial, medical, client and animal. Different frontend applications need different data to display for various parts of the application. The animal micro-frotned needs the animal data, and financial micro-frotned needs data from several backends such as animal, financial, and client. 
+
+
+\paragraph{Problem}
+
+How does the financial micro-frontend retrieves the data it needs from various backends? should it make a separate REST request to different APIs and then combine the data to represent what is required? how does this approach evolve? if the financial microservice changes, how does it affect the data composition ? how does the financial micro-frontend gets the new endpoint ? how does the financial micro-frontend authenticate with the financial microservice? should the configs be hard-coded and changed every now and then ? if the financial microservice changes implementation of a certain function, would it break production ?
+
+\paragraph{Solution}
+
+The solution to the problems discussed is to have one gateway that resolves different data necessary for various micro-frontends. The API gateway can act as a single entry for all clients, handling version changes, reducing the network requests, and addressing cross-cutting concerns. In addition, API gateway can help with load balancing. The gateway can either proxy/route requests to appropriate services or it can fan out a request to multiple services. 
+
+
 
 
 % \begin{center}
@@ -1287,6 +1330,21 @@ As a result of this SLR, our data synthesis yielded 50 MS patterns. These patter
 %     \end{table*}
 % \end{center}
 
+\subsubsection{Gateway Offloading}
+
+\paragraph{Context}
+
+Using the same SaaS practice management system example, one can imagine that different microservices have some common features and these features require maintenance, configuration and management. 
+
+
+Some features are commonly used across multiple services, and these features require configuration, management, and maintenance. A shared or specialized service that is distributed with every application deployment increases the administrative overhead and increases the likelihood of deployment error. Any updates to a shared feature must be deployed across all services that share that feature.
+
+Properly handling security issues (token validation, encryption, SSL certificate management) and other complex tasks can require team members to have highly specialized skills. For example, a certificate needed by an application must be configured and deployed on all application instances. With each new deployment, the certificate must be managed to ensure that it does not expire. Any common certificate that is due to expire must be updated, tested, and verified on every application deployment.
+
+
+\paragraph{Problem}
+\paragraph{Solution}
+
 
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
@@ -1341,7 +1399,15 @@ By externalizing all nodes configuration to another service, each node can reque
 
 \subsection{Velocity}
 
-Velocity is perhaps one of the most challenging aspects of the BD systems, which if not addressed well, can result in series of issues from system availability to massive loses and customer churn. To address some of the challenges associated with the velocity aspect of BD systems, we recommend the following patterns for the requirements Vel-1, Vel-2, Vel-3, and Vel-5; 1) Competing Consumers, 2) Circuit Breaker and 3) Log Aggregation.
+Velocity is perhaps one of the most challenging aspects of the BD systems, which if not addressed well, can result in series of issues from system availability to massive loses and customer churn. To address some of the challenges associated with the velocity aspect of BD systems, we recommend the following patterns for the requirements Vel-1, Vel-2, Vel-3, and Vel-5:
+
+
+\begin{enumerate}
+  \item Competing Consumers
+  \item Circuit Breaker
+  \item Log Aggregation
+\end{enumerate}
+
 
 \subsubsection{Competing Consumers}
 
@@ -1375,7 +1441,13 @@ In addition, reliability engineers can configure alerts to be triggered underlyi
 
 \subsection{Variety}
 
-Variety, being another important aspect of BD, implies the range of different data types and the challenges of handling these data. As BD system grows, newer data structures emerge, and an effective BD system must be elastic enough to handle various data types. To address some of the challenges of this endeavour, we recommend the following patterns to address requirements Var-1, Var-3, Var-4; 1) API Gateway, 2) Gateway Offloading.
+Variety, being another important aspect of BD, implies the range of different data types and the challenges of handling these data. As BD system grows, newer data structures emerge, and an effective BD system must be elastic enough to handle various data types. To address some of the challenges of this endeavour, we recommend the following patterns to address requirements Var-1, Var-3, Var-4:
+
+\begin{enumerate}
+  \item API Gateway
+  \item Gateway Offloading
+\end{enumerate}
+
 
 \subsubsection{API Gateway and Gateway Offloading}
 
@@ -1385,7 +1457,12 @@ To address this problem, API Gateway and Gateway Offloading can be used. API Gat
 
 \subsection{Value}
 
-Value is the nucleus of any BD endeavour. In fact all components of the system pursue the goal of realizing a value, that is the insight derived from the data. Howbeit, realizing these insights require absorption of great deal of complexity. To address some of these challenges, we propose the following patterns to address the requirements Val-1, Val-3, and Val-4; 1) Command and Query Responsibility Segregation (CQRS), 2) Anti-Corruption Layer.
+Value is the nucleus of any BD endeavour. In fact all components of the system pursue the goal of realizing a value, that is the insight derived from the data. Howbeit, realizing these insights require absorption of great deal of complexity. To address some of these challenges, we propose the following patterns to address the requirements Val-1, Val-3, and Val-4:
+
+\begin{enumerate}
+  \item Command and Query Responsibility Segregation (CQRS)
+  \item  Anti-Corruption Layer
+\end{enumerate}
 
 \subsubsection{Command and Query Responsibility Segregation}
 
@@ -1409,7 +1486,11 @@ One approach to solve this issue is anti-corruption layer. Anti-corruption layer
 
 \subsection{Security and Privacy}
 
-Security and privacy should be on top of mind for any BD system development, as these two aspects play an important role in the overall data strategy and architecture of the company. At the intersection of data evolution, regional policies, and company policies, there's a great deal of complexity. To this end, we propose the following pattern to address requirements SaP-1 and SaP-2; 1) Backend for Frontend (BFF)
+Security and privacy should be on top of mind for any BD system development, as these two aspects play an important role in the overall data strategy and architecture of the company. At the intersection of data evolution, regional policies, and company policies, there's a great deal of complexity. To this end, we propose the following pattern to address requirements SaP-1 and SaP-2:
+
+\begin{enumerate}
+  \item Backend for Frontend (BFF)
+\end{enumerate}
 
 \subsubsection{Backend for Frontend}
 
@@ -1428,7 +1509,13 @@ On the other hand, from the security point of view, and in specific in relation 
 
 \subsection{Veracity}
 
-Next to value, veracity is an integral component of any effective BD system. Veracity in general is about how truthful and reliable data is, and how signals can be separated from the noises. Data should conform with the expectations from the business, thus data quality should be engineered across the data lifecycle. According to Eryurek et al. \cite{eryurek2021data}, data quality can be defined by three main characteristics 1) accuracy, 2) completeness, and 3) timeliness. Each of these characteristics posit a certain level of challenge to architecture and engineering of BD systems. To this, we propose the following patterns for addressing requirements Ver-1, and Ver-4; 1) Pipes and Filters, 2) Circuit breaker 
+Next to value, veracity is an integral component of any effective BD system. Veracity in general is about how truthful and reliable data is, and how signals can be separated from the noises. Data should conform with the expectations from the business, thus data quality should be engineered across the data lifecycle. According to Eryurek et al. \cite{eryurek2021data}, data quality can be defined by three main characteristics 1) accuracy, 2) completeness, and 3) timeliness. Each of these characteristics posit a certain level of challenge to architecture and engineering of BD systems. To this, we propose the following patterns for addressing requirements Ver-1, and Ver-4:
+
+\begin{enumerate}
+  \item Pipes and filters 
+  \item Circuit breaker
+\end{enumerate}
+
 
 \subsubsection{Pipes and Filters}
 
@@ -1518,8 +1605,6 @@ From the results of these interviews, we gathered a lot of insights and probed d
 
 % - Using gateway offloading may lead to some bottleneck depending on the gateway capabilities to scale up to manage very large flows of data.. dedicated Load Balancers providing low latency and high throughput could be more appropriate in some cases.
 
-% .
-
 
 % Even the study shows that big data architecture can benefit from some patterns of microservices architecture, what can be the next step? What kind of further benefits can be obtained from this finding?
 
@@ -1564,14 +1649,14 @@ An interviewee discussed how they have implemented something similar to CQRS wit
 
 In another interview, the interviewee discussed the known issues for not applying CQRS to big data systems. The main argument was around the management of overall data volume and the stress that CQRS can introduce to storage media. The interviewee discussed how CQRS is challenging even in non data-intensive systems, and how BD can make it challenging. In addition, as discussed by the interviewee, the network and OS overheads introduces CQRS and microservices in general \cite{sriraman2018mu} may not perform well in BD systems.
 
-
 Furthermore, we explained the anti-corruption layer. We discussed how the consumer needs can emerge, and how coupling it all to the read service can affect the system modifiability negatively. This pattern was well-perceived by interviewees, however there were concerns about the anti-corruption layer itself getting bloated and introducing 'corruption'! However a system architect can tackle this by introducing several anti-corruption layers, or egress nodes that are each responsible for a class of data consumers. 
-
 
 
 \subsection{Security and Privacy}
 
 For security and privacy, we started the discussion by exploring how different companies and regions may have different requirements, and how consuming data from data producers might be affected. We then discussed how having a single gateway to encompass all that logic can be daunting to scale. We then introduced the BFF pattern and elaborated that how each class of data consumers can be associated to a specific BFF. This pattern was well-received. An interviewee pointed out a potential of the access token pattern to be applied to the BFF. The interviewee elaborated that how having BFFs can help with cloud design and potential usage of private networks to increase security. 
+
+An interviewee discussed how data engineers are usually not well educated on security matters in his professional experience. He added how expensive it is to train engineers to a good level on security and privacy and even after that the company may not be able to retain them. The interviewee explained how IT giant companies like Google have the resources necessary to constantly account for emerging privacy and security requirements, while small to medium sized businesses are struggling. Finally he stated that following privacy and security standards is really costly for companies.
 
 \subsection{Veracity}
 
