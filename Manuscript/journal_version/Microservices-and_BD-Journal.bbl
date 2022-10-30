@@ -374,4 +374,10 @@ Baltes S, Ralph P.
   guidelines.
 \newblock Empirical Software Engineering. 2022;27(4):1--31.
 
+\bibitem{sriraman2018mu}
+Sriraman A, Wenisch TF.
+\newblock $\mu$ suite: a benchmark suite for microservices.
+\newblock In: 2018 IEEE International Symposium on Workload Characterization
+  (IISWC). IEEE; 2018. p. 1--12.
+
 \end{thebibliography}

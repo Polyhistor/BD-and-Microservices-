@@ -64,6 +64,7 @@
 \usepackage{enumitem}
 \usepackage{lscape}
 \usepackage{lineno,hyperref,longtable}
+\usepackage[]{mdframed}
 \captionsetup[table]{skip=6pt}
 
 
@@ -1315,13 +1316,13 @@ To address the volume requirements of BD , and in specific for Vol-1 and Vol-2 w
 
 In a typical flow of data engineering, data goes from ingestion, to storage, to transformation and finally to serving. However there are various challenges to achieve this process. One challenge is the realization of various data sources as described in Vol-1. Data comes in various formats from structured to semi-structured to unstructured, and system needs to handle different data through different interfaces. There is also streaming data that needs to be handled separately with different architectural constructs and data types. So some of the key engineering consideration for the ingestion process is that; 1) is the BD system ingesting data reliably? How frequently should data be ingested? In what volume the data typically arrives?
 
-Given the challenges and particularities of data types, different nodes maybe spawned to handle the volume of data as witnessed in BD reference architectures studied by Ataei et al. \cite{ataei2020big}. Another popular approach is the segregation of concerns by separating batch and streaming processing nodes. Given the requirement of horizontal scaling for BD systems, it is safe to assume that there is usually more then one node associated to ingesting data. This can be problematic as different nodes will need to account for security, privacy and regional policies, in addition to the encapsulated data processing functionality. 
+Given the challenges and particularities of data types, different nodes maybe spawned to handle the volume of data as witnessed in BD reference architectures studied by Ataei et al. \cite{ataei2020big}. Another popular approach is the segregation of concerns by separating batch and streaming processing nodes. Given the requirement of horizontal scaling for BD systems, it is safe to assume that there is usually more than one node associated to ingesting data. This can be problematic as different nodes will need to account for security, privacy and regional policies, in addition to the encapsulated data processing functionality. 
 
 This means that each node needs to reimplement the same interface for the aforementioned cross-cutting concerns, which makes scalability and maintainability a daunting task. This also introduces unnecessary repetition of codes and can result in non-conforming interfaces. To solve this problem, we explore the concept of gateway offloading and API gateway patterns. By offloading cross-cutting concerns that are shared across nodes to a single architectural construct, not only we will achieve a separation of concerns and a good level of usability, but we increase security and performance, by processing and filtering incoming data through a well specified ingress controller.
 
 Moreover, if data producers directly communicate with the processing nodes, they will have to update the endpoint address every now and on. This issue is exacerbated when the data producer tries to communicate to a service that is down. Given that lifecycle of a service in a typical distributed cloud environment is not deterministic and many container orchestration systems constantly recycle services to proactively address this issue, reliability and maintainability of the BD system can be compromised.
 
-Additionally, the gateway can increase the system reliability and availability by doing a constant health check on services, and distribute traffic based on liveliness probes. The is also an array of other benefits such as having a weighted distribution, and creating a special cache mechanism through specific HTTP headers. This also means that if the gateway is down, service nodes won't introduce bad state into the overall system. We have portrayed a very simplistic representation of this pattern in Fig \ref{fig:VolReq}. 
+Additionally, the gateway can increase the system reliability and availability by doing a constant health check on services, and distribute traffic based on liveliness probes. There is also an array of other benefits such as having a weighted distribution, and creating a special cache mechanism through specific HTTP headers. This also means that if the gateway is down, service nodes won't introduce bad state into the overall system. We have portrayed a very simplistic representation of this pattern in Fig \ref{fig:VolReq}. 
 
 \subsubsection{External Configuration Store}
 
@@ -1505,19 +1506,24 @@ After the initial coding process, through axial coding, we created higher level 
 From the results of these interviews, we gathered a lot of insights and probed deep into our architectural constructs. Every interview involved in deep analysis of the design patterns with one question from the interviewee trying to understand the problem space and solution better. Our interviewees had at least 8 years of experience. While some of our interviewees had more experience with BD and AI, some others were well-versed in MS architecture. We first asked interviewees about their depth of understanding with MS and BD, and then asked them if patterns discussed for each characteristic makes sense. We asked every interviewee if they can think of a pattern that we failed to consider. Our interview guide is available at Appendix~\ref{interviewGuide}. While we designed the interview to be only an hour, the interview has always exceeded this time. We present the result of the interviews in sub-section each associated to the corresponding BD characteristic.
 
 
-people don't really follow design patterns, they decise their own thing 
-
-we use api gateway for conversion, when we created a new ETL process we constalty feed data to API Gateway to different regions across the world. 
-
-event driven data is on our plan. we want to store the source data and wants its landing in the S3, we will trigger the lamda function to start the ETL process.
-
-this is diffuclt because we have to get the configuration from the third-party. we like to go even-driven fully. 
-
-configurations will be stored in DynamoDB and decide what should be done for what.
 
 
-. There are known reasons for not applying microservice patterns in BD systems. For example, the CQRS pattern mentioned in Section V.D.1. to separate readers from writers would increase the overall data volume and stress the storage media. This even worsens in the Bigdata systems due to the large volume of data in these systems. Thus, the direct adaptation of the CQRS pattern in the BD system might not perform well. In addition, the microservice architecture itself has a few general overheads as well. For example, it is well known that microservice architecture would incur high operation overhead, and the authors failed to address any such issues.
 
+% COMMENTS 
+
+% My main remark is that the paper does not consider /speak about the zero-downtime migration capabilities provided my Microservices. Such capabilities mainly allows to update/upgrade some part of the system while it is running, without generating any downtime. It seems to me that such capabilities could be of interest for Big Data system processing streaming tasks. 
+
+
+% - Providing some reference papers related to how these issues (scaling, availability) are classically managed by distributed systems may improve the paper.
+
+% - Using gateway offloading may lead to some bottleneck depending on the gateway capabilities to scale up to manage very large flows of data.. dedicated Load Balancers providing low latency and high throughput could be more appropriate in some cases.
+
+% .
+
+
+% Even the study shows that big data architecture can benefit from some patterns of microservices architecture, what can be the next step? What kind of further benefits can be obtained from this finding?
+
+% categories are found in [24]. The details of the MS patterns are still unknown to the reviewer. I suggest the authors should make the paper self-contained. It is also not clear whether the relations between the big data reference architecture requirement with microservices patterns are analyzed by the authors or summarization from the SLR.
 
 \subsection{Volume}
 
@@ -1525,17 +1531,25 @@ For volume, we went through the theories elaborated in Section~\ref{volume}. Thi
 
 After explaining a scenario, interviewees agreed that this pattern can help with some of the challenges of data engineering. One interviewee mentioned that this can even be utilized for special privacy requirements. That is, different nodes may have different configuration based on the privacy policies needed. In addition, there's been discussion in regards to regional privacy and security requirements and how configuration can help derive them. Some interviewees discussed that this is a general pattern that any system can utilize to its benefit. 
 
+In one interview, an interviewee discussed how the description of these patterns and the implementations varied in his professional experience in different companies. He added that most developers tend to have a shallow understanding of why certain pattern is adopted, and thus the implementation usually varies. In addition, the interviewee stated that once a pattern is implemented, then the challenge is to keep the pattern comply with its intended responsibility. In his experience, many of the patterns such as API gateway suddenly turn into an overarching solution that aims to solve many problems. Thus, patterns may firmly establish the problem domain and the solution initially. Then, too, they may emerge into something complicated different to account for newer problems. 
+
+Another interviewee discussed how they are taking extensive measures to embark on a fully event-driven process, and how a lot of things that we theorize and modeled may sound easy to do, but daunting to implement. The interviewee explained how they are planning to store data in their AWS S3 initially and then having a Lambda function trigger to start the ETL process. The interviewee then explained how they need to obtain different configurations from different data providers, and how that can affect the data prepared for data consumers. He discussed an archetype in which the data would be stored in AWS S3, which triggers a Lambda function to initial an ETL process. Furthermore, he added how externalized configuration pattern could be implemented with DynamoDB and Lambda functions.
+
 
 \subsection{Velocity}
 
 For Velocity, we first started by exploring an event-driven data engineering architecture, and then justified the idea of competing consumers. We then explored how competing consumers can fail, and how circuit breaker pattern can help. Finally we explore the idea of logging and how tail logging and distributed tracing can be achieved through it. An interviewee challenged the idea of competing consumer and stated that a leader election may be a better choice for a distributed setup as such. The interviewee also mentioned that circuit breakers could be implemented on the competing consumers themselves, but he could see the value of separating it to its own service. Of particular argument was the fact that circuit breaker's implementation may not be that complicated and a dedicated service for it can increase costs.  
 
-In another interview, interviewee asked about the amalgamation technique for the logs, and discussed how dimensionality of the logs can be challenging. We took both feedbacks 'leader election' and 'more in-detailed logging approach' into consideration. We researched deeper into leader election, logging approaches, and distributed tracing. We found leader election a bit hard to justify, as it introduces a single point of failure, can potentially introduce faulty data as there's only one point of trust, and partial deployments are really hard to apply. We found that benefits of 'leader election' pattern to be outweighed by the complexity it introduces. In regards to logging, we found various approaches to distributed tracing and log merging, however these were mostly in-detailed micro approaches, which is not in the scope of our study. 
+In another interview, interviewee asked about the amalgamation technique for the logs, and discussed how dimensionality of the logs can be challenging. We took both feedbacks of 'leader election' and 'more in-detailed logging approach' into consideration. We researched deeper into leader election, logging approaches, and distributed tracing. We found leader election a bit hard to justify, as it introduces a single point of failure, can potentially introduce faulty data as there's only one point of trust, and partial deployments are really hard to apply. We found that benefits of 'leader election' pattern to be outweighed by the complexity it introduces. In regards to logging, we found various approaches to distributed tracing and log merging, however these were mostly in-detailed micro approaches, which is not in the scope of our study. 
+
+In another interview, the interviewee discussed how circuit breakers may need to do load balancing as well. We then discussed how circuit breakers could be implemented in data processing nodes themselves, or in a side car. The interviewee then explained how they've created a system that resembles to the log aggregator pattern. The interviewee elaborated how the system has a graphical interface that captures errors from various ETL jobs. 
 
 
 \subsection{Variety}
 
 For variety, we discussed common data types that need support, and how system may use parquet, JSON, or how unstructured data can introduce challenges. By this point, interviewees had a better grasp of our models and the gateway patterns, thus there wasn't much questions. An interviewee suggested the 'API composition' pattern and suggested that we may have various services that handle different data types, but the composition of these data may be necessary. The interviewee suggested that 'API composition' can occur at the egress level. 
+
+One interviewee provided details on how painful it has been for his team to onboard new data producers and how that dramatically slowed the project deadline. The interviewee added that data received from data producers hardly have the standards necessary, as these data are generated by third-party software that they have no control over. He explained how different versions of the same software create different schema and how this can sometimes break the data engineering pipelines. Then, the interviewee suggested off-loading more compute intensive checks to gateways. We discussed how that could result in a bloated architectural construct and both parties decided that BFF pattern is probably a better suit.  
 
 \subsection{Value}
 
@@ -1546,7 +1560,14 @@ An interviewee discussed how this pattern can be helpful in companies that have 
 These interviews shed some lights on how complex implementing CQRS can be, and we deduced that this pattern can introduce challenges and should be adopted when the benefits outweigh the challenges. We also received questions about event sourcing and if that could be applied, as CQRS is usually implemented with event sourcing. However, we do not think that event sourcing can scale to account for big data systems, and the challenges of maintaining event logs can introduce risk to modifiability and performance of the overall system. 
 
 
+An interviewee discussed how they have implemented something similar to CQRS with Elasticsearch. Another interviewee mentioned how a lot of things are going on in their MySQL databases, and how during write-heavy times, database is locked and unresponsive. He added how waiting for database to become available again has been a pain point, and how their services have timed out on this. The interviewee explained how the stochastic nature of database locks, even harder for them to predict and tackle this issue. This interviewee found the idea behind CQRS relevant and effective in solving some of their problems. 
+
+In another interview, the interviewee discussed the known issues for not applying CQRS to big data systems. The main argument was around the management of overall data volume and the stress that CQRS can introduce to storage media. The interviewee discussed how CQRS is challenging even in non data-intensive systems, and how BD can make it challenging. In addition, as discussed by the interviewee, the network and OS overheads introduces CQRS and microservices in general \cite{sriraman2018mu} may not perform well in BD systems.
+
+
 Furthermore, we explained the anti-corruption layer. We discussed how the consumer needs can emerge, and how coupling it all to the read service can affect the system modifiability negatively. This pattern was well-perceived by interviewees, however there were concerns about the anti-corruption layer itself getting bloated and introducing 'corruption'! However a system architect can tackle this by introducing several anti-corruption layers, or egress nodes that are each responsible for a class of data consumers. 
+
+
 
 \subsection{Security and Privacy}
 
