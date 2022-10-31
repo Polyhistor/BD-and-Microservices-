@@ -23,7 +23,7 @@
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Gateway Offloading}{subsection.4.2}% 23
 \BOOKMARK [3][-]{subsubsection.4.2.3}{External configuration store}{subsection.4.2}% 24
 \BOOKMARK [3][-]{subsubsection.4.2.4}{Competing Consumers}{subsection.4.2}% 25
-\BOOKMARK [3][-]{subsubsection.4.2.5}{Competing Consumers}{subsection.4.2}% 26
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Circuit Breaker}{subsection.4.2}% 26
 \BOOKMARK [1][-]{section.5}{Application of Microservices Design Patterns to Big Data Systems}{}% 27
 \BOOKMARK [2][-]{subsection.5.1}{Volume}{section.5}% 28
 \BOOKMARK [3][-]{subsubsection.5.1.1}{API Gateway and Gateway Offloading}{subsection.5.1}% 29

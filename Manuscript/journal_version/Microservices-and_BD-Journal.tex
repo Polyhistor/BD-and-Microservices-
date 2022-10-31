@@ -1381,7 +1381,22 @@ Message queue system can be used to load balance requests to different consuming
 This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances.
 
 
-\subsubsection{Competing Consumers}
+\subsubsection{Circuit Breaker}
+
+\paragraph{Context}
+
+Suppose a company is using a microservices architecture. This implies that there are various services that communicate with each other to process requests. If one service synchronously calls another services through a REST API, there's a chance that the other service may not be available or is exhibiting a high latency. As the number of services grow, there will be an increased requirement for communication between services.
+
+% This means the requesting service has to wait for the responding service, and this can time out or can result in resource exhaustion. As the number of services grow, such incidents have ripple effect on the overall availability and reliability of the system.
+
+
+\paragraph{Problem}
+
+How does one handle the service 
+
+
+
+\paragraph{Solution}
 
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
