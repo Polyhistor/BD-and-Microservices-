@@ -1347,14 +1347,41 @@ Common features and cross-cutting concerns can be offloaded into a gateway. This
 
 In addition, features that require special skills (privacy and security) can be developed by experts and propagated to teams, eliminating the risk that non-expert developers may introduce. This pattern also introduces more consistency, and standardised interfaces which helps with communication, agility and productivity of development teams.
 
-\subsubsection{Gateway Offloading}
-
+\subsubsection{External configuration store}
 
 \paragraph{Context}
+
+Software applications are usually deployed to various environment for different purposes. This is part of CI/CD approach that creates pipelines to capture bugs, and issues. For instance there are testing, integration, pre-production and production environments. Each environment is tailored for a different purpose. In a development environment, several features flags may be deactivated, some infrastructure may have been configured to reduce costs, and end to end tests may run. Therefore, an application needs to keep a list of configuration for internal and third-party infrastructure it needs. 
+
 \paragraph{Problem}
+
+Should each application have its configuration written separately? as the number of applications grow, how does one scale and maintain this? If a configuration should be uploaded for a class of similar services, should each service update its configuration separately? how can configurations be shared across several applications? 
+
 \paragraph{Solution}
 
+Store all application configurations in an external store. This can include package versions, database credentials, network locations and APIs. On startup, application can request for the corresponding configuration from the external configuration store. This for example could happen in CMD command of Docker script. 
 
+
+\subsubsection{Competing Consumers}
+
+\paragraph{Context}
+
+An enterprise application, specially a data-intensive one is expected to handle large number of requests. Handling these requests synchronously would be challenging. A common approach is for application to send these requests through a messaging system to another application that handles them asynchronously. This ensure that one blocking service is not gonna have ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests vary, and while some may be quite cheap, the other might be compute intensive. 
+
+
+\paragraph{Problem}
+
+Should only one consumer instance be responsible for incoming requests? what happens if that consumer instance does not have the computing resources available? what happens if that consumer instances fails? 
+
+
+\paragraph{Solution}
+
+Message queue system can be used to load balance requests to different consuming services based on their availability. This means that a group of consumer applications will be created, which allows in timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
+
+This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances.
+
+
+\subsubsection{Competing Consumers}
 
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
