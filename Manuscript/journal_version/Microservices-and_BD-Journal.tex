@@ -1334,16 +1334,26 @@ The solution to the problems discussed is to have one gateway that resolves diff
 
 \paragraph{Context}
 
-Using the same SaaS practice management system example, one can imagine that different microservices have some common features and these features require maintenance, configuration and management. 
-
-
-Some features are commonly used across multiple services, and these features require configuration, management, and maintenance. A shared or specialized service that is distributed with every application deployment increases the administrative overhead and increases the likelihood of deployment error. Any updates to a shared feature must be deployed across all services that share that feature.
-
-Properly handling security issues (token validation, encryption, SSL certificate management) and other complex tasks can require team members to have highly specialized skills. For example, a certificate needed by an application must be configured and deployed on all application instances. With each new deployment, the certificate must be managed to ensure that it does not expire. Any common certificate that is due to expire must be updated, tested, and verified on every application deployment.
+Using the same SaaS practice management system example, one can imagine that different microservices have common features and these features require maintenance, configuration and management. The features could be token validation, feature flag management, SSL certificate management, encryption or environment variable management. 
 
 
 \paragraph{Problem}
+
+How does one go about handling these shared features? should each team write their own feature for their own services? if a feature is updated, should each team then update their own implementation? how do we ensure that these features conform to the same interface and standards? if a new feature is added, should we communicate with three different teams to update their implementation? what happens if an implementation of on team does not respect the specification?
+
 \paragraph{Solution}
+
+Common features and cross-cutting concerns can be offloaded into a gateway. This includes but is not limited to: SSL termination, certificate management, feature flag management, environment variables management, secret management, monitoring, logging configurations, throttling, and protocol translation. This approach simplifies the development of services, and improves the maintainability of the system. 
+
+In addition, features that require special skills (privacy and security) can be developed by experts and propagated to teams, eliminating the risk that non-expert developers may introduce. This pattern also introduces more consistency, and standardised interfaces which helps with communication, agility and productivity of development teams.
+
+\subsubsection{Gateway Offloading}
+
+
+\paragraph{Context}
+\paragraph{Problem}
+\paragraph{Solution}
+
 
 
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
