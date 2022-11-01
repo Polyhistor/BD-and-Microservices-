@@ -1424,6 +1424,24 @@ A centralized logging service can be implemented that retrieves logs from differ
 
 \paragraph{Context}
 
+Suppose that a team is working on a data heavy service. This service needs to scale and crunch a lot of data. Following the traditional approach, often the same data model is used to query and update the database. Underlying this approach, the read and write workloads both go to the same datastore.
+
+\paragraph{Problem}
+How should the team optimize for read workloads? how should the team optimize for the write workloads? can the data store be optimized for both read and write workloads? 
+
+In traditional architectures, the same data model is used to query and update a database. That's simple and works well for basic CRUD operations. In more complex applications, however, this approach can become unwieldy. For example, on the read side, the application may perform many different queries, returning data transfer objects (DTOs) with different shapes. Object mapping can become complicated. On the write side, the model may implement complex validation and business logic. As a result, you can end up with an overly complex model that does too much.
+
+Read and write workloads are often asymmetrical, with very different performance and scale requirements.
+
+A traditional CRUD architecture
+
+There is often a mismatch between the read and write representations of the data, such as additional columns or properties that must be updated correctly even though they aren't required as part of an operation.
+
+Data contention can occur when operations are performed in parallel on the same set of data.
+
+The traditional approach can have a negative effect on performance due to load on the data store and data access layer, and the complexity of queries required to retrieve information.
+
+Managing security and permissions can become complex, because each entity is subject to both read and write operations, which might expose data in the wrong context.
 
 \paragraph{Problem}
 
