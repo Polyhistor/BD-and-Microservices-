@@ -24,35 +24,37 @@
 \BOOKMARK [3][-]{subsubsection.4.2.3}{External configuration store}{subsection.4.2}% 24
 \BOOKMARK [3][-]{subsubsection.4.2.4}{Competing Consumers}{subsection.4.2}% 25
 \BOOKMARK [3][-]{subsubsection.4.2.5}{Circuit Breaker}{subsection.4.2}% 26
-\BOOKMARK [1][-]{section.5}{Application of Microservices Design Patterns to Big Data Systems}{}% 27
-\BOOKMARK [2][-]{subsection.5.1}{Volume}{section.5}% 28
-\BOOKMARK [3][-]{subsubsection.5.1.1}{API Gateway and Gateway Offloading}{subsection.5.1}% 29
-\BOOKMARK [3][-]{subsubsection.5.1.2}{External Configuration Store}{subsection.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.2}{Velocity}{section.5}% 31
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Competing Consumers}{subsection.5.2}% 32
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Circuit Breaker}{subsection.5.2}% 33
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Log Aggregator}{subsection.5.2}% 34
-\BOOKMARK [2][-]{subsection.5.3}{Variety}{section.5}% 35
-\BOOKMARK [3][-]{subsubsection.5.3.1}{API Gateway and Gateway Offloading}{subsection.5.3}% 36
-\BOOKMARK [2][-]{subsection.5.4}{Value}{section.5}% 37
-\BOOKMARK [3][-]{subsubsection.5.4.1}{Command and Query Responsibility Segregation}{subsection.5.4}% 38
-\BOOKMARK [3][-]{subsubsection.5.4.2}{Anti-Corruption Layer}{subsection.5.4}% 39
-\BOOKMARK [2][-]{subsection.5.5}{Security and Privacy}{section.5}% 40
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Backend for Frontend}{subsection.5.5}% 41
-\BOOKMARK [2][-]{subsection.5.6}{Veracity}{section.5}% 42
-\BOOKMARK [3][-]{subsubsection.5.6.1}{Pipes and Filters}{subsection.5.6}% 43
-\BOOKMARK [3][-]{subsubsection.5.6.2}{Circuit breaker}{subsection.5.6}% 44
-\BOOKMARK [1][-]{section.6}{Validation}{}% 45
-\BOOKMARK [2][-]{subsection.6.1}{Interview design}{section.6}% 46
-\BOOKMARK [2][-]{subsection.6.2}{Sampling strategy}{section.6}% 47
-\BOOKMARK [2][-]{subsection.6.3}{Data Synthesis}{section.6}% 48
-\BOOKMARK [2][-]{subsection.6.4}{Results}{section.6}% 49
-\BOOKMARK [2][-]{subsection.6.5}{Volume}{section.6}% 50
-\BOOKMARK [2][-]{subsection.6.6}{Velocity}{section.6}% 51
-\BOOKMARK [2][-]{subsection.6.7}{Variety}{section.6}% 52
-\BOOKMARK [2][-]{subsection.6.8}{Value}{section.6}% 53
-\BOOKMARK [2][-]{subsection.6.9}{Security and Privacy}{section.6}% 54
-\BOOKMARK [2][-]{subsection.6.10}{Veracity}{section.6}% 55
-\BOOKMARK [2][-]{subsection.6.11}{Other feedbacks, closing thoughts}{section.6}% 56
-\BOOKMARK [1][-]{section.7}{Discussion}{}% 57
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 58
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Log Aggregation}{subsection.4.2}% 27
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Command and Query Responsibility Segregation}{subsection.4.2}% 28
+\BOOKMARK [1][-]{section.5}{Application of Microservices Design Patterns to Big Data Systems}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{Volume}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.1.1}{API Gateway and Gateway Offloading}{subsection.5.1}% 31
+\BOOKMARK [3][-]{subsubsection.5.1.2}{External Configuration Store}{subsection.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.2}{Velocity}{section.5}% 33
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Competing Consumers}{subsection.5.2}% 34
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Circuit Breaker}{subsection.5.2}% 35
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Log Aggregator}{subsection.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.3}{Variety}{section.5}% 37
+\BOOKMARK [3][-]{subsubsection.5.3.1}{API Gateway and Gateway Offloading}{subsection.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.4}{Value}{section.5}% 39
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Command and Query Responsibility Segregation}{subsection.5.4}% 40
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Anti-Corruption Layer}{subsection.5.4}% 41
+\BOOKMARK [2][-]{subsection.5.5}{Security and Privacy}{section.5}% 42
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Backend for Frontend}{subsection.5.5}% 43
+\BOOKMARK [2][-]{subsection.5.6}{Veracity}{section.5}% 44
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Pipes and Filters}{subsection.5.6}% 45
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Circuit breaker}{subsection.5.6}% 46
+\BOOKMARK [1][-]{section.6}{Validation}{}% 47
+\BOOKMARK [2][-]{subsection.6.1}{Interview design}{section.6}% 48
+\BOOKMARK [2][-]{subsection.6.2}{Sampling strategy}{section.6}% 49
+\BOOKMARK [2][-]{subsection.6.3}{Data Synthesis}{section.6}% 50
+\BOOKMARK [2][-]{subsection.6.4}{Results}{section.6}% 51
+\BOOKMARK [2][-]{subsection.6.5}{Volume}{section.6}% 52
+\BOOKMARK [2][-]{subsection.6.6}{Velocity}{section.6}% 53
+\BOOKMARK [2][-]{subsection.6.7}{Variety}{section.6}% 54
+\BOOKMARK [2][-]{subsection.6.8}{Value}{section.6}% 55
+\BOOKMARK [2][-]{subsection.6.9}{Security and Privacy}{section.6}% 56
+\BOOKMARK [2][-]{subsection.6.10}{Veracity}{section.6}% 57
+\BOOKMARK [2][-]{subsection.6.11}{Other feedbacks, closing thoughts}{section.6}% 58
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 59
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 60

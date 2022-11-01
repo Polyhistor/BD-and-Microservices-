@@ -1406,9 +1406,29 @@ Circuit breaker can be implemented on frontend, backend, or as a standalone serv
   \item half-open: a limited number of requests are passed, if these requests are passed, it is assumed that service is healthy, and circuit breaker switches to closed state. If any requests fail, the circuit breaker assumes the fault is still present, so it reverts back to open state.
 \end{enumerate}
 
+\subsubsection{Log Aggregation}
+
+\paragraph{Context}
+
+Microservices is comprising of large set of services, each having its own domain and responsibility. A request usually spans multiple services, and in the process something might go wrong, and bugs may occur. Each system writes logs in a standardized format about errors, warning and access requests. 
+
+\paragraph{Problem}
+
+How to understand the root cause of issue if it's spanning multiple services? should one read the logs of one service, and then the logs of the other, and the next to try to make sense of the problem?  
+
+\paragraph{Solution}
+
+A centralized logging service can be implemented that retrieves logs from different services and compose them together. The developers can then search and analyze these logs to make sense of the root cause. 
+
+\subsubsection{Command and Query Responsibility Segregation}
+
+\paragraph{Context}
 
 
+\paragraph{Problem}
 
+\paragraph{Solution}
+ 
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
 
