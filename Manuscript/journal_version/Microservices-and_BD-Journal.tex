@@ -1435,8 +1435,36 @@ Implement CQRS pattern to separates reads and writes workloads, using commands t
 
 CQRS is commonly implemented in two distinct data stores. This allows for the read database to optimize for read queries. For instance, it can store a materialized view of the data, and avoid expensive joints or complex ORM mappings. The read database can be a different type of data store. One might choose to use a graph database such as Neo4J for relationship heavy datasets, or a NoSQL database such as MongoDB for highly dynamic data. On the other hand, CQRS can potentially increase complexity, introduce code-duplication and increase latency. 
 
+\subsubsection{Anti-Corruption Layer}
 
- 
+\paragraph{Context}
+
+Most services rely on some other services for data or functionality. Each service has its own domain model. Some of these services can be external services, some of these services can be internal legacy services, and some of them can be bleeding edge services. For these services to interoperate, there is a need for a standard interface, protocol, data model or APIs.  
+
+\paragraph{Problem}
+
+How does one maintain access between legacy internal systems and bleeding edge internal systems? how does one enable interoperability between legacy internal services and external services? should the bleeding edge service be modified to account for legacy service's interface or API? should the internal services support the API requirements of external services even if they are sub-optimal? should the semantics of legacy and external services be imposed to the bleeding edge service? should services be corrupted by the requirements of other services?  
+
+\paragraph{Solution}
+
+Define an anti-corruption layer that translates semantics between different services' domains. This enables services to be unaffected by external entities, avoiding compromises on interface, design and the technological approach. Anti-corruption layer can a module, a class inside the application or it can be an independent service.
+
+\subsubsection{Backend for Frontend}
+
+\paragraph{Context}
+
+In a large scale system, a backend service needs to provides the necessary APIs for various clients. A client can be the user browser, a mobile phone, or an IOT device. As the number of clients grow, the traffic grows, and new requirements emerge. As a result, the backend service needs to account for higher level of abstraction to serve the requirements of different clients. 
+
+\paragraph{Problem}
+Should the backend service account for various clients? if the backend service tries to account for all clients, how hard will it be to maintain this service? can a general-purpose highly abstract backend service be scaled and maintained easily? If the web development team has a conflicting requirement with the mobile development team, how does the backend service account for that? how does the backend service provide optimized data for each client? how can the backend service be optimized for various clients? 
+
+\paragraph{Solution}
+
+A dedicated backend that accounts for a specific client (frontend) can be created. This introduces opportunities for optimizing performance of each backend to best match the needs of the frontend, without worrying much about introducing side-effects to other frontends. In addition, the backend will be smaller, better abstracted, less complex, and therefore easier to maintain and scale. Furthermore, this enables horizontal teams to work without side-effects and conflicting requirements.
+
+
+\subsubsection{Pipes and filters}
+
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
 
