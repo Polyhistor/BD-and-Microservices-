@@ -1431,6 +1431,10 @@ How should the team optimize for read workloads? how should the team optimize fo
 
 \paragraph{Solution}
 
+Implement CQRS pattern to separates reads and writes workloads, using commands to update the data and queries to read the data. This is usually achieved through a message queue asynchronously. Having the command and query separated, simplifies modeling, development and maintenance of data stores. In addition, the system will be able to support multiple denormalized views that are optimized for a specific workload. 
+
+CQRS is commonly implemented in two distinct data stores. This allows for the read database to optimize for read queries. For instance, it can store a materialized view of the data, and avoid expensive joints or complex ORM mappings. The read database can be a different type of data store. One might choose to use a graph database such as Neo4J for relationship heavy datasets, or a NoSQL database such as MongoDB for highly dynamic data. On the other hand, CQRS can potentially increase complexity, introduce code-duplication and increase latency. 
+
 
  
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
