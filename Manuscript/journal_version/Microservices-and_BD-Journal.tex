@@ -916,7 +916,7 @@ As a result of this SLR, our data synthesis yielded 50 MS patterns. These patter
 
 For the purposes of this study, we use Fowler's definition \cite{fowler1997analysis} of patterns as 'an idea that has been useful in one practical context and will probably be useful in others'. Several formats are used in the literature to describe patterns. While there is no single format that is widely accepted, there is a broad agreement on what elements should a pattern description include. In this study we use the pattern description template taken from Buschmann et al's work \cite{buschmann2008pattern}. 
 
-This pattern description language has several elements that does not relate directly to our study. For instance, we do not aim to provide a code example for each patterns, as that's not in-line with our study. Therefore we omitted the headings `forces', `variation', `examples', `resulting context', `related patterns', `known uses', and `example application'. Each pattern is discussed in following subsections in the order of context, problem, forces and solution. The starting paragraph of each pattern is the context. 
+This pattern description language has several elements that does not relate directly to our study. For instance, we do not aim to provide a code example for each patterns, as that's not in-line with our study. Therefore we omitted the headings `forces', `variation', `examples', `resulting context', `related patterns', `known uses', and `example application'. Each pattern is discussed in following subsections in the order of context, problem, forces and solution. The starting paragraph of each pattern is the context, followed by the `problem' sub-section that aims to illuminate on challenges through interrogatives, followed by the `solution' sub-section that discuses better approach through the corresponding pattern.
 
 \begin{center}
   \begin{table*}
@@ -1361,7 +1361,6 @@ Should each application have its configuration written separately? as the number
 
 Store all application configurations in an external store. This can include package versions, database credentials, network locations and APIs. On startup, application can request for the corresponding configuration from the external configuration store. This for example could happen in CMD command of Docker script. 
 
-
 \subsubsection{Competing Consumers}
 
 \paragraph{Context}
@@ -1379,7 +1378,6 @@ Should only one consumer instance be responsible for incoming requests? what hap
 Message queue system can be used to load balance requests to different consuming services based on their availability. This means that a group of consumer applications will be created, which allows in timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
 
 This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances.
-
 
 \subsubsection{Circuit Breaker}
 
@@ -1461,7 +1459,6 @@ Should the backend service account for various clients? if the backend service t
 \paragraph{Solution}
 
 A dedicated backend that accounts for a specific client (frontend) can be created. This introduces opportunities for optimizing performance of each backend to best match the needs of the frontend, without worrying much about introducing side-effects to other frontends. In addition, the backend will be smaller, better abstracted, less complex, and therefore easier to maintain and scale. Furthermore, this enables horizontal teams to work without side-effects and conflicting requirements.
-
 
 \subsubsection{Pipes and filters}
 \paragraph{Context}
@@ -1723,22 +1720,6 @@ From the results of these interviews, we gathered a lot of insights and probed d
 
 
 
-
-
-% COMMENTS 
-
-% My main remark is that the paper does not consider /speak about the zero-downtime migration capabilities provided my Microservices. Such capabilities mainly allows to update/upgrade some part of the system while it is running, without generating any downtime. It seems to me that such capabilities could be of interest for Big Data system processing streaming tasks. 
-
-
-% - Providing some reference papers related to how these issues (scaling, availability) are classically managed by distributed systems may improve the paper.
-
-% - Using gateway offloading may lead to some bottleneck depending on the gateway capabilities to scale up to manage very large flows of data.. dedicated Load Balancers providing low latency and high throughput could be more appropriate in some cases.
-
-
-% Even the study shows that big data architecture can benefit from some patterns of microservices architecture, what can be the next step? What kind of further benefits can be obtained from this finding?
-
-% categories are found in [24]. The details of the MS patterns are still unknown to the reviewer. I suggest the authors should make the paper self-contained. It is also not clear whether the relations between the big data reference architecture requirement with microservices patterns are analyzed by the authors or summarization from the SLR.
-
 \subsection{Volume}
 
 For volume, we went through the theories elaborated in Section~\ref{volume}. This was accompanied by the model created, and sometimes even live modeling to help with understanding. All of the interviewees took the idea of API gateway and gateway offloading naturally, while we had to explore the 'external configuration store' a bit deeper. We used the idea of Kubernetes ingress to help with elaboration of API gateway. We used AWS load balancer example, and discussed the challenges of maintaining certificates and authentication. For the externalized configuration pattern we had to go a bit deeper and talk about a scenario in a which the developer of the batch processing node or the stream processing node, may need to account for the development, trial and production workloads that have different DNS requirements, and configurations. We discussed how environment variables may vary, have development and trial environments may not need as much resources as the production, how ingress may vary, how recursive DNS resolution would be different, and how buffers, and hardware may vary. 
@@ -1819,7 +1800,8 @@ Majority of the studies that we've analyzed to understand BD systems, seems to r
 \section{Conclusion}
 With all the undeniable benefits of BD, the success rate of BD projects is still rare. One of the core challenges of adopting BD lies in data architecture and data engineering. While software engineers have adopted many well-established methods and technologies, data engineering and BD architectures don't seem to benefit a lot from these advancements. 
 
-The aim of this study was to explore the relationship and application of MS architecture to BD systems through two distinct SLR. The results derived from these SLRs presented us with interesting data on the potential of MS patterns for BD systems. Given the distributed nature of BD systems, MS architectures seems to be a natural fit to solve myriad of problems that comes with decentralization. Even though we created many design theories, modeled patterns against systems, and validated our theories, we believe that our results could be further validated by an empirical study. We therefore posit that there is a need for more attention in the area of MS and event-driven architectures in relation to BD systems from both academia and industry. 
+The aim of this study was to explore the relationship and application of MS architecture to BD systems through two distinct SLR. The results derived from these SLRs presented us with interesting insights on the potential of MS patterns for BD systems. Given the distributed nature of BD systems, MS architectures seems to be a natural fit to solve myriad of problems that comes with decentralization. Even though we created many design theories, modeled patterns against systems, and validated our theories, we believe that our results could be further validated by an empirical study. We therefore posit that there is a need for more attention in the area of MS and event-driven architectures in relation to BD systems from both academia and industry. 
+
 \section*{Appendix}
 % Text for this section\ldots
 
