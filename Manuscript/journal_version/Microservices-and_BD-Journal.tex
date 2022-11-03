@@ -1464,6 +1464,16 @@ A dedicated backend that accounts for a specific client (frontend) can be create
 
 
 \subsubsection{Pipes and filters}
+\paragraph{Context}
+A large scale application is usually required to do numerous processes with varying complexity. For instance, a complex business logic may require several transformations to be done on the data. These transformations can be sophisticated and require many lines of code to be written.
+
+\paragraph{Problem}
+Should all these processes be performed in one monolithic module? how flexible is that approach? in light of emerging requirements how can one maintain and scale the monolithic module? is that the right level of abstraction? does this approach provide with much opportunity to optimize or reuse parts of the module? 
+
+\paragraph{Solution}
+
+Different processing can be broken down into their own components (filters), each taking a single responsibility. This provides with clean and modular components that can be extended and modified with ease. This pattern is ubiquitous in Unix like operating system; it is common for system engineers to pipe the result of the command `ls' into the command `grep' or command `sed'. By standardizing interface for data input and output, these filters can be easily combined together to create a more powerful whole. Composition then becomes natural, and maintainability increases.
+
 
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
