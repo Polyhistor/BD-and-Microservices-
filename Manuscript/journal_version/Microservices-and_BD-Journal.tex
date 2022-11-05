@@ -535,14 +535,45 @@ Once more, the papers with the highest score (this time two) were discussed befo
 
 All ten publications have been published in 2018 or later, with three of them being published in 2022, which shows the timeliness of the topic. Eight of the ten papers were found via Scopus, whereas the remaining two have been identified through IEEE Xplore. 
 
-\subsubsection{Data synthesis}
-
-After selecting the quality papers, we embarked on the data synthesis process. For this phase we follow the guidelines of thematic synthesis discussed by Cruzes et al. \cite{Cruzes.2011}. To begin, we first extracted the following data from each paper: 1) findings, 2) research motivation, 3) author, 4) title, 5) research objectives, 6) research method, 7) year. We extracted these data through coding, using the software Nvivo. After that, we created two codes: 1) patterns, and 2) quality attributes, and coded the findings based on it. By the end of this process, various themes emerged.
-
-
 \subsubsection{The found papers}
 
-To give an overview of the papers found in the literature review and, thereby, also provide context to the extracted knowledge, they are briefly described in the following.
+To give an overview of the papers found in the literature review and, thereby, also provide context to the extracted knowledge, they are briefly described in the following. Additionally these papers can be found at Table~\ref{finalLiterature}
+
+
+\begin{table}[!h]
+  \renewcommand{\arraystretch}{1.5}
+  \caption[]{The final set of literature}
+  \begin{tabular}{|p{4cm}|p{0.7cm}|p{0.8cm}|p{0.5cm}|p{2cm}|p{1cm}|p{0.5cm}|}
+      \hline
+      Title & Year & Quality Score & Type & Source & Found in & Ref \\ 
+
+      \hline
+
+      Architectural patterns for microservices: A systematic mapping study & 2018 & 11/14 & C & CLOSER 2018 - Proceedings of the 8th International Conference on Cloud Computing and Services Science & Scopus & \cite{Taibi.2018} \\ 
+      \hline
+      Actual Use of Architectural Patterns in Microservices-Based Open Source Projects & 2018 & 12/14 & C & Proceedings of the 25th Asia-Pacific Software Engineering Conference (APSEC) & Scopus, IEEE Xplore & \cite{Marquez.2018}  \\ 
+      \hline  
+      Supporting architectural decision making on data management in microservice architectures & 2019 & 12/14 & C & Lecture Notes in Computer Science 11681
+      Proceedings of the Software Architecture: 13th European Conference, ECSA 2019 & Scopus, SpringerLink & \cite{Ntentos.2019} \\ 
+
+      \hline  
+      Using architectural modifiability tactics to examine evolution qualities of Service- and Microservice-Based Systems: An approach based on principles and patterns & 2019 & 13/14 & J & Software-Intensive Cyber-Physical Systems & Scopus & \cite{Bogner.2019}  \\ 
+      \hline   
+      Patterns Related to Microservice Architecture: a Multivocal Literature Review & 2020 & 14/14 & J & Programming and Computer Software & Scopus, SpringerLink & \cite{Valdivia.2020} \\ 
+      \hline
+      Data management in microservices: State of the practice, challenges, and research directions & 2021 & 12/14 & J & Proceedings of the VLDB Endowment 2021 & Scopus & \cite{Laigner.2021}\\ 
+      \hline
+      Deployment and communication patterns in microservice architectures: A systematic literature review & 2021 & 14/14 & J & Journal of Systems and Software & Scopus, ScienceDirect & \cite{aksakalli2021deployment} \\ 
+      \hline
+      Decision Models for Selecting Patterns and Strategies in Microservices Systems and their Evaluation by Practitioners & 2022 & 13/14 & C & Proceedings of the 2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP) & IEEE Xplore & \cite{Waseem.2022} \\ 
+      \hline
+      Designing Microservice Systems Using Patterns: An Empirical Study on Quality Trade-Offs & 2022 & 13/14 & C & IEEE 19th International Conference on Software Architecture (ICSA) & IEEE Xplore & \cite{Vale.2022} \\ 
+      \hline
+      Taxonomical Classification and Systematic Review on Microservices & 2022 & 13/14 & J & International Journal of Engineering Trends and Technology & Scopus & \cite{Weerasinghe.2022} \\ 
+      \hline
+  \end{tabular}
+  \label{finalLiterature}
+\end{table}
 
 In \cite{Taibi.2018}, the authors conducted a systematic mapping study to identify microservice architecture patterns, create a corresponding catalogue that gives an overview of advantages and disadvantages, and, thereby, provide support developers in finding suitable solutions for their own needs. The initial search for literature yielded 2754 unique papers that were filtered for suitability, resulting in a final set of 42 contributions from conferences, workshops, journals, and grey literature. Besides describing the patterns and outlining in which papers their use has been described, the authors also highlighted the guiding principles of the microservice approach in general. Further, corresponding trends and open issues are discussed, amending the given comprehensive overview.
 
@@ -563,6 +594,13 @@ The selection of patterns and strategies in microservice systems is targeted in 
 How the use of patterns for the development of microservice systems affects the quality is examined in \cite{Vale.2022}. Further, it is regarded, how and why patterns are adopted in microservice systems and how quality attributes in a microservice context can be measured. However, at first, the authors introduce and describe the seven quality attributes that are used as foundation for the work. To gather new insights, the authors conducted nine semi-structured face-to-face interviews with practitioners and and microservice experts. They were questioned regarding the use of the 14 patterns from the “design and implementation” category of the cloud design patterns catalogue \cite{AAC.2022} provided in the Azure Architecture Center by Microsoft. These are described, the degree of use by the interviewees is stated, and they are linked with the quality attributes. Further, the advantages and disadvantages stated by the interviewees are compared with those that were already present in the documentation of the patterns catalogue.
 
 The list is concluded by a paper that focusses on a rather broad overview of the microservice domain \cite{Weerasinghe.2022}. For this purpose, a systematic literature review, following the PRISMA model \cite{Page.2021} was conducted. Hereby, an initial collection of 4056 items was reduced to a final set of 49 papers. The primarily regarded topics are the motivators for the conversion from a monolithic architecture to a microservice architecture, which technologies and architectural patterns occur in modern systems and which challenges arise when using the microservice architecture. Additionally, future trends are discussed. Here, the the increasing importance of cloud computing is highlighted. Other themes are the need to assure a low latency, due to the inherent inter-service communication, as well as the required skill for the development, which could be somewhat counteracted by the development of corresponding tools.
+
+
+\subsubsection{Data synthesis}
+
+After selecting the quality papers, we embarked on the data synthesis process. For this phase we follow the guidelines of thematic synthesis discussed by Cruzes et al. \cite{Cruzes.2011}. To begin, we first extracted the following data from each paper: 1) findings, 2) research motivation, 3) author, 4) title, 5) research objectives, 6) research method, 7) year. We extracted these data through coding, using the software Nvivo. After that, we created two codes: 1) patterns, and 2) quality attributes, and coded the findings based on it. By the end of this process, various themes emerged.
+
+
 
  
 
@@ -1686,20 +1724,20 @@ We reached out to colleagues, our connections on ResearchGate and Linkedin, and 
 \begin{table}[h]
   \renewcommand{\arraystretch}{1.5}
   \caption[]{Participants Demographics}
-  \begin{tabular}{|p{1.4cm}|p{4cm}|p{2cm}|p{3cm}|}
+  \begin{tabular}{|p{1.4cm}|p{4cm}|p{1.5cm}|p{2.5cm}|}
       \hline
       interviewee & Role & Years of Experience  & Industry \\  
 
       \hline
       i1 & Lead Development Architect & 18 &  Healthcare Diagnostic Substances \\   
       \hline
-      i2 & Software Architect & 8 &  Software as a Service (SaaS) \\   
+      i2 & Software Architect & 8 &  Human Resources Services  \\   
       \hline
-      i3 & Assistance Professor and Co-founder of a Big Data company & 15 &  Big Data \\   
+      i3 & Assistance Professor and Co-founder of a Big Data company & 15 &  Consulting \\   
       \hline
-      i4 & Senior Data Engineer & 20 &  Software as a Service (SaaS) \\   
+      i4 & Senior Data Engineer & 20 &  Software (Practice Management Software) \\   
       \hline
-      i5 & Big Data Architect & 15 &  Software as a Service (SaaS) \\   
+      i5 & Big Data Architect & 8 &  Insurance and Finance \\   
       \hline
       
   \end{tabular}

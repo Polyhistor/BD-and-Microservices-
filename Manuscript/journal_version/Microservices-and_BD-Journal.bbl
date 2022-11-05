@@ -142,17 +142,17 @@ Vale G, Correia FF, Guerra EM, de~{Oliveira Rosa} T, Fritzsch J, Bogner J.
 \newblock In: 2022 IEEE 19th International Conference on Software Architecture
   (ICSA). IEEE; 2022. p. 69--79.
 
-\bibitem{AAC.2022}
-Microsoft. Microsoft, editor. Design and implementation patterns.
-\newblock Microsoft; 2022.
-\newblock Available from:
-  \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
-
 \bibitem{Weerasinghe.2022}
 Weerasinghe S, Perera I.
 \newblock Taxonomical Classification and Systematic Review on Microservices.
 \newblock International Journal of Engineering Trends and Technology.
   2022;70(3):222--233.
+
+\bibitem{AAC.2022}
+Microsoft. Microsoft, editor. Design and implementation patterns.
+\newblock Microsoft; 2022.
+\newblock Available from:
+  \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
 
 \bibitem{Chang.2019}
 Chang WL, Grady N. Chang WL, Grady N, editors. NIST Big Data Interoperability
