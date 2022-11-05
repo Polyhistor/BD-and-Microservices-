@@ -1787,9 +1787,19 @@ For security and privacy, we started the discussion by exploring how different c
 
 An interviewee discussed how data engineers are usually not well educated on security matters in his professional experience. He added how expensive it is to train engineers to a good level on security and privacy and even after that the company may not be able to retain them. The interviewee explained how IT giant companies like Google have the resources necessary to constantly account for emerging privacy and security requirements, while small to medium sized businesses are struggling. Finally he stated that following privacy and security standards is really costly for companies.
 
+In another interviewee, the participant elaborated on how challenging it would be to have several ingresses into the system, and how BFF pattern may provide some stress on security and platform teams. While he admitted that performance and maintainability may be increase, he found challenges of controlling what comes into the system significant. 
+
+The interviewee added that going BFF requires substantial resources and may not be ideal for every company. From his perspective, BFF was only an unnecessary complexity, stating that his life is gonna be hard if he brought something like this into production.
+
 \subsection{Veracity}
 
 For veracity, for discussed the transformation process required for any data engineering pipeline, and how this pattern was tacitly incorporated to all of our models. We made an analogy to Linux philosophies and how different commands pipe into each other. This pattern was perceived to be one of the defacto patterns that many data engineering pipelines use. In addition, we discussed circuit breakers again, but this time for capturing transformation nodes that are unavailable. This section did not require a lot of deep probing and discussions. 
+
+
+An interviewee discussed how pipe and filters have been the key for them in production, and how it helped them scale and avoid data corruption. He added that without adopting such pattern, if something broke in a large transformation, you'd never know what went wrong, and you might be forced to rerun a process that takes 5 hours to complete. Furthermore, the interviewee depicted how data quality is becoming more and more important for his team and company. This is due to the fact that the interviewee works in the insurance sector, and data is used in deciding some of the claims. 
+
+The interviewee admitted that sometimes in the past, many years ago, they had to make difficult decisions because data did not posses the qualities necessary. Moreover, he added that separating transformation into their own service (filters), creates an opportunity for introducing data quality metrics for each transformation, which can be used later to probe what has gone wrong and the team can recover from a corrupted data.
+
 
 \subsection{Other feedbacks, closing thoughts}
 
@@ -1943,34 +1953,4 @@ Before the interview begin, it would be nice if you could introduce yourself and
 
 
 
-
-
-
-
-
-% security and privacy :
-
-% BFF : the point is that this pattern has conflict with logging. IF you increase the number of API gateway, if we use special BFFs for each data consumer class, and another issue is controling of what comes in and what goes out, makes it really difficult. 
-
-% from a security persective, things will be really hard, and they will need more people to understand what is happening on different backends for fronteds.
-
-% from my perspective, it's just an increased complexity. at the end, the operation will have a happy life, if you can control your platform easy. 
-
-% if you bring this into production, our life is gonna be hard, because we have a lot of work to monitor and makes our life really hard. 
-
-% the amindstrator is lazy, and he/she does not want to handle gateways. 
-
-% veracity: 
-
-% absolutely agree with these patterns. it's better that you don't bring a lot of transformation in one place. if you have bad results you will never know how that happened. 
-
-% for us, data quality is becoming more and more important. because based on our data, we make a lot of decision. because based on that data we decide claims. 
-
-% Sometimes in our old world it's not clear how did we come to this result and if the result was right or not. 
-
-% so the results are not clear. so the first pattern is perfect, and you know at each step what is the issue, and what happened. 
-
-% and if you have data quality metrics at each point, you can come back and look at your pipe and see how data quality decreased. you can then understand what happened and why that happened.
-
-% extra comments: 
 
