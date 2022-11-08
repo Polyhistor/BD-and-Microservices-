@@ -185,6 +185,7 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
+INPUT D:\MikTex\fonts\tfm\public\cm\cmbx8.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -193,8 +194,10 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
+INPUT D:\MikTex\fonts\tfm\public\cm\cmbx5.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss12.tfm
+INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssi8.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT D:\MikTex\fonts\tfm\public\cm\cmti10.tfm
@@ -208,7 +211,6 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\PRISMA-Flowchart-V2.JPG
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\PRISMA-Flowchart-V2.JPG
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Media\PRISMA-Flowchart-V2.JPG
@@ -297,6 +299,10 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.out
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx5.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx5.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
