@@ -1,7 +1,7 @@
-PWD c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns
+PWD c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.tex
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.log
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.tex
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.log
 INPUT D:\MikTex\tex\latex\ieeetran\IEEEtran.cls
 INPUT D:\MikTex\tex\latex\ieeetran\IEEEtran.cls
 INPUT D:\MikTex\tex\latex\psnfss\ot1ptm.fd
@@ -98,9 +98,9 @@ INPUT D:\MikTex\tex\latex\caption\caption3.sty
 INPUT D:\MikTex\tex\latex\caption\caption3.sty
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.aux
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.aux
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.aux
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.aux
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.aux
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.aux
 INPUT D:\MikTex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\MikTex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -124,7 +124,7 @@ INPUT D:\MikTex\tex\latex\amsfonts\umsb.fd
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.pdf
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.pdf
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
@@ -132,7 +132,7 @@ INPUT D:\MikTex\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT D:\MikTex\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\MikTex\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.aux
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.aux
 INPUT D:\MikTex\fonts\enc\dvips\base\8r.enc
 INPUT D:\MikTex\fonts\type1\urw\times\utmr8a.pfb
 INPUT D:\MikTex\fonts\type1\urw\times\utmr8a.pfb

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 SEP 2022 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  17 NOV 2022 21:09
 entering extended mode
-**"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/MS patterns/Ms-Patterns.tex"
-("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/IEEE Big Data - BD and MS/MS patterns/Ms-Patterns.tex"
+**"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/MS patterns/Ms-Patterns.tex"
+("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/MS patterns/Ms-Patterns.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-05-15> (D:\MikTex\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -267,7 +267,7 @@ Package caption Info: float package is loaded.
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count269
 \l__pdf_internal_box=\box53
-) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.aux")
+) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.aux")
 \openout1 = `Ms-Patterns.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -323,12 +323,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1931) in paragraph at lines 64--64
+Underfull \hbox (badness 1931) in paragraph at lines 72--72
 []|\OT1/ptm/m/n/8 Platform and In-fras-truc-
  []
 
 
-Overfull \hbox (199.9913pt too wide) in paragraph at lines 48--89
+Overfull \hbox (199.9913pt too wide) in paragraph at lines 48--140
 [][] 
  []
 
@@ -347,17 +347,17 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.aux") ) 
+] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.aux") ) 
 Here is how much of TeX's memory you used:
  5429 strings out of 480795
- 80835 string characters out of 2913777
- 329139 words of memory out of 3000000
+ 80895 string characters out of 2913777
+ 335139 words of memory out of 3000000
  21394 multiletter control sequences out of 15000+200000
  560387 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,894b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,43p,900b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\IEEE Big Data - BD and MS\MS patterns\Ms-Patterns.pdf" (1 page, 17898 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\MS patterns\Ms-Patterns.pdf" (1 page, 19544 bytes).
 PDF statistics:
  11 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
