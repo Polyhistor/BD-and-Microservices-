@@ -196,7 +196,7 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-  The panorama of data is ever evolving, and big data has emerged to become one of the most hyped terms in the industry. Today, users are the perpetual producers of data that if gleaned and crunched, will yield game-changing patterns. This has introduced an important shift about the role of data in organizations and many strived to harness to power of this new material. Howbeit, institutionalizing data is not an easy task and requires the absorption of a great deal of complexity. According to various sources, it is estimated that only 13\% of organizations succeeded in delivering on their data strategy. Among the root challenges, big data system development and data architecture are prominent. To this end, this study aims to facilitate data architecture and big data system development by applying well-established patterns of microservices architecture to big data systems. This objective is achieved by two systematic literature reviews, and infusion of results through thematic synthesis. The result of this work is a series of theories that explicates how microservices patterns could be useful for big data systems. These theories are then validated through a semi-structured interview with experts from the industry. The findings emerged from this study indicates that big data architecture can benefit from many principles and patterns of microservices architecture. 
+  The panorama of data is ever evolving, and big data has emerged to become one of the most hyped terms in the industry. Today, users are the perpetual producers of data that if gleaned and crunched, will yield game-changing patterns. This has introduced an important shift about the role of data in organizations and many strived to harness to power of this new material. Howbeit, institutionalizing data is not an easy task and requires the absorption of a great deal of complexity. According to the literature, it is estimated that only 13\% of organizations succeeded in delivering on their data strategy. Among the root challenges, big data system development and data architecture are prominent. To this end, this study aims to facilitate data architecture and big data system development by applying well-established patterns of microservices architecture to big data systems. This objective is achieved by two systematic literature reviews, and infusion of results through thematic synthesis. The result of this work is a series of theories that explicates how microservices patterns could be useful for big data systems. These theories are then validated through a semi-structured interview with experts from the industry. The findings emerged from this study indicates that big data architecture can benefit from many principles and patterns of microservices architecture. 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -948,7 +948,7 @@ Veracity refers to keeping a certain level of quality for data. Data veracity re
 
 
 
-As a result of this SLR, our data synthesis yielded 50 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}. Nevertheless, we explain the patterns discussed in this study. These 10 patterns are as following: 
+As a result of this SLR, our data synthesis yielded 28 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}. Nevertheless, we explain the patterns discussed in this study. These 10 patterns are as following: 
 
 \begin{enumerate}
   \item API gateway 
@@ -970,43 +970,83 @@ For the purposes of this study, we use Fowler's definition \cite{fowler1997analy
 This pattern description language has several elements that does not relate directly to our study. For instance, we do not aim to provide a code example for each patterns, as that's not in-line with our study. Therefore we omitted the headings `forces', `variation', `examples', `resulting context', `related patterns', `known uses', and `example application'. Each pattern is discussed in following subsections in the order of context, problem, forces and solution. The starting paragraph of each pattern is the context, followed by the `problem' sub-section that aims to illuminate on challenges through interrogatives, followed by the `solution' sub-section that discuses better approach through the corresponding pattern.
 
 \begin{center}
-  \begin{table*}
+  \begin{table}[h]
   \renewcommand*{\arraystretch}{1.8}
-  \begin{tabular}{ | m{3cm} | m{10cm} | }
+  \begin{tabular}{ | m{3cm} | m{8cm} | }
 
       \hline
 
       Category & Pattern
-      \\
-
-      \hline
-
-      Data Management &  Database per Service, Shared Database, Event Sourcing, Command and Query Responsibility Segregation
 
       \\
 
       \hline
 
-      Platform and Infrastructure & Multiple service instances per host, External configuration store, Sidecar, Static content hosting, Computer resource consolidation
-
-      \\
-
-      \hline
-
-      Communicational, Transactional & API gateway,  Anti-corruption layer, Self Registration, Service Discovery, Competing consumers, Pipes and filters, Priority queue, Ambassador, Gateway aggregate, Gateway offloading, Aggregator, Backend for Frontend, API Composition, Saga transaction management, Gateway routing, Leader election
+      Data Management &  
+ 
       
+      \begin{enumerate}
+          \item Database per Service
+          \item Shared Database
+          \item Event Sourcing
+          \item Command and Query Responsibility Segregation
+      \end{enumerate} 
 
       \\
 
       \hline
 
-      Fault Tolerance & Circuit breaker, Bulkhead pattern
+      Platform and Infrastructure & 
 
+ 
+      \begin{enumerate}
+          \item Multiple Service Instances per Host
+          \item External Configuration Store
+          \item Sidecar
+          \item Static Content Hosting
+          \item Computer Resource Consolidation
+      \end{enumerate} 
+  
+
+      \\
+
+      \hline
+
+      Communicational, Transactional, Logical & 
+      \begin{enumerate}
+          \item API Gateway
+          \item Anti-corruption Layer
+          \item Self Registration
+          \item Service Discovery
+          \item Competing Consumers
+          \item Pipes and Filters
+          \item Priority Queue
+          \item Ambassador
+          \item Gateway Aggregate
+          \item Gateway Offloading
+          \item Aggregator
+          \item Backend for Frontend
+          \item API Composition
+          \item Saga Transaction Management
+          \item Gateway Routing
+          \item Leader Election
+      \end{enumerate} 
+      \\
+
+      \hline
+
+      Fault Tolerance &
+      \begin{enumerate}
+          \item Circuit Breaker
+          \item Bulkhead Pattern
+      \end{enumerate} 
       \\
       \hline
 
-      Observability & Log Aggregation Pattern
-
+      Observability & 
+      \begin{enumerate}
+          \item  Log Aggregation Pattern
+      \end{enumerate} 
       \\
       \hline
 
@@ -1014,8 +1054,9 @@ This pattern description language has several elements that does not relate dire
   \end{tabular}
   \caption{Microservices categorization}
   \label{microservices-categorization}
-  \end{table*}
+  \end{table}
 \end{center}
+
 
 \subsubsection{API gateway}
 
@@ -1822,6 +1863,8 @@ We reached out to colleagues, our connections on ResearchGate and Linkedin, and 
       \hline
       i6 & Director & 40 &  Consulting \\   
       \hline
+      i7 & Solution Architect & 9 &  Telecommunications \\   
+      \hline
       
   \end{tabular}
   \label{interviewees}
@@ -1859,6 +1902,15 @@ The same interviewee from the insurance sector discussed how centralizing config
 Another interiveee from the financial sector has affirmed us that gateway offloading and API gateways are pretty common patterns, and he has witnessed it in several major banks. The same candidate has elaborated that `external configuration store' pattern is sometimes referred to as `declarative configuration management'. The candidate then continued to explain how this pattern can be witnessed in Kubernetes clusters through metadata objects, kube-system and Etcd.
 
 
+\,
+
+\setlength{\fboxsep}{0.7em}
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+       Gateways are useful constructs. External configuration store can help alleviate challenges with distributed systems in multi-environment multi-region setups. 
+    }%
+}
+
 
 \subsection{Velocity}
 
@@ -1877,6 +1929,10 @@ In an another interviewee, the candidate brough to light the challenges of time-
 The candidate recommended to design services in a manner that promotes self-awareness. This is to prevent them from breaking silently, which makes debugging and issue resolution much longer. He added that this 'awareness' can be complementary to log aggregator, as services can reflect and dispatch an event in regards to the root cause of the failure. In addition, the candidate discussed the benefits of dynamically defining the level of logging. 
 
 He illustrated how dynamically setting the level of logging has been really helpful in his personal experience. The candidate then explore further on low-level technical details of implemeting OpenTelemtry for different cases and with different level of logging.  
+
+An interviewee from the telecommunication domain decpited the fact that signaling unavailability through a circuit breaker would not suffice. The candidate continued discussing that even when services are down, you would still like to keep the data to be processed later. The candidate discussed that services to processes the data may fail, and you may even signal the data producers. But that does not mean that data producers will stop sending you data! He continued discussing how data coming from the producers may be perceived as one commit from system's and application point of vview, and how sometimes there's no way to stop the data from getting into the system. 
+
+Therefore, he suggested that during the failure the incoming data should be stored somewhere to be processed later. In his experience, without this, things would become really challenging and there might even be a data loss. Candidate believed that data producers are hardly controlled by the data engineering pipelines and therefore data architect should adopt the approach of 'zero expectation from data producers'. He then continued discussing how his team has been handling these situations in Kafka, and how partitions have helped with consistency through offsets. 
 
 
 \subsection{Variety}
@@ -1916,6 +1972,8 @@ In another interview, the interviewee discussed the known issues for not applyin
 Furthermore, we explained the anti-corruption layer. We discussed how the consumer needs can emerge, and how coupling it all to the read service can affect the system modifiability negatively. This pattern was well-perceived by interviewees, however there were concerns about the anti-corruption layer itself getting bloated and introducing 'corruption'! However a system architect can tackle this by introducing several anti-corruption layers, or egress nodes that are each responsible for a class of data consumers. 
 
 An interviewee raised the concern that defining the scope of anti-corruption layer may be a challenge. In his experience, data scientists need `all the data' available in the company, and that's been a challenge for his team in the past. He continued discussing that this pattern can be useful not only from decoupling perspective but from a security and governance point of view. We failed to realize this in our research. The interviewee discussed that at times his team has been asked to provide with a lot of data, and providing it could have cause major security issues. He added that defining these anti-corruption layers with clearly defined contracts between the consumers and the big data system canonical data can be an effective measure to govern what should be provided, and is a great opportunity to eliminate security risks. 
+
+A candidate from the telecommunication domain discussed his concerns for CQRS and specifically how two data storage seems really expensive to him. He added that CQRS can really stress the data engineering process in terms of storage and backup, because now instead of one database, you have to account for two. He related this to his company and mentioned that a request for such facility can get denied by the accounting department, because it's hard to justify. The candidate believed that this pattern is only useful for fully data-driven large-scale companies that have got significant resources available to then. From his prism, the cost outweights the benefit, and many small to medium sized businesses would not be able to afford this. 
 
 
 \subsection{Security and Privacy}
