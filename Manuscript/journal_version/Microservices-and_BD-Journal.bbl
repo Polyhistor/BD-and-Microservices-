@@ -15,11 +15,11 @@ technology review insights in partnership~with Databricks M.
 Richardson C. A pattern language for microservices; 2022.
 \newblock Available from: \url{https://microservices.io/patterns/index.html}.
 
-\bibitem{Ataei.2020}
+\bibitem{ataei2022state}
 Ataei P, Litchfield A.
-\newblock Big Data Reference Architectures, a systematic literature review.
-\newblock In: Australasian Conference on Information Systems (ACIS) 2020. AIS;
-  2020. .
+\newblock The state of big data reference architectures: a systematic
+  literature review.
+\newblock IEEE Access. 2022;10.
 
 \bibitem{laigner2020monolithic}
 Laigner R, Kalinowski M, Diniz P, Barros L, Cassino C, Lemos M, et~al.
@@ -159,6 +159,12 @@ Microsoft. Microsoft, editor. Design and implementation patterns.
 \newblock Microsoft; 2022.
 \newblock Available from:
   \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
+
+\bibitem{Ataei.2020}
+Ataei P, Litchfield A.
+\newblock Big Data Reference Architectures, a systematic literature review.
+\newblock In: Australasian Conference on Information Systems (ACIS) 2020. AIS;
+  2020. .
 
 \bibitem{Chang.2019}
 Chang WL, Grady N. Chang WL, Grady N, editors. NIST Big Data Interoperability

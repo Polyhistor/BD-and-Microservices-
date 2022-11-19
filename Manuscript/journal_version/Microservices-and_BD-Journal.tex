@@ -196,7 +196,7 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-  The panorama of data is ever evolving, and big data has emerged to become one of the most hyped terms in the industry. Today, users are the perpetual producers of data that if gleaned and crunched, will yield game-changing patterns. This has introduced an important shift about the role of data in organizations and many strived to harness to power of this new material. Howbeit, institutionalizing data is not an easy task and requires the absorption of a great deal of complexity. According to the literature, it is estimated that only 13\% of organizations succeeded in delivering on their data strategy. Among the root challenges, big data system development and data architecture are prominent. To this end, this study aims to facilitate data architecture and big data system development by applying well-established patterns of microservices architecture to big data systems. This objective is achieved by two systematic literature reviews, and infusion of results through thematic synthesis. The result of this work is a series of theories that explicates how microservices patterns could be useful for big data systems. These theories are then validated through a semi-structured interview with experts from the industry. The findings emerged from this study indicates that big data architecture can benefit from many principles and patterns of microservices architecture. 
+  The panorama of data is ever evolving, and big data has emerged to become one of the most hyped terms in the industry. Today, users are the perpetual producers of data that if gleaned and crunched, will yield game-changing patterns. This has introduced an important shift about the role of data in organizations and many strived to harness to power of this new material. Howbeit, institutionalizing data is not an easy task and requires the absorption of a great deal of complexity. According to the literature, it is estimated that only 13\% of organizations succeeded in delivering on their data strategy. Among the root challenges, big data system development and data architecture are prominent. To this end, this study aims to facilitate data architecture and big data system development by applying well-established patterns of microservices architecture to big data systems. This objective is achieved by two systematic literature reviews, and infusion of results through thematic synthesis. The result of this work is a series of theories that explicates how microservices patterns could be useful for big data systems. These theories are then validated through a semi-structured interview with 7 experts from the industry. The findings emerged from this study indicates that big data architecture can benefit from many principles and patterns of microservices architecture. 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -258,7 +258,7 @@
 \section{Introduction}
 
 
-Today, we live in a world that produces data at an unprecedented rate. The attention toward these large volume of data has been growing rapidly and many strive to harness the advantages of this new material. Along these lines, academics and practitioners have considered means through which they can incorporate data-driven functions and explore patterns that were otherwise unknown. While the opportunities exist with big data (BD), there are many failed attempts. According to New Vantage Partners report in 2022, only 26.5\% of companies successfully become data-driven \cite{NewVantageSurvey}. Another survey by Databricks highlighted that only 13\% of organizations succeeded in delivering on their data strategy \cite{DataBricksSurvey}. 
+Today, we live in a world that produces data at an unprecedented rate. The attention toward these large volume of data has been growing rapidly and many strive to harness the advantages of this new material. Along these lines, academics and practitioners have considered means through which they can incorporate data-driven functions and explore patterns that were otherwise unknown. While the opportunities exist with big data (BD), there are many failed attempts. According to New Vantage Partners report in 2022, only 26.5\% of companies successfully became data-driven \cite{NewVantageSurvey}. Another survey by Databricks highlighted that only 13\% of organizations succeeded in delivering on their data strategy \cite{DataBricksSurvey}. 
 
 Therefore, there is an increasing need for more research on reducing the complexity involved with BD projects. One area with good potential is data architecture. Data architecture allows for a flexible and scalable BD system that can account for emerging requirements. One way to absorb the body of knowledge available on data architecture, can be reference architectures (RAs). By presenting proven ways to solve common implementation challenges on an architectural level, RAs support the development of new systems by offering guidance and orientation.
 
@@ -275,20 +275,20 @@ Another concept that has the potential to help with development of BD systems is
 
 % While practitioners in the domain of MS architecture seem to benefit from many well-established practices, data engineering does not seem be absorbing many of these concepts. 
 
-To this end, this study aims to explore the application of MS patterns to BD system, in aspiration to solve some of the complexities of BD system development. For this purposes, two distinct systematic literature review (SLR) is conducted. The first SLR is an updated SLR on BD RAs \cite{Ataei.2020}, aiming to capture the years 2020-2022, and the second SLR is on MS patterns. The results of these SLRs are then captured through thematic synthesis, and design theories are generated. The theories are then validate through a semi-structured interview.
+To this end, this study aims to explore the application of MS patterns to BD systems, in aspiration to solve some of the complexities of BD system development. For this purpose, the result of two distinct systematic literature reviews (SLRs) are combined. The first SLR is conducted as part of this study to collect all MS patterns in the body of knowledge. The results of these SLRs are collected, captured and combined through thematic synthesis. As a result, various design theories are generated and validated through a semi-structured interview. The second SLR is done by \cite{ataei2022state} to find all BD reference architectures (RAs) available in the body of knowledge and to point out architectural constructus and limitations. 
 
 
 % For this purpose, following this introduction as well as a background section and a description of the followed methodology, the literature review on BD reference architectures (Ataei and Litchfield 2020) is updated up until June 2022. Further, a thorough literature review on microservice patterns is conducted, complying with the Prisma guidelines (Page et al. 2021). Subsequently, the identified patterns are matched to the updated list of BD reference architectures. Finally, the results are discussed and a conclusion is given.
 
-The contribution of the publication, is thereby threefold: 1) it provides an updated synopsis of the existing BD reference architectures, 2) it assembles an overview of relevant microservice patterns and, most importantly, 3) it creates a connection between the two to facilitate BD system development and architecture.
+The contribution of this study, is thereby threefold: 1) it provides an updated synopsis of the existing BD reference architectures, 2) it assembles an overview of relevant microservice patterns and, most importantly, 3) it creates a connection between the two to facilitate BD system development and architecture.
 
 
 % Daniel
 \section{Related Work}
 
-To the best of our knowledge, there is no study in academia that has shared the same goal as our study. Laigner et al. \cite{laigner2020monolithic} applied an action research and reported on their experience on replacing a legacy BDS with a microservice-based event-driven system. This study is not a systematic review and aims to create contextualized theory based on a specific experience. In another effort,  Zhelev et al. \cite{zhelev2019using} described why event-driven architectures could be a good alternative to monolithic architectures. This study does not follow any clear methodology, and seems to contribute only in terms of untested theory.
+To the best of our knowledge, there is no study in academia that has shared the same goal as our study. Laigner et al. \cite{laigner2020monolithic} applied an action research and reported on experience of  replacing a legacy BDS with a microservice-based event-driven system. This study is not a systematic review and aims to create contextualized theory in a controlled environment. In another effort,  Zhelev et al. \cite{zhelev2019using} described why event-driven architectures could be a good alternative to monolithic architectures. This study does not follow any clear methodology, and seems to contribute only in terms of untested theory.
 
-Staegemann et al \cite{staegemann2021examining} examined the interplay between BD and MS by conducting a bibliometric review. This study aims to provide with a general picture of the topic, and does not aim to explore MS patterns and their relationship to BD systems.  While the problem of BD system development has been approached through a RA that absorbs some of the concepts from MS as seen in Phi \cite{Phi} and Neomycelia \cite{ataei2021neomycelia}, there is no study that aimed to apply MS patterns to BD systems through a systematic methodology.
+Staegemann et al \cite{staegemann2021examining} examined the interplay between BD and MS by conducting a bibliometric review. This study aims to provide with a general picture of the topic, and does not aim to explore MS patterns and their relationship to BD systems.  While the problem of BD system development has been approached through a RA that absorbs some of the concepts from MS architectures as seen in Phi \cite{Phi} and Neomycelia \cite{ataei2021neomycelia}, there is no study that aimed to apply MS patterns to BD systems through a systematic methodology.
 
 
 % % Daniel
@@ -332,7 +332,7 @@ Since there are differences in the filters of the included search engines, it wa
 %  If this could not be realized because of the interface, the most similar setting that is more lenient (therefore, potentially yielding more results) was chosen. This was the case for IEEE Xplore and SpringerLink. 
  
 
-\begin{table*}
+\begin{table}[h]
     \renewcommand{\arraystretch}{1.5}
     \caption[]{Mapping of databases/registers and search terms}
     \begin{tabular}{|p{3cm}|p{7cm}|p{1.5cm}|}
@@ -415,7 +415,7 @@ Since there are differences in the filters of the included search engines, it wa
     \end{tabular}
     
     \label{searchTerms}
-\end{table*}
+\end{table}
 
 % As it can be seen at \cite{SLRsearchTerms}, due to the specifics of their search masks, the searches in the ACM Digital Library (title, abstract, keywords could only be searched separately), JSTOR (no support of wildcards), and Science Direct (no support of wildcards) had to be split in several parts. Those were afterwards merged for each of them, and duplicates were removed. 
 
@@ -430,6 +430,46 @@ Inspired by PRISMA checklist \cite{tricco2018prisma}, Our inclusion and exclusio
 \subsubsection{Developing the quality framework}
 
 Quality of the evidence collected as a result of this SLR has direct impact on the quality of the findings, making quality assessment an important undertaking. To address this, we developed a criteria made up of 7 elements. These criteria are informed by guidelines provided by Kitchenham \cite{Kitchenham.2004} on empirical research in software engineering. These 7 criteria are discussed in Table \ref{qualityFramework}.
+
+\begin{table}[h]
+  \renewcommand{\arraystretch}{1.5}
+  \caption[]{The quality framework}
+  \begin{tabular}{|p{0.7cm}|p{2cm}|p{6cm}|p{1.5cm}|}
+      \hline
+      Quality Gate & Criterion & Considered Aspect & Rating to pass \\ 
+
+      \hline
+
+      1 & Minimum quality threshold & 
+      
+      1) Does the study report empirical research or is it merely a 'lesson learnt' report based on expert opinion?
+
+      2) The objectives and aims of the study are clearly communicated, including the reasoning for why the study was undertaken?
+
+      3) Does the study provide with adequate information regarding the context in which the research was carried out?
+      & 5/6 \\ 
+      \hline
+      2 & Rigor & 
+      
+      1) Is the research design appropriate to address the objectives of the research?
+
+      2) Is there any data collection method used and is it appropriate?
+      & 3/4 \\ 
+      \hline  
+      3 &
+      3.1 Credibility 
+
+      3.2 Relevance 
+      & 
+      1) Does the study report findings in a clear and unbiased manner?
+
+      2) Does the study provide value for practice or research?
+      & 
+      3/4 \\ 
+      \hline   
+  \end{tabular}
+  \label{qualityFramework}
+\end{table}
 
 % \begin{enumerate}
 %     \item 
@@ -449,7 +489,7 @@ Overall, the keyword search yielded 3064 contributions. The total number of foun
 
 \subsubsection{Evaluating papers based on inclusion and exclusion criteria}
 
-The remaining 1868 papers were filtered by title to evaluate their relevance to the concepts of microservice patterns or architectural constructs related to MS. For this purpose, the first two authors separately evaluated each entry. If both agreed, this verdict was honored. In case of disagreement, they discussed the title to come to a conclusion. In this phase, the first author initially included 113 papers and the second author 146. Of those, 41 were present in both sets and 1650 were excluded by both. This equates to an agreement rate of 90,5 percent (1691 of 1868 records) between the authors. After discussing the contributions with divergent evaluations, in total, 1699 of the 1868 papers were excluded, leaving 169 items for the next round. 
+In the initial phase, 1,196 papers have been removed due to duplication and publication type. The remaining 1868 papers were filtered by title to evaluate their relevance to the concepts of microservice patterns or architectural constructs related to MS. For this purpose, the first two authors separately evaluated each entry. If both agreed, this verdict was honored. In case of disagreement, they discussed the title to come to a conclusion. In this phase, the first author initially included 113 papers and the second author 146. Of those, 41 were present in both sets and 1650 were excluded by both. This equates to an agreement rate of 90,5 percent (1691 of 1868 records) between the authors. After discussing the contributions with divergent evaluations, in total, 1699 of the 1868 papers were excluded, leaving 169 items for the next round. 
 
 The same approach was followed for abstracts. As a result, the first author evaluated 40 papers positively, and the second one 28. Both agreed on the inclusion of 22 papers and the exclusion of 123. This equates to an agreement rate of 85,8 percent (145 of 169 records) between the authors. In total of the 169 papers, 138 were removed and 31 were included in the next phase.
 
@@ -487,45 +527,7 @@ In total, the authors agreed on 51 of 69 evaluations, resulting in an agreement 
 
 Once more, the papers with the highest score (this time two) were discussed before inclusion, to further counteract possible fuzziness in the individual evaluations.  The remaining 10 papers went through the third and final phase. Here, the credibility of the reporting and the relevance of the findings were evaluated. The procedure was the same as the previous phases. However, this time, all of the remaining papers passed. In this last phase, the authors agreed on 14 of 20 evaluations, resulting in an agreement rate of exactly 70 percent. 
 
-\begin{table}[h]
-    \renewcommand{\arraystretch}{1.5}
-    \caption[]{The quality framework}
-    \begin{tabular}{|p{0.7cm}|p{2cm}|p{6cm}|p{1.5cm}|}
-        \hline
-        Quality Gate & Criterion & Considered Aspect & Rating to pass \\ 
 
-        \hline
-
-        1 & Minimum quality threshold & 
-        
-        1) Does the study report empirical research or is it merely a 'lesson learnt' report based on expert opinion?
-
-        2) The objectives and aims of the study are clearly communicated, including the reasoning for why the study was undertaken?
-
-        3) Does the study provide with adequate information regarding the context in which the research was carried out?
-        & 5/6 \\ 
-        \hline
-        2 & Rigor & 
-        
-        1) Is the research design appropriate to address the objectives of the research?
-
-        2) Is there any data collection method used and is it appropriate?
-        & 3/4 \\ 
-        \hline  
-        3 &
-        3.1 Credibility 
-
-        3.2 Relevance 
-        & 
-        1) Does the study report findings in a clear and unbiased manner?
-
-        2) Does the study provide value for practice or research?
-        & 
-        3/4 \\ 
-        \hline   
-    \end{tabular}
-    \label{qualityFramework}
-\end{table}
 
 
 
