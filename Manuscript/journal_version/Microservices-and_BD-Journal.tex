@@ -833,7 +833,7 @@ Our objective is to define the high-level requirements of BD systems, thus we do
 
 % Bashari et al. (\cite{bashari2016security}) focused on the security and privacy requirements of BD systems, Yu et al. presented the modern components of BD systems (\cite{yu2019components}), Eridaputra et al. (\cite{eridaputra2014modeling}) created a generic model for BD requirements using goal oriented approaches, and Al-jaroodi et al. (\cite{al2016characteristics}) investigated general requirements to support BD software development. 
 
-We've also studied the reference architectures developed for BD systems to understand general requirements. In one study, Ataei et al. \cite{ataei2020big} assessed the body of evidence and presented with a comprehensive list of BD reference architectures. This study helped us realize the spectrum of BD reference architectures, how they are designed and the general set of requirements. By analyzing these studies and by evaluating the design and requirement engineering required for BD reference architectures, we adjusted our initial categories of requirements and added security and privacy to it. 
+We've also studied the reference architectures developed for BD systems to understand general requirements. The result of the second SLR presented 22 RAs from academia and industry. This study helped us realize the spectrum of BD reference architectures, how they are designed and the general set of requirements. By analyzing these studies and by evaluating the design and requirement engineering required for BD reference architectures, we adjusted our initial categories of requirements and added security and privacy to it. 
 
 \subsubsection{Present requirements}
 After knowing the type and category of requirements, We looked for a rigorous approach to present these requirements. There are numerous approaches used for software and system requirement representation including informal, semiformal and formal methods. For the purposes of this study, we opted for an informal method because it is a well established method in the industry and academia \cite{kassab2014state}. Our approach follows the guidelines explained in ISO/IEC/IEEE standard 29148 \cite{ISO29148} for representing functional requirements. We have also taken inspiration from Software Engineering Body of Knowledge \cite{abran2004software}. However, our requirement representation is organized in term of BD characteristics. These requirements are described in following sub-sections.
@@ -896,7 +896,7 @@ After knowing the type and category of requirements, We looked for a rigorous ap
 
 \paragraph{Volume}
 
-Volume refers to addressing multitude of data for the purposes of storage and analysis. An architecture needs to be elastic enough to address volume demands at different rates. Storing and computing large volume of data with attention to efficiency is a complex process that requires distributed and parallel processing. Therefore, volume requirements for Cybermycelium are as following:
+Volume refers to addressing multitude of data for the purposes of storage and analysis. An architecture needs to be elastic enough to address volume demands at different rates. Storing and computing large volume of data with attention to efficiency is a complex process that requires distributed and parallel processing. Therefore, volume requirements are as following:
 `'
 % in Table \ref{table-requirements}. These requirements are mapped against our components discussed in \ref{the-artifact}.
 
@@ -908,7 +908,7 @@ Volume refers to addressing multitude of data for the purposes of storage and an
 
 \paragraph{Velocity}
 
-Velocity refers to addressing the rate at which data flows into system for different analytical requirements. Processing of data to expedite the decision-making process quickly on one hand and handling the variety of data and storing them for batch processing, stream processing or micro-batch processing on other hand bring considerable technical challenge. Therefore, velocity requirements of Cybermycelium are as following: 
+Velocity refers to addressing the rate at which data flows into system for different analytical requirements. Processing of data to expedite the decision-making process quickly on one hand and handling the variety of data and storing them for batch processing, stream processing or micro-batch processing on other hand bring considerable technical challenge. Therefore, velocity requirements are as following: 
 
 \begin{enumerate}[label=\textbf{Vel-\arabic*}]
     \item System needs to support slow, bursty, and high-throughput data transmission between data sources
@@ -921,7 +921,7 @@ Velocity refers to addressing the rate at which data flows into system for diffe
 
 \paragraph{Variety}
 
-Variety refers to addressing data in different format, such as structured, unstructured, and semi-structured. Different formats may require different processing techniques, may have different storage requirements and may be optimized in different ways. Hence, an effective BD architecture can handle various data types and enable the processing and transformation of them in an efficient manner. Therefore, the variety requirements of Cybermycelium are as following: 
+Variety refers to addressing data in different format, such as structured, unstructured, and semi-structured. Different formats may require different processing techniques, may have different storage requirements and may be optimized in different ways. Hence, an effective BD architecture can handle various data types and enable the processing and transformation of them in an efficient manner. Therefore, the variety requirements are as following: 
 
 \begin{enumerate}[label=\textbf{Var-\arabic*}]
     \item System needs to support data in various formats ranging from structured to semi-structured and unstructured data
@@ -933,7 +933,7 @@ Variety refers to addressing data in different format, such as structured, unstr
 
 \paragraph{Value}
 
-Value refers to addressing the process of knowledge extraction from large datasets. Value is perhaps one of the most challenging aspect of BD architecture as it involves a variety of cross-cutting concerns such as data quality, metadata and data interoperability. Gleaning, crunching and extracting value from data, requires an integrated approach of storage and computing. Value requirements for Cybermycelium are as following:
+Value refers to addressing the process of knowledge extraction from large datasets. Value is perhaps one of the most challenging aspects of BD architecture as it involves a variety of cross-cutting concerns such as data quality, metadata and data interoperability. Gleaning, crunching and extracting value from data, requires an integrated approach of storage and computing. Value requirements are as following:
 
 \begin{enumerate}[label=\textbf{Val-\arabic*}]
     \item System needs to able to handle compute-intensive analytical processing and machine learning techniques
@@ -944,7 +944,7 @@ Value refers to addressing the process of knowledge extraction from large datase
 
 \paragraph{Security and Privacy}
 
-Security and privacy should be some of the top concerns for the design of any effective BD system. An effective architecture should be secure, adopting the best security practices (principles of least privilege) and in the meantime respect regional and global privacy rules (GDPR). The security and privacy requirements of Cybermycelium are as following:
+Security and privacy should be some of the top concerns for the design of any effective BD system. An effective architecture should be secure, adopting the best security practices (principles of least privilege) and in the meantime respect regional and global privacy rules (GDPR for example). The security and privacy requirements are as following:
 
 \begin{enumerate}[label=\textbf{SaP-\arabic*}]
     \item System needs to protect and retain privacy and security of sensitive data
@@ -953,7 +953,7 @@ Security and privacy should be some of the top concerns for the design of any ef
 
 \paragraph{Veracity}
 
-Veracity refers to keeping a certain level of quality for data. Data veracity refers to truthfulness and accuracy of data; in simpler terms, it is to ensure that data possess qualities necessary for crunching and analysis. Veracity requirements for Cybermycelium are as following: 
+Veracity refers to keeping a certain level of quality for data. Data veracity refers to truthfulness and accuracy of data; in simpler terms, it is to ensure that data possess qualities necessary for crunching and analysis. Veracity requirements are as following: 
 
 \begin{enumerate}[label=\textbf{Ver-\arabic*}]
     \item System needs to support data quality curation including classification, pre-processing, format, reduction, and transformation
@@ -966,7 +966,7 @@ Veracity refers to keeping a certain level of quality for data. Data veracity re
 
 
 
-As a result of this SLR, our data synthesis yielded 28 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}. Nevertheless, we explain the patterns discussed in this study. These 10 patterns are as following: 
+As a result of this SLR, our data synthesis yielded 28 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}. Nevertheless, we explain the patterns we utilized in this study. These 10 patterns are as following: 
 
 \begin{enumerate}
   \item API gateway 
@@ -983,7 +983,15 @@ As a result of this SLR, our data synthesis yielded 28 MS patterns. These patter
   
 \hspace{1cm}
 
-For the purposes of this study, we use Fowler's definition \cite{fowler1997analysis} of patterns as 'an idea that has been useful in one practical context and will probably be useful in others'. Several formats are used in the literature to describe patterns. While there is no single format that is widely accepted, there is a broad agreement on what elements should a pattern description include. In this study we use the pattern description template taken from Buschmann et al's work \cite{buschmann2008pattern}. 
+For the purposes of this study, we use Fowler's definition \cite{fowler1997analysis} of patterns as:
+
+\begin{quote}
+  `an idea that has been useful in one practical context and will probably be useful in others'
+\end{quote}
+
+
+
+Several formats are used in the literature to describe patterns. While there is no single format that is widely accepted, there is a broad agreement on what elements should a pattern description include. In this study we use the pattern description template taken from Buschmann et al's work \cite{buschmann2008pattern}. 
 
 This pattern description language has several elements that does not relate directly to our study. For instance, we do not aim to provide a code example for each patterns, as that's not in-line with our study. Therefore we omitted the headings `forces', `variation', `examples', `resulting context', `related patterns', `known uses', and `example application'. Each pattern is discussed in following subsections in the order of context, problem, forces and solution. The starting paragraph of each pattern is the context, followed by the `problem' sub-section that aims to illuminate on challenges through interrogatives, followed by the `solution' sub-section that discuses better approach through the corresponding pattern.
 

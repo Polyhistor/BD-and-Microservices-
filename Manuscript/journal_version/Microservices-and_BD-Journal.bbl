@@ -189,9 +189,6 @@ Chang WL, Grady N. Chang WL, Grady N, editors. NIST Big Data Interoperability
   Subgroup; 2019.
 \newblock Available from: \url{https://doi.org/10.6028/NIST.SP.1500-1r2}.
 
-\bibitem{ataei2020big}
-Big data reference architectures, a systematic literature review; 2020.
-
 \bibitem{kassab2014state}
 Kassab M, Neill C, Laplante P.
 \newblock State of practice in requirements engineering: contemporary data.
@@ -234,6 +231,9 @@ Chaabane M, Bouassida I, Jmaiel M.
   ISO/IEC/IEEE 42010 standard.
 \newblock In: Proceedings of the Symposium on Applied Computing;. p.
   1793--1798.
+
+\bibitem{ataei2020big}
+Big data reference architectures, a systematic literature review; 2020.
 
 \bibitem{eryurek2021data}
 Eryurek E, Gilad U, Lakshmanan V, Kibunguchy-Grant A, Ashdown J.
