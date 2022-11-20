@@ -491,7 +491,7 @@ Overall, the keyword search yielded 3064 contributions. The total number of foun
 
 In the initial phase, 1,196 papers have been removed due to duplication and publication type. The remaining 1868 papers were filtered by title to evaluate their relevance to the concepts of microservice patterns or architectural constructs related to MS. For this purpose, the first two authors separately evaluated each entry. If both agreed, this verdict was honored. In case of disagreement, they discussed the title to come to a conclusion. In this phase, the first author initially included 113 papers and the second author 146. Of those, 41 were present in both sets and 1650 were excluded by both. This equates to an agreement rate of 90,5 percent (1691 of 1868 records) between the authors. After discussing the contributions with divergent evaluations, in total, 1699 of the 1868 papers were excluded, leaving 169 items for the next round. 
 
-The same approach was followed for abstracts. As a result, the first author evaluated 40 papers positively, and the second one 28. Both agreed on the inclusion of 22 papers and the exclusion of 123. This equates to an agreement rate of 85,8 percent (145 of 169 records) between the authors. In total of the 169 papers, 138 were removed and 31 were included in the next phase.
+The same approach was followed for abstracts. As a result, the first author evaluated 40 papers positively, and the second one 28. Both agreed on the exclusion of 138. From there on, the papers that were not written in English (despite the abstract being in English), were published before the year 2012, and had a length of less than six pages were removed. 23 papers have been selected for the quality assement against the quality framework. The agreement rate among researchers for this phase equates to 88 percent. 
 
 % It was stipulated so if the agreement could not be reached, an arbitrator would be invited to the research Yet, this was not necessary. 
 
@@ -505,7 +505,6 @@ The same approach was followed for abstracts. As a result, the first author eval
 
 % Furthermore, in SpringerLink, conference papers are classified as book chapter, since conference proceedings are published as books. This makes them indistinguishable from real book chapters, when only looking at the metadata. Book chapters are, however, not part of the search’s scope. Consequently, the removal of book chapters for SpringerLink could only be processed when inspecting the respective publications. To slightly reduce the effort, it was decided to only do this for those publications that passed the filtering by title.
 
-From there on, the papers that were not written in English (despite the abstract being in English), were published before the year 2012, and had a length of less than six pages were removed.
 
 % However, while there were three corresponding records in the initially obtained set of literature (from the years 2003, 2007, and 2010), those were already filtered out for other reasons by this stage. 
 
@@ -545,70 +544,85 @@ To further increase the comprehensiveness of the review process, following the r
 However, both searches yielded no new results that sufficed the criteria applied in the initial search. 
 Instead, the 538 papers (combined for all papers and both sources, not accounting for duplicates) found in the forward search comprised, inter alia, thesis works, preprints, studies that are not directly related to microservices, papers that are too short and papers that did not meet the quality criteria. Regarding the backward search, most of the utilized conference papers and journal articles with a focus on microservices were already captured by the initial search, further highlighting its comprehensiveness. In total for the ten papers, and not accounting for duplicates, there were 16 new entries mentioning microservices in the title that were, however, ultimately not relevant for the focus of this work. Therefore, the final set still consists of the ten contributions shown in Table~\ref{finalLiterature}.
 
-All ten publications have been published in 2018 or later, with three of them being published in 2022, which shows the timeliness of the topic. Eight of the ten papers were found via Scopus, whereas the remaining two have been identified through IEEE Xplore. 
-
 \begin{table}[!ht]
   \renewcommand{\arraystretch}{1.5}
   \caption[]{The final set of literature}
-  \begin{tabular}{|p{4cm}|p{0.7cm}|p{0.8cm}|p{0.5cm}|p{2cm}|p{1cm}|p{0.5cm}|}
+  \begin{tabular}{|p{0.3cm}|p{4cm}|p{0.7cm}|p{0.8cm}|p{0.5cm}|p{2cm}|p{1cm}|p{0.5cm}|}
       \hline
-      Title & Year & Quality Score & Type & Source & Found in & Ref  \\ 
+      ID & Title & Year & Quality Score & Type & Source & Found in & Ref  \\ 
 
       \hline
 
-      Architectural patterns for microservices: A systematic mapping study & 2018 & 11/14 & C & CLOSER 2018 - Proceedings of the 8th International Conference on Cloud Computing and Services Science & Scopus & \cite{Taibi.2018} \\ 
+      S1 & Architectural patterns for microservices: A systematic mapping study & 2018 & 11/14 & C & CLOSER 2018 - Proceedings of the 8th International Conference on Cloud Computing and Services Science & Scopus & \cite{Taibi.2018} \\ 
       \hline
-      Actual Use of Architectural Patterns in Microservices-Based Open Source Projects & 2018 & 12/14 & C & Proceedings of the 25th Asia-Pacific Software Engineering Conference (APSEC) & Scopus, IEEE Xplore & \cite{Marquez.2018}  \\ 
+      S2 & Actual Use of Architectural Patterns in Microservices-Based Open Source Projects & 2018 & 12/14 & C & Proceedings of the 25th Asia-Pacific Software Engineering Conference (APSEC) & Scopus, IEEE Xplore & \cite{Marquez.2018}  \\ 
       \hline  
-      Supporting architectural decision making on data management in microservice architectures & 2019 & 12/14 & C & Lecture Notes in Computer Science 11681
+      S3 & Supporting architectural decision making on data management in microservice architectures & 2019 & 12/14 & C & Lecture Notes in Computer Science 11681
       Proceedings of the Software Architecture: 13th European Conference, ECSA 2019 & Scopus, SpringerLink & \cite{Ntentos.2019}  \\ 
 
       \hline  
-      Using architectural modifiability tactics to examine evolution qualities of Service- and Microservice-Based Systems: An approach based on principles and patterns & 2019 & 13/14 & J & Software-Intensive Cyber-Physical Systems & Scopus & \cite{Bogner.2019} \\ 
+      S4 & Using architectural modifiability tactics to examine evolution qualities of Service- and Microservice-Based Systems: An approach based on principles and patterns & 2019 & 13/14 & J & Software-Intensive Cyber-Physical Systems & Scopus & \cite{Bogner.2019} \\ 
       \hline   
-      Patterns Related to Microservice Architecture: a Multivocal Literature Review & 2020 & 14/14 & J & Programming and Computer Software & Scopus, SpringerLink & \cite{Valdivia.2020}  \\ 
+      S5 & Patterns Related to Microservice Architecture: a Multivocal Literature Review & 2020 & 14/14 & J & Programming and Computer Software & Scopus, SpringerLink & \cite{Valdivia.2020}  \\ 
       \hline
-      Data management in microservices: State of the practice, challenges, and research directions & 2021 & 12/14 & J & Proceedings of the VLDB Endowment 2021 & Scopus & \cite{Laigner.2021}  \\ 
+      S6 & Data management in microservices: State of the practice, challenges, and research directions & 2021 & 12/14 & J & Proceedings of the VLDB Endowment 2021 & Scopus & \cite{Laigner.2021}  \\ 
       \hline
-      Deployment and communication patterns in microservice architectures: A systematic literature review & 2021 & 14/14 & J & Journal of Systems and Software & Scopus, ScienceDirect & \cite{aksakalli2021deployment}  \\ 
+      S7 & Deployment and communication patterns in microservice architectures: A systematic literature review & 2021 & 14/14 & J & Journal of Systems and Software & Scopus, ScienceDirect & \cite{aksakalli2021deployment}  \\ 
       \hline
-      Decision Models for Selecting Patterns and Strategies in Microservices Systems and their Evaluation by Practitioners & 2022 & 13/14 & C & Proceedings of the 2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP) & IEEE Xplore & \cite{Waseem.2022} \\ 
+      S8 & Decision Models for Selecting Patterns and Strategies in Microservices Systems and their Evaluation by Practitioners & 2022 & 13/14 & C & Proceedings of the 2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP) & IEEE Xplore & \cite{Waseem.2022} \\ 
       \hline
-      Designing Microservice Systems Using Patterns: An Empirical Study on Quality Trade-Offs & 2022 & 13/14 & C & IEEE 19th International Conference on Software Architecture (ICSA) & IEEE Xplore & \cite{Vale.2022} \\ 
+      S9 & Designing Microservice Systems Using Patterns: An Empirical Study on Quality Trade-Offs & 2022 & 13/14 & C & IEEE 19th International Conference on Software Architecture (ICSA) & IEEE Xplore & \cite{Vale.2022} \\ 
       \hline
-      Taxonomical Classification and Systematic Review on Microservices & 2022 & 13/14 & J & International Journal of Engineering Trends and Technology & Scopus & \cite{Weerasinghe.2022}  \\ 
+      S10 & Taxonomical Classification and Systematic Review on Microservices & 2022 & 13/14 & J & International Journal of Engineering Trends and Technology & Scopus & \cite{Weerasinghe.2022}  \\ 
       \hline
   \end{tabular}
   \label{finalLiterature}
 \end{table}
 
+All ten publications have been published in 2018 or later, with three of them being published in 2022, which shows the timeliness of the topic. Eight of the ten papers were found via Scopus, whereas the remaining two have been identified through IEEE Xplore. 
+
+
+
 
 \subsubsection{The found papers}
 
-To give an overview of the papers found in the literature review and, thereby, also provide context to the extracted knowledge, they are briefly described in the following.
+To give an overview of the papers found in the literature review and, thereby, also provide context to the extracted knowledge, they are briefly described in the following:
+
+\begin{description}
+  \item[S1:] In \cite{Taibi.2018}, the authors conducted a systematic mapping study to identify microservice architecture patterns, create a corresponding catalogue that gives an overview of advantages and disadvantages, and, thereby, provide support developers in finding suitable solutions for their own needs. The initial search for literature yielded 2754 unique papers that were filtered for suitability, resulting in a final set of 42 contributions from conferences, workshops, journals, and grey literature. Besides describing the patterns and outlining in which papers their use has been described, the authors also highlighted the guiding principles of the microservice approach in general. Further, corresponding trends and open issues are discussed, amending the given comprehensive overview.
+  \item[S2:] The use of architectural patterns in open source projects that are based on microservices is addressed in \cite{Marquez.2018}. Similar to the previous one, this article also presents a catalog of microservices architectural patterns based on literature. Further, it relates them to quality attributes, compares them to patterns that are found in service oriented architectures, and investigates which patterns are used in microservice-based open source projects. While the general review process seems reasonable, it lacks a reporting of the number of papers assessed in each stage. However, including repeated mentioning across papers, the final set of 16 papers yielded 164 architectural patterns, with 52 stemming from academic papers and 112 from industrial ones. After further processing, those were reduced to 17 patterns that were deemed the most relevant and discussed in more detail.
+  \item[S3:] A review that is focused on the data management in the context of microservices is presented in \cite{Ntentos.2019}. For this purpose, instead of exploring the scientific body of literature, the grey literature was targeted, since much of the corresponding knowledge can be found in experience reports, blog entries, or system documentations, which makes it hard to obtain a comprehensive overview. In total, 35 contributions from practitioners were qualitatively explored, analysing, which patterns and practices were used by them, and which factors influenced their architectural decisions. Based on the findings, a model was proposed that formalizes the corresponding decisions and thereby facilitates a more comprehensive understanding of the domain.
+  \item[S4:] The modifiability of software and how it is influenced by the service-oriented architecture (SOA) as well as microservices is examined in \cite{Bogner.2019}. For this purpose, the authors firstly compiled a list of fifteen architectural modifiability tactics and mapped those with eight service-oriented design principles and eight microservice principles they extracted from selected publications. Subsequently, they presented the results of the mapping and discussed the results. Further, they analysed the relations of 42 microservice and 118 SOA patterns with the modifiability tactics. As with the principles, the patterns were also obtained by consulting specific selected publications. The identified relations are presented and the overall findings discussed, providing the reader with a rather comprehensive insight in the interplay of architectural modifiability, microservices, and SOA.
+  \item[S5:] A review on the relationship between microservice patterns, quality attributes, and metrics is given in \cite{Valdivia.2020}, which is an updated and extended version of the authors' previous work. To provide a comprehensive overview, both, scientific literature and grey literature were considered. While initially 605 results were found through the keyword search, the filtering reduced that number to 18. By backward snowballing for the grey literature, this number was increased to 27 for the final set that comprises 13 scientific papers and 14 from grey literature. In total, 54 patterns were identified. However, some of them are strongly related to each other or even redundant. The authors could link the identified patterns to six quality characteristics. Further, they assigned the patterns to one of six groups based on the provided benefits and analysed how many papers from scientific literature and grey literature are related to each group. Moreover, they also provided a comprehensive qualitative discussion of the groups, the respective patterns and the development over time.
+  \item[S6:] A second literature review on data management in a microservice context is presented in \cite{Laigner.2021}. For this purpose, a systematic literature review was conducted, where 300 peer-reviewed papers were analysed, leading to a final selection of 10 articles the authors deemed representative. Further, 9 microservice-based applications were analysed that were chosen from `more than 20' \cite{Laigner.2021} open-source project. Additionally, an online survey with more than 120 participants was conducted. In doing so, the authors found out that state-of-the-art database systems are often insufficient for the needs of practitioners, which leads to them combining multiple heterogeneous systems to fulfil their tasks. This, in turn, reduces the importance of database systems when dealing with microservices, since they often only provide data storage functionalities, with the data management logic being shifted to the application layer. Moreover, the data management logic and the common types of queries as well as the major challenges regarding the data management are discussed. Finally, the requirements for database management systems in the context of microservices are highlighted and avenues for future research are outlined.
+  \item[S7:] Microservice related deployment and communication patterns were collected in \cite{aksakalli2021deployment}. This was done by conducting a systematic literature review, in which initially 440 items were reviewed, with 34 primary studies being selected as relevant and amended by 4 additional contributions that were found by backward and forward snowballing. Subsequently, the final set is comprehensively presented regarding multiple quality metrics and the applied research methods. In the analysis part, the authors extensively discuss the varying deployment approaches and communication patterns for microservices. Further, they highlight the corresponding obstacles and issues, and promising directions for future research. The work is concluded by a comprehensive overview of its key findings, which are also visualized in the form of a taxonomy. 
+  \item[S8:] The selection of patterns and strategies in microservice systems is targeted in \cite{Waseem.2022}. For this purpose, the authors developed and evaluated four decision models that use requirements, in this case desired quality attributes, as input and output appropriate design elements. The models are also the main contribution of this work. Each of the models is focused on one specific theme. These are application decomposition, security, communication, and service discovery. As a foundation for the creation of the models, they searched the existing scientific and grey literature. From an initial set of 2110 publications, they kept 39 scientific papers and 23 grey literature items. Those contained 211 patterns and strategies for the former and 174 for the latter. After duplicate removal, there were 7 patterns and strategies left for application decomposition into microservices, 8 related to security, 15 for microservices communication, and 6 for service discovery. Each of them is briefly summarized and the advantages and disadvantages with respect to the quality attributes is discussed.
+  \item[S9:] How the use of patterns for the development of microservice systems affects the quality is examined in \cite{Vale.2022}. Further, it is regarded, how and why patterns are adopted in microservice systems and how quality attributes in a microservice context can be measured. However, at first, the authors introduce and describe the seven quality attributes that are used as foundation for the work. To gather new insights, the authors conducted nine semi-structured face-to-face interviews with practitioners and and microservice experts. They were questioned regarding the use of the 14 patterns from the “design and implementation” category of the cloud design patterns catalogue \cite{AAC.2022} provided in the Azure Architecture Center by Microsoft. These are described, the degree of use by the interviewees is stated, and they are linked with the quality attributes. Further, the advantages and disadvantages stated by the interviewees are compared with those that were already present in the documentation of the patterns catalogue.
+  \item[S10:] The list is concluded by a paper that focusses on a rather broad overview of the microservice domain \cite{Weerasinghe.2022}. For this purpose, a systematic literature review, following the PRISMA model \cite{Page.2021} was conducted. Hereby, an initial collection of 4056 items was reduced to a final set of 49 papers. The primarily regarded topics are the motivators for the conversion from a monolithic architecture to a microservice architecture, which technologies and architectural patterns occur in modern systems and which challenges arise when using the microservice architecture. Additionally, future trends are discussed. Here, the the increasing importance of cloud computing is highlighted. Other themes are the need to assure a low latency, due to the inherent inter-service communication, as well as the required skill for the development, which could be somewhat counteracted by the development of corresponding tools.
+\end{description}
 
 
 
 
-In \cite{Taibi.2018}, the authors conducted a systematic mapping study to identify microservice architecture patterns, create a corresponding catalogue that gives an overview of advantages and disadvantages, and, thereby, provide support developers in finding suitable solutions for their own needs. The initial search for literature yielded 2754 unique papers that were filtered for suitability, resulting in a final set of 42 contributions from conferences, workshops, journals, and grey literature. Besides describing the patterns and outlining in which papers their use has been described, the authors also highlighted the guiding principles of the microservice approach in general. Further, corresponding trends and open issues are discussed, amending the given comprehensive overview.
 
-The use of architectural patterns in open source projects that are based on microservices is addressed in \cite{Marquez.2018}. Similar to the previous one, this article also presents a catalog of microservices architectural patterns based on literature. Further, it relates them to quality attributes, compares them to patterns that are found in service oriented architectures, and investigates which patterns are used in microservice-based open source projects. While the general review process seems reasonable, it lacks a reporting of the number of papers assessed in each stage. However, including repeated mentioning across papers, the final set of 16 papers yielded 164 architectural patterns, with 52 stemming from academic papers and 112 from industrial ones. After further processing, those were reduced to 17 patterns that were deemed the most relevant and discussed in more detail.
 
-A review that is focused on the data management in the context of microservices is presented in \cite{Ntentos.2019}. For this purpose, instead of exploring the scientific body of literature, the grey literature was targeted, since much of the corresponding knowledge can be found in experience reports, blog entries, or system documentations, which makes it hard to obtain a comprehensive overview. In total, 35 contributions from practitioners were qualitatively explored, analysing, which patterns and practices were used by them, and which factors influenced their architectural decisions. Based on the findings, a model was proposed that formalizes the corresponding decisions and thereby facilitates a more comprehensive understanding of the domain.
 
-The modifiability of software and how it is influenced by the service-oriented architecture (SOA) as well as microservices is examined in \cite{Bogner.2019}. For this purpose, the authors firstly compiled a list of fifteen architectural modifiability tactics and mapped those with eight service-oriented design principles and eight microservice principles they extracted from selected publications. Subsequently, they presented the results of the mapping and discussed the results. Further, they analysed the relations of 42 microservice and 118 SOA patterns with the modifiability tactics. As with the principles, the patterns were also obtained by consulting specific selected publications. The identified relations are presented and the overall findings discussed, providing the reader with a rather comprehensive insight in the interplay of architectural modifiability, microservices, and SOA.
 
-A review on the relationship between microservice patterns, quality attributes, and metrics is given in \cite{Valdivia.2020}, which is an updated and extended version of the authors' previous work. To provide a comprehensive overview, both, scientific literature and grey literature were considered. While initially 605 results were found through the keyword search, the filtering reduced that number to 18. By backward snowballing for the grey literature, this number was increased to 27 for the final set that comprises 13 scientific papers and 14 from grey literature. In total, 54 patterns were identified. However, some of them are strongly related to each other or even redundant. The authors could link the identified patterns to six quality characteristics. Further, they assigned the patterns to one of six groups based on the provided benefits and analysed how many papers from scientific literature and grey literature are related to each group. Moreover, they also provided a comprehensive qualitative discussion of the groups, the respective patterns and the development over time.
 
-A second literature review on data management in a microservice context is presented in \cite{Laigner.2021}. For this purpose, a systematic literature review was conducted, where 300 peer-reviewed papers were analysed, leading to a final selection of 10 articles the authors deemed representative. Further, 9 microservice-based applications were analysed that were chosen from `more than 20' \cite{Laigner.2021} open-source project. Additionally, an online survey with more than 120 participants was conducted. In doing so, the authors found out that state-of-the-art database systems are often insufficient for the needs of practitioners, which leads to them combining multiple heterogeneous systems to fulfil their tasks. This, in turn, reduces the importance of database systems when dealing with microservices, since they often only provide data storage functionalities, with the data management logic being shifted to the application layer. Moreover, the data management logic and the common types of queries as well as the major challenges regarding the data management are discussed. Finally, the requirements for database management systems in the context of microservices are highlighted and avenues for future research are outlined.
 
-Microservice related deployment and communication patterns were collected in \cite{aksakalli2021deployment}. This was done by conducting a systematic literature review, in which initially 440 items were reviewed, with 34 primary studies being selected as relevant and amended by 4 additional contributions that were found by backward and forward snowballing. Subsequently, the final set is comprehensively presented regarding multiple quality metrics and the applied research methods. In the analysis part, the authors extensively discuss the varying deployment approaches and communication patterns for microservices. Further, they highlight the corresponding obstacles and issues, and promising directions for future research. The work is concluded by a comprehensive overview of its key findings, which are also visualized in the form of a taxonomy. 
 
-The selection of patterns and strategies in microservice systems is targeted in \cite{Waseem.2022}. For this purpose, the authors developed and evaluated four decision models that use requirements, in this case desired quality attributes, as input and output appropriate design elements. The models are also the main contribution of this work. Each of the models is focused on one specific theme. These are application decomposition, security, communication, and service discovery. As a foundation for the creation of the models, they searched the existing scientific and grey literature. From an initial set of 2110 publications, they kept 39 scientific papers and 23 grey literature items. Those contained 211 patterns and strategies for the former and 174 for the latter. After duplicate removal, there were 7 patterns and strategies left for application decomposition into microservices, 8 related to security, 15 for microservices communication, and 6 for service discovery. Each of them is briefly summarized and the advantages and disadvantages with respect to the quality attributes is discussed.
 
-How the use of patterns for the development of microservice systems affects the quality is examined in \cite{Vale.2022}. Further, it is regarded, how and why patterns are adopted in microservice systems and how quality attributes in a microservice context can be measured. However, at first, the authors introduce and describe the seven quality attributes that are used as foundation for the work. To gather new insights, the authors conducted nine semi-structured face-to-face interviews with practitioners and and microservice experts. They were questioned regarding the use of the 14 patterns from the “design and implementation” category of the cloud design patterns catalogue \cite{AAC.2022} provided in the Azure Architecture Center by Microsoft. These are described, the degree of use by the interviewees is stated, and they are linked with the quality attributes. Further, the advantages and disadvantages stated by the interviewees are compared with those that were already present in the documentation of the patterns catalogue.
 
-The list is concluded by a paper that focusses on a rather broad overview of the microservice domain \cite{Weerasinghe.2022}. For this purpose, a systematic literature review, following the PRISMA model \cite{Page.2021} was conducted. Hereby, an initial collection of 4056 items was reduced to a final set of 49 papers. The primarily regarded topics are the motivators for the conversion from a monolithic architecture to a microservice architecture, which technologies and architectural patterns occur in modern systems and which challenges arise when using the microservice architecture. Additionally, future trends are discussed. Here, the the increasing importance of cloud computing is highlighted. Other themes are the need to assure a low latency, due to the inherent inter-service communication, as well as the required skill for the development, which could be somewhat counteracted by the development of corresponding tools.
+
+
+
+
+
+
+
+
+
+
 
 
 \subsubsection{Data synthesis}
@@ -623,175 +637,177 @@ After selecting the quality papers, we embarked on the data synthesis process. F
 
 \subsection{Second Review} \label{secondReview}
 
-The second SLR was the less extensive one, since it is just an update to an already existing study. For this purpose, the SLR conducted by Ataei et al. \cite{Ataei.2020}, was extended up unto the current date, providing us with the necessary overview. The original study covered up to 2020, ths we followed the same methodology as discussed in Section~\ref{firstReview} with the following difference: 
+The second SLR is conducted by \cite{ataei2022state} on available BD RAs in academia and industry. This is comprehensive study that covers various aspects of BD RAs such as limitations, and common architectural blocks. The findings from this SLR helped us shaped the requirements necessary for BD systems. We do not explore this SLR in this paper, and aim to only discuss the results of it.
 
-\begin{enumerate}
-  \item inclusion criteria for this SLR covers the years 1st 2010 and 10th October 2022 
-  \item inclusion criteria for this SLR selects studies that are focused on BD architecture, BD reference architectures, and BD system and software requirements.
-  \item our Nvivo codes are as following: 1) BD Architectural components, 2) BD requirements, 3) Fundamental concepts of BD RAs
-  \item the keywords searched are illustrated in Table \ref{searchTermsSecond}
-\end{enumerate}
+% The second SLR was the less extensive one, since it is just an update to an already existing study. For this purpose, the SLR conducted by Ataei et al. \cite{Ataei.2020}, was extended up unto the current date, providing us with the necessary overview. The original study covered up to 2020, ths we followed the same methodology as discussed in Section~\ref{firstReview} with the following difference: 
 
-\begin{table*}
-  \renewcommand{\arraystretch}{1.5}
-  \caption[]{Mapping of databases/registers and search terms for the second review}
-  \begin{tabular}{|p{2.8cm}|p{7cm}|p{1.5cm}|}
-      \hline
-      Database/Register & Search Term & Records \\ 
+% \begin{enumerate}
+%   \item inclusion criteria for this SLR covers the years 1st 2010 and 10th October 2022 
+%   \item inclusion criteria for this SLR selects studies that are focused on BD architecture, BD reference architectures, and BD system and software requirements.
+%   \item our Nvivo codes are as following: 1) BD Architectural components, 2) BD requirements, 3) Fundamental concepts of BD RAs
+%   \item the keywords searched are illustrated in Table \ref{searchTermsSecond}
+% \end{enumerate}
 
-      \hline
-      ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
-      &  
+% \begin{table*}
+%   \renewcommand{\arraystretch}{1.5}
+%   \caption[]{Mapping of databases/registers and search terms for the second review}
+%   \begin{tabular}{|p{2.8cm}|p{7cm}|p{1.5cm}|}
+%       \hline
+%       Database/Register & Search Term & Records \\ 
+
+%       \hline
+%       ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
+%       &  
       
-      [Title: big data] AND [[Title: reference architecture*] OR [Title: big data architecture]
+%       [Title: big data] AND [[Title: reference architecture*] OR [Title: big data architecture]
 
-      & 
-      696
+%       & 
+%       696
       
-      \\ 
+%       \\ 
 
-      \hline
-      AISeL & \textbf{Title}: microservice OR microservices & 11 \\ 
-      \hline
+%       \hline
+%       AISeL & \textbf{Title}: microservice OR microservices & 11 \\ 
+%       \hline
 
-      IEEE Xplore & ("Document Title":big data) AND ("Document Title":reference architecture) OR ("Document Title":big data ) AND ("Document Title":architecture)
+%       IEEE Xplore & ("Document Title":big data) AND ("Document Title":reference architecture) OR ("Document Title":big data ) AND ("Document Title":architecture)
       
-      & 302  \\ 
-      \hline
+%       & 302  \\ 
+%       \hline
 
-      JSTOR & 
+%       JSTOR & 
       
-      \textbf{Title:} 1) big data reference architecture 
+%       \textbf{Title:} 1) big data reference architecture 
 
-      \textbf{Title:} 2) big data architecture 
-      & 
+%       \textbf{Title:} 2) big data architecture 
+%       & 
       
-      1) 6,682
+%       1) 6,682
 
 
-      2) 671
+%       2) 671
 
-      \\ 
+%       \\ 
 
-      \hline
+%       \hline
 
-      ScienceDirect & 
+%       ScienceDirect & 
       
-    \textbf{Title}: big data AND ( reference architecture OR architecture )
+%     \textbf{Title}: big data AND ( reference architecture OR architecture )
 
-      & 
-       70 
+%       & 
+%        70 
 
-      \\ 
+%       \\ 
 
-      \hline
+%       \hline
 
-      Scopus &
+%       Scopus &
 
-      ( TITLE ( big  AND  data  AND  reference  AND  architecture )  OR  TITLE ( big  AND data  AND architecture ) ) 
+%       ( TITLE ( big  AND  data  AND  reference  AND  architecture )  OR  TITLE ( big  AND data  AND architecture ) ) 
       
-      & 
+%       & 
       
-      814 
+%       814 
       
-      \\ 
-      \hline
+%       \\ 
+%       \hline
 
-      SpringerLink & \textbf{Title}: big data
+%       SpringerLink & \textbf{Title}: big data
 
 
-      \textbf{With at least one of the words}: architecture reference architecture
+%       \textbf{With at least one of the words}: architecture reference architecture
 
-       & 27 \\ 
-      \hline
+%        & 27 \\ 
+%       \hline
 
-      Wiley & 
-      \textbf{Title}: 1) big data reference architecture  
+%       Wiley & 
+%       \textbf{Title}: 1) big data reference architecture  
       
-      \textbf{Title}: 2) big data architecture
-      & 
-      1) 1
+%       \textbf{Title}: 2) big data architecture
+%       & 
+%       1) 1
 
 
-      2) 132
+%       2) 132
       
-      \\ 
+%       \\ 
 
-      \hline
-  \end{tabular}
+%       \hline
+%   \end{tabular}
   
-  \label{searchTermsSecond}
-\end{table*}
+%   \label{searchTermsSecond}
+% \end{table*}
 
-In the first phase of this SLR, a total of 138 literature has been pooled from academia, and 24 from grey literature. Some of this literature has been added to the pool by the process of forward and backward searching. For instance, by reading NIST RA \cite{Chang.2019}, we found out about Oracle, Facebook, and Amazon RAs and included those in the pool of the literature as well. 
+% In the first phase of this SLR, a total of 138 literature has been pooled from academia, and 24 from grey literature. Some of this literature has been added to the pool by the process of forward and backward searching. For instance, by reading NIST RA \cite{Chang.2019}, we found out about Oracle, Facebook, and Amazon RAs and included those in the pool of the literature as well. 
 
-In the screening phase, the literature that were not in-line with our inclusion and exclusion criteria have been eliminated. For example, if the paper was very short and was not on the topic of BD RA, or its ecosystem or limitations, it was excluded. As a result of this phase, 50 papers excluded. In the next phase, by assessing studies against the quality framework, 21 studies from academia, and 12 studies from grey literature pool has been eliminated.
+% In the screening phase, the literature that were not in-line with our inclusion and exclusion criteria have been eliminated. For example, if the paper was very short and was not on the topic of BD RA, or its ecosystem or limitations, it was excluded. As a result of this phase, 50 papers excluded. In the next phase, by assessing studies against the quality framework, 21 studies from academia, and 12 studies from grey literature pool has been eliminated.
 
-Finally, 79 studies have been selected comprising of proceedings, journal articles, book chapters, and white papers. Out of the pool of articles, 33.3\% are from IEEE Explore, 5.2\% from ScienceDirect, 24.5\% from SpringerLink, 15.7\% from ACM, and 21\% from other sources such as Google Scholar, Research Gate and gray literature. 30 journal articles, 29 conference proceedings, 12 book chapters, 6 white papers, 1 Master’s Thesis and 1 PhD thesis were selected. 55\% of the articles were selected from the years 2016- 2022, 33\% belonged to years 2013-2016, and the rest to years 2010-2013. The PRISMA flowchart is depicted in Figure~\ref{fig:PRISMA}.
+% Finally, 79 studies have been selected comprising of proceedings, journal articles, book chapters, and white papers. Out of the pool of articles, 33.3\% are from IEEE Explore, 5.2\% from ScienceDirect, 24.5\% from SpringerLink, 15.7\% from ACM, and 21\% from other sources such as Google Scholar, Research Gate and gray literature. 30 journal articles, 29 conference proceedings, 12 book chapters, 6 white papers, 1 Master’s Thesis and 1 PhD thesis were selected. 55\% of the articles were selected from the years 2016- 2022, 33\% belonged to years 2013-2016, and the rest to years 2010-2013. The PRISMA flowchart is depicted in Figure~\ref{fig:PRISMA}.
 
-\begin{figure*}[t]
-  \includegraphics[width=13cm]{PRISMA/PRISMA_Flow_Diagram-2.pdf}
-  \caption{PRISMA flowchart}
-  \label{fig:PRISMA}
-\end{figure*}
+% \begin{figure*}[t]
+%   \includegraphics[width=13cm]{PRISMA/PRISMA_Flow_Diagram-2.pdf}
+%   \caption{PRISMA flowchart}
+%   \label{fig:PRISMA}
+% \end{figure*}
 
-By the result of this SLR, 22 BD RAs have been found as portrayed in Table \ref{table:bdRAs}. By analyzing these RAs and the theory that derives them, two kinds of theory have been attained: 1) software and system requirements  as per the Section~\ref{requirementSpec} 2) design theories and architectural constructs as per the Section~\ref{Mapping}.
+% By the result of this SLR, 22 BD RAs have been found as portrayed in Table \ref{table:bdRAs}. By analyzing these RAs and the theory that derives them, two kinds of theory have been attained: 1) software and system requirements  as per the Section~\ref{requirementSpec} 2) design theories and architectural constructs as per the Section~\ref{Mapping}.
 
 
-\begin{table*}
-  \renewcommand*{\arraystretch}{1.4}
-  \caption{BD RAs}
-  \label{table:bdRAs}
-  \begin{tabular}{|p{0.4cm}|p{9cm}|p{1.2cm}|p{0.5cm}|}
-  \hline
-  \textbf{ID} & \textbf{Title} & \textbf{Domain} & \textbf{Year} \\
-  \hline
-  s1 & Lambda architecture (\cite{kiran2015lambda} ) & Practice  &  2011   \\
-  \hline
-  s2 & IBM - Reference architecture for high performance analytics in healthcare and life science (\cite{quintero2019ibm} ) & Practice  &  2013   \\
-  \hline
-  s3 &  Microsoft - Big Data ecosystem reference architecture  (\cite{levin2013big} ) & Practice  &  2013   \\
-  \hline
-  s4 &  Oracle - Information Management and Big Data: A Reference Architecture  (\cite{cackett2013information} ) & Practice  &  2014   \\
-  \hline
-  s5 & Towards a big Data reference architecture (\cite{Maier} ) & Academia  &  2013   \\
-  \hline
-  s6 & A reference architecture for Big Data solutions introducing a model to perform predictive analytics using Big Data technology (\cite{geerdink2013reference} ) & Academia  &  2013   \\
-  \hline
-  s7 & A proposal for a reference architecture for long-term archiving, preservation, and retrieval of Big Data (\cite{viana2014proposal} ) & Academia  &  2014   \\
-  \hline
-  s8 & Questioning the Lambda architecture; Kappa Architecture (\cite{kreps2014questioning} ) & Academia  &  2014   \\
-  \hline
-  s9 & Accelerating Secondary Genome Analysis Using Intel Big Data Reference Architecture. (\cite{SikoraWohlfeld2014} ) & Practice  &  2014  \\
-  \hline
-  s10 & Reference architecture and classification of technologies, products and services for big data systems (\cite{paakkonen2015reference} ) & Academia  &  2015   \\
-  \hline
-  s11 &  SAP - NEC Reference Architecture for SAP HANA \& Hadoop (\cite{SAPRA} ) & Practice  &  2016   \\
-  \hline
-  s12 & Big data architecture for construction waste analytics (CWA ): A conceptual framework (\cite{bilal2016big} ) & Academia  &  2016   \\
-  \hline
-  s13 & A reference architecture for Big Data systems in the national security domain (\cite{Klein} ) & Academia  &  2016   \\
-  \hline
-  s14 & Managing Cloud-Based Big Data Platforms: A Reference Architecture and Cost Perspective (\cite{heilig2017managing} ) & Academia  &  2017   \\
-  \hline
-  s15 & A software reference architecture for semantic-aware Big Data systems; Bolster Architecture (\cite{Nadal} ) & Academia  &  2017   \\
-  \hline
-  s16 & Simplifying big data analytics systems with a reference architecture (\cite{sang2017simplifying} ) & Academia  &  2017   \\
-  \hline
-  s17 & NIST Big Data interoperability framework (\cite{Chang} ) & Practice  &  2018  \\
-  \hline
-  s18 & Extending reference architecture of big data systems towards machine learning in edge computing environments (\cite{paakkonen2020extending} )  & Academia & 2020   \\
-  \hline
-  s19 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big} )  & Academia & 2020   \\
-  \hline
-  s20 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547} ) & Practice  &  2020  \\
-  \hline
-  s21 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi} )  & Academia & 2021   \\
-  \hline
-  s22 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec} )  & Academia & 2021   \\
-  \hline
-  \end{tabular}
-\end{table*}
+% \begin{table*}
+%   \renewcommand*{\arraystretch}{1.4}
+%   \caption{BD RAs}
+%   \label{table:bdRAs}
+%   \begin{tabular}{|p{0.4cm}|p{9cm}|p{1.2cm}|p{0.5cm}|}
+%   \hline
+%   \textbf{ID} & \textbf{Title} & \textbf{Domain} & \textbf{Year} \\
+%   \hline
+%   s1 & Lambda architecture (\cite{kiran2015lambda} ) & Practice  &  2011   \\
+%   \hline
+%   s2 & IBM - Reference architecture for high performance analytics in healthcare and life science (\cite{quintero2019ibm} ) & Practice  &  2013   \\
+%   \hline
+%   s3 &  Microsoft - Big Data ecosystem reference architecture  (\cite{levin2013big} ) & Practice  &  2013   \\
+%   \hline
+%   s4 &  Oracle - Information Management and Big Data: A Reference Architecture  (\cite{cackett2013information} ) & Practice  &  2014   \\
+%   \hline
+%   s5 & Towards a big Data reference architecture (\cite{Maier} ) & Academia  &  2013   \\
+%   \hline
+%   s6 & A reference architecture for Big Data solutions introducing a model to perform predictive analytics using Big Data technology (\cite{geerdink2013reference} ) & Academia  &  2013   \\
+%   \hline
+%   s7 & A proposal for a reference architecture for long-term archiving, preservation, and retrieval of Big Data (\cite{viana2014proposal} ) & Academia  &  2014   \\
+%   \hline
+%   s8 & Questioning the Lambda architecture; Kappa Architecture (\cite{kreps2014questioning} ) & Academia  &  2014   \\
+%   \hline
+%   s9 & Accelerating Secondary Genome Analysis Using Intel Big Data Reference Architecture. (\cite{SikoraWohlfeld2014} ) & Practice  &  2014  \\
+%   \hline
+%   s10 & Reference architecture and classification of technologies, products and services for big data systems (\cite{paakkonen2015reference} ) & Academia  &  2015   \\
+%   \hline
+%   s11 &  SAP - NEC Reference Architecture for SAP HANA \& Hadoop (\cite{SAPRA} ) & Practice  &  2016   \\
+%   \hline
+%   s12 & Big data architecture for construction waste analytics (CWA ): A conceptual framework (\cite{bilal2016big} ) & Academia  &  2016   \\
+%   \hline
+%   s13 & A reference architecture for Big Data systems in the national security domain (\cite{Klein} ) & Academia  &  2016   \\
+%   \hline
+%   s14 & Managing Cloud-Based Big Data Platforms: A Reference Architecture and Cost Perspective (\cite{heilig2017managing} ) & Academia  &  2017   \\
+%   \hline
+%   s15 & A software reference architecture for semantic-aware Big Data systems; Bolster Architecture (\cite{Nadal} ) & Academia  &  2017   \\
+%   \hline
+%   s16 & Simplifying big data analytics systems with a reference architecture (\cite{sang2017simplifying} ) & Academia  &  2017   \\
+%   \hline
+%   s17 & NIST Big Data interoperability framework (\cite{Chang} ) & Practice  &  2018  \\
+%   \hline
+%   s18 & Extending reference architecture of big data systems towards machine learning in edge computing environments (\cite{paakkonen2020extending} )  & Academia & 2020   \\
+%   \hline
+%   s19 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big} )  & Academia & 2020   \\
+%   \hline
+%   s20 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547} ) & Practice  &  2020  \\
+%   \hline
+%   s21 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi} )  & Academia & 2021   \\
+%   \hline
+%   s22 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec} )  & Academia & 2021   \\
+%   \hline
+%   \end{tabular}
+% \end{table*}
 
 % Consequently, for the search conducted for this paper, the other databases and registers have not been necessary. However, since this fact is only determinable now, their inclusion in the initial search was still sensible.
 
