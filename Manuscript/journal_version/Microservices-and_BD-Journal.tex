@@ -983,12 +983,7 @@ As a result of this SLR, our data synthesis yielded 28 MS patterns. These patter
   
 \hspace{1cm}
 
-For the purposes of this study, we use Fowler's definition \cite{fowler1997analysis} of patterns as:
-
-\begin{quote}
-  `an idea that has been useful in one practical context and will probably be useful in others'
-\end{quote}
-
+For the purposes of this study, we use Fowler's definition \cite{fowler1997analysis} of patterns as  `an idea that has been useful in one practical context and will probably be useful in others'.
 
 
 Several formats are used in the literature to describe patterns. While there is no single format that is widely accepted, there is a broad agreement on what elements should a pattern description include. In this study we use the pattern description template taken from Buschmann et al's work \cite{buschmann2008pattern}. 
@@ -1086,390 +1081,28 @@ This pattern description language has several elements that does not relate dire
 
 \subsubsection{API gateway}
 
-\paragraph{Context}
-
-Suppose that a company runs a multi-region software as a service (SaaS) practice management system for veterinarian, and is using microservices for different aspect of the system such as financial, medical, client and animal. Different frontend applications need different data to display for various parts of the application. The animal micro-frotned needs the animal data, and financial micro-frotned needs data from several backends such as animal, financial, and client. 
-
-
-\paragraph{Problem}
-
-How does the financial micro-frontend retrieves the data it needs from various backends? should it make a separate REST request to different APIs and then combine the data to represent what is required? how does this approach evolve? if the financial microservice changes, how does it affect the data composition ? how does the financial micro-frontend gets the new endpoint ? how does the financial micro-frontend authenticate with the financial microservice? should the configs be hard-coded and changed every now and then ? if the financial microservice changes implementation of a certain function, would it break production ?
-
-\paragraph{Solution}
-
-The solution to the problems discussed is to have one gateway that resolves different data necessary for various micro-frontends. The API gateway can act as a single entry for all clients, handling version changes, reducing the network requests, and addressing cross-cutting concerns. In addition, API gateway can help with load balancing. The gateway can either proxy/route requests to appropriate services or it can fan out a request to multiple services. An overview of this pattern can be found at Figure~\ref{APIGATEWAY}.
-
-\begin{figure}[h]
-  \includegraphics[width=10cm]{Media/API Gateway.jpg}
-  \caption{API Gateway Pattern}
-  \label{APIGATEWAY}
-\end{figure}
-
-
-
-
-% \begin{center}
-%     \begin{table*}
-%     \renewcommand*{\arraystretch}{1.8}
-%     \begin{tabular}{ | m{2cm} | m{8cm} |  m{2cm} |}
-
-%         \hline
-
-%         Requirement &  Patterns & Reasoning
- 
-%         \\
-%         \hline
-
-%         Vol-1 &  
-        
-%         1) Database per Service
-
-%         2)  Event Sourcing
-        
-%         3)  Command and Query Responsibility Segregation
-        
-%         4)  External Configuration Store
-        
-%         5)  API gateway
-        
-%         6)  Anti-Corruption Layer
-        
-%         7)  Service Discovery
-        
-%         8)  Self Registration
-        
-%         9)  Priority Queue
-
-%         10) Gateway Offloading 
-
-%         11) Gateway Aggregate 
-
-%         12) Leader Election
-
-%         13) Log Aggregation Pattern 
-        
-%         & Reasoning 
- 
-%         \\
-
-%         \hline
-
-%         Vol-2 &  
-        
-%         1) Database per Service  
-        
-%         2) Command and Query Responsibility Segregation
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Vel-1 &  
-    
-%         1) API Gateway 
-
-%         2) Service Discovery 
-
-%         3) Pipes and Filters 
-
-%         4) Leader Election 
-
-%         5) Circuit Breaker 
-
-%         6) Log Aggregation  
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Vel-2 &  
-    
-%         1) Command and Query Responsibility Segregation
-        
-%         2) API gateway
-
-%         3) Competing consumers
-
-%         4) Gateway aggregate
-
-%         5) Gateway Offloading
-
-%         6) Leader Election 
-
-%         & Reasoning
-
-%         \\
-
-%         \hline
-
-%         Vel-3 &  
-    
-%         1) Command and Query Responsibility Segregation
-        
-%         2) API gateway
-
-%         3) Competing consumers
-
-%         4) Gateway aggregate
-
-%         5) Gateway Offloading
-
-%         6) Leader Election 
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         \hline
-
-%         Vel-3 &  
-
-%         1) API composition
-        
-%         2) API gateway
-
-%         4) Gateway aggregate
-
-%         5) Gateway Offloading
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Vel-4 &  
-
-%         1) API composition
-        
-%         2) API gateway
-
-%         4) Gateway aggregate
-
-%         5) Gateway Offloading
-                
-%         6) Event Sourcing
-
-%         7) Command and Query Responsibility Segregation
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Vel-5 &  
-
-%         1) Leader Election 
-
-%         2) Log Aggregation Pattern 
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-        
-%         Var-1 &  
-        
-%         None
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Var-2 &  
-        
-%         1)  Database per Service
-
-%         2) API Gateway
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Var-3 & None  & Reasoning
-        
-%         \\
-%         \hline
-
-%         Var-4 &  
-
-%         1) API Gateway
-
-%         2) Gateway Offloading
-
-%         3) Gateway Aggregate
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
+\begin{description}
+  \item[Context:] Suppose that a company runs a multi-region software as a service (SaaS) practice management system for veterinarian, and is using microservices for different aspect of the system such as financial, medical, client and animal. Different frontend applications need different data to display for various parts of the application. The animal micro-frotned needs the animal data, and financial micro-frotned needs data from several backends such as animal, financial, and client. 
+  \item[Problem:] How does the financial micro-frontend retrieves the data it needs from various backends? should it make a separate REST request to different APIs and then combine the data to represent what is required? how does this approach evolve? if the financial microservice changes, how does it affect the data composition ? how does the financial micro-frontend gets the new endpoint ? how does the financial micro-frontend authenticate with the financial microservice? should the configs be hard-coded and changed every now and then ? if the financial microservice changes implementation of a certain function, would it break production ?
+  \item[Solution:] The solution to the problems discussed is to have one gateway that resolves different data necessary for various micro-frontends. The API gateway can act as a single entry for all clients, handling version changes, reducing the network requests, and addressing cross-cutting concerns. In addition, API gateway can help with load balancing. The gateway can either proxy/route requests to appropriate services or it can fan out a request to multiple services. An overview of this pattern can be found at Figure~\ref{APIGATEWAY}.
   
-%     \end{tabular}
-%     \end{table*}
-% \end{center}
+  \begin{figure}[h]
+    \includegraphics[width=9cm]{Media/API Gateway.jpg}
+    \caption{API Gateway Pattern}
+    \label{APIGATEWAY}
+  \end{figure}
 
+\end{description}
 
-% \begin{center}
-%     \begin{table*}
-%     \renewcommand*{\arraystretch}{1.8}
-%     \begin{tabular}{ | m{2cm} | m{8cm} |  m{2cm} |}
-%         \hline
-
-%         Val-1 &  
-
-%         1) Event Sourcing
-
-%         2) Command and Query Responsibility Segregation
-
-%         3) Priority Queue
-
-%         4) Leader Election
-
-%         5) Bulkhead Pattern
-        
-%         &  Reasoning 
-        
-%         \\
-%         \hline
-
-%         Val-2 &  
-
-%         1) Event Sourcing
-
-%         2) Command and Query Responsibility Segregation
-
-%         3) API gateway, Gateway aggregate
-
-%         4) Gateway offloading
-
-%         5) Priority queue
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Val-3 &  
-
-%         1) API gateway
-
-%         2) Anti-corruption layer
-
-%         3) Service Discovery
-
-%         4) Gateway aggregate
-
-%         5) Backend for Frontend
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Val-4 &  
-
-%         1) Event Sourcing
-
-%         2) Command and Query Responsibility Segregation
-
-%         3) Backend for Frontend
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         SaP-1 &  
-
-%         1) External Configuration Store
-
-%         2) API Gateway
-
-%         3) Gateway Aggregate
-
-%         4) Backend for Frontend 
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         SaP-2 &  
-
-%         1) External Configuration Store
-
-%         2) API Gateway
-
-%         3) Gateway Aggregate
-
-%         4) Backend for Frontend 
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Ver-1 &  
-
-%         1) Pipes and filters
-        
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%         Ver-2 &  
-%         None 
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-        
-%         Ver-3 &  
-        
-%         None
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-             
-%         Ver-4 &  
-        
-%         1) Circuit Breaker
-
-%         & Reasoning
-        
-%         \\
-%         \hline
-
-%     \end{tabular}
-%     \end{table*}
-% \end{center}
 
 \subsubsection{Gateway Offloading}
 
-\paragraph{Context}
+\begin{description}
+  \item[Context:] Using the same SaaS practice management system example, one can imagine that different microservices have common features and these features require maintenance, configuration and management. The features could be token validation, feature flag management, SSL certificate management, encryption or environment variable management. 
+  \item[Problem:] How does one go about handling these shared features? should each team write their own feature for their own services? if a feature is updated, should each team then update their own implementation? how do we ensure that these features conform to the same interface and standards? if a new feature is added, should we communicate with three different teams to update their implementation? what happens if an implementation of on team does not respect the specification?
+  \item[Solution:] Common features and cross-cutting concerns can be offloaded into a gateway. This includes but is not limited to: SSL termination, certificate management, feature flag management, environment variables management, secret management, monitoring, logging configurations, throttling, and protocol translation. This approach simplifies the development of services, and improves the maintainability of the system.  In addition, features that require special skills (privacy and security) can be developed by experts and propagated to teams, eliminating the risk that non-expert developers may introduce. This pattern also introduces more consistency, and standardised interfaces which helps with communication, agility and productivity of development teams. This pattern is portrayed at Figure ~\ref{gatewayOffloading}.   
 
-Using the same SaaS practice management system example, one can imagine that different microservices have common features and these features require maintenance, configuration and management. The features could be token validation, feature flag management, SSL certificate management, encryption or environment variable management. 
-
-
-\paragraph{Problem}
-
-How does one go about handling these shared features? should each team write their own feature for their own services? if a feature is updated, should each team then update their own implementation? how do we ensure that these features conform to the same interface and standards? if a new feature is added, should we communicate with three different teams to update their implementation? what happens if an implementation of on team does not respect the specification?
-
-\paragraph{Solution}
-
-Common features and cross-cutting concerns can be offloaded into a gateway. This includes but is not limited to: SSL termination, certificate management, feature flag management, environment variables management, secret management, monitoring, logging configurations, throttling, and protocol translation. This approach simplifies the development of services, and improves the maintainability of the system. 
-
-In addition, features that require special skills (privacy and security) can be developed by experts and propagated to teams, eliminating the risk that non-expert developers may introduce. This pattern also introduces more consistency, and standardised interfaces which helps with communication, agility and productivity of development teams. This pattern is portrayed at Figure ~\ref{gatewayOffloading}.
+\end{description}
 
 \begin{figure}[h]
   \includegraphics[width=10cm]{Media/Gateway Offloading.jpg}
@@ -1479,18 +1112,11 @@ In addition, features that require special skills (privacy and security) can be 
 
 \subsubsection{External configuration store}
 
-\paragraph{Context}
-
-Software applications are usually deployed to various environment for different purposes. This is part of CI/CD approach that creates pipelines to capture bugs, and issues. For instance there are testing, integration, pre-production and production environments. Each environment is tailored for a different purpose. In a development environment, several features flags may be deactivated, some infrastructure may have been configured to reduce costs, and end to end tests may run. Therefore, an application needs to keep a list of configuration for internal and third-party infrastructure it needs. 
-
-\paragraph{Problem}
-
-Should each application have its configuration written separately? as the number of applications grow, how does one scale and maintain this? If a configuration should be uploaded for a class of similar services, should each service update its configuration separately? how can configurations be shared across several applications? 
-
-\paragraph{Solution}
-
-Store all application configurations in an external store. This can include package versions, database credentials, network locations and APIs. On startup, application can request for the corresponding configuration from the external configuration store. This for example could happen in CMD command of Docker script. This pattern is portrated in Figure~\ref{externalConfiguration}
-
+\begin{description}
+  \item[Context:] Software applications are usually deployed to various environment for different purposes. This is part of CI/CD approach that creates pipelines to capture bugs, and issues. For instance there are testing, integration, pre-production and production environments. Each environment is tailored for a different purpose. In a development environment, several features flags may be deactivated, some infrastructure may have been configured to reduce costs, and end to end tests may run. Therefore, an application needs to keep a list of configuration for internal and third-party infrastructure it needs. 
+  \item[Problem:] Should each application have its configuration written separately? as the number of applications grow, how does one scale and maintain this? If a configuration should be uploaded for a class of similar services, should each service update its configuration separately? how can configurations be shared across several applications? 
+  \item[Solution:] Store all application configurations in an external store. This can include package versions, database credentials, network locations and APIs. On startup, application can request for the corresponding configuration from the external configuration store. This for example could happen in CMD command of Docker script. This pattern is portrated in Figure~\ref{externalConfiguration}  
+\end{description}
 
 \begin{figure}[h]
   \includegraphics[width=10cm]{Media/External Configuration Store.jpg}
@@ -1500,21 +1126,29 @@ Store all application configurations in an external store. This can include pack
 
 \subsubsection{Competing Consumers}
 
-\paragraph{Context}
+\begin{description}
+  \item[Context:] An enterprise application, specially a data-intensive one is expected to handle large number of requests. Handling these requests synchronously would be challenging. A common approach is for application to send these requests through a messaging system to another application that handles them asynchronously. This ensure that one blocking service is not gonna have ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests vary, and while some may be quite cheap, the other might be compute intensive. 
+  \item[Problem:] Should only one consumer instance be responsible for incoming requests? what happens if that consumer instance does not have the computing resources available? what happens if that consumer instances fails? 
+  \item[Solution:] Message queue system can be used to load balance requests to different consuming services based on their availability. This means that a group of consumer applications will be created, which allows in timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
 
-An enterprise application, specially a data-intensive one is expected to handle large number of requests. Handling these requests synchronously would be challenging. A common approach is for application to send these requests through a messaging system to another application that handles them asynchronously. This ensure that one blocking service is not gonna have ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests vary, and while some may be quite cheap, the other might be compute intensive. 
+  This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances. This pattern is presented in Figure~\ref{competingConsumer}.  
+\end{description}
+
+% \paragraph{Context}
+
+% An enterprise application, specially a data-intensive one is expected to handle large number of requests. Handling these requests synchronously would be challenging. A common approach is for application to send these requests through a messaging system to another application that handles them asynchronously. This ensure that one blocking service is not gonna have ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests vary, and while some may be quite cheap, the other might be compute intensive. 
 
 
-\paragraph{Problem}
+% \paragraph{Problem}
 
-Should only one consumer instance be responsible for incoming requests? what happens if that consumer instance does not have the computing resources available? what happens if that consumer instances fails? 
+% Should only one consumer instance be responsible for incoming requests? what happens if that consumer instance does not have the computing resources available? what happens if that consumer instances fails? 
 
 
-\paragraph{Solution}
+% \paragraph{Solution}
 
-Message queue system can be used to load balance requests to different consuming services based on their availability. This means that a group of consumer applications will be created, which allows in timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
+% Message queue system can be used to load balance requests to different consuming services based on their availability. This means that a group of consumer applications will be created, which allows in timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
 
-This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances. This pattern is presented in Figure~\ref{competingConsumer}.
+% This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances. This pattern is presented in Figure~\ref{competingConsumer}.
 
 \begin{figure}[h]
   \includegraphics[width=10cm]{Media/Competing Consumers.jpg}
@@ -1524,30 +1158,22 @@ This increase the elasticity, availability and reliability of the system. The qu
 
 \subsubsection{Circuit Breaker}
 
-\paragraph{Context}
+\begin{description}
+  \item[Context:] Suppose a company is using a microservices architecture. There are various services that communicate with each other to process requests. If one service synchronously calls another services through a REST API, there's a chance that the other service may not be available or is exhibiting a high latency. As the number of services grow, there will be an increased requirement for communication between services. Therefore, the failure of one service can introduce a bottleneck to the whole system.
+  \item[Problem:] How does one handle the failing service? how should the failed service be handled to avoid ripple effect? 
+  \item[Solution:] An architect can employ the circuit breaker pattern. The circuit breaker pattern prevents services from repeatedly calling the failing service. This allows for the system to operate in spite of a failing node, which helps with saving CPU cycles, improving availability, improving reliability and decreasing the chance of faulty data. In addition, circuit breaker signals the fault resolution which allows system to get back to its default state. 
 
-Suppose a company is using a microservices architecture. There are various services that communicate with each other to process requests. If one service synchronously calls another services through a REST API, there's a chance that the other service may not be available or is exhibiting a high latency. As the number of services grow, there will be an increased requirement for communication between services. Therefore, the failure of one service can introduce a bottleneck to the whole system.
-
-
-\paragraph{Problem}
-
-How does one handle the failing service? how should the failed service be handled to avoid ripple effect? 
-
-\paragraph{Solution}
-
-An architect can employ the circuit breaker pattern. The circuit breaker pattern prevents services from repeatedly calling the failing service. This allows for the system to operate in spite of a failing node, which helps with saving CPU cycles, improving availability, improving reliability and decreasing the chance of faulty data. In addition, circuit breaker signals the fault resolution which allows system to get back to its default state. 
-
-In a common scenario, circuit breaker acts as a proxy between the source and destination services, and monitors the destination service. If the number of failing requests reach a certain threshold, the circuit breaker trips, blocking subsequent requests to the destination. The circuit breaker then probes the failing service to identify its health. Once the service becomes healthy again, the circuit breaker allows requests to be passed to the destination. 
-
-Circuit breaker can be implemented on frontend, backend, or as a standalone service. This pattern is usually implemented as a state machine that mimics the functionality of an electrical circuit breaker. This is usually derived by three states: 
-
-\begin{enumerate}
-  \item closed: the default state, where circuit breaker listens on the number of incoming requests
-  \item open: if the number of failing requests reach a certain threshold, the circuit breaker trips, immediately returning an exception
-  \item half-open: a limited number of requests are passed, if these requests are passed, it is assumed that service is healthy, and circuit breaker switches to closed state. If any requests fail, the circuit breaker assumes the fault is still present, so it reverts back to open state.
-\end{enumerate}
-
-This pattern is displaed in Figure~\ref{circuitBreaker}.
+  In a common scenario, circuit breaker acts as a proxy between the source and destination services, and monitors the destination service. If the number of failing requests reach a certain threshold, the circuit breaker trips, blocking subsequent requests to the destination. The circuit breaker then probes the failing service to identify its health. Once the service becomes healthy again, the circuit breaker allows requests to be passed to the destination. 
+  
+  Circuit breaker can be implemented on frontend, backend, or as a standalone service. This pattern is usually implemented as a state machine that mimics the functionality of an electrical circuit breaker. This is usually derived by three states: 
+  \begin{enumerate}
+    \item closed: the default state, where circuit breaker listens on the number of incoming requests
+    \item open: if the number of failing requests reach a certain threshold, the circuit breaker trips, immediately returning an exception
+    \item half-open: a limited number of requests are passed, if these requests are passed, it is assumed that service is healthy, and circuit breaker switches to closed state. If any requests fail, the circuit breaker assumes the fault is still present, so it reverts back to open state.
+  \end{enumerate}
+  
+  This pattern is displaed in Figure~\ref{circuitBreaker}.   
+\end{description}
 
 \begin{figure}[h]
   \includegraphics[width=10cm]{Media/Circuit Breaker.jpg}
@@ -1557,19 +1183,12 @@ This pattern is displaed in Figure~\ref{circuitBreaker}.
 
 \subsubsection{Log Aggregation}
 
+\begin{description}
+  \item[Context:] Microservices is comprising of large set of services, each having its own domain and responsibility. A request usually spans multiple services, and in the process something might go wrong, and bugs may occur. Each system writes logs in a standardized format about errors, warning and access requests. 
+  \item[Problem:] How to understand the root cause of issue if it's spanning multiple services? should one read the logs of one service, and then the logs of the other, and the next to try to make sense of the problem?  
+  \item[Solution:] A centralized logging service can be implemented that retrieves logs from different services and compose them together. The developers can then search and analyze these logs to make sense of the root cause. This pattern is portrated in Figure~\ref{logAggregation}.    
+\end{description}
 
-
-\paragraph{Context}
-
-Microservices is comprising of large set of services, each having its own domain and responsibility. A request usually spans multiple services, and in the process something might go wrong, and bugs may occur. Each system writes logs in a standardized format about errors, warning and access requests. 
-
-\paragraph{Problem}
-
-How to understand the root cause of issue if it's spanning multiple services? should one read the logs of one service, and then the logs of the other, and the next to try to make sense of the problem?  
-
-\paragraph{Solution}
-
-A centralized logging service can be implemented that retrieves logs from different services and compose them together. The developers can then search and analyze these logs to make sense of the root cause. This pattern is portrated in Figure~\ref{logAggregation}.
 
 
 \begin{figure}[h]
@@ -1578,20 +1197,15 @@ A centralized logging service can be implemented that retrieves logs from differ
   \label{logAggregation}
 \end{figure}
 
-\subsubsection{Command and Query Responsibility Segregation}
+\subsubsection{Command and Query Responsibility Segregation}\
 
-\paragraph{Context}
+\begin{description}
+  \item[Context:] Suppose that a team is working on a data heavy service. This service needs to scale and crunch a lot of data. Following the traditional approach, often the same data model is used to query and update the database. Underlying this approach, the read and write workloads both go to the same datastore. 
+  \item[Problem:] How should the team optimize for read workloads? how should the team optimize for the write workloads? can the team optimize for both read and write workloads? How does the team handle the miss match between the read and write representations of the data? how does the team ensure certain performance objective is met on read workloads?
+  \item[Solution:] Implement CQRS pattern to separates reads and writes workloads, using commands to update the data and queries to read the data. This is usually achieved through a message queue asynchronously. Having the command and query separated, simplifies modeling, development and maintenance of data stores. In addition, the system will be able to support multiple denormalized views that are optimized for a specific workload. 
 
-Suppose that a team is working on a data heavy service. This service needs to scale and crunch a lot of data. Following the traditional approach, often the same data model is used to query and update the database. Underlying this approach, the read and write workloads both go to the same datastore.
-
-\paragraph{Problem}
-How should the team optimize for read workloads? how should the team optimize for the write workloads? can the team optimize for both read and write workloads? How does the team handle the miss match between the read and write representations of the data? how does the team ensure certain performance objective is met on read workloads?
-
-\paragraph{Solution}
-
-Implement CQRS pattern to separates reads and writes workloads, using commands to update the data and queries to read the data. This is usually achieved through a message queue asynchronously. Having the command and query separated, simplifies modeling, development and maintenance of data stores. In addition, the system will be able to support multiple denormalized views that are optimized for a specific workload. 
-
-CQRS is commonly implemented in two distinct data stores. This allows for the read database to optimize for read queries. For instance, it can store a materialized view of the data, and avoid expensive joints or complex ORM mappings. The read database can be a different type of data store. One might choose to use a graph database such as Neo4J for relationship heavy datasets, or a NoSQL database such as MongoDB for highly dynamic data. On the other hand, CQRS can potentially increase complexity, introduce code-duplication and increase latency. An overview of this pattern can be found at Figure~\ref{CQRS}.ss
+  CQRS is commonly implemented in two distinct data stores. This allows for the read database to optimize for read queries. For instance, it can store a materialized view of the data, and avoid expensive joints or complex ORM mappings. The read database can be a different type of data store. One might choose to use a graph database such as Neo4J for relationship heavy datasets, or a NoSQL database such as MongoDB for highly dynamic data. On the other hand, CQRS can potentially increase complexity, introduce code-duplication and increase latency. An overview of this pattern can be found at Figure~\ref{CQRS}.   
+\end{description}
 
 \begin{figure}[h]
   \includegraphics[width=11cm]{Media/Command and Query Responsibility Segregation.jpg}
@@ -1601,17 +1215,11 @@ CQRS is commonly implemented in two distinct data stores. This allows for the re
 
 \subsubsection{Anti-Corruption Layer}
 
-\paragraph{Context}
-
-Most services rely on some other services for data or functionality. Each service has its own domain model. Some of these services can be external services, some of these services can be internal legacy services, and some of them can be bleeding edge services. For these services to interoperate, there is a need for a standard interface, protocol, data model or APIs.  
-
-\paragraph{Problem}
-
-How does one maintain access between legacy internal systems and bleeding edge internal systems? how does one enable interoperability between legacy internal services and external services? should the bleeding edge service be modified to account for legacy service's interface or API? should the internal services support the API requirements of external services even if they are sub-optimal? should the semantics of legacy and external services be imposed to the bleeding edge service? should services be corrupted by the requirements of other services?  
-
-\paragraph{Solution}
-
-Define an anti-corruption layer that translates semantics between different services' domains. This enables services to be unaffected by external entities, avoiding compromises on interface, design and the technological approach. Anti-corruption layer can a module, a class inside the application or it can be an independent service. This pattern is displated in Figure~\ref{antiCorruption}.
+\begin{description}
+  \item[Context:] Most services rely on some other services for data or functionality. Each service has its own domain model. Some of these services can be external services, some of these services can be internal legacy services, and some of them can be bleeding edge services. For these services to interoperate, there is a need for a standard interface, protocol, data model or APIs.  
+  \item[Problem:] How does one maintain access between legacy internal systems and bleeding edge internal systems? how does one enable interoperability between legacy internal services and external services? should the bleeding edge service be modified to account for legacy service's interface or API? should the internal services support the API requirements of external services even if they are sub-optimal? should the semantics of legacy and external services be imposed to the bleeding edge service? should services be corrupted by the requirements of other services?  
+  \item[Solution:] Define an anti-corruption layer that translates semantics between different services' domains. This enables services to be unaffected by external entities, avoiding compromises on interface, design and the technological approach. Anti-corruption layer can a module, a class inside the application or it can be an independent service. This pattern is displated in Figure~\ref{antiCorruption}.    
+\end{description}
 
 
 \begin{figure}[h]
@@ -1623,16 +1231,22 @@ Define an anti-corruption layer that translates semantics between different serv
 
 \subsubsection{Backend for Frontend}
 
-\paragraph{Context}
+\begin{description}
+  \item[Context:] In a large scale system, a backend service needs to provides the necessary APIs for various clients. A client can be the user browser, a mobile phone, or an IOT device. As the number of clients grow, the traffic grows, and new requirements emerge. As a result, the backend service needs to account for higher level of abstraction to serve the requirements of different clients. 
+  \item[Problem:] Should the backend service account for various clients? if the backend service tries to account for all clients, how hard will it be to maintain this service? can a general-purpose highly abstract backend service be scaled and maintained easily? If the web development team has a conflicting requirement with the mobile development team, how does the backend service account for that? how does the backend service provide optimized data for each client? how can the backend service be optimized for various clients? 
+  \item[Solution:] A dedicated backend that accounts for a specific client (frontend) can be created. This introduces opportunities for optimizing performance of each backend to best match the needs of the frontend, without worrying much about introducing side-effects to other frontends. In addition, the backend will be smaller, better abstracted, less complex, and therefore easier to maintain and scale. Furthermore, this enables horizontal teams to work without side-effects and conflicting requirements. This pattern is depicted in Figure~\ref{BFF}.      
+\end{description}
 
-In a large scale system, a backend service needs to provides the necessary APIs for various clients. A client can be the user browser, a mobile phone, or an IOT device. As the number of clients grow, the traffic grows, and new requirements emerge. As a result, the backend service needs to account for higher level of abstraction to serve the requirements of different clients. 
+% \paragraph{Context}
 
-\paragraph{Problem}
-Should the backend service account for various clients? if the backend service tries to account for all clients, how hard will it be to maintain this service? can a general-purpose highly abstract backend service be scaled and maintained easily? If the web development team has a conflicting requirement with the mobile development team, how does the backend service account for that? how does the backend service provide optimized data for each client? how can the backend service be optimized for various clients? 
+% In a large scale system, a backend service needs to provides the necessary APIs for various clients. A client can be the user browser, a mobile phone, or an IOT device. As the number of clients grow, the traffic grows, and new requirements emerge. As a result, the backend service needs to account for higher level of abstraction to serve the requirements of different clients. 
 
-\paragraph{Solution}
+% \paragraph{Problem}
+% Should the backend service account for various clients? if the backend service tries to account for all clients, how hard will it be to maintain this service? can a general-purpose highly abstract backend service be scaled and maintained easily? If the web development team has a conflicting requirement with the mobile development team, how does the backend service account for that? how does the backend service provide optimized data for each client? how can the backend service be optimized for various clients? 
 
-A dedicated backend that accounts for a specific client (frontend) can be created. This introduces opportunities for optimizing performance of each backend to best match the needs of the frontend, without worrying much about introducing side-effects to other frontends. In addition, the backend will be smaller, better abstracted, less complex, and therefore easier to maintain and scale. Furthermore, this enables horizontal teams to work without side-effects and conflicting requirements. This pattern is depicted in Figure~\ref{BFF}.
+% \paragraph{Solution}
+
+% A dedicated backend that accounts for a specific client (frontend) can be created. This introduces opportunities for optimizing performance of each backend to best match the needs of the frontend, without worrying much about introducing side-effects to other frontends. In addition, the backend will be smaller, better abstracted, less complex, and therefore easier to maintain and scale. Furthermore, this enables horizontal teams to work without side-effects and conflicting requirements. This pattern is depicted in Figure~\ref{BFF}.
 
 \begin{figure}[h]
   \includegraphics[width=11cm]{Media/Backend for Frontend.jpg}
@@ -1641,15 +1255,12 @@ A dedicated backend that accounts for a specific client (frontend) can be create
 \end{figure}
 
 \subsubsection{Pipes and filters}
-\paragraph{Context}
-A large scale application is usually required to do numerous processes with varying complexity. For instance, a complex business logic may require several transformations to be done on the data. These transformations can be sophisticated and require many lines of code to be written.
 
-\paragraph{Problem}
-Should all these processes be performed in one monolithic module? how flexible is that approach? in light of emerging requirements how can one maintain and scale the monolithic module? is that the right level of abstraction? does this approach provide with much opportunity to optimize or reuse parts of the module? 
-
-\paragraph{Solution}
-
-Different processing can be broken down into their own components (filters), each taking a single responsibility. This provides with clean and modular components that can be extended and modified with ease. This pattern is ubiquitous in Unix like operating system; it is common for system engineers to pipe the result of the command `ls' into the command `grep' or command `sed'. By standardizing interface for data input and output, these filters can be easily combined together to create a more powerful whole. Composition then becomes natural, and maintainability increases. This pattern is portrated at Figure~\ref{PipesAndFilters}.
+\begin{description}
+  \item[Context:] A large scale application is usually required to do numerous processes with varying complexity. For instance, a complex business logic may require several transformations to be done on the data. These transformations can be sophisticated and require many lines of code to be written.
+  \item[Problem:] Should all these processes be performed in one monolithic module? how flexible is that approach? in light of emerging requirements how can one maintain and scale the monolithic module? is that the right level of abstraction? does this approach provide with much opportunity to optimize or reuse parts of the module? 
+  \item[Solution:] Different processing can be broken down into their own components (filters), each taking a single responsibility. This provides with clean and modular components that can be extended and modified with ease. This pattern is ubiquitous in Unix like operating system; it is common for system engineers to pipe the result of the command `ls' into the command `grep' or command `sed'. By standardizing interface for data input and output, these filters can be easily combined together to create a more powerful whole. Composition then becomes natural, and maintainability increases. This pattern is portrated at Figure~\ref{PipesAndFilters}.   
+\end{description}
 
 
 \begin{figure}[h]
