@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Microservices-and_BD-Journal"] 1669107659 "Microservices-and_BD-Journal.aux" "Microservices-and_BD-Journal.bbl" "Microservices-and_BD-Journal" 1669108473
+["bibtex Microservices-and_BD-Journal"] 1669195903 "Microservices-and_BD-Journal.aux" "Microservices-and_BD-Journal.bbl" "Microservices-and_BD-Journal" 1669195968
   "./vancouver.bst" 1403382324 38215 ea1386b2055049a8e03ec1b09fd54904 ""
-  "Microservices-and_BD-Journal.aux" 1669108473 17891 b9312ef4b7d0cab95daadc5e8b0b2a32 "pdflatex"
+  "Microservices-and_BD-Journal.aux" 1669195968 17891 49340ab2fc40398b500f7cfd1078473a "pdflatex"
   "references.bib" 1668834806 107195 b3edfead1c84f55f836f8908900348aa ""
   (generated)
   "Microservices-and_BD-Journal.blg"
   "Microservices-and_BD-Journal.bbl"
-["pdflatex"] 1669108471 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.pdf" "Microservices-and_BD-Journal" 1669108473
+["pdflatex"] 1669195966 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.pdf" "Microservices-and_BD-Journal" 1669195968
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1643603142 10002696 7a3616ce906e4689083dab4d83aaed18 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1668495544 204481 bc1538ee6169b5e3d57cecfb39bb1e15 ""
   "D:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -135,17 +135,17 @@
   "Media/Value Requirement.jpg" 1660564846 70162 de4a64dce6503884f7aba6ef8ce1d41e ""
   "Media/Velocity Requirement.jpg" 1660735724 73479 8cc976a9419ee43ca49a3cd261fd179a ""
   "Media/Vol-1 Requirement RA.jpg" 1660368831 153625 31abc7d0e8612a2ad68091b70fb40ddd ""
-  "Microservices-and_BD-Journal.aux" 1669108473 17891 b9312ef4b7d0cab95daadc5e8b0b2a32 "pdflatex"
-  "Microservices-and_BD-Journal.bbl" 1669107660 10400 dfd8688ebf29e6b25d5634dbced7ea73 "bibtex Microservices-and_BD-Journal"
-  "Microservices-and_BD-Journal.out" 1669108473 4687 6ad78234dcc1883a118841d4915b9c94 "pdflatex"
-  "Microservices-and_BD-Journal.tex" 1669108468 167219 4d58b67735d87e74e09f70f23d91d090 ""
+  "Microservices-and_BD-Journal.aux" 1669195968 17891 49340ab2fc40398b500f7cfd1078473a "pdflatex"
+  "Microservices-and_BD-Journal.bbl" 1669195903 10400 dfd8688ebf29e6b25d5634dbced7ea73 "bibtex Microservices-and_BD-Journal"
+  "Microservices-and_BD-Journal.out" 1669195968 4687 6ad78234dcc1883a118841d4915b9c94 "pdflatex"
+  "Microservices-and_BD-Journal.tex" 1669195963 169421 3a584bb5f3d11d8fe7f4794197445cf5 ""
   "bmcart.cls" 1597675819 56410 546ee98aa063b3d83d7856e637affad0 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.aux" 1669108473 17891 b9312ef4b7d0cab95daadc5e8b0b2a32 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" 1669108468 167219 4d58b67735d87e74e09f70f23d91d090 ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.aux" 1669195968 17891 49340ab2fc40398b500f7cfd1078473a ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" 1669195963 169421 3a584bb5f3d11d8fe7f4794197445cf5 ""
   (generated)
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.log"
   "Microservices-and_BD-Journal.out"
   "Microservices-and_BD-Journal.log"
-  "Microservices-and_BD-Journal.pdf"
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.log"
   "Microservices-and_BD-Journal.aux"
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.pdf"
+  "Microservices-and_BD-Journal.pdf"
