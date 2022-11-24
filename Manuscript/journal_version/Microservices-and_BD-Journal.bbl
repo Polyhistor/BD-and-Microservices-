@@ -11,6 +11,12 @@ technology review insights in partnership~with Databricks M.
 \newblock Available from:
   \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}.
 
+\bibitem{freymann2020tackling}
+Freymann A, Maier F, Schaefer K, B{\"o}hnel T.
+\newblock Tackling the Six Fundamental Challenges of Big Data in Research
+  Projects by Utilizing a Scalable and Modular Architecture.
+\newblock In: IoTBDS; 2020. p. 249--256.
+
 \bibitem{Richardson.2022}
 Richardson C. A pattern language for microservices; 2022.
 \newblock Available from: \url{https://microservices.io/patterns/index.html}.

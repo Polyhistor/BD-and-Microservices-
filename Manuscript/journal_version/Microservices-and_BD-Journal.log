@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  24 NOV 2022 20:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  24 NOV 2022 21:08
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
@@ -623,7 +623,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/PRISMA-Flowchart-V2.JPG, id=322, 577.40718pt x 796.47563pt>
+<Media/PRISMA-Flowchart-V2.JPG, id=324, 577.40718pt x 796.47563pt>
 File: Media/PRISMA-Flowchart-V2.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart-V2.JPG>
 Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 485.
@@ -634,7 +634,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2922) has occurred while \output is active []
 
  [4]
 
@@ -956,7 +956,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1036--1036
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15]
-<Media/API Gateway.jpg, id=490, 751.80875pt x 289.08pt>
+<Media/API Gateway.jpg, id=492, 751.80875pt x 289.08pt>
 File: Media/API Gateway.jpg Graphic file (type jpg)
 <use Media/API Gateway.jpg>
 Package pdftex.def Info: Media/API Gateway.jpg  used on input line 1090.
@@ -971,7 +971,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16]
-<Media/Gateway Offloading.jpg, id=526, 814.04124pt x 414.54875pt>
+<Media/Gateway Offloading.jpg, id=528, 814.04124pt x 414.54875pt>
 File: Media/Gateway Offloading.jpg Graphic file (type jpg)
 <use Media/Gateway Offloading.jpg>
 Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 1108.
@@ -983,7 +983,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [17 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/API Gateway.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Gateway Offloading.jpg>]
-<Media/External Configuration Store.jpg, id=536, 579.16376pt x 332.24126pt>
+<Media/External Configuration Store.jpg, id=538, 579.16376pt x 332.24126pt>
 File: Media/External Configuration Store.jpg Graphic file (type jpg)
 <use Media/External Configuration Store.jpg>
 Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 1122.
@@ -995,7 +995,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [18 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/External Configuration Store.jpg>]
-<Media/Competing Consumers.jpg, id=545, 725.71124pt x 269.005pt>
+<Media/Competing Consumers.jpg, id=547, 725.71124pt x 269.005pt>
 File: Media/Competing Consumers.jpg Graphic file (type jpg)
 <use Media/Competing Consumers.jpg>
 Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 1154.
@@ -1007,7 +1007,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [19 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Competing Consumers.jpg>]
-<Media/Circuit Breaker.jpg, id=555, 789.95125pt x 66.2475pt>
+<Media/Circuit Breaker.jpg, id=557, 789.95125pt x 66.2475pt>
 File: Media/Circuit Breaker.jpg Graphic file (type jpg)
 <use Media/Circuit Breaker.jpg>
 Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 1179.
@@ -1018,7 +1018,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1180.
 See the caption package documentation for explanation.
 
-<Media/Log Aggregation Pattern.jpg, id=557, 699.61375pt x 380.42125pt>
+<Media/Log Aggregation Pattern.jpg, id=559, 699.61375pt x 380.42125pt>
 File: Media/Log Aggregation Pattern.jpg Graphic file (type jpg)
 <use Media/Log Aggregation Pattern.jpg>
 Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 1195.
@@ -1032,7 +1032,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Circuit Breaker.jpg>]
-<Media/Command and Query Responsibility Segregation.jpg, id=570, 1328.965pt x 344.28625pt>
+<Media/Command and Query Responsibility Segregation.jpg, id=572, 1328.965pt x 344.28625pt>
 File: Media/Command and Query Responsibility Segregation.jpg Graphic file (type jpg)
 <use Media/Command and Query Responsibility Segregation.jpg>
 Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 1211.
@@ -1047,7 +1047,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Log Aggregation Pattern.jpg>]
-<Media/Anti-Corruption Layer.jpg, id=579, 1155.31625pt x 437.635pt>
+<Media/Anti-Corruption Layer.jpg, id=581, 1155.31625pt x 437.635pt>
 File: Media/Anti-Corruption Layer.jpg Graphic file (type jpg)
 <use Media/Anti-Corruption Layer.jpg>
 Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 1226.
@@ -1059,7 +1059,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [22 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Command and Query Responsibility Segregation.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Anti-Corruption Layer.jpg>]
-<Media/Backend for Frontend.jpg, id=589, 980.66376pt x 645.41125pt>
+<Media/Backend for Frontend.jpg, id=591, 980.66376pt x 645.41125pt>
 File: Media/Backend for Frontend.jpg Graphic file (type jpg)
 <use Media/Backend for Frontend.jpg>
 Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 1252.
@@ -1071,7 +1071,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [23 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Backend for Frontend.jpg>]
-<Media/Pipes and Filters.jpg, id=598, 1383.1675pt x 71.26625pt>
+<Media/Pipes and Filters.jpg, id=600, 1383.1675pt x 71.26625pt>
 File: Media/Pipes and Filters.jpg Graphic file (type jpg)
 <use Media/Pipes and Filters.jpg>
 Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 1267.
@@ -1083,7 +1083,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [24 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Pipes and Filters.jpg>] [25]
-<Media/Vol-1 Requirement RA.jpg, id=624, 1469.49pt x 743.77875pt>
+<Media/Vol-1 Requirement RA.jpg, id=626, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
 Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 1318.
@@ -1095,7 +1095,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [26 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Vol-1 Requirement RA.jpg>] [27]
-<Media/Velocity Requirement.jpg, id=642, 1512.65125pt x 726.715pt>
+<Media/Velocity Requirement.jpg, id=644, 1512.65125pt x 726.715pt>
 File: Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use Media/Velocity Requirement.jpg>
 Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 1359.
@@ -1107,7 +1107,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [28 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Velocity Requirement.jpg>] [29]
-<Media/Value Requirement.jpg, id=661, 1752.5475pt x 729.72626pt>
+<Media/Value Requirement.jpg, id=663, 1752.5475pt x 729.72626pt>
 File: Media/Value Requirement.jpg Graphic file (type jpg)
 <use Media/Value Requirement.jpg>
 Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 1405.
@@ -1119,7 +1119,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [30 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Value Requirement.jpg>]
-<Media/Privacy and Security Requirements.jpg, id=671, 1590.94376pt x 538.01pt>
+<Media/Privacy and Security Requirements.jpg, id=673, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
 Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 1427.
@@ -1258,17 +1258,17 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1958.
  ) 
 Here is how much of TeX's memory you used:
- 11841 strings out of 480795
- 184038 string characters out of 2913777
- 487336 words of memory out of 3000000
- 27327 multiletter control sequences out of 15000+200000
+ 11844 strings out of 480795
+ 184093 string characters out of 2913777
+ 487379 words of memory out of 3000000
+ 27329 multiletter control sequences out of 15000+200000
  544444 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,43p,1563b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,43p,1585b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (46 pages, 1501035 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (46 pages, 1502060 bytes).
 PDF statistics:
- 893 PDF objects out of 1000 (max. 8388607)
- 289 named destinations out of 1000 (max. 500000)
+ 895 PDF objects out of 1000 (max. 8388607)
+ 290 named destinations out of 1000 (max. 500000)
  588 words of extra memory for PDF output out of 10000 (max. 10000000)
 
