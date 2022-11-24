@@ -132,15 +132,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \author[
-  addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
-  corref={aff1},                       % id of corresponding address, if any
+  addressref={aff3},                   % id's of addresses, e.g. {aff1,aff2}
+%   corref={aff3},                       % id of corresponding address, if any
 % noteref={n1},                        % id's of article notes, if any
-  email={jane.e.doe@cambridge.co.uk}   % email address
-]{\inits{P.A.}\fnm{Pouya} \snm{Ataei}}
+  email={pouya.ataei@aut.ac.nz}   % email address
+]{\inits{P}\fnm{Pouya} \snm{Ataei}} 
 \author[
-  addressref={aff1,aff2},
-  email={john.RS.Smith@cambridge.co.uk}
-]{\inits{D.S.}\fnm{Daniel} \snm{Staegemann}}
+  addressref={aff2},
+  email={daniel.staegemann@ovgu.de}
+]{\inits{A}\fnm{Daniel} \snm{Staegemann}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -151,20 +151,21 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\address[id=aff1]{%                           % unique id
-  \orgdiv{Department of Science},             % department, if any
-  \orgname{University of Cambridge},          % university, etc
-  \city{London},                              % city
-  \cny{UK}                                    % country
+\address[id=aff3]{%                           % unique id
+  \orgdiv{School of Engineering Computer and Mathematical Sciences},             % department, if any
+  \orgname{Auckland University of Technology},          % university, etc
+  \city{Auckland},                              % city
+  \cny{New Zealand}                                    % country
 }
 \address[id=aff2]{%
-  \orgdiv{Institute of Biology},
-  \orgname{National University of Sciences},
+  \orgdiv{Faculty of Computer Science},
+  \orgname{Otto von Guericke University Magdeburg},
   %\street{},
   %\postcode{}
-  \city{Kiel},
+  \city{Magdeburg},
   \cny{Germany}
 }
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -480,12 +481,14 @@ The quality of the evidence collected as a result of this SLR has direct impact 
 \subsubsection{Pooling literature based on the search strategy}
 Overall, the keyword search yielded 3064 contributions. The total number of found publications per source as well as an overview of the further search process can be seen in Figure 1.
 
-\begin{figure}[h]
-    \centering 
-    \includegraphics[width=8cm]{Media/PRISMA-Flowchart-V2.JPG}
-    \caption{Overview of the search process}
-    \label{fig:PRISMA}
-\end{figure}
+
+% figure 1
+% \begin{figure}[h]
+%     \centering 
+%     \includegraphics[width=8cm]{Media/PRISMA-Flowchart-V2.JPG}
+%     \caption{Overview of the search process}
+%     \label{fig:PRISMA}
+% \end{figure}
 
 \subsubsection{Evaluating papers based on inclusion and exclusion criteria}
 
@@ -1086,11 +1089,12 @@ This pattern description language has several elements that does not relate dire
   \item[Problem:] How does the financial micro-frontend retrieves the data it needs from various backends? should it make a separate REST request to different APIs and then combine the data to represent what is required? how does this approach evolve? if the financial microservice changes, how does it affect the data composition ? how does the financial micro-frontend gets the new endpoint ? how does the financial micro-frontend authenticate with the financial microservice? should the configs be hard-coded and changed every now and then ? if the financial microservice changes implementation of a certain function, would it break production ?
   \item[Solution:] The solution to the problems is to have one gateway that resolves different data necessary for various micro-frontends. The API gateway can act as a single entry for all clients, handling version changes, reducing the network requests, and addressing cross-cutting concerns. In addition, API gateway can help with load balancing. The gateway can either proxy/route requests to appropriate services or it can fan out a request to multiple services. An overview of this pattern can be found at Figure~\ref{APIGATEWAY}.
   
-  \begin{figure}[h]
-    \includegraphics[width=9cm]{Media/API Gateway.jpg}
-    \caption{API Gateway Pattern}
-    \label{APIGATEWAY}
-  \end{figure}
+  % figure 2 
+  % \begin{figure}[h]
+  %   \includegraphics[width=9cm]{Media/API Gateway.jpg}
+  %   \caption{API Gateway Pattern}
+  %   \label{APIGATEWAY}
+  % \end{figure}
 
 \end{description}
 
@@ -1104,11 +1108,12 @@ This pattern description language has several elements that does not relate dire
 
 \end{description}
 
-\begin{figure}[h]
-  \includegraphics[width=10cm]{Media/Gateway Offloading.jpg}
-  \caption{Gateway Offloading Pattern}
-  \label{gatewayOffloading}
-\end{figure}
+% figure 3 
+% \begin{figure}[h]
+%   \includegraphics[width=10cm]{Media/Gateway Offloading.jpg}
+%   \caption{Gateway Offloading Pattern}
+%   \label{gatewayOffloading}
+% \end{figure}
 
 \subsubsection{External configuration store}
 
@@ -1118,11 +1123,12 @@ This pattern description language has several elements that does not relate dire
   \item[Solution:] Store all application configurations in an external store. This can include package versions, database credentials, network locations and APIs. On startup, application can request for the corresponding configuration from the external configuration store. This for example could happen in CMD command of Docker script. This pattern is portrated in Figure~\ref{externalConfiguration}  
 \end{description}
 
-\begin{figure}[h]
-  \includegraphics[width=10cm]{Media/External Configuration Store.jpg}
-  \caption{External Configuration Store Pattern}
-  \label{externalConfiguration}
-\end{figure}
+% figure 4
+% \begin{figure}[h]
+%   \includegraphics[width=10cm]{Media/External Configuration Store.jpg}
+%   \caption{External Configuration Store Pattern}
+%   \label{externalConfiguration}
+% \end{figure}
 
 \subsubsection{Competing Consumers}
 
@@ -1150,11 +1156,12 @@ This pattern description language has several elements that does not relate dire
 
 % This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances. This pattern is presented in Figure~\ref{competingConsumer}.
 
-\begin{figure}[h]
-  \includegraphics[width=10cm]{Media/Competing Consumers.jpg}
-  \caption{Competing Consumers Pattern}
-  \label{competingConsumer}
-\end{figure}
+% figure 5
+% \begin{figure}[h]
+%   \includegraphics[width=10cm]{Media/Competing Consumers.jpg}
+%   \caption{Competing Consumers Pattern}
+%   \label{competingConsumer}
+% \end{figure}
 
 \subsubsection{Circuit Breaker}
 
@@ -1175,11 +1182,12 @@ This pattern description language has several elements that does not relate dire
   This pattern is displaed in Figure~\ref{circuitBreaker}.   
 \end{description}
 
-\begin{figure}[h]
-  \includegraphics[width=10cm]{Media/Circuit Breaker.jpg}
-  \caption{Circuit Breaker Pattern}
-  \label{circuitBreaker}
-\end{figure}
+% figure 6
+% \begin{figure}[h]
+%   \includegraphics[width=10cm]{Media/Circuit Breaker.jpg}
+%   \caption{Circuit Breaker Pattern}
+%   \label{circuitBreaker}
+% \end{figure}
 
 \subsubsection{Log Aggregation}
 
@@ -1190,12 +1198,12 @@ This pattern description language has several elements that does not relate dire
 \end{description}
 
 
-
-\begin{figure}[h]
-  \includegraphics[width=10cm]{Media/Log Aggregation Pattern.jpg}
-  \caption{Log Aggregation Pattern}
-  \label{logAggregation}
-\end{figure}
+% figure 7
+% \begin{figure}[h]
+%   \includegraphics[width=10cm]{Media/Log Aggregation Pattern.jpg}
+%   \caption{Log Aggregation Pattern}
+%   \label{logAggregation}
+% \end{figure}
 
 \subsubsection{Command and Query Responsibility Segregation}
 
@@ -1207,11 +1215,12 @@ This pattern description language has several elements that does not relate dire
   CQRS is commonly implemented in two distinct data stores. This allows for the read database to optimize for read queries. For instance, it can store a materialized view of the data, and avoid expensive joints or complex ORM mappings. The read database can be a different type of data store. One might choose to use a graph database such as Neo4J for relationship heavy datasets, or a NoSQL database such as MongoDB for highly dynamic data. On the other hand, CQRS can potentially increase complexity, introduce code-duplication and increase latency. An overview of this pattern can be found at Figure~\ref{CQRS}.   
 \end{description}
 
-\begin{figure}[h]
-  \includegraphics[width=11cm]{Media/Command and Query Responsibility Segregation.jpg}
-  \caption{Command and Query Responsibility Segregation Pattern}
-  \label{CQRS}
-\end{figure}
+% figure 8
+% \begin{figure}[h]
+%   \includegraphics[width=11cm]{Media/Command and Query Responsibility Segregation.jpg}
+%   \caption{Command and Query Responsibility Segregation Pattern}
+%   \label{CQRS}
+% \end{figure}
 
 \subsubsection{Anti-Corruption Layer}
 
@@ -1221,12 +1230,12 @@ This pattern description language has several elements that does not relate dire
   \item[Solution:] Define an anti-corruption layer that translates semantics between different services' domains. This enables services to be unaffected by external entities, avoiding compromises on interface, design and the technological approach. Anti-corruption layer can be a module, a class inside the application or it can be an independent service. This pattern is displayed in Figure~\ref{antiCorruption}.    
 \end{description}
 
-
-\begin{figure}[h]
-  \includegraphics[width=11cm]{Media/Anti-Corruption Layer.jpg}
-  \caption{Anti-Corruption Layer Pattern}
-  \label{antiCorruption}
-\end{figure}
+% figure 9
+% \begin{figure}[h]
+%   \includegraphics[width=11cm]{Media/Anti-Corruption Layer.jpg}
+%   \caption{Anti-Corruption Layer Pattern}
+%   \label{antiCorruption}
+% \end{figure}
 
 
 \subsubsection{Backend for Frontend}
@@ -1248,11 +1257,12 @@ This pattern description language has several elements that does not relate dire
 
 % A dedicated backend that accounts for a specific client (frontend) can be created. This introduces opportunities for optimizing performance of each backend to best match the needs of the frontend, without worrying much about introducing side-effects to other frontends. In addition, the backend will be smaller, better abstracted, less complex, and therefore easier to maintain and scale. Furthermore, this enables horizontal teams to work without side-effects and conflicting requirements. This pattern is depicted in Figure~\ref{BFF}.
 
-\begin{figure}[h]
-  \includegraphics[width=11cm]{Media/Backend for Frontend.jpg}
-  \caption{Backend for Frontend Pattern}
-  \label{backend-for-fronted}
-\end{figure}
+% figure 10 
+% \begin{figure}[h]
+%   \includegraphics[width=11cm]{Media/Backend for Frontend.jpg}
+%   \caption{Backend for Frontend Pattern}
+%   \label{backend-for-fronted}
+% \end{figure}
 
 \subsubsection{Pipes and filters}
 
@@ -1262,12 +1272,12 @@ This pattern description language has several elements that does not relate dire
   \item[Solution:] Different processing can be broken down into their own components (filters), each taking a single responsibility. This provides with clean and modular components that can be extended and modified with ease. This pattern is ubiquitous in Unix like operating system; it is common for system engineers to pipe the result of the command `ls' into the command `grep' or command `sed'. By standardizing interface for data input and output, these filters can be easily combined together to create a more powerful whole. Composition then becomes natural, and maintainability increases. This pattern is portrated at Figure~\ref{PipesAndFilters}.   
 \end{description}
 
-
-\begin{figure}[h]
-  \includegraphics[width=11cm]{Media/Pipes and Filters.jpg}
-  \caption{Pipes and filters Pattern}
-  \label{PipesAndFilters}
-\end{figure}
+% figure 11 
+% \begin{figure}[h]
+%   \includegraphics[width=11cm]{Media/Pipes and Filters.jpg}
+%   \caption{Pipes and filters Pattern}
+%   \label{PipesAndFilters}
+% \end{figure}
 
 \section{Application of Microservices Design Patterns to Big Data Systems} \label{Mapping}
 
@@ -1910,29 +1920,60 @@ Before the interview begin, it would be nice if you could introduce yourself and
     \item Are there any further comments/suggestions/improvements that you have got for our study ?
 \end{enumerate}
 
-% \section*{Funding}%% if any
-% Text for this section\ldots
+\section{Declarations}
 
-% \section*{Abbreviations}%% if any
-% Text for this section\ldots
+\section*{Acknowledgements}%% if any
+Not applicable\ldots
 
-% \section*{Availability of data and materials}%% if any
-% Text for this section\ldots
+\section*{Funding}%% if any
+Not applicable\ldots
 
-% \section*{Ethics approval and consent to participate}%% if any
-% Text for this section\ldots
+\section*{Abbreviations}%% if any
+Not applicable\ldots
 
-% \section*{Competing interests}
-% The authors declare that they have no competing interests.
+\section*{Availability of data and materials}%% if any
+Not applicable\ldots
 
-% \section*{Consent for publication}%% if any
-% Text for this section\ldots
+\section*{Ethics approval and consent to participate}%% if any
+Not applicable\ldots
 
-% \section*{Authors' contributions}
-% Text for this section \ldots
+\section*{Competing interests}
+The authors declare that they have no competing interests.
 
-% \section*{Authors' information}%% if any
-% Text for this section\ldots
+\section*{Consent for publication}%% if any
+Not applicable\ldots
+
+\section*{Authors' contributions}
+Pouya Ataei has designed the initial research methodology, chose the title and the aim of the paper, and conducted the research with help of Daniel Staegemann. Pouya Ataei has taken part in all parts of the paper, and have done the interviews. 
+
+
+Daniel Staegemann has contributed to all parts of the research, in specific, the systematic literature review section. Daniel Staegemann has written majority of the research methodology section, provided with PRISMA flowcharts, and many reviews. Daniel Staegemann helped with focus and direction of the research. Daniel Staegemann has also taken part in finding candidates for interview. 
+ \ldots
+
+\section*{Authors' information}%% if any
+\textbf{Pouya Ataei} received two bachelor’s degree in
+software engineering from Asia Pacific University,
+Kuala Lumpure, Malaysia and Staffordshire University,
+Stoke-On-Trent, The United Kingdom and
+a master’s degree in software engineering from
+Staffordshire University, is a current PhD student
+at Auckland University of Technology, Auckland,
+New Zealand, working on decentralized and distributed
+big data architectures. He has been an
+active researcher in the domain of big data within
+the past 5 years, having created the Nexus methodology for big data system
+development, and NeoMycelia, a decentralized software reference architecture
+for big data systems. His area of interest is in distributed system, in
+specific event-driven microservices, reactive systems, software architecture,
+and data engineering.
+
+\textbf{Daniel Staegemann} studied computer science at Technical University
+Berlin (TUB). He received the master’s degree in 2017. He is currently
+pursuing the Ph.D. degree with the Otto von Guericke University Magdeburg.
+Since 2018, he has been employed as a Scientific Researcher with OVGU.
+His research interest includes big data, especially the testing
+
+\ldots
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                  The Bibliography                       %%
@@ -1952,6 +1993,88 @@ Before the interview begin, it would be nice if you could introduce yourself and
 % if your bibliography is in bibtex format, use those commands:
 \bibliographystyle{vancouver} % Style BST file (bmc-mathphys, vancouver, spbasic).
 \bibliography{references}      % Bibliography file (usually '*.
+
+
+
+\section{Figures}
+
+% figure 1
+\begin{figure}[h]
+    \centering 
+    \includegraphics[width=8cm]{Media/PRISMA-Flowchart-V2.JPG}
+    \caption{Overview of the search process}
+    \label{fig:PRISMA}
+\end{figure}
+
+% figure 2
+\begin{figure}[h]
+  \includegraphics[width=9cm]{Media/API Gateway.jpg}
+  \caption{API Gateway Pattern}
+  \label{APIGATEWAY}
+\end{figure}
+
+% figure 3
+\begin{figure}[h]
+  \includegraphics[width=10cm]{Media/Gateway Offloading.jpg}
+  \caption{Gateway Offloading Pattern}
+  \label{gatewayOffloading}
+\end{figure}
+
+% figure 4
+\begin{figure}[h]
+  \includegraphics[width=10cm]{Media/External Configuration Store.jpg}
+  \caption{External Configuration Store Pattern}
+  \label{externalConfiguration}
+\end{figure}
+
+% figure 5
+\begin{figure}[h]
+  \includegraphics[width=10cm]{Media/Competing Consumers.jpg}
+  \caption{Competing Consumers Pattern}
+  \label{competingConsumer}
+\end{figure}
+
+% figure 6
+\begin{figure}[h]
+  \includegraphics[width=10cm]{Media/Circuit Breaker.jpg}
+  \caption{Circuit Breaker Pattern}
+  \label{circuitBreaker}
+\end{figure}
+
+% figure 7
+\begin{figure}[h]
+  \includegraphics[width=10cm]{Media/Log Aggregation Pattern.jpg}
+  \caption{Log Aggregation Pattern}
+  \label{logAggregation}
+\end{figure}
+
+% figure 8
+\begin{figure}[h]
+  \includegraphics[width=11cm]{Media/Command and Query Responsibility Segregation.jpg}
+  \caption{Command and Query Responsibility Segregation Pattern}
+  \label{CQRS}
+\end{figure}
+
+% figure 9
+\begin{figure}[h]
+  \includegraphics[width=11cm]{Media/Anti-Corruption Layer.jpg}
+  \caption{Anti-Corruption Layer Pattern}
+  \label{antiCorruption}
+\end{figure}
+
+% figure 10
+\begin{figure}[h]
+  \includegraphics[width=11cm]{Media/Backend for Frontend.jpg}
+  \caption{Backend for Frontend Pattern}
+  \label{backend-for-fronted}
+\end{figure}
+
+% figure 11
+\begin{figure}[h]
+  \includegraphics[width=11cm]{Media/Pipes and Filters.jpg}
+  \caption{Pipes and filters Pattern}
+  \label{PipesAndFilters}
+\end{figure}
 
 
 \end{backmatter}
