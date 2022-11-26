@@ -1323,12 +1323,13 @@ These configurations could be database network locations, feature flags, and thi
 
 By externalizing all nodes configuration to another service, each node can request its configuration from an external store on boot up. This can be achieved in Docker files through the CMD command, or could be written in Terraform codes for a Kubernetes pod. This pattern solves the challenges of handling large number of nodes in BD systems and provide with a scalable solution for handling configurations. This pattern is portrayed in Fig \ref{fig:VolReq}.
 
-\begin{figure*}[h]
-    \centering 
-    \includegraphics[width=12cm]{Media/Vol-1 Requirement RA.jpg}
-    \caption{Microservices Patterns for BD Volume Requirements}
-    \label{fig:VolReq}
-\end{figure*}
+% figure 12
+% \begin{figure}[h]
+%     \centering 
+%     \includegraphics[width=12cm]{Media/Vol-1 Requirement RA.jpg}
+%     \caption{Microservices Patterns for BD Volume Requirements}
+%     \label{fig:VolReq}
+% \end{figure}
 
 \subsection{Velocity}
 
@@ -1364,12 +1365,12 @@ Given that BD systems are comprising of many services, log aggregation can be im
 
 In addition, reliability engineers can configure alerts to be triggered underlying certain metrics. This increases teams agility to proactively resolve issues, which in turn increases reliability and availability which in turn addresses the velocity requirement of BD systems. While this design pattern does not directly affect any system requirements, it indirectly affects all of them. A simplistic presentation of this pattern is portrayed in Fig \ref{fig-vel-ra}. 
 
-
-\begin{figure*}[h!]
-    \includegraphics[width=12cm]{Media/Velocity Requirement.jpg}
-    \caption{Design patterns for velocity requirements}
-    \label{fig-vel-ra}
-\end{figure*}
+% figure 13
+% \begin{figure}[h!]
+%     \includegraphics[width=12cm]{Media/Velocity Requirement.jpg}
+%     \caption{Design patterns for velocity requirements}
+%     \label{fig-vel-ra}
+% \end{figure}
 
 
 \subsection{Variety}
@@ -1411,11 +1412,12 @@ Another pattern that comes useful when handling large number of data consumers i
 
 One approach to solve this issue is anti-corruption layer. Anti-corruption layer is a node that can be placed between the serving layer and data consumers or data producer, isolating different systems and translating between domains. This eliminates all the complexity and coupling that could have been otherwise introduced to the ingestion layer or the serving layer. This also allows for nodes to follow the 'single responsibility' pattern. Anti-corruption layer can define strong interfaces and quickly serve new demands without affecting much of the serving node's abstraction. In another terms, it avoids corruption that may happen among systems. This pattern can help with requirements Val-3 and Val-4. We have portrayed this pattern and CQRS in Figure \ref{fig:Value Requirements}.
 
-\begin{figure*}[h]
-    \includegraphics[width=12cm]{Media/Value Requirement.jpg}
-    \caption[]{Design patterns for value requirement }
-    \label{fig:Value Requirements}
-\end{figure*}
+% figure 14
+% \begin{figure}[h]
+%     \includegraphics[width=12cm]{Media/Value Requirement.jpg}
+%     \caption[]{Design patterns for value requirement }
+%     \label{fig:Value Requirements}
+% \end{figure}
 
 \subsection{Security and Privacy}
 
@@ -1433,11 +1435,12 @@ On approach to this problem can be the BFF pattern. By creating backends (servic
 
 On the other hand, from the security point of view, and in specific in relation to authorization and authentication, this pattern provides with a considerable advantage. BFF can be implemented to achieve token isolation, cookie termination, and a security gate before requests can reach to upstream servers. Other security procedures such as sanitization, data masking, tokenization, and obfuscation can be done in this layer as well. As these BFF servers are logically isolated for specific requirements, maintainability and scalability is increased. This addresses the requirements SaP-1 and SaP-2. We have modeled this pattern in Figure~\ref{fig:SaP Requirements}
 
-\begin{figure*}[h]
-  \includegraphics[width=12cm]{Media/Privacy and Security Requirements.jpg}
-  \caption[]{Design patterns for security and privacy requirements}
-  \label{fig:SaP Requirements}
-\end{figure*}
+% figure 15
+% \begin{figure}[h]
+%   \includegraphics[width=12cm]{Media/Privacy and Security Requirements.jpg}
+%   \caption[]{Design patterns for security and privacy requirements}
+%   \label{fig:SaP Requirements}
+% \end{figure}
 
 
 \subsection{Veracity}
@@ -2076,6 +2079,35 @@ His research interest includes big data, especially the testing
   \label{PipesAndFilters}
 \end{figure}
 
+% figure 12
+\begin{figure}[h]
+  \centering 
+  \includegraphics[width=12cm]{Media/Vol-1 Requirement RA.jpg}
+  \caption{Microservices Patterns for BD Volume Requirements}
+  \label{fig:VolReq}
+\end{figure}
+
+% figure 13
+\begin{figure}[h!]
+    \includegraphics[width=12cm]{Media/Velocity Requirement.jpg}
+    \caption{Design patterns for velocity requirements}
+    \label{fig-vel-ra}
+\end{figure}
+
+
+% figure 14
+\begin{figure}[h]
+    \includegraphics[width=12cm]{Media/Value Requirement.jpg}
+    \caption[]{Design patterns for value requirement }
+    \label{fig:Value Requirements}
+\end{figure}
+
+% figure 15
+\begin{figure}[h]
+  \includegraphics[width=12cm]{Media/Privacy and Security Requirements.jpg}
+  \caption[]{Design patterns for security and privacy requirements}
+  \label{fig:SaP Requirements}
+\end{figure}
 
 \end{backmatter}
 \end{document}
