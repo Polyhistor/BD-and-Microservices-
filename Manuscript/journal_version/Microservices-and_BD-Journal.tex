@@ -259,7 +259,10 @@
 \section{Introduction}
 
 
-Today, we live in a world that produces data at an unprecedented rate. The attention toward these large volume of data has been growing rapidly and many strive to harness the advantages of this new resource. Along these lines, academics and practitioners have considered means through which they can incorporate data-driven functions and explore patterns that were otherwise unknown. While the opportunities exist with big data (BD), there are many failed attempts. According to a New Vantage Partners report in 2022, only 26.5\% of companies successfully became data-driven \cite{NewVantageSurvey}. Another survey by Databricks highlighted that only 13\% of organizations succeeded in delivering on their data strategy \cite{DataBricksSurvey}. 
+Today, we live in a world that produces data at an unprecedented rate. The attention toward these large volume of data has been growing rapidly and many strive to harness the advantages of this new resource. This has emerged a new era; the era of big data (BD). The BD era emerged when the velocity, variety, and volume of data overwhelmed existing system capability and capacity to effectively and efficiently process and store data. BD is the practice of crunching large sets of heterogenous data to discover patterns and insights for business competitive advantage.
+
+
+Along these lines, academics and practitioners have considered means through which they can incorporate data-driven functions and explore patterns that were otherwise unknown. While the opportunities exist with big data (BD), there are many failed attempts. According to a New Vantage Partners report in 2022, only 26.5\% of companies successfully became data-driven \cite{NewVantageSurvey}. Another survey by Databricks highlighted that only 13\% of organizations succeeded in delivering on their data strategy \cite{DataBricksSurvey}. 
 
 Therefore, there is an increasing need for more research on reducing the complexity involved with BD projects. One area with good potential is data architecture. Data architecture allows for a flexible and scalable BD system that can account for emerging requirements. One way to absorb the body of knowledge available on data architecture, can be reference architectures (RAs). By presenting proven ways to solve common implementation challenges on an architectural level, RAs support the development of new systems by offering guidance and orientation.
 
@@ -276,7 +279,7 @@ Another concept that has the potential to help with development of BD systems is
 
 % While practitioners in the domain of MS architecture seem to benefit from many well-established practices, data engineering does not seem be absorbing many of these concepts. 
 
-To this end, this study aims to explore the application of MS patterns to BD systems, in aspiration to solve some of the complexities of BD system development. For this purpose, the result of two distinct systematic literature reviews (SLRs) are combined. The first SLR is conducted as part of this study to collect all MS patterns in the body of knowledge. The second SLR is done by \cite{ataei2022state} to find all BD reference architectures (RAs) available in the body of knowledge and to point out architectural constructus and limitations. Findings from these SLRs are collected, captured and combined through thematic synthesis. As a result, various design theories are generated and validated through a semi-structured interview.  
+To this end, this study aims to explore the application of MS patterns to BD systems, in aspiration to solve some of the complexities of BD system development. For this purpose, the result of two distinct systematic literature reviews (SLRs) are combined. The first SLR is conducted as part of this study to collect all MS patterns in the body of knowledge. The second SLR is done by \cite{ataei2022state} to find all BD RAs available in the body of knowledge and to point out architectural constructus and limitations. Findings from these SLRs are collected, captured and combined through thematic synthesis. As a result, various design theories are generated and validated through a semi-structured interview.  
 
 
 % For this purpose, following this introduction as well as a background section and a description of the followed methodology, the literature review on BD reference architectures (Ataei and Litchfield 2020) is updated up until June 2022. Further, a thorough literature review on microservice patterns is conducted, complying with the Prisma guidelines (Page et al. 2021). Subsequently, the identified patterns are matched to the updated list of BD reference architectures. Finally, the results are discussed and a conclusion is given.
@@ -293,9 +296,9 @@ Staegemann et al \cite{staegemann2021examining} examined the interplay between B
 
 
 % % Daniel
-\section{Methodology}
+\section{Methodology} 
 
-Since the goal of this study is to map BD architectures and microservice patterns, it is consequently essential to get a comprehensive overview over both domains. For this purpose, it was decided to conduct two systematic literature reviews (SLR), one for each domain. Both SLRs are conducted following the guidelines presented in Kitchenham et al. \cite{Kitchenham.2004} and Page et al. \cite{Page.2021} on Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA). The former was used because of its clear instructions on critically appraising evidence for validity, impact and applicability in software engineering and the latter was used because it's a comprehensive and well-established methodology for increasing systematicity, transparency, and prevention of bias. To synthesize our findings, thematic synthesis proposed by Cruzes and Dyba was applied \cite{Cruzes.2011}. 
+Since the goal of this study is to map BD architectures and microservice patterns, it is consequently essential to get a comprehensive overview over both domains. For this purpose, it was decided to conduct two systematic literature reviews (SLR), one for each domain. Both SLRs are conducted following the guidelines presented in Kitchenham et al. \cite{Kitchenham.2004} and Page et al. \cite{Page.2021} on Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA). The former was used because of its clear instructions on critically appraising evidence for validity, impact and applicability in software engineering and the latter was used because it's a comprehensive and well-established methodology for increasing systematicity, transparency, and prevention of bias. To synthesize our findings, thematic synthesis as proposed by Cruzes and Dyba was applied \cite{Cruzes.2011}. 
 
 % While, Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) provided us with a strong underpinning on how to conduct a SLR, it had many assumptions that arose from the healthcare and nursing domains, and did not correlate directly to our study. To overcome some of this limitations, we combined PRISMA with the guidelines of Kitchenham et al. to form a rigorous methodology. 
 
@@ -640,7 +643,7 @@ After selecting the quality papers, we embarked on the data synthesis process. F
 
 \subsection{Second Review} \label{secondReview}
 
-The second SLR is conducted by \cite{ataei2022state} on available BD RAs in academia and industry. This is comprehensive study that covers various aspects of BD RAs such as limitations, and common architectural blocks. Therefore, we have foregone to perform an analogous SLR of our own because it wouldn't have yielded new findings.  This SLR helped us to determine the requirements that are relevant for BD systems. However, we do not further explore this SLR in our paper, and instead only discuss the results of it. Yet, we recommend to consult it for more details
+The second SLR is conducted by \cite{ataei2022state} on available BD RAs in academia and industry. This is a comprehensive study that covers various aspects of BD RAs such as limitations, and common architectural blocks. Therefore, we have foregone to perform an analogous SLR of our own because it wouldn't have yielded new findings.  This SLR helped us to determine the requirements that are relevant for BD systems. However, we do not further explore this SLR in our paper, and instead only discuss the results of it. Yet, we recommend to consult it for more details
 
 % The second SLR was the less extensive one, since it is just an update to an already existing study. For this purpose, the SLR conducted by Ataei et al. \cite{Ataei.2020}, was extended up unto the current date, providing us with the necessary overview. The original study covered up to 2020, ths we followed the same methodology as discussed in Section~\ref{firstReview} with the following difference: 
 
@@ -817,18 +820,18 @@ The second SLR is conducted by \cite{ataei2022state} on available BD RAs in acad
 % % Pouya
 
 
-\section{Results}
+\section{Findings}
 
-In this section, we present with three integral elements: 1) BD requirements, 2) MS patterns, 3) the mapping between the two and theories that emerged as a result.  
+In this section, we present with three integral elements: 1) BD requirements, 2) MS patterns.
 
 \subsection{Requirements specification} \label{requirementSpec}
 
-The results of our data synthesis emerged a few themes in regards to BD requirements. While we could find BD major building blocks and system requirements from the result of our SLR, our SLR did not include categorization and representation of these requirements. We also did not know what type of requirements is the most suitable to the goal of this study. To this end, we performed a lightweight literature review in the body of knowledge to realize three major elements: 1) the type of requirements that we need, 2) an approach to categorizing the requirements, 3) presentation of these requirements. 
+The results of our data synthesis emerged a few themes in regards to BD requirements. While we could find BD major building blocks and system requirements from the results of our SLR, it did not include categorization and representation of these requirements. We also did not know what type of requirements is the most suitable to the goal of this study. To this end, we performed a lightweight literature review in the body of knowledge to realize three major elements: 1) the type of requirements that we need, 2) an approach to categorizing the requirements, 3) presentation of these requirements. 
 
 \subsubsection{Type of requirements}
 System and software requirements come in different flavours and can range from a formal (mathematical) specifications to sketch on a napkin. There's been various attempts to defining and classifying software and system requirements. For the purposes of this study, we opted for a well-received approach discussed by Laplante \cite{laplante2017requirements}. In this approach, requirements are classified into three major types of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. 
 
-Our objective is to define the high-level requirements of BD systems, thus we do not fully explore 'non-functional' requirements. Majority of non-functional requirements are emerged from the particularities of an environment, such as a banking sector or healthcare, and do not correlate to our study. Our primary focus is one functional and domain requirements. 
+Our objective is to define the high-level requirements of BD systems, thus we do not fully explore 'non-functional' requirements. Majority of non-functional requirements are emerged from the particularities of an environment, such as a banking sector or healthcare, and do not correlate to our study. Our primary focus is on functional and domain requirements. 
 
 \subsubsection{Categorizing requirements} After having filtered out the right type of requirement, we then sought for a rigorous and relevant method to categorize the requirements. For this purpose, we followed the well-established categorization method based on BD characteristics, that is the 5Vs. These 5Vs are velocity, veracity, volume, Variety and Value \cite{Bughin2016}, \cite{rad2017big}. We took inspiration from various studies such as Nadal et al. \cite{nadal2017software}, and the requirements categories presented in NIST BD Public Working Group \cite{Chang.2019}.
 
@@ -1474,7 +1477,7 @@ After the generation of the design theories, we sought for a suitable model of v
 
 
 
-\subsection{Interview design}
+\subsection{Interview design} 
 Our SSI methodology is made up of four phases: 1) identifying the rationale for using semi-structured interviews, 2) formulating the preliminary semi-structured interview guide, 3) pilot testing the interview guide, 4) presenting the results of the interview. 
 
 SSI are suitable for our study, because our conceptual framework is made up of architectural constructs that can benefit from in-depth probing and analysis. As we examine an uncharted territory with a lot of potential, we posit that these interviews can post useful leads. These leads can be pursued to further improve the theories of this study.
@@ -1947,10 +1950,10 @@ The authors declare that they have no competing interests.
 Not applicable\ldots
 
 \section*{Authors' contributions}
-Pouya Ataei has designed the initial research methodology, chose the title and the aim of the paper, and conducted the research with help of Daniel Staegemann. Pouya Ataei has taken part in all parts of the paper, and have done the interviews. 
+Pouya Ataei has designed the initial research methodology, chose the title and the aim of the paper, and conducted the research with help of Daniel Staegemann. Pouya Ataei has taken part in all parts of the paper, and have conducted the interviews. Daniel Staegemann has done quality checks and revised parts of the manuscript
 
 
-Daniel Staegemann has contributed to all parts of the research, in specific, the systematic literature review section. Daniel Staegemann has written majority of the research methodology section, provided with PRISMA flowcharts, and many reviews. Daniel Staegemann helped with focus and direction of the research. Daniel Staegemann has also taken part in finding candidates for interview. 
+Daniel Staegemann has contributed to all parts of the research, in specific, the systematic literature review section. Daniel Staegemann has written majority of the research methodology section, provided with PRISMA flowcharts, and many reviews. Daniel Staegemann helped with focus and direction of the research. Daniel Staegemann has also taken part in finding candidates for interview. In addition, Daniel Staegemann has done quality checks and revised parts of the manuscript
  \ldots
 
 \section*{Authors' information}%% if any
@@ -1970,11 +1973,7 @@ for big data systems. His area of interest is in distributed system, in
 specific event-driven microservices, reactive systems, software architecture,
 and data engineering.
 
-\textbf{Daniel Staegemann} studied computer science at Technical University
-Berlin (TUB). He received the master’s degree in 2017. He is currently
-pursuing the Ph.D. degree with the Otto von Guericke University Magdeburg.
-Since 2018, he has been employed as a Scientific Researcher with OVGU.
-His research interest includes big data, especially the testing
+\textbf{Daniel Staegemann} Daniel Staegemann, born in 1989 in Berlin, studied computer science at Technical University Berlin (TUB). He received the master’s degree in 2017. He is currently pursuing the PhD degree with the Otto-von-Guericke University Magdeburg (OVGU), where he has been employed as a scientific researcher since 2018. In this time, he published over 50 research papers, many of these in prestigious outlets such as the Americas Conference on Information Systems (AMCIS), the Pacific Asia Conference on Information Systems (PACIS), the International Conference on Design Science Research in Information Systems and Technology (DESRIST), the International Conference on Business Information Systems (BIS), the Hawaii International Conference on System Sciences (HICSS), and IEEE Access. Besides being an author and speaker at conferences as well as a mini-track and workshop chair, he also regularly acts as a reviewer. His research interest is mainly focused on big data and the corresponding quality assurance, but also encompasses all other related topics.
 
 \ldots
 
