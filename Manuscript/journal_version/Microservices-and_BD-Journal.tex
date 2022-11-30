@@ -267,7 +267,7 @@ Along these lines, academics and practitioners have considered means through whi
 Therefore, there is an increasing need for more research on reducing the complexity involved with BD projects. One area with good potential is data architecture. Data architecture allows for a flexible and scalable BD system that can account for emerging requirements. One way to absorb the body of knowledge available on data architecture, can be reference architectures (RAs). By presenting proven ways to solve common implementation challenges on an architectural level, RAs support the development of new systems by offering guidance and orientation.
 
 
-% Despite the important, there's not enough attention to this space. 
+% Despite the important, there is not enough attention to this space. 
 
 
 
@@ -829,11 +829,11 @@ In this section, we present with three integral elements: 1) BD requirements, 2)
 The results of our data synthesis emerged a few themes in regards to BD requirements. While we could find BD major building blocks and system requirements from the results of our SLR, it did not include categorization and representation of these requirements. We also did not know what type of requirements is the most suitable to the goal of this study. To this end, we performed a lightweight literature review in the body of knowledge to realize three major elements: 1) the type of requirements that we need, 2) an approach to categorizing the requirements, 3) presentation of these requirements. 
 
 \subsubsection{Type of requirements}
-System and software requirements come in different flavours and can range from a formal (mathematical) specifications to sketch on a napkin. There's been various attempts to defining and classifying software and system requirements. For the purposes of this study, we opted for a well-received approach discussed by Laplante \cite{laplante2017requirements}. In this approach, requirements are classified into three major types of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. 
+System and software requirements come in different flavours and can range from a formal (mathematical) specifications to sketch on a napkin. There is been various attempts to defining and classifying software and system requirements. For the purposes of this study, we opted for a well-received approach discussed by Laplante \cite{laplante2017requirements}. In this approach, requirements are classified into three major types of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. Aditionally, we explored the concept of architectually significant requirements (ASRs) presented by Bass et al. \cite{bass2003software}. 
 
-Our objective is to define the high-level requirements of BD systems, thus we do not fully explore 'non-functional' requirements. Majority of non-functional requirements are emerged from the particularities of an environment, such as a banking sector or healthcare, and do not correlate to our study. Our primary focus is on functional and domain requirements. 
+Our objective is to define the high-level requirements of BD systems, thus we do not fully explore 'non-functional' and 'domain' requirements. Majority of non-functional and domain requirements are emerged from the particularities of an environment, such as a banking sector or healthcare, and do not correlate to our study. Our primary focus is on functional and architecturally significant requirements. 
 
-\subsubsection{Categorizing requirements} After having filtered out the right type of requirement, we then sought for a rigorous and relevant method to categorize the requirements. For this purpose, we followed the well-established categorization method based on BD characteristics, that is the 5Vs. These 5Vs are velocity, veracity, volume, Variety and Value \cite{Bughin2016}, \cite{rad2017big}. We took inspiration from various studies such as Nadal et al. \cite{nadal2017software}, and the requirements categories presented in NIST BD Public Working Group \cite{Chang.2019}.
+\subsubsection{Categorizing requirements} After having filtered out the right type of requirement, we then sought for a rigorous and relevant method to categorize the requirements. For this purpose, we followed the well-established categorization method based on BD characteristics, that is the 5Vs. These 5Vs are volume, velocity, variety, value and veracity  \cite{Bughin2016}, \cite{rad2017big}. We took inspiration from various studies such as Nadal et al. \cite{nadal2017software}, and the requirements categories presented in NIST BD Public Working Group \cite{Chang.2019}.
 
 % have underpinned their reference architecture on these characteristics and requirements that goes with them. Moreover, NIST BD Public Working Group embarked on a large scale study to extract requirements from variety of application domains such as Healthcare, Life Sciences, Commercial, Energy, Government, and Defense. The result of this study was the formation of general requirements under seven categories. In another effort by Volk et al. (\cite{volk2020identifying}), nine use cases for BD projects are identified by collecting theories and use cases from the literature and categorizing them using a hierarchical clustering algorithm. 
 
@@ -842,7 +842,7 @@ Our objective is to define the high-level requirements of BD systems, thus we do
 We've also studied the reference architectures developed for BD systems to understand general requirements. The result of the second SLR presented 22 RAs from academia and industry. This study helped us realize the spectrum of BD reference architectures, how they are designed and the general set of requirements. By analyzing these studies and by evaluating the design and requirement engineering required for BD reference architectures, we adjusted our initial categories of requirements and added security and privacy to it. 
 
 \subsubsection{Present requirements}
-After knowing the type and category of requirements, We looked for a rigorous approach to present these requirements. There are numerous approaches used for software and system requirement representation including informal, semiformal and formal methods. For the purposes of this study, we opted for an informal method because it is a well established method in the industry and academia \cite{kassab2014state}. Our approach follows the guidelines explained in ISO/IEC/IEEE standard 29148 \cite{ISO29148} for representing functional requirements. We have also taken inspiration from Software Engineering Body of Knowledge \cite{abran2004software}. However, our requirement representation is organized in term of BD characteristics. These requirements are described in following sub-sections.
+After knowing the type and category of requirements, We looked for a rigorous approach to present these requirements. There are numerous approaches used for software and system requirement representation including informal, semiformal and formal methods. For the purposes of this study, we opted for an informal method because it is a well established method in the industry and academia \cite{kassab2014state}. Our approach follows the guidelines explained in ISO/IEC/IEEE standard 29148 \cite{ISO29148} for representing functional requirements. We have also taken inspiration from Software Engineering Body of Knowledge \cite{abran2004software}. However, our requirement representation is organized in term of BD characteristics. These requirements are described in following sub-sections. 
 
 % Table \ref{table-requirements}. 
 
@@ -902,8 +902,8 @@ After knowing the type and category of requirements, We looked for a rigorous ap
 
 \paragraph{Volume}
 
-Volume refers to addressing multitude of data for the purposes of storage and analysis. An architecture needs to be elastic enough to address volume demands at different rates. Storing and computing large volume of data with attention to efficiency is a complex process that requires distributed and parallel processing. Therefore, volume requirements are as following:
-`'
+Volume refers to addressing a multitude of data for the purposes of storage and analysis. An architecture needs to be elastic enough to address volume demands at different rates. Storing and computing large volume of data with attention to efficiency is a complex process that requires distributed and parallel processing. Therefore, volume requirements are as following:
+
 % in Table \ref{table-requirements}. These requirements are mapped against our components discussed in \ref{the-artifact}.
 
 \begin{enumerate}[label=\textbf{Vol-\arabic*}]
@@ -914,7 +914,7 @@ Volume refers to addressing multitude of data for the purposes of storage and an
 
 \paragraph{Velocity}
 
-Velocity refers to addressing the rate at which data flows into system for different analytical requirements. Processing of data to expedite the decision-making process quickly on one hand and handling the variety of data and storing them for batch processing, stream processing or micro-batch processing on other hand bring considerable technical challenge. Therefore, velocity requirements are as following: 
+Velocity refers to the rate at which data flows into system for different analytical requirements. Processing of data to expedite the decision-making process quickly on one hand and handling the variety of data and storing them for batch processing, stream processing or micro-batch processing on other hand bring considerable technical challenge. Therefore, velocity requirements are as following: 
 
 \begin{enumerate}[label=\textbf{Vel-\arabic*}]
     \item System needs to support slow, bursty, and high-throughput data transmission between data sources
@@ -939,22 +939,13 @@ Variety refers to addressing data in different format, such as structured, unstr
 
 \paragraph{Value}
 
-Value refers to addressing the process of knowledge extraction from large datasets. Value is perhaps one of the most challenging aspects of BD architecture as it involves a variety of cross-cutting concerns such as data quality, metadata and data interoperability. Gleaning, crunching and extracting value from data, requires an integrated approach of storage and computing. Value requirements are as following:
+Value refers to addressing the process of knowledge extraction from large datasets. Value is perhaps one of the most challenging aspects of BD architecture as it involves a variety of cross-cutting concerns such as data quality, metadata and data interoperability. Gleaning, crunching and extracting value from data requires an integrated approach of storage and computing. Value requirements are as following:
 
 \begin{enumerate}[label=\textbf{Val-\arabic*}]
     \item System needs to able to handle compute-intensive analytical processing and machine learning techniques
     \item System needs to support two types of analytical processing: batch and streaming
     \item System needs to support different output file formats for different purposes
     \item System needs to support streaming results to the consumers 
-\end{enumerate}
-
-\paragraph{Security and Privacy}
-
-Security and privacy should be some of the top concerns for the design of any effective BD system. An effective architecture should be secure, adopting the best security practices (principles of least privilege) and in the meantime respect regional and global privacy rules (GDPR for example). The security and privacy requirements are as following:
-
-\begin{enumerate}[label=\textbf{SaP-\arabic*}]
-    \item System needs to protect and retain privacy and security of sensitive data
-    \item System needs to have access control, and multi-level, policy-driven authentication on protected data and processing nodes.
 \end{enumerate}
 
 \paragraph{Veracity}
@@ -967,12 +958,21 @@ Veracity refers to keeping a certain level of quality for data. Data veracity re
 \end{enumerate}
 
 
+\paragraph{Security and Privacy}
+
+Security and privacy should be some of the top concerns for the design of any effective BD system. An effective architecture should be secure, adopting the best security practices (principles of least privilege) and in the meantime respect regional and global privacy rules (GDPR (\cite{li2019impact}) for example). The security and privacy requirements are as following:
+
+\begin{enumerate}[label=\textbf{SaP-\arabic*}]
+    \item System needs to protect and retain privacy and security of sensitive data
+    \item System needs to have access control, and multi-level, policy-driven authentication on protected data and processing nodes.
+\end{enumerate}
+
 
 \subsection{Microservice Patterns}
 
 
 
-As a result of this SLR, our data synthesis yielded 28 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022}. These categories can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}. Nevertheless, we explain the patterns we utilized in this study. These 10 patterns are as following: 
+As a result of conducted SLR, our data synthesis yielded 28 MS patterns. These patterns are classified based on their function and the problem they solve. Our categories are inspired by the works of Richardson \cite{Richardson.2022} and can be seen in Table \ref{microservices-categorization}. While we elaborate the patterns adopted for BD requirements in detail, the aim of our study is not to explain each MS pattern. These patterns can be found in \cite{richardson2018microservices}. Nevertheless, we explain the patterns we utilized in this study. These 10 patterns are as following: 
 
 \begin{enumerate}
   \item API gateway 
@@ -992,9 +992,9 @@ As a result of this SLR, our data synthesis yielded 28 MS patterns. These patter
 For the purposes of this study, we use Fowler's definition \cite{fowler1997analysis} of patterns as  `an idea that has been useful in one practical context and will probably be useful in others'.
 
 
-Several formats are used in the literature to describe patterns. While there is no single format that is widely accepted, there is a broad agreement on what elements should a pattern description include. In this study we use the pattern description template taken from Buschmann et al's work \cite{buschmann2008pattern}. 
+Several formats are used in the literature to describe patterns. While there is no single format that is widely accepted, there is a broad agreement on what elements should a pattern description include. In this study we use the pattern description template taken from Buschmann et al.'s work \cite{buschmann2008pattern}. 
 
-This pattern description language has several elements that does not relate directly to our study. For instance, we do not aim to provide a code example for each patterns, as that's not in-line with our study. Therefore we omitted the headings `forces', `variation', `examples', `resulting context', `related patterns', `known uses', and `example application'. Each pattern is discussed in following subsections in the order of context, problem, forces and solution. The starting paragraph of each pattern is the context, followed by the `problem' sub-section that aims to illuminate on challenges through interrogatives, followed by the `solution' sub-section that discuses better approach through the corresponding pattern.
+This pattern description language has several elements that do not relate directly to our study. For instance, we do not aim to provide a code example for each pattern, as that's not in-line with our study. Therefore we omitted the headings `forces', `variation', `examples', `resulting context', `related patterns', `known uses', and `example application'. Each pattern is discussed in following subsections in the order of context, problem, and solution. The starting paragraph of each pattern is the context, followed by the `problem' sub-section that aims to illuminate on challenges through interrogatives, followed by the `solution' sub-section that discuses better approach through the corresponding pattern.
 
 \begin{center}
   \begin{table}[h]
@@ -1088,8 +1088,8 @@ This pattern description language has several elements that does not relate dire
 \subsubsection{API gateway}
 
 \begin{description}
-  \item[Context:] Suppose that a company runs a multi-region software as a service (SaaS) practice management system for veterinarian, and is using microservices for different aspect of the system such as financial, medical, client and animal. Different frontend applications need different data to display for various parts of the application. The animal micro-frotned needs the animal data, and financial micro-frotned needs data from several backends such as animal, financial, and client. 
-  \item[Problem:] How does the financial micro-frontend retrieves the data it needs from various backends? should it make a separate REST request to different APIs and then combine the data to represent what is required? how does this approach evolve? if the financial microservice changes, how does it affect the data composition ? how does the financial micro-frontend gets the new endpoint ? how does the financial micro-frontend authenticate with the financial microservice? should the configs be hard-coded and changed every now and then ? if the financial microservice changes implementation of a certain function, would it break production ?
+  \item[Context:] Suppose that a company runs a multi-region software as a service (SaaS) practice management system for veterinarians, and is using microservices for different aspects of the system such as financial, medical, client and animal related ones. Different frontend applications need different data to display for various parts of the application. The animal micro-frontend needs the animal data, and financial micro-frontend needs data from several backends such as animal, financial, and client. 
+  \item[Problem:] How does the financial micro-frontend retrieve the data it needs from various backends? Should it make a separate REST request to different APIs and then combine the data to represent what is required? how does this approach evolve? If the financial microservice changes, how does it affect the data composition? How does the financial micro-frontend get the new endpoint? How does the financial micro-frontend authenticate with the financial microservice? should the configs be hard-coded and changed every now and then? If the financial microservice changes implementation of a certain function, would it break production?
   \item[Solution:] The solution to the problems is to have one gateway that resolves different data necessary for various micro-frontends. The API gateway can act as a single entry for all clients, handling version changes, reducing the network requests, and addressing cross-cutting concerns. In addition, API gateway can help with load balancing. The gateway can either proxy/route requests to appropriate services or it can fan out a request to multiple services. An overview of this pattern can be found at Figure~\ref{APIGATEWAY}.
   
   % figure 2 
@@ -1106,8 +1106,8 @@ This pattern description language has several elements that does not relate dire
 
 \begin{description}
   \item[Context:] Using the same SaaS practice management system example, one can imagine that different microservices have common features and these features require maintenance, configuration and management. The features could be token validation, feature flag management, SSL certificate management, encryption or environment variable management. 
-  \item[Problem:] How does one go about handling these shared features? should each team write their own feature for their own services? if a feature is updated, should each team then update their own implementation? how do we ensure that these features conform to the same interface and standards? if a new feature is added, should we communicate with three different teams to update their implementation? what happens if an implementation of on team does not respect the specification?
-  \item[Solution:] Common features and cross-cutting concerns can be offloaded into a gateway. This includes but is not limited to: SSL termination, certificate management, feature flag management, environment variables management, secret management, monitoring, logging configurations, throttling, and protocol translation. This approach simplifies the development of services, and improves the maintainability of the system.  In addition, features that require special skills (privacy and security) can be developed by experts and propagated to teams, eliminating the risk that non-expert developers may introduce. This pattern also introduces more consistency, and standardised interfaces which helps with communication, agility and productivity of development teams. This pattern is portrayed at Figure ~\ref{gatewayOffloading}.   
+  \item[Problem:] How does one go about handling these shared features? Should each team write their own feature for their own services? If a feature is updated, should each team then update their own implementation? how do we ensure that these features conform to the same interface and standards? If a new feature is added, should we communicate with three different teams to update their implementation? What happens if an implementation of one team does not respect the specification?
+  \item[Solution:] Common features and cross-cutting concerns can be offloaded into a gateway. This includes but is not limited to: SSL termination, certificate management, feature flag management, environment variables management, secret management, monitoring, logging configurations, throttling, and protocol translation. This approach simplifies the development of services, and improves the maintainability of the system.  In addition, features that require special skills (privacy and security) can be developed by experts and propagated to teams, eliminating the risk that non-expert developers may introduce. This pattern also introduces more consistency, and standardised interfaces, which helps with communication, agility and productivity of development teams. This pattern is portrayed at Figure ~\ref{gatewayOffloading}.   
 
 \end{description}
 
@@ -1121,26 +1121,26 @@ This pattern description language has several elements that does not relate dire
 \subsubsection{External configuration store}
 
 \begin{description}
-  \item[Context:] Software applications are usually deployed to various environment for different purposes. This is part of CI/CD approach that creates pipelines to capture bugs, and issues. For instance there are testing, integration, pre-production and production environments. Each environment is tailored for a different purpose. In a development environment, several features flags may be deactivated, some infrastructure may have been configured to reduce costs, and end to end tests may run. Therefore, an application needs to keep a list of configuration for internal and third-party infrastructure it needs. In addition, various class of services require radically different configurations to meet their ends. These configurations could be a buffer size setup on streaming processing services or it could be the timeout time set on batch processing services. 
-  \item[Problem:] Should each application have its configuration written separately? as the number of applications grow, how does one scale and maintain this? If a configuration should be uploaded for a class of similar services, should each service update its configuration separately? how can configurations be shared across several applications? 
-  \item[Solution:] Store all application configurations in an external store. This can include package versions, database credentials, network locations and APIs. On startup, application can request for the corresponding configuration from the external configuration store. This for example could happen in CMD command of Docker script. This pattern is portrated in Figure~\ref{externalConfiguration}  
+  \item[Context:] Software applications are usually deployed to various environments for different purposes. This is part of the CI/CD approach that creates pipelines to capture bugs and issues. For instance, there are testing, integration, pre-production, and production environments. Each environment is tailored for a different purpose. In a development environment, several feature flags may be deactivated, some infrastructure may have been configured to reduce costs, and end to end tests may run. Therefore, an application needs to keep a list of configuration for internal and third-party infrastructure it needs. In addition, various classes of services require radically different configurations to meet their ends. These configurations could be a buffer size setup on streaming processing services or it could be the timeout time set on batch processing services. 
+  \item[Problem:] Should each application have its configuration written separately? As the number of applications grows, how does one scale and maintain this? If a configuration should be uploaded for a class of similar services, should each service update its configuration separately? How can configurations be shared across several applications? 
+  \item[Solution:] Store all application configurations in an external store. This can include package versions, database credentials, network locations and APIs. On startup, an application can request for the corresponding configuration from the external configuration store. This pattern is portrayed in Figure~\ref{externalConfiguration}.
 \end{description}
 
 % figure 4
 % \begin{figure}[h]
 %   \includegraphics[width=10cm]{Media/External Configuration Store.jpg}
-%   \caption{External Configuration Store Pattern}
+%   \caption{External Configuration Store Pattern}`'
 %   \label{externalConfiguration}
 % \end{figure}
 
 \subsubsection{Competing Consumers}
 
 \begin{description}
-  \item[Context:] An enterprise application, specially a data-intensive one is expected to handle large number of requests. Handling these requests synchronously would be challenging. A common approach is for application to send these requests through a messaging system to another application that handles them asynchronously. This ensure that one blocking service is not gonna have ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests vary, and while some may be quite cheap, the other might be compute intensive. 
+  \item[Context:] An enterprise application, specially a data-intensive one is expected to handle a large number of requests. Handling these requests synchronously would be challenging. A common approach is for applications to send these requests through a messaging system to another application that handles them asynchronously. This ensures that one blocking service is not gonna have a ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests varies, and while some may be quite cheap, others might be compute intensive.
   \item[Problem:] Should only one consumer instance be responsible for incoming requests? what happens if that consumer instance does not have the computing resources available? what happens if that consumer instance fails? 
-  \item[Solution:] Message queue system can be used to load balance requests to different consuming services based on their availability. This means that a group of consumer applications will be created, which allows in timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
+  \item[Solution:] A message queue system can be used to load balance requests to different consuming services based on their availability. In this case, a group of consumer applications will be created, which allows for timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
 
-  This increase the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer services unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances. This pattern is presented in Figure~\ref{competingConsumer}.  
+  This increases the elasticity, availability and reliability of the system. The queue can act as a buffer between the producer and consumer instance, and help with minimizing the impact of consumer service's unavailability. The message can also be enhanced with fault tolerant mechanisms in case of node failures. Furthermore, scalability is improved as new data consumers can be dynamically added. For instance, in AWS, auto scaling groups can be set for EC2 instances. This pattern is presented in Figure~\ref{competingConsumer}.  
 \end{description}
 
 % \paragraph{Context}
@@ -1169,20 +1169,20 @@ This pattern description language has several elements that does not relate dire
 \subsubsection{Circuit Breaker}
 
 \begin{description}
-  \item[Context:] Suppose a company is using a microservices architecture. There are various services that communicate with each other to process requests. If one service synchronously calls another services through a REST API, there's a chance that the other service may not be available or is exhibiting a high latency. As the number of services grow, there will be an increased requirement for communication between services. Therefore, the failure of one service can introduce a bottleneck to the whole system.
-  \item[Problem:] How does one handle the failing service? how should the failed service be handled to avoid ripple effect? 
-  \item[Solution:] An architect can employ the circuit breaker pattern. The circuit breaker pattern prevents services from repeatedly calling the failing service. This allows for the system to operate in spite of a failing node, which helps with saving CPU cycles, improving availability, improving reliability and decreasing the chance of faulty data. In addition, circuit breaker signals the fault resolution which allows system to get back to its default state. 
+  \item[Context:] Suppose a company is using a microservices architecture. There are various services that communicate with each other to process requests. If one service synchronously calls another service through a REST API, there is a chance that the other service may not be available or is exhibiting a high latency. As the number of services grow, there will be an increased requirement for communication between services. Therefore, the failure of one service can introduce a bottleneck to the whole system.
+  \item[Problem:] How does one handle the failing service? how should the failed service be handled to avoid a ripple effect? 
+  \item[Solution:] An architect can employ the circuit breaker pattern. The circuit breaker pattern prevents services from repeatedly calling the failing service. This allows for the system to operate in spite of a failing node, which helps with saving CPU cycles, improving availability, improving reliability and decreasing the chance of faulty data. In addition, circuit breaker signals the fault resolution, which allows system to get back to its default state. 
 
-  In a common scenario, circuit breaker acts as a proxy between the source and destination services, and monitors the destination service. If the number of failing requests reach a certain threshold, the circuit breaker trips, blocking subsequent requests to the destination. The circuit breaker then probes the failing service to identify its health. Once the service becomes healthy again, the circuit breaker allows requests to be passed to the destination. 
+  In a common scenario, circuit breaker acts as a proxy between the source and destination services, and monitors the destination service. If the number of failing requests reaches a certain threshold, the circuit breaker trips, blocking subsequent requests to the destination. The circuit breaker then probes the failing service to identify its health. Once the service becomes healthy again, the circuit breaker allows requests to be passed to the destination. 
   
-  Circuit breaker can be implemented on frontend, backend, or as a standalone service. This pattern is usually implemented as a state machine that mimics the functionality of an electrical circuit breaker. This is usually designed in three states: 
+  Circuit breaker can be implemented on frontend, backend, or as a standalone service. This pattern is usually implemented as a state machine that mimics the functionality of an electrical circuit breaker. This is often designed in three states: 
   \begin{enumerate}
-    \item closed: the default state, where circuit breaker listens on the number of incoming requests
-    \item open: if the number of failing requests reach a certain threshold, the circuit breaker trips, immediately returning an exception
-    \item half-open: a limited number of requests are passed, if these requests are passed, it is assumed that service is healthy, and circuit breaker switches to closed state. If any requests fail, the circuit breaker assumes the fault is still present, so it reverts back to open state.
+    \item closed: the default state, where the circuit breaker listens on the number of incoming requests
+    \item open: if the number of failing requests reaches a certain threshold, the circuit breaker trips, immediately returning an exception
+    \item half-open: a limited number of requests are passed, if these requests are passed, it is assumed that the service is healthy, and the circuit breaker switches to closed state. If any requests fail, the circuit breaker assumes the fault is still present, so it reverts back to open state.
   \end{enumerate}
   
-  This pattern is displaed in Figure~\ref{circuitBreaker}.   
+  This pattern is displayed in Figure~\ref{circuitBreaker}.   
 \end{description}
 
 % figure 6
@@ -1195,9 +1195,9 @@ This pattern description language has several elements that does not relate dire
 \subsubsection{Log Aggregation}
 
 \begin{description}
-  \item[Context:] Microservices is comprising of large set of services, each having its own domain and responsibility. A request usually spans multiple services, and in the process something might go wrong, and bugs may occur. Each system writes logs in a standardized format about errors, warning and access requests. 
-  \item[Problem:] How to understand the root cause of issue if it's spanning multiple services? should one read the logs of one service, and then the logs of the other, and the next to try to make sense of the problem?  
-  \item[Solution:] A centralized logging service can be implemented that retrieves logs from different services and compose them together. The developers can then search and analyze these logs to make sense of the root cause. This eliminates the tedious task of going to each service, extracting logs and aggregating them manually. This pattern is portrated in Figure~\ref{logAggregation}.    
+  \item[Context:] Microservice architectures often comprise a large set of services, each having its own domain and responsibility. A request usually spans multiple services and in the process something might go wrong, and bugs may occur. Each system writes logs in a standardized format about errors, warning and access requests. 
+  \item[Problem:] How to understand the root cause of issue if it's spanning across multiple services? should one read the logs of one service, and then the logs of the other, and the next to try to make sense of the problem?  
+  \item[Solution:] A centralized logging service can be implemented that retrieves logs from different services and composes them together. The developers can then search and analyze these logs to make sense of the root cause. This eliminates the tedious task of going to each service, extracting logs and aggregating them manually. This pattern is portrated in Figure~\ref{logAggregation}.    
 \end{description}
 
 
@@ -1212,8 +1212,8 @@ This pattern description language has several elements that does not relate dire
 
 \begin{description}
   \item[Context:] Suppose that a team is working on a data heavy service. This service needs to scale and crunch a lot of data. Following the traditional approach, often the same data model is used to query and update the database. Underlying this approach, the read and write workloads both go to the same datastore. 
-  \item[Problem:] How should the team optimize for read workloads? how should the team optimize for the write workloads? can the team optimize for both read and write workloads? How does the team handle the miss match between the read and write representations of the data? how does the team ensure certain performance objective is met on read workloads?
-  \item[Solution:] Implement CQRS pattern to separates reads and writes workloads, using commands to update the data and queries to read the data. This is usually achieved through a message queue asynchronously. Having the command and query separated, simplifies modeling, development and maintenance of data stores. In addition, the system will be able to support multiple denormalized views that are optimized for a specific workload. 
+  \item[Problem:] How should the team optimize for read workloads? how should the team optimize for the write workloads? can the team optimize for both read and write workloads? How does the team handle the missmatch between the read and write representations of the data? how does the team ensure a certain performance objective is met on read workloads?
+  \item[Solution:] Implement CQRS pattern to separates read and write workloads, using commands to update the data and queries to read the data. This is usually achieved through a message queue asynchronously. Having the command and query separated simplifies modeling, development, and maintenance of data stores. In addition, the system will be able to support multiple denormalized views that are optimized for a specific workload. 
 
   CQRS is commonly implemented in two distinct data stores. This allows for the read database to optimize for read queries. For instance, it can store a materialized view of the data, and avoid expensive joints or complex ORM mappings. The read database can be a different type of data store. One might choose to use a graph database such as Neo4J for relationship heavy datasets, or a NoSQL database such as MongoDB for highly dynamic data. On the other hand, CQRS can potentially increase complexity, introduce code-duplication and increase latency. An overview of this pattern can be found at Figure~\ref{CQRS}.   
 \end{description}
@@ -1229,8 +1229,8 @@ This pattern description language has several elements that does not relate dire
 
 \begin{description}
   \item[Context:] Most services rely on some other services for data or functionality. Each service has its own domain model. Some of these services can be external services, some of these services can be internal legacy services, and some of them can be bleeding edge services. For these services to interoperate, there is a need for a standard interface, protocol, data model or APIs.  
-  \item[Problem:] How does one maintain access between legacy internal systems and bleeding edge internal systems? how does one enable interoperability between legacy internal services and external services? should the bleeding edge service be modified to account for legacy service' interface or API? should the internal services support the API requirements of external services even if they are sub-optimal? should the semantics of legacy and external services be imposed to the bleeding edge service? should services be corrupted by the requirements of other services?  
-  \item[Solution:] Define an anti-corruption layer that translates semantics between different services' domains. This enables services to be unaffected by external entities, avoiding compromises on interface, design and the technological approach. Anti-corruption layer can be a module, a class inside the application or it can be an independent service. This pattern is displayed in Figure~\ref{antiCorruption}.    
+  \item[Problem:] How does one maintain access between legacy internal systems and bleeding edge internal systems? how does one enable interoperability between legacy internal services and external services? should the bleeding edge service be modified to account for legacy service's interface or API? should the internal services support the API requirements of external services even if they are sub-optimal? should the semantics of legacy and external services be imposed to the bleeding edge service? should services be corrupted by the requirements of other services?  
+  \item[Solution:] Define an anti-corruption layer that translates semantics between different services' domains. This enables services to be unaffected by external entities, avoiding compromises on interface, design and the technological approach. The anti-corruption layer can be a module, a class inside the application or it can be an independent service. This pattern is displayed in Figure~\ref{antiCorruption}.    
 \end{description}
 
 % figure 9
@@ -1244,7 +1244,7 @@ This pattern description language has several elements that does not relate dire
 \subsubsection{Backend for Frontend}
 
 \begin{description}
-  \item[Context:] In a large scale system, a backend service needs to provides the necessary APIs for various clients. A client can be the user browser, a mobile phone, or an IOT device. As the number of clients grow, the traffic grows, and new requirements emerge. As a result, the backend service needs to account for higher level of abstraction to serve the requirements of different clients. 
+  \item[Context:] In a large scale system, a backend service needs to provide the necessary APIs for various clients. A client can be the user's browser, a mobile phone, or an IoT device. As the number of clients grows, the traffic grows, and new requirements emerge. As a result, the backend service needs to account for higher level of abstraction to serve the requirements of different clients. 
   \item[Problem:] Should the backend service account for various clients? if the backend service tries to account for all clients, how hard will it be to maintain this service? can a general-purpose highly abstract backend service be scaled and maintained easily? If the web development team has a conflicting requirement with the mobile development team, how does the backend service account for that? how does the backend service provide optimized data for each client? how can the backend service be optimized for various clients? 
   \item[Solution:] A dedicated backend that accounts for a specific client (frontend) can be created. This introduces opportunities for optimizing performance of each backend to best match the needs of the frontend, without worrying much about introducing side-effects to other frontends. In addition, the backend will be smaller, better abstracted, less complex, and therefore easier to maintain and scale. Furthermore, this enables horizontal teams to work without side-effects and conflicting requirements. This pattern is depicted in Figure~\ref{backend-for-fronted}.      
 \end{description}
@@ -1272,7 +1272,7 @@ This pattern description language has several elements that does not relate dire
 \begin{description}
   \item[Context:] A large scale application is usually required to do numerous processes with varying complexity. For instance, a complex business logic may require several transformations to be done on the data. These transformations can be sophisticated and require many lines of code to be written.
   \item[Problem:] Should all these processes be performed in one monolithic module? how flexible is that approach? in light of emerging requirements how can one maintain and scale the monolithic module? is that the right level of abstraction? does this approach provide with much opportunity to optimize or reuse parts of the module? 
-  \item[Solution:] Different processing can be broken down into their own components (filters), each taking a single responsibility. This provides with clean and modular components that can be extended and modified with ease. This pattern is ubiquitous in Unix like operating system; it is common for system engineers to pipe the result of the command `ls' into the command `grep' or command `sed'. By standardizing interface for data input and output, these filters can be easily combined together to create a more powerful whole. Composition then becomes natural, and maintainability increases. This pattern is portrated at Figure~\ref{PipesAndFilters}.   
+  \item[Solution:] Different processings can be broken down into their own components (filters), each taking a single responsibility. This provides with clean and modular components that can be extended and modified with ease. This pattern is ubiquitous in Unix like operating system; it is common for system engineers to pipe the result of the command `ls' (list) into the command `grep' (global search for regular expression) or command `sed' (stream editor). By standardizing the interface for data input and output, these filters can be easily combined to create a more powerful whole. Composition then becomes natural, and the maintainability increases. This pattern is portrated at Figure~\ref{PipesAndFilters}.   
 \end{description}
 
 % figure 11 
@@ -1356,7 +1356,7 @@ This means during this period of time, the node is unavailable, and any workload
 
 Underlying the event-driven approach, we can assume that nodes are sending each other events as a means of communication. This implies that node A can send an event to node B in a `dispatch and forget' fashion on a certain topic. However this pattern introduces the same problem as the point-to-point REST communication style; if node B is down, then this will have a ripple effect on the whole system. To address this challenge, we can adopt the competing consumer pattern. Adopting this pattern means instead of one node listening on the topic, there will be a few nodes. 
 
-This can change the nature of the communication to asynchronous mode, and allow for a better fault tolerance, because if one node is down, the other nodes can listen to the event and handle it. In other terms, because now there are a few consumers listening on the events being dispatched on a certain topic, there's a competition of consumers, therefore the name `competing consumers'. For instance, three stream processing consumer nodes can be spawned to listen on data streaming events being dispatched from the the up-stream. This pattern will help alleviate challenges in regards to Vel-2, Vel-3 and Vel-5.
+This can change the nature of the communication to asynchronous mode, and allow for a better fault tolerance, because if one node is down, the other nodes can listen to the event and handle it. In other terms, because now there are a few consumers listening on the events being dispatched on a certain topic, there is a competition of consumers, therefore the name `competing consumers'. For instance, three stream processing consumer nodes can be spawned to listen on data streaming events being dispatched from the the up-stream. This pattern will help alleviate challenges in regards to Vel-2, Vel-3 and Vel-5.
 
 \subsubsection{Circuit Breaker}
 
@@ -1424,7 +1424,7 @@ One approach to solve this issue is anti-corruption layer. Anti-corruption layer
 
 \subsection{Security and Privacy}
 
-Security and privacy should be on top of mind for any BD system development, as these two aspects play an important role in the overall data strategy and architecture of the company. At the intersection of data evolution, regional policies, and company policies, there's a great deal of complexity. To this end, we propose the following pattern to address requirements SaP-1 and SaP-2:
+Security and privacy should be on top of mind for any BD system development, as these two aspects play an important role in the overall data strategy and architecture of the company. At the intersection of data evolution, regional policies, and company policies, there is a great deal of complexity. To this end, we propose the following pattern to address requirements SaP-1 and SaP-2:
 
 \begin{enumerate}
   \item Backend for Frontend (BFF)
@@ -1542,7 +1542,7 @@ From the results of these interviews, we gathered a lot of insights and probed d
 For volume, we went through the theories elaborated in Section~\ref{volume}. This was accompanied by the model created, and sometimes even live modeling to help with understanding. All of the interviewees took the idea of API gateway and gateway offloading naturally, while we had to explore the 'external configuration store' a bit deeper. We used the idea of Kubernetes ingress to help with elaboration of API gateway. We used AWS load balancer example, and discussed the challenges of maintaining certificates and authentication. For the externalized configuration pattern we had to go a bit deeper and talk about a scenario in a which the developer of the batch processing node or the stream processing node, may need to account for the development, trial and production workloads that have different DNS requirements, and configurations. We discussed how environment variables may vary, have trial environments may not need as much resources as the production, how ingress may vary, how recursive DNS resolution would be different, and how buffers, and Infrastructure may vary. 
 
 
-After explaining a scenario, interviewees agreed that this pattern can help with some of the challenges of data engineering. One interviewee mentioned that this can even be utilized for special privacy requirements. That is, different nodes may have different configuration based on the privacy policies needed. In addition, there's been discussion in regards to regional privacy and security requirements and how configuration can help derive them. Some interviewees discussed that this is a general pattern that any system can utilize to its benefit. 
+After explaining a scenario, interviewees agreed that this pattern can help with some of the challenges of data engineering. One interviewee mentioned that this can even be utilized for special privacy requirements. That is, different nodes may have different configuration based on the privacy policies needed. In addition, there is been discussion in regards to regional privacy and security requirements and how configuration can help derive them. Some interviewees discussed that this is a general pattern that any system can utilize to its benefit. 
 
 \,
 
@@ -1570,7 +1570,7 @@ In one interview, an interviewee discussed how the description of these patterns
 
 Another interviewee discussed how they are taking extensive measures to embark on a fully event-driven process, and how a lot of things that we theorize and modeled may sound easy to do, but daunting to implement. The interviewee explained how they are planning to store data in their AWS S3 initially and then having a Lambda function trigger to start the ETL process. The interviewee then explained how they need to obtain different configurations from different data providers, and how that can affect the data prepared for data consumers. Furthermore, he added how externalized configuration pattern could be implemented with DynamoDB and Lambda functions.
 
-One of the interviewees from insurance and finance sector mentioned that scaling the gateway and corresponding nodes may not be as easy as it seems. He mentioned that during normal days there are hardly any claims, and while there's a special event, the storm comes. The interviewee mentioned that scaling forecast is usually based on historical data. Further, he mentioned that even the delay in auto-scaling groups in AWS can be problematic for them. 
+One of the interviewees from insurance and finance sector mentioned that scaling the gateway and corresponding nodes may not be as easy as it seems. He mentioned that during normal days there are hardly any claims, and while there is a special event, the storm comes. The interviewee mentioned that scaling forecast is usually based on historical data. Further, he mentioned that even the delay in auto-scaling groups in AWS can be problematic for them. 
 
 
 The same interviewee from the insurance sector discussed how centralizing configuration may sound like a good idea. Howbeit, he added that this approach makes him slightly nervous, because every service is unique in its own, and may require a specific configuration. He added, that as configurations increase, the externalized configuration node can be bloated, taking so much responsibilities. He added that at times, his team had to reconfigure a service at the fly to prevent customer churn, and with this pattern he finds everything more complicated. At last, he added that in a multi-region operating companies, a centralized configuration store can really help with standardization and maintenance. 
@@ -1604,7 +1604,7 @@ For Velocity, we first started by exploring an event-driven data engineering arc
 
 \,
 
-In another interview, interviewee asked about the amalgamation technique for the logs, and discussed how dimensionality of the logs can be challenging. We took both feedbacks of 'leader election' and 'more in-detailed logging approach' into consideration. We researched deeper into leader election, logging approaches, and distributed tracing. We found leader election a bit hard to justify, as it introduces a single point of failure, can potentially introduce faulty data as there's only one point of trust, and partial deployments are really hard to apply. We found that benefits of 'leader election' pattern to be outweighed by the complexity it introduces. In regards to logging, we found various approaches to distributed tracing and log merging, however these were mostly in-detailed micro approaches, which is not in the scope of our study. 
+In another interview, interviewee asked about the amalgamation technique for the logs, and discussed how dimensionality of the logs can be challenging. We took both feedbacks of 'leader election' and 'more in-detailed logging approach' into consideration. We researched deeper into leader election, logging approaches, and distributed tracing. We found leader election a bit hard to justify, as it introduces a single point of failure, can potentially introduce faulty data as there is only one point of trust, and partial deployments are really hard to apply. We found that benefits of 'leader election' pattern to be outweighed by the complexity it introduces. In regards to logging, we found various approaches to distributed tracing and log merging, however these were mostly in-detailed micro approaches, which is not in the scope of our study. 
 
 In another interview, the interviewee discussed how circuit breakers may need to do load balancing as well. We then discussed how circuit breakers could be implemented in data processing nodes themselves, or in a side car. The interviewee then explained how they've created a system that resembles to the log aggregator pattern. The interviewee elaborated how the system has a graphical interface that captures errors from various ETL jobs. 
 
@@ -1638,7 +1638,7 @@ The candidate recommended to design services in a manner that promotes self-awar
 
 He illustrated how dynamically setting the level of logging has been really helpful in his personal experience. The candidate then explore further on low-level technical details of implemeting OpenTelemtry for different cases and with different level of logging.  
 
-An interviewee from the telecommunication domain decpited the fact that signaling unavailability through a circuit breaker would not suffice. The candidate continued discussing that even when services are down, data should still be stored to be processed later. The candidate discussed that services to processes the data may fail, and you may even signal the data producers. But that does not mean that data producers will stop sending you data! He continued discussing how data coming from the producers may be perceived as one transaction, and how sometimes there's no way to stop the data from getting into the system. 
+An interviewee from the telecommunication domain decpited the fact that signaling unavailability through a circuit breaker would not suffice. The candidate continued discussing that even when services are down, data should still be stored to be processed later. The candidate discussed that services to processes the data may fail, and you may even signal the data producers. But that does not mean that data producers will stop sending you data! He continued discussing how data coming from the producers may be perceived as one transaction, and how sometimes there is no way to stop the data from getting into the system. 
 
 
 Therefore, he suggested that during the failure the incoming data should be stored somewhere to be processed later. In his experience, without this, things would become really challenging and there might even be a data loss. Candidate believed that data producers are hardly controlled by the data engineering pipelines and therefore data architect should adopt the approach of `zero expectation from data producers'. He then continued discussing how his team has been handling these situations in Kafka, and how partitions have helped with consistency through offsets. 
