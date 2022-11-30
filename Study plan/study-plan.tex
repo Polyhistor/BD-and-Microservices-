@@ -1,0 +1,332 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage{ulem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Can big data systems benefit from microservices patterns ?}
+\author{Pouya Ataei}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%`'
+
+\begin{document}
+    \maketitle
+
+    \section{Research components:}
+
+    \begin{enumerate}
+        \item Systematic literature review ( following the guidelines of PRISMA and Barbara An Kitchenham ) 
+        \item Improved searched strategy by using PRISMA-S
+        \item Thematic synthesis using Cruzes, D. S. \& Dybå approach 
+        \item Capturing microservices patterns following the TOGAF template 
+        \item Understanding the current state of big data architectures  
+        \item Mapping the microservices patterns against big data architectures and see if they can solve some of its issues
+        \item Discussion
+        \item Threat to validity
+        \item Conclusion and further research
+    \end{enumerate}
+
+    \section{Timeline:}
+    \begin{itemize}
+        \item two systematic literature review - 1 month ( end of June ) 10th June - 10th July
+        \item Thematic synthesis ( 1 week ) - 6th July - 13th July
+        \item Capturing patterns in the synthesis ( 1 week ) - 13th July - 20th July 
+        \item Critical discussion ( 1 week ) - 20th July - 27th July
+        \item Polish and final edits ( 1 week ) -  27th July - 3rd August
+    \end{itemize}
+    
+
+    \section{Hard Deadlines:}
+    \begin{itemize}
+        \item IEEE Big Data - Aug 20, 2022
+        \item Journal of big data - Aug 30, 2022
+    \end{itemize}
+
+    \section{Chosen Databases:}
+    \begin{itemize}
+        \item IEEE Explore
+        \item ScienceDirect
+        \item SpringerLink
+        \item ACM library
+        \item MIS Quarterly --> replace with JSTOR?
+        \item Elsevier
+        \item Scopus
+        \item Aisel
+        \item Wiley? (maybe as an addition?)
+    \end{itemize}
+
+    \section{SLR on Microservices }
+    \subsection{Keywords}
+    \begin{itemize}
+    	\item at least microservice (or derivates)has to always be in the title:
+        \item microservice* AND pattern* 
+        \item microservice* AND architecture*
+        \item microservice* AND design*
+        \item microservice* AND building block*
+        \item microservice* AND best practice*
+    \end{itemize}
+
+    \section{ SLR on Big data architecture ( following the same methodology by paper published to ACIS (Pouya Ataei - Alan Litchfield) and extend it for the years 2020-2022) }
+
+
+    \section{Phase 1: search}
+
+    \subsection{Progress report (date): }
+
+     we have found n number of paper with the following search strategy, and n number has been deduplicated. 
+
+     Daniel to write here the abnormalies and challenges faced in deduplication and study filtering in the first phase
+
+
+     \section{Phase 2: developing inclusion, exclusion criteria, quality framework}
+
+     \subsection{Progress report (date): }
+ 
+      we have found n number of paper with the following search strategy, and n number has been deduplicated. 
+
+      \section{Inclusion and Exclusion criteria:}
+
+      \subsection{Inclusion}
+      \begin{itemize}
+        \item Primary and secondary studies between Jan 1st 2012 and June 19th 2022 
+        \item The focus of the study is on microservices patterns, and microsrvices architectural constructs. 
+        \item Scholarly publications such as conference proceedings and journal papers
+      \end{itemize}
+
+      \subsection{Exclusion}
+      \begin{itemize}
+        \item Studies that are not written in English
+        \item Informal literature surveys without any clearly defined research questions or research process
+        \item Duplicate reports of the same study (a conference and journal version of the same paper). In such cases, the conference paper was removed.
+        \item Short papers (less than 6 pages)
+      \end{itemize}
+
+
+
+      \section{Phases of the selection}
+
+      \begin{itemize}
+        \item Pooling literature - Done
+        \item Duplicate removal - Done  
+        \item Removal based on publication types - Done 
+        \item Scanning studies titles based on Inclusion and Exclusion criteria - Done  
+        \item Scanning studies abstract and title based on Inclusion and Exclusion criteria - Done  
+        \item (sub-phase) - Scanning introduction and conclusion parts of the studies based on Inclusion and Exclusion criteria (this was the phase in which we removed non-English studies, we scanned a bit more if needed)
+        \item Assessing the studies based on the quality framework phase 1 ( in phase 1, we run the studies against first three questions for minimum quality threshold for all studies, this is done through a questionnaire, and each study must conform to at least 75\% of the criteria, while the inter-rater reliability is above 75\% ), ( in phase 2, we run the studies against the second criteria (Rigour), with the exact same statistical condition as the phase 1 ) ( in phase, we run the studies against the third and fourth criteria, with the exact same statistical condition as the phase 1 )
+      \end{itemize}
+
+      \section{inter-rater}
+      for inter-rater we are using Krippendorff’s alpha
+
+      \section{Quality Framework:}
+      \begin{enumerate}
+        \item \emph{Minimum quality threshold:} 
+        \begin{enumerate}
+            \item Does the study report empirical research or is it merely a 'lesson learnt' report based on expert opinion ?  
+            \item The objectives and aims of the study is clearly communicated, including the reasoning for why the study was undertaken ?  
+            \item Does the study provide with adequate information regarding the context in which the research was carried out ?  
+        \end{enumerate}
+        \item \emph{Rigour:}
+        \begin{enumerate}
+            \item Is the research design appropriate to address the objectives of the research ? 
+            \item Is there any data collection method used and is it appropriate ? 
+        \end{enumerate}
+        \item \emph{Credibility:}
+          \begin{enumerate}
+            \item Does the study report findings in a clear and unbiased manner ? 
+         \end{enumerate}`'
+        \item \emph{Relevance:}
+        \begin{enumerate}
+            \item Does the study provides value for practice or research? 
+         \end{enumerate}
+    \end{enumerate}
+
+    \section{Papers to use in the future (potentially)}
+    \begin{enumerate}
+      \item Architecting with microservices: A systematic mapping study
+      \item Microservices Anti-patterns: A Taxonomy
+    \end{enumerate}
+
+    \section{Daniel note}
+
+    While conducting the first steps of our filter process, we encountered several hurdles that shall be highlighted to ensure transparency, especially since they can slightly affect the number of remaining entries after those initial phases. However, the final set of literature was not impacted and, therefore, those factors did not pose a threat to the studies validity.
+
+For once, since not all entries of the combined literature list compiled from all the used sources specified a digital object identifier (DOI), the duplicate removal had to be conducted based on the publication title. Yet, in some rare cases, there were duplicates for which the spelling of the title was slightly altered, and which were, therefore, not detected in the initial duplicate removal phase. Instead, they were only identified during the scanning of the title. Furthermore, in SpringerLink, conference papers are classified as book chapter, since conference proceedings are published as books.
+
+This makes them indistinguishable from real book chapters, when only looking at the metadate. Book chapters are, however, not part of the search’s scope. Consequently, the removal of book chapters for SpringerLink could only be processed when inspecting the respective publications. To slightly reduce the effort, it was decided to only do this for those publications that passed the filtering by title. As a result, there are some publications in that phase that, in theory, should have already been removed in the previous step.
+
+
+\section{Patterns Format:}
+
+\begin{enumerate}
+  \item Name
+  \item Description ( this includes context and problem ( only for conference paper ))
+\end{enumerate}
+
+\section{Pattern Catalog:}
+\begin{enumerate}
+  \item \sout{Self-contained service} 
+  \item \sout{Decomopose by business capability} 
+  \item Database per service 
+  \item Shared database 
+  \item Event sourcing 
+  \item Multiple service instances per host
+  \item \sout{Serverless deployment} 
+  \item Containerized 
+  \item API gateway
+  \item Self registration 
+  \item Service discovery 
+  \item Client-side discovery
+  \item Server-side discovery 
+  \item Circuit breaker
+  \item Synchronous communication
+  \item \sout{Publish/subscribe communication}
+  \item \sout{Combination of HTTP and Message queue}
+  \item \sout{Communication using message-oriented middleware}
+  \item \sout{Asynchronous communication}
+  \item \sout{Point-to-point communication}
+  \item \sout{Communication using binary protocols}
+  \item Bulkhead pattern
+  \item Local database proxy
+  \item Local sharding-based router
+  \item Command and query responsibility segregation
+  \item \sout{Scalable store}
+  \item \sout{Secure channel}
+  \item \sout{Change code dependency to service call/adapter microservice}
+  \item Service registry 
+  \item Service registry client 
+  \item Service locator 
+  \item Event notification 
+  \item \sout{REST integration} 
+  \item Competing consumers 
+  \item Pipes and filters 
+  \item \sout{Asynchronous messaging} 
+  \item Request-reaction 
+  \item Strangler 
+  \item Anti-corruption layer 
+  \item Externalized configuration 
+  \item Self-containment of services
+  \item \sout{Container} 
+  \item \sout{Deploy cluster and orchestrate containers} 
+  \item \sout{Microservices Devops} 
+  \item Database is the service
+  \item Enable continuous integration 
+  \item Self-contained systems 
+  \item Bulkhead 
+  \item Circuit breaker 
+  \item Priority queue 
+  \item \sout{Results cache} 
+  \item \sout{Page cache} 
+  \item \sout{Key-value store} 
+  \item \sout{Correlation ID} 
+  \item Log aggregator 
+  \item \sout{Loading balancer / load-balancing}  
+  \item Ambassador 
+  \item Sidecar 
+  \item Gateway aggregate 
+  \item Gateway offloading 
+  \item \sout{Asynchronous query} 
+  \item \sout{Asynchronous completion token}
+  \item \sout{Edge server} 
+  \item \sout{Internal load balancer} 
+  \item \sout{External load balancer}
+  \item \sout{Health check} 
+  \item \sout{Monitor} 
+  \item \sout{Consumer-driven contracts} 
+  \item Tolerant reader 
+  \item Aggregator 
+  \item Backend for Frontend 
+  \item API Composition 
+  \item Microservice Chassis/Service Host   
+  \item \sout{Service-per-container}
+  \item \sout{Service deployment platform}
+  \item \sout{Serverless deployment} 
+  \item Saga transaction management
+  \item Gateway routing 
+  \item External configuration store 
+  \item Static content hosting 
+  \item Computer resource consolidation 
+  \item Leader election 
+  \item Database cluster
+  \item Hybrid
+\end{enumerate}
+
+
+
+
+\section{Paper Sections}
+
+\begin{enumerate}
+  \item Introduction ( 1/5 to 2 columns ) --> 0.75 page 
+  \item Background ( 1 columns ) --> 0.5 page
+  \item Research Methodology ( 2/3 4/5 columns ) --> 3 pages 
+  \item Results ( 6 columns ) --> 3 pages 
+  \item Threats to validity ( half a column ) 
+  \item Discussion ( 1 column)
+  \item Conclusion ( 1 column )
+\end{enumerate}
+
+\section{Plan}
+
+\subsection{Pouya}
+To research about requirements engineering and potentially a formal method of describing big data requirements 
+
+\subsection{Daniel}
+To start writing the research methodology chapter 
+
+
+\section{Requirements Specification}
+
+Before we can begin to understand the relationship between big data systems and microservices patterns, we first need to understand the requirements of big data systems. Requirements can range from formal specifications to back of the napkin sketches to high-level abstract statements. Sommerville 
+
+\end{document}

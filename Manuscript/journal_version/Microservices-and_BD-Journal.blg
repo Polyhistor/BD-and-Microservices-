@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Microservices-and_BD-Journal.aux
+The style file: vancouver.bst
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Database file #1: references.bib
+Warning--empty author and editor in NewVantageSurvey
+Warning--empty author and editor in Richardson.2022
+Warning--missing publisher in Richardson.2022
+Warning--can't use both volume and number fields in zhelev2019using
+Warning--there's a month but no year in Chaabane
+You've used 45 entries,
+            3170 wiz_defined-function locations,
+            930 strings with 14717 characters,
+and the built_in function-call counts, 76909 in all, are:
+= -- 9513
+> -- 585
+< -- 20
++ -- 320
+- -- 146
+* -- 6338
+:= -- 8342
+add.period$ -- 162
+call.type$ -- 45
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 5925
+empty$ -- 7438
+format.name$ -- 181
+if$ -- 18121
+int.to.chr$ -- 0
+int.to.str$ -- 45
+missing$ -- 439
+newline$ -- 225
+num.names$ -- 52
+pop$ -- 933
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 959
+stack$ -- 0
+substring$ -- 14956
+swap$ -- 1114
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 394
+width$ -- 47
+write$ -- 503
+(There were 5 warnings)
