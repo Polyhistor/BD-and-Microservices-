@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  1 DEC 2022 14:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  1 DEC 2022 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -978,6 +978,9 @@ Overfull \hbox (0.73856pt too wide) in paragraph at lines 1519--1520
 []|\OT1/cmss/m/n/8 Telecommunications| 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [29] [30]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1550--1555
 [] 
@@ -1058,8 +1061,16 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1814--1819
 [] 
  []
 
-[39] [40] [41] (./Microservices-and_BD-Journal.bbl [42])
-<Media/PRISMA-Flowchart-V2.JPG, id=772, 577.40718pt x 796.47563pt>
+[39]
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1873.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 1884.
+
+[40] [41] (./Microservices-and_BD-Journal.bbl [42])
+<Media/PRISMA-Flowchart-V2.JPG, id=808, 577.40718pt x 796.47563pt>
 File: Media/PRISMA-Flowchart-V2.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart-V2.JPG>
 Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2006.
@@ -1073,7 +1084,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/API Gateway.jpg, id=773, 751.80875pt x 289.08pt>
+<Media/API Gateway.jpg, id=809, 751.80875pt x 289.08pt>
 File: Media/API Gateway.jpg Graphic file (type jpg)
 <use Media/API Gateway.jpg>
 Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2013.
@@ -1086,7 +1097,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Gateway Offloading.jpg, id=774, 814.04124pt x 414.54875pt>
+<Media/Gateway Offloading.jpg, id=810, 814.04124pt x 414.54875pt>
 File: Media/Gateway Offloading.jpg Graphic file (type jpg)
 <use Media/Gateway Offloading.jpg>
 Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2020.
@@ -1099,7 +1110,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/External Configuration Store.jpg, id=775, 579.16376pt x 332.24126pt>
+<Media/External Configuration Store.jpg, id=811, 579.16376pt x 332.24126pt>
 File: Media/External Configuration Store.jpg Graphic file (type jpg)
 <use Media/External Configuration Store.jpg>
 Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2027.
@@ -1112,7 +1123,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Competing Consumers.jpg, id=776, 725.71124pt x 269.005pt>
+<Media/Competing Consumers.jpg, id=812, 725.71124pt x 269.005pt>
 File: Media/Competing Consumers.jpg Graphic file (type jpg)
 <use Media/Competing Consumers.jpg>
 Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2034.
@@ -1125,7 +1136,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Circuit Breaker.jpg, id=777, 789.95125pt x 66.2475pt>
+<Media/Circuit Breaker.jpg, id=813, 789.95125pt x 66.2475pt>
 File: Media/Circuit Breaker.jpg Graphic file (type jpg)
 <use Media/Circuit Breaker.jpg>
 Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2041.
@@ -1138,7 +1149,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Log Aggregation Pattern.jpg, id=778, 699.61375pt x 380.42125pt>
+<Media/Log Aggregation Pattern.jpg, id=814, 699.61375pt x 380.42125pt>
 File: Media/Log Aggregation Pattern.jpg Graphic file (type jpg)
 <use Media/Log Aggregation Pattern.jpg>
 Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2048.
@@ -1151,7 +1162,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Command and Query Responsibility Segregation.jpg, id=779, 1328.965pt x 344.28625pt>
+<Media/Command and Query Responsibility Segregation.jpg, id=815, 1328.965pt x 344.28625pt>
 File: Media/Command and Query Responsibility Segregation.jpg Graphic file (type jpg)
 <use Media/Command and Query Responsibility Segregation.jpg>
 Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2055.
@@ -1164,7 +1175,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Anti-Corruption Layer.jpg, id=780, 1155.31625pt x 437.635pt>
+<Media/Anti-Corruption Layer.jpg, id=816, 1155.31625pt x 437.635pt>
 File: Media/Anti-Corruption Layer.jpg Graphic file (type jpg)
 <use Media/Anti-Corruption Layer.jpg>
 Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2062.
@@ -1177,7 +1188,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Backend for Frontend.jpg, id=781, 980.66376pt x 645.41125pt>
+<Media/Backend for Frontend.jpg, id=817, 980.66376pt x 645.41125pt>
 File: Media/Backend for Frontend.jpg Graphic file (type jpg)
 <use Media/Backend for Frontend.jpg>
 Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2069.
@@ -1190,7 +1201,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Pipes and Filters.jpg, id=782, 1383.1675pt x 71.26625pt>
+<Media/Pipes and Filters.jpg, id=818, 1383.1675pt x 71.26625pt>
 File: Media/Pipes and Filters.jpg Graphic file (type jpg)
 <use Media/Pipes and Filters.jpg>
 Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2076.
@@ -1203,7 +1214,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Vol-1 Requirement RA.jpg, id=783, 1469.49pt x 743.77875pt>
+<Media/Vol-1 Requirement RA.jpg, id=819, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
 Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2084.
@@ -1216,7 +1227,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Velocity Requirement.jpg, id=784, 1512.65125pt x 726.715pt>
+<Media/Velocity Requirement.jpg, id=820, 1512.65125pt x 726.715pt>
 File: Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use Media/Velocity Requirement.jpg>
 Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2091.
@@ -1229,7 +1240,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Media/Value Requirement.jpg, id=785, 1752.5475pt x 729.72626pt>
+<Media/Value Requirement.jpg, id=821, 1752.5475pt x 729.72626pt>
 File: Media/Value Requirement.jpg Graphic file (type jpg)
 <use Media/Value Requirement.jpg>
 Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2099.
@@ -1242,7 +1253,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Privacy and Security Requirements.jpg, id=786, 1590.94376pt x 538.01pt>
+<Media/Privacy and Security Requirements.jpg, id=822, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
 Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2106.
@@ -1263,24 +1274,27 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
-(rerunfilecheck)             Checksum: CA08A086B9FCCC337BEB371D35728EB9;10799.
+(rerunfilecheck)             Checksum: C4F48724B749FD9689A7067D02121209;12496.
  ) 
 Here is how much of TeX's memory you used:
- 15078 strings out of 478238
- 242130 string characters out of 5850455
- 564101 words of memory out of 5000000
- 32781 multiletter control sequences out of 15000+600000
- 481365 words of font info for 75 fonts, out of 8000000 for 9000
+ 15099 strings out of 478238
+ 242511 string characters out of 5850455
+ 564113 words of memory out of 5000000
+ 32794 multiletter control sequences out of 15000+600000
+ 481716 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,1544b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Microservices-and_BD-Journal.pdf (48 pages, 1430202 bytes).
+ 72i,11n,77p,1544b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Microservices-and_BD-Journal.pdf (48 pages, 1440865 bytes).
 PDF statistics:
- 942 PDF objects out of 1000 (max. 8388607)
- 850 compressed objects within 9 object streams
- 303 named destinations out of 1000 (max. 500000)
- 604 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 983 PDF objects out of 1000 (max. 8388607)
+ 889 compressed objects within 9 object streams
+ 311 named destinations out of 1000 (max. 500000)
+ 676 words of extra memory for PDF output out of 10000 (max. 10000000)
 
