@@ -166,6 +166,10 @@ Microsoft. Microsoft, editor. Design and implementation patterns.
 \newblock Available from:
   \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
 
+\bibitem{ISO20547}
+for Standardization~(ISO/IEC) IO. ISO/IEC TR 20547-1:2020; 2020.
+\newblock Available from: \url{https://www.iso.org/standard/71275.html}.
+
 \bibitem{laplante2017requirements}
 Laplante PA.
 \newblock Requirements engineering for software and systems.

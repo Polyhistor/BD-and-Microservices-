@@ -7,52 +7,55 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "foxUseCase"
 Warning--I didn't find a database entry for "bass2003software"
 Warning--I didn't find a database entry for "li2019impact"
 Warning--empty author and editor in NewVantageSurvey
 Warning--empty author and editor in Richardson.2022
 Warning--missing publisher in Richardson.2022
 Warning--can't use both volume and number fields in zhelev2019using
+Warning--empty author and editor in ISO20547
+Warning--missing publisher in ISO20547
 Warning--there's a month but no year in Chaabane
-You've used 45 entries,
+You've used 46 entries,
             3170 wiz_defined-function locations,
-            932 strings with 14745 characters,
-and the built_in function-call counts, 76909 in all, are:
-= -- 9513
-> -- 585
+            939 strings with 14899 characters,
+and the built_in function-call counts, 78096 in all, are:
+= -- 9658
+> -- 589
 < -- 20
-+ -- 320
-- -- 146
-* -- 6338
-:= -- 8342
-add.period$ -- 162
-call.type$ -- 45
++ -- 322
+- -- 147
+* -- 6439
+:= -- 8472
+add.period$ -- 164
+call.type$ -- 46
 change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 5925
-empty$ -- 7438
-format.name$ -- 181
-if$ -- 18121
+cite$ -- 53
+duplicate$ -- 6013
+empty$ -- 7560
+format.name$ -- 182
+if$ -- 18400
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 439
-newline$ -- 225
-num.names$ -- 52
-pop$ -- 933
+int.to.str$ -- 46
+missing$ -- 445
+newline$ -- 229
+num.names$ -- 53
+pop$ -- 951
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 959
+skip$ -- 975
 stack$ -- 0
-substring$ -- 14956
-swap$ -- 1114
+substring$ -- 15189
+swap$ -- 1127
 text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 394
-width$ -- 47
-write$ -- 503
-(There were 7 warnings)
+warning$ -- 7
+while$ -- 398
+width$ -- 48
+write$ -- 512
+(There were 10 warnings)
