@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  2 DEC 2022 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  2 DEC 2022 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,32 +949,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 1044--1044
  []
 
 [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1511--1512
+Underfull \hbox (badness 10000) in paragraph at lines 1514--1515
 []|\OT1/cmss/m/n/8 Human Re-sources
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 1513--1513
+Underfull \hbox (badness 3668) in paragraph at lines 1516--1516
 []|\OT1/cmss/m/n/8 Associate Pro-fes-sor and Co-
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 1515--1516
+Underfull \hbox (badness 6316) in paragraph at lines 1518--1519
 []|\OT1/cmss/m/n/8 Software (Prac-tice
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 1515--1516
+Underfull \hbox (badness 3977) in paragraph at lines 1518--1519
 \OT1/cmss/m/n/8 Man-age-ment Soft-
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 1517--1518
+Underfull \hbox (badness 3826) in paragraph at lines 1520--1521
 []|\OT1/cmss/m/n/8 Insurance and Fi-
  []
 
 
-Overfull \hbox (0.73856pt too wide) in paragraph at lines 1521--1522
+Overfull \hbox (0.73856pt too wide) in paragraph at lines 1524--1525
 []|\OT1/cmss/m/n/8 Telecommunications| 
  []
 
@@ -982,103 +982,103 @@ Overfull \hbox (0.73856pt too wide) in paragraph at lines 1521--1522
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29] [30]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1552--1557
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1555--1560
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1565--1570
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1568--1573
 [] 
  []
 
 [31]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1583--1588
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1586--1591
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1601--1606
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1604--1609
 [] 
  []
 
 [32]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1618--1623
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1621--1626
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1633--1638
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1636--1641
 [] 
  []
 
 [33]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1652--1657
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1655--1660
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1668--1673
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1671--1676
 [] 
  []
 
 [34]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1683--1688
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1686--1691
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1704--1709
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1707--1712
 [] 
  []
 
 [35]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1725--1730
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1728--1733
 [] 
  []
 
 [36]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1743--1748
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1746--1751
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1758--1763
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1761--1766
+[] 
+ []
+
+
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1783--1788
 [] 
  []
 
 [37]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1782--1787
-[] 
- []
-
-
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1795--1800
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1810--1815
 [] 
  []
 
 [38]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1816--1821
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1823--1828
 [] 
  []
 
 [39]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1875.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1878.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 1886.
+(Font)              using `OT1/cmss/bx/n' instead on input line 1889.
 
 [40] [41] (./Microservices-and_BD-Journal.bbl [42])
 <Media/PRISMA-Flowchart-V2.JPG, id=815, 577.40718pt x 796.47563pt>
 File: Media/PRISMA-Flowchart-V2.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart-V2.JPG>
-Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2008.
+Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2011.
 (pdftex.def)             Requested size: 227.62204pt x 313.97853pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2009.
+(caption)                particular \caption on input line 2012.
 See the caption package documentation for explanation.
 
 
@@ -1087,11 +1087,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/API Gateway.jpg, id=816, 751.80875pt x 289.08pt>
 File: Media/API Gateway.jpg Graphic file (type jpg)
 <use Media/API Gateway.jpg>
-Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2015.
+Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2018.
 (pdftex.def)             Requested size: 256.0748pt x 98.46674pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2016.
+(caption)                particular \caption on input line 2019.
 See the caption package documentation for explanation.
 
 
@@ -1100,11 +1100,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Gateway Offloading.jpg, id=817, 814.04124pt x 414.54875pt>
 File: Media/Gateway Offloading.jpg Graphic file (type jpg)
 <use Media/Gateway Offloading.jpg>
-Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2022.
+Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2025.
 (pdftex.def)             Requested size: 284.52756pt x 144.89182pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2023.
+(caption)                particular \caption on input line 2026.
 See the caption package documentation for explanation.
 
 
@@ -1113,11 +1113,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/External Configuration Store.jpg, id=818, 579.16376pt x 332.24126pt>
 File: Media/External Configuration Store.jpg Graphic file (type jpg)
 <use Media/External Configuration Store.jpg>
-Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2029.
+Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2032.
 (pdftex.def)             Requested size: 284.52756pt x 163.2204pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2030.
+(caption)                particular \caption on input line 2033.
 See the caption package documentation for explanation.
 
 
@@ -1126,11 +1126,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Competing Consumers.jpg, id=819, 725.71124pt x 269.005pt>
 File: Media/Competing Consumers.jpg Graphic file (type jpg)
 <use Media/Competing Consumers.jpg>
-Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2036.
+Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2039.
 (pdftex.def)             Requested size: 284.52756pt x 105.46976pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2037.
+(caption)                particular \caption on input line 2040.
 See the caption package documentation for explanation.
 
 
@@ -1139,11 +1139,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Circuit Breaker.jpg, id=820, 789.95125pt x 66.2475pt>
 File: Media/Circuit Breaker.jpg Graphic file (type jpg)
 <use Media/Circuit Breaker.jpg>
-Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2043.
+Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2046.
 (pdftex.def)             Requested size: 284.52756pt x 23.8612pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2044.
+(caption)                particular \caption on input line 2047.
 See the caption package documentation for explanation.
 
 
@@ -1152,11 +1152,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Log Aggregation Pattern.jpg, id=821, 699.61375pt x 380.42125pt>
 File: Media/Log Aggregation Pattern.jpg Graphic file (type jpg)
 <use Media/Log Aggregation Pattern.jpg>
-Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2050.
+Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2053.
 (pdftex.def)             Requested size: 284.52756pt x 154.71408pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2051.
+(caption)                particular \caption on input line 2054.
 See the caption package documentation for explanation.
 
 
@@ -1165,11 +1165,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Command and Query Responsibility Segregation.jpg, id=822, 1328.965pt x 344.28625pt>
 File: Media/Command and Query Responsibility Segregation.jpg Graphic file (type jpg)
 <use Media/Command and Query Responsibility Segregation.jpg>
-Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2057.
+Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2060.
 (pdftex.def)             Requested size: 312.9803pt x 81.08063pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2058.
+(caption)                particular \caption on input line 2061.
 See the caption package documentation for explanation.
 
 
@@ -1178,11 +1178,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Anti-Corruption Layer.jpg, id=823, 1155.31625pt x 437.635pt>
 File: Media/Anti-Corruption Layer.jpg Graphic file (type jpg)
 <use Media/Anti-Corruption Layer.jpg>
-Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2064.
+Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2067.
 (pdftex.def)             Requested size: 312.9803pt x 118.557pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2065.
+(caption)                particular \caption on input line 2068.
 See the caption package documentation for explanation.
 
 
@@ -1191,11 +1191,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Backend for Frontend.jpg, id=824, 980.66376pt x 645.41125pt>
 File: Media/Backend for Frontend.jpg Graphic file (type jpg)
 <use Media/Backend for Frontend.jpg>
-Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2071.
+Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2074.
 (pdftex.def)             Requested size: 312.9803pt x 205.98431pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2072.
+(caption)                particular \caption on input line 2075.
 See the caption package documentation for explanation.
 
 
@@ -1204,11 +1204,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Pipes and Filters.jpg, id=825, 1383.1675pt x 71.26625pt>
 File: Media/Pipes and Filters.jpg Graphic file (type jpg)
 <use Media/Pipes and Filters.jpg>
-Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2078.
+Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2081.
 (pdftex.def)             Requested size: 312.9803pt x 16.12555pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2079.
+(caption)                particular \caption on input line 2082.
 See the caption package documentation for explanation.
 
 
@@ -1217,11 +1217,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Vol-1 Requirement RA.jpg, id=826, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2086.
+Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2089.
 (pdftex.def)             Requested size: 341.43306pt x 172.81328pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2087.
+(caption)                particular \caption on input line 2090.
 See the caption package documentation for explanation.
 
 
@@ -1230,11 +1230,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Velocity Requirement.jpg, id=827, 1512.65125pt x 726.715pt>
 File: Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use Media/Velocity Requirement.jpg>
-Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2093.
+Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2096.
 (pdftex.def)             Requested size: 341.43306pt x 164.02498pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2094.
+(caption)                particular \caption on input line 2097.
 See the caption package documentation for explanation.
 
 
@@ -1243,11 +1243,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Media/Value Requirement.jpg, id=828, 1752.5475pt x 729.72626pt>
 File: Media/Value Requirement.jpg Graphic file (type jpg)
 <use Media/Value Requirement.jpg>
-Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2101.
+Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2104.
 (pdftex.def)             Requested size: 341.43306pt x 142.15686pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2102.
+(caption)                particular \caption on input line 2105.
 See the caption package documentation for explanation.
 
 
@@ -1256,11 +1256,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Media/Privacy and Security Requirements.jpg, id=829, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
-Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2108.
+Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2111.
 (pdftex.def)             Requested size: 341.43306pt x 115.45645pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2109.
+(caption)                particular \caption on input line 2112.
 See the caption package documentation for explanation.
 
 
@@ -1280,7 +1280,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
-(rerunfilecheck)             Checksum: C4F48724B749FD9689A7067D02121209;12496.
+(rerunfilecheck)             Checksum: F6F45D82DD896C7A21A8C163781943A4;12496.
  ) 
 Here is how much of TeX's memory you used:
  15105 strings out of 478238
@@ -1291,7 +1291,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,1544b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Microservices-and_BD-Journal.pdf (48 pages, 1442135 bytes).
+Output written on Microservices-and_BD-Journal.pdf (48 pages, 1442084 bytes).
 PDF statistics:
  991 PDF objects out of 1000 (max. 8388607)
  897 compressed objects within 9 object streams
