@@ -7,55 +7,47 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
 Database file #1: references.bib
-Warning--I didn't find a database entry for "foxUseCase"
 Warning--I didn't find a database entry for "bass2003software"
 Warning--I didn't find a database entry for "li2019impact"
-Warning--empty author and editor in NewVantageSurvey
-Warning--empty author and editor in Richardson.2022
-Warning--missing publisher in Richardson.2022
-Warning--can't use both volume and number fields in zhelev2019using
-Warning--empty author and editor in ISO20547
-Warning--missing publisher in ISO20547
-Warning--there's a month but no year in Chaabane
-You've used 46 entries,
+You've used 48 entries,
             3170 wiz_defined-function locations,
-            939 strings with 14899 characters,
-and the built_in function-call counts, 78096 in all, are:
-= -- 9658
-> -- 589
-< -- 20
-+ -- 322
-- -- 147
-* -- 6439
-:= -- 8472
-add.period$ -- 164
-call.type$ -- 46
-change.case$ -- 30
+            950 strings with 15315 characters,
+and the built_in function-call counts, 82959 in all, are:
+= -- 10278
+> -- 629
+< -- 22
++ -- 341
+- -- 157
+* -- 6836
+:= -- 9011
+add.period$ -- 173
+call.type$ -- 48
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 53
-duplicate$ -- 6013
-empty$ -- 7560
-format.name$ -- 182
-if$ -- 18400
+cite$ -- 48
+duplicate$ -- 6417
+empty$ -- 8017
+format.name$ -- 196
+if$ -- 19544
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 445
-newline$ -- 229
-num.names$ -- 53
-pop$ -- 951
+int.to.str$ -- 48
+missing$ -- 470
+newline$ -- 241
+num.names$ -- 61
+pop$ -- 1006
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 975
+skip$ -- 1017
 stack$ -- 0
-substring$ -- 15189
-swap$ -- 1127
-text.length$ -- 20
+substring$ -- 16142
+swap$ -- 1183
+text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 398
-width$ -- 48
-write$ -- 512
-(There were 10 warnings)
+warning$ -- 0
+while$ -- 428
+width$ -- 50
+write$ -- 541
+(There were 2 warnings)
