@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Microservices-and_BD-Journal"] 1669844192 "Microservices-and_BD-Journal.aux" "Microservices-and_BD-Journal.bbl" "Microservices-and_BD-Journal" 1669844193
+["bibtex Microservices-and_BD-Journal"] 1669859155 "Microservices-and_BD-Journal.aux" "Microservices-and_BD-Journal.bbl" "Microservices-and_BD-Journal" 1669859244
   "./vancouver.bst" 1669844028 38215 ea1386b2055049a8e03ec1b09fd54904 ""
-  "Microservices-and_BD-Journal.aux" 1669844193 18276 32f45bbb762b76b0870163b55a605512 "pdflatex"
+  "Microservices-and_BD-Journal.aux" 1669859244 18276 487c312cddfb8568346025aa50eff08b "pdflatex"
   "references.bib" 1669844028 104592 c11f8fc7f1f14d7fa4a59ff1d8cde6d0 ""
   (generated)
   "Microservices-and_BD-Journal.bbl"
   "Microservices-and_BD-Journal.blg"
-["pdflatex"] 1669844192 "/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex" "Microservices-and_BD-Journal.pdf" "Microservices-and_BD-Journal" 1669844193
-  "/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex" 1669844192 174702 b641d8ebafe1e981f4d7240c6b2fe2e4 ""
+["pdflatex"] 1669859244 "/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex" "Microservices-and_BD-Journal.pdf" "Microservices-and_BD-Journal" 1669859244
+  "/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex" 1669859243 174703 13e6086618bb7f512be1c3e89c13b047 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1650183167 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1650183167 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -143,10 +143,10 @@
   "Media/Value Requirement.jpg" 1669844028 70162 de4a64dce6503884f7aba6ef8ce1d41e ""
   "Media/Velocity Requirement.jpg" 1669844028 73479 91e4f7d4f8afb5cc44d8c7626463c7aa ""
   "Media/Vol-1 Requirement RA.jpg" 1669844028 153625 035ebb45812136f78e9dab67a4647d16 ""
-  "Microservices-and_BD-Journal.aux" 1669844193 18276 32f45bbb762b76b0870163b55a605512 "pdflatex"
-  "Microservices-and_BD-Journal.bbl" 1669844192 10388 746aab69b127979fa219c866b8efe511 "bibtex Microservices-and_BD-Journal"
-  "Microservices-and_BD-Journal.out" 1669844193 10799 ca08a086b9fccc337beb371d35728eb9 "pdflatex"
-  "Microservices-and_BD-Journal.tex" 1669844192 174702 b641d8ebafe1e981f4d7240c6b2fe2e4 ""
+  "Microservices-and_BD-Journal.aux" 1669859244 18276 487c312cddfb8568346025aa50eff08b "pdflatex"
+  "Microservices-and_BD-Journal.bbl" 1669859155 10388 746aab69b127979fa219c866b8efe511 "bibtex Microservices-and_BD-Journal"
+  "Microservices-and_BD-Journal.out" 1669859244 10799 ca08a086b9fccc337beb371d35728eb9 "pdflatex"
+  "Microservices-and_BD-Journal.tex" 1669859243 174703 13e6086618bb7f512be1c3e89c13b047 ""
   "bmcart.cls" 1669844028 56410 546ee98aa063b3d83d7856e637affad0 ""
   (generated)
   "Microservices-and_BD-Journal.aux"

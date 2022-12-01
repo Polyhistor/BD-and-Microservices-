@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  1 DEC 2022 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  1 DEC 2022 14:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1275,9 +1275,9 @@ Here is how much of TeX's memory you used:
  32781 multiletter control sequences out of 15000+600000
  481365 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,1540b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,77p,1544b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Microservices-and_BD-Journal.pdf (48 pages, 1430221 bytes).
+Output written on Microservices-and_BD-Journal.pdf (48 pages, 1430202 bytes).
 PDF statistics:
  942 PDF objects out of 1000 (max. 8388607)
  850 compressed objects within 9 object streams
