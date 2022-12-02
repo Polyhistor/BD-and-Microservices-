@@ -284,6 +284,11 @@ Baltes S, Ralph P.
   guidelines.
 \newblock Empirical Software Engineering. 2022;27(4):1--31.
 
+\bibitem{chakraborty2021architecture}
+Chakraborty M, Kundan AP.
+\newblock Architecture of a Modern Monitoring System.
+\newblock In: Monitoring Cloud-Native Applications. Springer; 2021. p. 55--96.
+
 \bibitem{sriraman2018mu}
 Sriraman A, Wenisch TF.
 \newblock $\mu$ suite: a benchmark suite for microservices.

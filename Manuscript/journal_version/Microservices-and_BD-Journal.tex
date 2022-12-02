@@ -1547,20 +1547,20 @@ From the results of these interviews, we gathered a lot of insights and probed d
 For volume, we went through the theories elaborated in Section~\ref{volume}. This was accompanied by the model created, and sometimes even live modeling to help with understanding. All of the interviewees took the idea of API gateway and gateway offloading naturally, while we had to explore the 'external configuration store' a bit deeper. The idea of Kubernetes ingress was used to help elaborating the API gateway. We used AWS load balancer as an example, and discussed the challenges of maintaining certificates and authentication. For the externalized configuration pattern we had to go a bit deeper and talk about a scenario in a which the developer of the batch processing node or the stream processing node, may need to account for the development, trial and production workloads that have different DNS requirements and configurations. We discussed how environment variables may vary, how trial environments may not need as much resources as the production, how ingress may vary, how recursive DNS resolution would be different, and how buffers and Infrastructure may vary. 
 
 
-After explaining a scenario, the interviewees agreed that this pattern can help with some of the challenges of data engineering. Interviewees i1 and i2 mentioned that this can even be utilized for special privacy requirements. That is, different nodes may have different configuration based on the privacy policies needed. In addition, there has been discussion in regards to regional privacy and security requirements and how configuration can help derive them. Some interviewees (i6, i7) discussed that this is a general pattern that any system can utilize to its benefit. 
+After explaining a scenario, the interviewees agreed that this pattern can help with some of the challenges of data engineering. Interviewees i1 and i2 mentioned that this can even be utilized for special privacy requirements. That is, different nodes may have different configurations based on the privacy policies needed. In addition, there has been discussion in regards to regional privacy and security requirements and how configurations can help derive them. Some interviewees (i6, i7) discussed that this is a general pattern that any system can utilize to its benefit. 
 
 \,
 
 \setlength{\fboxsep}{0.7em}
 \noindent\fbox{%
     \parbox{\textwidth}{%
-       API Gateway and Gateway offloading patterns are often practiced in the industry. Nevertheless, externalized configuration store is not  as well understood. 
+       API Gateway and Gateway offloading patterns are often practiced in the industry. Nevertheless, the externalized configuration store is not  as well understood. 
     }%
 }
 
 \,
 
-In one interview, interviewee i4 discussed how the description of these patterns and the implementations varied in his professional experience in different companies. He added that most developers tend to have a shallow understanding of why certain pattern is adopted, and thus the implementation usually varies. In addition, the interviewee stated that once a pattern is implemented, then the challenge is to keep the pattern comply with its intended responsibility. In his experience, many of the patterns such as API gateway suddenly turn into an overarching solution that aims to solve many problems. Thus, patterns may firmly establish the problem domain and the solution initially to demarcate boundaries.
+In one interview, interviewee i4 discussed how the description of these patterns and the implementations varied in his professional experience in different companies. He added that most developers tend to have a shallow understanding of why a certain pattern is adopted, and thus the implementation usually varies. In addition, the interviewee stated that once a pattern is implemented, then the challenge is to keep the pattern compliant with its intended responsibility. In his experience, many of the patterns, such as API gateway suddenly turn into an overarching solution that aims to solve many problems. Thus, patterns may firmly establish the problem domain and the solution initially to demarcate boundaries.
 
 \,
 
@@ -1573,46 +1573,46 @@ In one interview, interviewee i4 discussed how the description of these patterns
 
 \,
 
-Interviewee i4 discussed how they are taking extensive measures to embark on a fully event-driven process, and how a lot of things that we theorize and modeled may sound easy to do, but daunting to implement. The interviewee explained how they are planning to store data in their AWS S3 initially and then having a Lambda function trigger to start the ETL process. The interviewee then explained how they need to obtain different configurations from different data providers, and how that can affect the data prepared for data consumers. Furthermore, he added how externalized configuration pattern could be implemented with DynamoDB and Lambda functions.
+Interviewee i4 discussed how they are taking extensive measures to embark on a fully event-driven process, and how a lot of things that we theorize and modeled may sound easy to do, but are daunting to implement. The interviewee explained how they are planning to store data in their AWS S3 initially and then having a Lambda function trigger to start the ETL process. He then explained how they need to obtain different configurations from different data providers, and how that can affect the data prepared for data consumers. Furthermore, he added how the externalized configuration pattern could be implemented with DynamoDB and Lambda functions.
 
-Interviewee i5 from insurance and finance sector mentioned that scaling the gateway and corresponding nodes may not be as easy as it seems. He mentioned that during normal days there are hardly any claims, and while there is a special event, the storm comes. The interviewee mentioned that scaling forecast is usually based on historical data. Further, he mentioned that even the delay in auto-scaling groups in AWS can be problematic for them. 
+Interviewee i5 from insurance and finance sector mentioned that scaling the gateway and corresponding nodes may not be as easy as it seems. He mentioned that during normal days there are hardly any claims, and when there is a special event, the storm comes. The interviewee mentioned that scaling forecasts are usually based on historical data. Further, he mentioned that even the delay in auto-scaling groups in AWS can be problematic for them. 
 
-The same interviewee discussed how centralizing configuration may sound like a good idea. Howbeit, he added that this approach makes him slightly nervous, because every service is unique in its own, and may require a specific configuration. He added, that as configurations increase, the externalized configuration node can be bloated, taking so much responsibilities. He added that at times, his team had to reconfigure a service at the fly to prevent customer churn, and with this pattern he finds everything more complicated. At last, he added that in a multi-region operating companies, a centralized configuration store can really help with standardization and maintenance. 
+The same interviewee discussed how centralizing configuration may sound like a good idea. Howbeit, he added that this approach makes him slightly nervous, because every service is unique in its own, and may require a specific configuration. He added, that as configurations increase, the externalized configuration node can be bloated, taking so much responsibilities. He added that at times, his team had to reconfigure a service on the fly to prevent customer churn, and with this pattern he finds everything more complicated. At last, he added that in multi-region operating companies, a centralized configuration store can really help with standardization and maintenance. 
 
 \,
 
 \setlength{\fboxsep}{0.7em}
 \noindent\fbox{%
     \parbox{\textwidth}{%
-       Centralization of configuration can initially start effective, but as the number of nodes and configurations increase, this component itself can become challenging to maintain. 
+       Centralization of configuration can initially start effective, but as the number of nodes and configurations increases, this component itself can become challenging to maintain. 
     }%
 }
 
 \,
 
-Interviewee i6 has affirmed us that gateway offloading and API gateways are pretty common patterns, and he has witnessed it in several major banks. The same candidate has elaborated that `external configuration store' pattern is sometimes referred to as `declarative configuration management'. The candidate then continued to explain how this pattern can be witnessed in Kubernetes clusters through metadata objects, kube-system and Etcd.
+Interviewee i6 has affirmed us that gateway offloading and API gateways are pretty common patterns, and he has witnessed it in several major banks. The same candidate the `external configuration store' pattern is sometimes referred to as `declarative configuration management'. The candidate then continued to explain how this pattern can be witnessed in Kubernetes clusters through metadata objects, kube-system, and Etcd.
 
 
 \subsection{Velocity}
 
-For Velocity, we first started by exploring an event-driven data engineering architecture, and then justified the idea of competing consumers. We then explored how competing consumers can fail, and how circuit breaker pattern can help. Finally we explored the idea of logging and how tail logging and distributed tracing can be achieved through it. Interviewee i3 challenged the idea of competing consumer and stated that a leader election may be a better choice for a distributed setup as such. The interviewee also mentioned that circuit breakers could be implemented in the competing consumer nodes, but he could see the value of separating it to its own service. Of particular argument was the fact that circuit breaker's implementation may not be that complicated and a dedicated service for it can increase costs.  
+For Velocity, we first started by exploring an event-driven data engineering architecture and then justified the idea of competing consumers. We then explored how competing consumers can fail, and how the circuit breaker pattern can help. Finally we looked into the idea of logging and how tail logging and distributed tracing can be achieved through it. Interviewee i3 challenged the idea of competing consumer and stated that a leader election may be a better choice for a distributed setup as such. The interviewee also mentioned that circuit breakers could be implemented in the competing consumer nodes, but he could see the value of separating it to its own service. Of particular argument was the fact that circuit breaker's implementation may not be that complicated and a dedicated service for it can increase costs.  
 
 \,
 
 \setlength{\fboxsep}{0.7em}
 \noindent\fbox{%
     \parbox{\textwidth}{%
-       Circuit breaker helps with increasing fault tolerance, but it does so by increasing costs.
+       The circuit breaker helps with increasing fault tolerance, but it does so by increasing costs.
     }%
 }
 
 \,
 
-In another interview, interviewee i5 asked about the amalgamation technique for the logs, and discussed how dimensionality of the logs can be challenging. We took both feedbacks of 'leader election' and 'more in-detailed logging approach' into consideration. We researched deeper into leader election, logging approaches, and distributed tracing. We found leader election a bit hard to justify, as it introduces a single point of failure, can potentially introduce faulty data as there is only one point of trust, and partial deployments are really hard to apply. We found that benefits of 'leader election' pattern to be outweighed by the complexity it introduces. In regards to logging, we found various approaches to distributed tracing and log merging, however these were mostly in-detailed micro approaches, which is not in the scope of our study. 
+In another interview, interviewee i5 asked about the amalgamation technique for the logs, and discussed how dimensionality of the logs can be challenging. We took both feedbacks of 'leader election' and 'more in-detailed logging approach' into consideration. We researched deeper into leader election, logging approaches, and distributed tracing. The leader election pattern has been found to be a bit hard to justify, as it introduces a single point of failure, can potentially introduce faulty data as there is only one point of trust, and partial deployments are really hard to apply. Consequently, it was deduced that benefits of 'leader election' pattern to be outweighed by the complexity it introduces. In regards to logging, we found various approaches to distributed tracing and log merging, however these were mostly in-detailed micro approaches, which is not in the scope of our study. 
 
 In another interview, interviewee i2 discussed how circuit breakers may need to do load balancing as well. We then discussed how circuit breakers could be implemented in data processing nodes themselves, or in a side car. The interviewee then explained how they've created a system that resembles to the log aggregator pattern. The interviewee elaborated how the system has a graphical interface that captures errors from various ETL jobs. 
 
-Interviewee i1, i5, and i7 discussed how log aggregator might be a good pattern, but it's not always great to add so many technologies to the stack. Then he added that each system may have a different logging library and interface and aggregating them may need an effective methodology. The interviewee described that logging is better be approached through several layers of abstraction. He described how it would be useful to have some easy to understand metrics on the surface level. He added there should not be a need for technical skills to read these metrics. Nevertheless, there should be detailed logs abstracted for more technical users.
+Interviewee i1, i5, and i7 discussed how log aggregator might be a good pattern, but it's not always great to add so many technologies to the stack. Then he added that each system may have a different logging library and interface and aggregating them may need an effective methodology. The interviewee described that logging is better be approached through several layers of abstraction. He described how it would be useful to have some easy to understand metrics on the surface level. Further, he added there should not be a need for technical skills to read these metrics. Nevertheless, there should be detailed logs abstracted for more technical users.
 
 \,
 
@@ -1625,9 +1625,9 @@ Interviewee i1, i5, and i7 discussed how log aggregator might be a good pattern,
 
 \,
 
-Moreover, i2 and i6 mentioned that only important pieces of information should be collected and presented, as most web servers such as Nginx create so many logs. In an another interviewee, interviewee i6 brough to light the challenges of time-sychroonization in log aggregator pattern. The candidate, who had a background in financial sector, discussed how handling logs from a large amount of services can introduce a challenge of its own. He continued to describe how critical these logs can be during sensitive stream processing tasks, and how data can easily get into petabytes in the banks. 
+Moreover, i2 and i6 mentioned that only important pieces of information should be collected and presented, as most web servers, such as Nginx create so many logs. Interviewee i6 brought to light the challenges of time-sychroonization with the log aggregator pattern. The candidate, who has a background in financial sector, discussed how handling logs from a large number of services can introduce a challenge of its own. He continued to describe how critical these logs can be during sensitive stream processing tasks, and how data can easily get into petabytes in the banks. 
 
-The candidate recommended to design services in a manner that promotes self-awareness. This is to prevent them from breaking silently, which makes debugging and issue resolution much longer. He added that this `awareness' can be complementary to log aggregator, as services can reflect and dispatch an event in regards to the root cause of the failure. In addition, the candidate discussed the benefits of dynamically defining the level of logging. 
+The candidate recommended to design services in a manner that promotes self-awareness. This is to prevent them from breaking silently, which makes debugging and issue resolution take much longer. He added that this `awareness' can be complementary to the log aggregator, as services can reflect and dispatch an event in regards to the root cause of the failure. In addition, the candidate discussed the benefits of dynamically defining the level of logging. 
 
 \,
 
@@ -1640,12 +1640,12 @@ The candidate recommended to design services in a manner that promotes self-awar
 
 \,
 
-He illustrated how dynamically setting the level of logging has been really helpful in his personal experience. The candidate then explore further on low-level technical details of implemeting OpenTelemtry for different cases and with different level of logging.  
+He illustrated how dynamically setting the level of logging has been really helpful in his personal experience. The candidate then explore further on low-level technical details of implemeting OpenTelemtry \cite{chakraborty2021architecture} for different cases and with different level of logging.  
 
-Interviewee i7 decpited the fact that signaling unavailability through a circuit breaker would not suffice. The candidate continued discussing that even when services are down, data should still be stored to be processed later. The candidate discussed that services to processes the data may fail, and you may even signal the data producers. But that does not mean that data producers will stop sending you data! He continued discussing how data coming from the producers may be perceived as one transaction, and how sometimes there is no way to stop the data from getting into the system. 
+Interviewee i7 depicted the fact that signaling unavailability through a circuit breaker would not suffice. The candidate continued discussing that even when services are down, data should still be stored to be processed later. He further highlighted that data processing services may fail, and you may even signal the data producers. But that does not mean that data producers will stop sending you data. He continued to explain how data coming from the producers may be perceived as one transaction, and how sometimes there is no way to stop the data from getting into the system. 
 
 
-Therefore, he suggested that during the failure the incoming data should be stored somewhere to be processed later. In his experience, without this, things would become really challenging and there might even be a data loss. Candidate believed that data producers are hardly controlled by the data engineering pipelines and therefore data architect should adopt the approach of `zero expectation from data producers'. He then continued discussing how his team has been handling these situations in Kafka, and how partitions have helped with consistency through offsets. 
+Therefore, he suggested that during the failure, the incoming data should be stored somewhere to be processed later. In his experience, without this, things would become really challenging and there might even be a data loss. The candidate believes that data producers are hardly controlled by the data engineering pipelines and therefore, data architect, should adopt the approach of `zero expectation from data producers'. He then continued discussing how his team has been handling these situations in Kafka, and how partitions have helped with consistency through offsets. 
 
 
 \,
@@ -1653,7 +1653,7 @@ Therefore, he suggested that during the failure the incoming data should be stor
 \setlength{\fboxsep}{0.7em}
 \noindent\fbox{%
     \parbox{\textwidth}{%
-       Signaling unavailability of a service, does not always mean that data is not sent into the system. Therefore, it is a good practice to store incoming data in case of service unavailability.
+       Signaling unavailability of a service does not always mean that data is not sent into the system. Therefore, it is a good practice to store incoming data in case of service unavailability.
     }%
 }
 
@@ -1675,7 +1675,7 @@ Interviewee i4 provided details on how painful it has been for his team to onboa
 
 \,
 
-Interviewee i5 discussed how the rate of change is very slow and most things are standard in insurance and finance sectors. For instance, he stated that if Avro is being used as the data format, the industry will be using the same format for the next 5 years. Additionally, the interviewee explained breaking that changes, specially schema changes are usually avoided. He added that in German insurance companies, almost everything is standard, and introducing any change would require large scale communication with all insurance companies which is an extensive measure. 
+Interviewee i5 discussed how the rate of change is very slow and most things are standard in insurance and finance sectors. For instance, he stated that if Avro is being used as the data format, the industry will be using the same format for the next 5 years. Additionally, the interviewee outlined breaking that changes, specially schema changes are usually avoided. He added that in German insurance companies, almost everything is standard, and introducing any change would require large scale communication with all insurance companies which is an extensive measure. 
 
 One of the participants who had an experience with firmware development (i6), depicted the challenges of working with Eletronic Data Interchange (EDI) formats. In his experience the data format has hardly changed despite the recent technological advancements, and that had introduced significant challenges to his team. 
 
