@@ -549,6 +549,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 104.
 LaTeX Info: Redefining \pageref on input line 104.
 LaTeX Info: Redefining \nameref on input line 104.
+ (./Microservices-and_BD-Journal.out) (./Microservices-and_BD-Journal.out)
 \@outlinefile=\write3
 \openout3 = `Microservices-and_BD-Journal.out'.
 
@@ -588,66 +589,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 139.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Reference `aff3thanks' on page 1 undefined on input line 139.
-
-
-LaTeX Warning: Reference `aff2thanks' on page 1 undefined on input line 143.
-
 \address@aff3=\toks41
 \address@aff2=\toks42
-
-LaTeX Warning: Citation `NewVantageSurvey' on page 1 undefined on input line 265.
-
-
-LaTeX Warning: Citation `DataBricksSurvey' on page 1 undefined on input line 265.
-
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 268.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-
-LaTeX Warning: Citation `freymann2020tackling' on page 2 undefined on input line 278.
-
-
-LaTeX Warning: Citation `Richardson.2022' on page 2 undefined on input line 278.
-
-
-LaTeX Warning: Citation `ataei2022state' on page 2 undefined on input line 282.
-
-
-LaTeX Warning: Citation `laigner2020monolithic' on page 2 undefined on input line 293.
-
-
-LaTeX Warning: Citation `zhelev2019using' on page 2 undefined on input line 293.
-
-
-LaTeX Warning: Citation `staegemann2021examining' on page 2 undefined on input line 295.
-
-
-LaTeX Warning: Citation `Phi' on page 2 undefined on input line 295.
-
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 2 undefined on input line 295.
-
-
-LaTeX Warning: Citation `Kitchenham.2004' on page 2 undefined on input line 301.
-
-
-LaTeX Warning: Citation `Page.2021' on page 2 undefined on input line 301.
-
-
-LaTeX Warning: Citation `Cruzes.2011' on page 2 undefined on input line 301.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 302.
-
-[2]
-
-LaTeX Warning: Reference `searchTerms' on page 3 undefined on input line 325.
-
-
+] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 []|\OT1/cmss/m/n/8 ACM Dig-i-tal Li-brary
  []
@@ -670,20 +618,7 @@ Overfull \hbox (3.80664pt too wide) in paragraph at lines 342--420
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `tricco2018prisma' on page 3 undefined on input line 428.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 431.
-
 [3]
-
-LaTeX Warning: Citation `Kitchenham.2004' on page 4 undefined on input line 436.
-
-
-LaTeX Warning: Reference `qualityFramework' on page 4 undefined on input line 436.
-
-
 Overfull \hbox (5.63907pt too wide) in paragraph at lines 443--443
 []|\OT1/cmss/m/n/8 Quality
  []
@@ -693,27 +628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--444
 []|\OT1/cmss/m/n/8 Rating to
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 476.
-
-[4]
-
-LaTeX Warning: Reference `qualityFramework' on page 5 undefined on input line 520.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 521.
-
-[5]
-
-LaTeX Warning: Citation `webster2002analyzing' on page 6 undefined on input line 548.
-
-
-LaTeX Warning: Reference `finalLiterature' on page 6 undefined on input line 551.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 552.
-
-[6]
+[4] [5] [6]
 Overfull \hbox (2.79362pt too wide) in paragraph at lines 558--558
 []|\OT1/cmss/m/n/8 Quality
  []
@@ -749,9 +664,6 @@ Underfull \hbox (badness 1142) in paragraph at lines 562--562
  []
 
 
-LaTeX Warning: Citation `Taibi.2018' on page 7 undefined on input line 562.
-
-
 Underfull \hbox (badness 6078) in paragraph at lines 564--564
 []|\OT1/cmss/m/n/8 Actual Use of Ar-chi-tec-tural
  []
@@ -785,9 +697,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 564--564
 Underfull \hbox (badness 10000) in paragraph at lines 564--564
 \OT1/cmss/m/n/8 IEEE
  []
-
-
-LaTeX Warning: Citation `Marquez.2018' on page 7 undefined on input line 564.
 
 
 Underfull \hbox (badness 2707) in paragraph at lines 566--566
@@ -845,9 +754,6 @@ Overfull \hbox (3.50603pt too wide) in paragraph at lines 567--567
  []
 
 
-LaTeX Warning: Citation `Ntentos.2019' on page 7 undefined on input line 567.
-
-
 Underfull \hbox (badness 1365) in paragraph at lines 570--570
 []|\OT1/cmss/m/n/8 Using ar-chi-tec-tural mod-i-fi-a-bil-
  []
@@ -878,9 +784,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 570--570
  []
 
 
-LaTeX Warning: Citation `Bogner.2019' on page 7 undefined on input line 570.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 572--572
 []|\OT1/cmss/m/n/8 Programming
  []
@@ -901,15 +804,9 @@ Overfull \hbox (3.50603pt too wide) in paragraph at lines 572--572
  []
 
 
-LaTeX Warning: Citation `Valdivia.2020' on page 7 undefined on input line 572.
-
-
 Underfull \hbox (badness 3780) in paragraph at lines 574--574
 []|\OT1/cmss/m/n/8 Proceedings of
  []
-
-
-LaTeX Warning: Citation `Laigner.2021' on page 7 undefined on input line 574.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 576--576
@@ -925,9 +822,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 576--576
 Underfull \hbox (badness 10000) in paragraph at lines 576--576
 \OT1/cmss/m/n/8 enceDi-
  []
-
-
-LaTeX Warning: Citation `aksakalli2021deployment' on page 7 undefined on input line 576.
 
 
 Underfull \hbox (badness 940) in paragraph at lines 578--578
@@ -995,9 +889,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--578
  []
 
 
-LaTeX Warning: Citation `Waseem.2022' on page 7 undefined on input line 578.
-
-
 Underfull \hbox (badness 1424) in paragraph at lines 580--580
 \OT1/cmss/m/n/8 Us-ing Pat-terns: An Em-pir-i-cal
  []
@@ -1018,9 +909,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--580
  []
 
 
-LaTeX Warning: Citation `Vale.2022' on page 7 undefined on input line 580.
-
-
 Overfull \hbox (4.68651pt too wide) in paragraph at lines 582--582
 []|\OT1/cmss/m/n/8 S10| 
  []
@@ -1036,24 +924,9 @@ Underfull \hbox (badness 3746) in paragraph at lines 582--582
  []
 
 
-LaTeX Warning: Citation `Weerasinghe.2022' on page 7 undefined on input line 582.
-
-
 Overfull \hbox (17.43697pt too wide) in paragraph at lines 556--586
  [][] 
  []
-
-
-LaTeX Warning: Citation `Taibi.2018' on page 7 undefined on input line 598.
-
-
-LaTeX Warning: Citation `Marquez.2018' on page 7 undefined on input line 599.
-
-
-LaTeX Warning: Citation `Ntentos.2019' on page 7 undefined on input line 600.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 601.
 
 [7]
 
@@ -1062,274 +935,12 @@ LaTeX Warning: Text page 8 contains only floats.
 
 Overfull \vbox (5.49974pt too high) has occurred while \output is active []
 
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 601.
-
-[8]
-
-LaTeX Warning: Citation `Bogner.2019' on page 9 undefined on input line 601.
-
-
-LaTeX Warning: Citation `Valdivia.2020' on page 9 undefined on input line 602.
-
-
-LaTeX Warning: Citation `Laigner.2021' on page 9 undefined on input line 603.
-
-
-LaTeX Warning: Citation `Laigner.2021' on page 9 undefined on input line 603.
-
-
-LaTeX Warning: Citation `aksakalli2021deployment' on page 9 undefined on input line 604.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 605.
-
-[9]
-
-LaTeX Warning: Citation `Waseem.2022' on page 10 undefined on input line 605.
-
-
-LaTeX Warning: Citation `Vale.2022' on page 10 undefined on input line 606.
-
-
-LaTeX Warning: Citation `AAC.2022' on page 10 undefined on input line 606.
-
-
-LaTeX Warning: Citation `Weerasinghe.2022' on page 10 undefined on input line 607.
-
-
-LaTeX Warning: Citation `Page.2021' on page 10 undefined on input line 607.
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 608.
-
-[10]
-
-LaTeX Warning: Citation `Cruzes.2011' on page 11 undefined on input line 616.
-
-
-LaTeX Warning: Citation `ataei2022state' on page 11 undefined on input line 626.
-
-
-LaTeX Warning: Citation `ISO20547' on page 11 undefined on input line 809.
-
-
-LaTeX Warning: Citation `fox2014big' on page 11 undefined on input line 809.
-
-
-LaTeX Warning: Citation `golzer2015data' on page 11 undefined on input line 809.
-
-
-LaTeX Warning: Citation `laplante2017requirements' on page 11 undefined on input line 814.
-
-
-LaTeX Warning: Citation `SoftwareArchitectureKazman' on page 11 undefined on input line 814.
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 816.
-
-[11]
-
-LaTeX Warning: Citation `Bughin2016' on page 12 undefined on input line 818.
-
-
-LaTeX Warning: Citation `rad2017big' on page 12 undefined on input line 818.
-
-
-LaTeX Warning: Citation `nadal2017software' on page 12 undefined on input line 818.
-
-
-LaTeX Warning: Citation `Chang.2019' on page 12 undefined on input line 818.
-
-
-LaTeX Warning: Citation `kassab2014state' on page 12 undefined on input line 827.
-
-
-LaTeX Warning: Citation `ISO29148' on page 12 undefined on input line 827.
-
-
-LaTeX Warning: Citation `abran2004software' on page 12 undefined on input line 827.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 900.
-
-[12]
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 936.
-
-[13]
-
-LaTeX Warning: Citation `Richardson.2022' on page 14 undefined on input line 957.
-
-
-LaTeX Warning: Reference `microservices-categorization' on page 14 undefined on input line 957.
-
-
-LaTeX Warning: Citation `richardson2018microservices' on page 14 undefined on input line 957.
-
-
-LaTeX Warning: Citation `fowler1997analysis' on page 14 undefined on input line 974.
-
-
-LaTeX Warning: Citation `buschmann2008pattern' on page 14 undefined on input line 977.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 980.
-
-[14]
+ [8] [9] [10] [11] [12] [13] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 1024--1024
 []|\OT1/cmss/m/n/8 Communicational,
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 1074.
-
-[15]
-
-LaTeX Warning: Reference `APIGATEWAY' on page 16 undefined on input line 1075.
-
-
-LaTeX Warning: Reference `gatewayOffloading' on page 16 undefined on input line 1092.
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 1093.
-
-[16]
-
-LaTeX Warning: Reference `externalConfiguration' on page 17 undefined on input line 1108.
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 1124.
-
-[17]
-
-LaTeX Warning: Reference `competingConsumer' on page 18 undefined on input line 1125.
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 1164.
-
-[18]
-
-LaTeX Warning: Reference `circuitBreaker' on page 19 undefined on input line 1167.
-
-
-LaTeX Warning: Reference `logAggregation' on page 19 undefined on input line 1182.
-
-
-LaTeX Warning: Reference `CQRS' on page 19 undefined on input line 1200.
-
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 1201.
-
-[19]
-
-LaTeX Warning: Reference `antiCorruption' on page 20 undefined on input line 1215.
-
-
-LaTeX Warning: Reference `backend-for-fronted' on page 20 undefined on input line 1231.
-
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 1232.
-
-[20]
-
-LaTeX Warning: Reference `PipesAndFilters' on page 21 undefined on input line 1257.
-
-
-LaTeX Warning: Citation `lankhorst2013language' on page 21 undefined on input line 1272.
-
-
-LaTeX Warning: Citation `Chaabane' on page 21 undefined on input line 1272.
-
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 1277.
-
-[21]
-
-LaTeX Warning: Citation `ataei2020big' on page 22 undefined on input line 1295.
-
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 1301.
-
-[22]
-
-LaTeX Warning: Reference `fig:VolReq' on page 23 undefined on input line 1301.
-
-
-LaTeX Warning: Reference `fig:VolReq' on page 23 undefined on input line 1309.
-
-
-LaTeX Warning: Citation `DataBricksSurvey' on page 23 undefined on input line 1333.
-
-
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 1334.
-
-[23]
-
-LaTeX Warning: Citation `ataei2021neomycelia' on page 24 undefined on input line 1337.
-
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 1347.
-
-[24]
-
-LaTeX Warning: Reference `fig-vel-ra' on page 25 undefined on input line 1351.
-
-
-LaTeX Warning: Reference `fig:VolReq' on page 25 undefined on input line 1375.
-
-
-LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 1380.
-
-[25]
-
-LaTeX Warning: Reference `fig:Value Requirements' on page 26 undefined on input line 1398.
-
-
-LaTeX Warning: Reference `LastPage' on page 26 undefined on input line 1399.
-
-[26]
-
-LaTeX Warning: Citation `eryurek2021data' on page 27 undefined on input line 1411.
-
-
-LaTeX Warning: Reference `fig-vel-ra' on page 27 undefined on input line 1429.
-
-
-LaTeX Warning: Reference `LastPage' on page 27 undefined on input line 1430.
-
-[27]
-
-LaTeX Warning: Reference `fig:SaP Requirements' on page 28 undefined on input line 1449.
-
-
-LaTeX Warning: Reference `LastPage' on page 28 undefined on input line 1450.
-
-[28]
-
-LaTeX Warning: Citation `wieringa2014design' on page 29 undefined on input line 1461.
-
-
-LaTeX Warning: Citation `kallio2016systematic' on page 29 undefined on input line 1461.
-
-
-LaTeX Warning: Citation `kallio2016systematic' on page 29 undefined on input line 1472.
-
-
-LaTeX Warning: Reference `interviewGuide' on page 29 undefined on input line 1474.
-
-
-LaTeX Warning: Citation `baltes2022sampling' on page 29 undefined on input line 1479.
-
-
-LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 1481.
-
-[29]
-
-LaTeX Warning: Reference `interviewees' on page 30 undefined on input line 1481.
-
-
+[15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
 Underfull \hbox (badness 10000) in paragraph at lines 1494--1495
 []|\OT1/cmss/m/n/8 Human Re-sources
  []
@@ -1359,17 +970,7 @@ Overfull \hbox (0.73856pt too wide) in paragraph at lines 1504--1505
 []|\OT1/cmss/m/n/8 Telecommunications| 
  []
 
-
-LaTeX Warning: Reference `requirementSpec' on page 30 undefined on input line 1514.
-
-
-LaTeX Warning: Reference `LastPage' on page 30 undefined on input line 1522.
-
 [30]
-
-LaTeX Warning: Reference `volume' on page 31 undefined on input line 1527.
-
-
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1535--1540
 [] 
  []
@@ -1378,9 +979,6 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1535--1540
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1548--1553
 [] 
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 1557.
 
 [31]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1565--1570
@@ -1392,9 +990,6 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1583--1588
 [] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 1589.
-
 [32]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1602--1607
 [] 
@@ -1405,14 +1000,7 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1617--1622
 [] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 33 undefined on input line 1623.
-
 [33]
-
-LaTeX Warning: Citation `chakraborty2021architecture' on page 34 undefined on input line 1625.
-
-
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1636--1641
 [] 
  []
@@ -1421,9 +1009,6 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1636--1641
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1652--1657
 [] 
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 34 undefined on input line 1658.
 
 [34]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1667--1672
@@ -1435,19 +1020,10 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1688--1693
 [] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 35 undefined on input line 1698.
-
 [35]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1709--1714
 [] 
  []
-
-
-LaTeX Warning: Citation `sriraman2018mu' on page 36 undefined on input line 1720.
-
-
-LaTeX Warning: Reference `LastPage' on page 36 undefined on input line 1721.
 
 [36]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1727--1732
@@ -1459,9 +1035,6 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1742--1747
 [] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 37 undefined on input line 1757.
-
 [37]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1764--1769
 [] 
@@ -1471,9 +1044,6 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1764--1769
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1780--1785
 [] 
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 38 undefined on input line 1795.
 
 [38]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1803--1808
@@ -1490,196 +1060,27 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1836--1841
 [] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 39 undefined on input line 1845.
-
 [39]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <7> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1882.
-
-
-LaTeX Warning: Reference `LastPage' on page 40 undefined on input line 1885.
-
-[40]
+ [40]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 1893.
 
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1926: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1926     \item H
-                  ow do you find the mapping of the patterns to the mentione...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1926: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1926     \item H
-                  ow do you find the mapping of the patterns to the mentione...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1926: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1926     \item H
-                  ow do you find the mapping of the patterns to the mentione...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1927: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1927     \item O
-                  verall, do you think the concepts discussed could be helpf...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1927: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1927     \item O
-                  verall, do you think the concepts discussed could be helpf...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1927: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1927     \item O
-                  verall, do you think the concepts discussed could be helpf...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1928: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1928     \item D
-                  o you see any limitations with our study?
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1928: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1928     \item D
-                  o you see any limitations with our study?
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1928: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1928     \item D
-                  o you see any limitations with our study?
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1929: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1929     \item H
-                  ave we missed any pattern for any problem?
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1929: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1929     \item H
-                  ave we missed any pattern for any problem?
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1929: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1929     \item H
-                  ave we missed any pattern for any problem?
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex:1930: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1930 \end{enumerate}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `LastPage' on page 41 undefined on input line 1961.
-
-[41]
-No file Microservices-and_BD-Journal.bbl.
-<Media/PRISMA-Flowchart-V2.JPG, id=366, 577.40718pt x 796.47563pt>
+[41] (./Microservices-and_BD-Journal.bbl [42] [43])
+<Media/PRISMA-Flowchart-V2.JPG, id=825, 577.40718pt x 796.47563pt>
 File: Media/PRISMA-Flowchart-V2.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart-V2.JPG>
 Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2015.
 (pdftex.def)             Requested size: 227.62204pt x 313.97853pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 2016.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Media/API Gateway.jpg, id=367, 751.80875pt x 289.08pt>
+<Media/API Gateway.jpg, id=826, 751.80875pt x 289.08pt>
 File: Media/API Gateway.jpg Graphic file (type jpg)
 <use Media/API Gateway.jpg>
 Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2022.
@@ -1689,10 +1090,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 2023.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Media/Gateway Offloading.jpg, id=368, 814.04124pt x 414.54875pt>
+<Media/Gateway Offloading.jpg, id=827, 814.04124pt x 414.54875pt>
 File: Media/Gateway Offloading.jpg Graphic file (type jpg)
 <use Media/Gateway Offloading.jpg>
 Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2029.
@@ -1705,7 +1103,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/External Configuration Store.jpg, id=369, 579.16376pt x 332.24126pt>
+<Media/External Configuration Store.jpg, id=828, 579.16376pt x 332.24126pt>
 File: Media/External Configuration Store.jpg Graphic file (type jpg)
 <use Media/External Configuration Store.jpg>
 Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2036.
@@ -1718,7 +1116,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Competing Consumers.jpg, id=370, 725.71124pt x 269.005pt>
+<Media/Competing Consumers.jpg, id=829, 725.71124pt x 269.005pt>
 File: Media/Competing Consumers.jpg Graphic file (type jpg)
 <use Media/Competing Consumers.jpg>
 Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2043.
@@ -1731,7 +1129,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Circuit Breaker.jpg, id=371, 789.95125pt x 66.2475pt>
+<Media/Circuit Breaker.jpg, id=830, 789.95125pt x 66.2475pt>
 File: Media/Circuit Breaker.jpg Graphic file (type jpg)
 <use Media/Circuit Breaker.jpg>
 Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2050.
@@ -1744,7 +1142,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Log Aggregation Pattern.jpg, id=372, 699.61375pt x 380.42125pt>
+<Media/Log Aggregation Pattern.jpg, id=831, 699.61375pt x 380.42125pt>
 File: Media/Log Aggregation Pattern.jpg Graphic file (type jpg)
 <use Media/Log Aggregation Pattern.jpg>
 Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2057.
@@ -1757,7 +1155,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Command and Query Responsibility Segregation.jpg, id=373, 1328.965pt x 344.28625pt>
+<Media/Command and Query Responsibility Segregation.jpg, id=832, 1328.965pt x 344.28625pt>
 File: Media/Command and Query Responsibility Segregation.jpg Graphic file (type jpg)
 <use Media/Command and Query Responsibility Segregation.jpg>
 Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2064.
@@ -1770,7 +1168,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Anti-Corruption Layer.jpg, id=374, 1155.31625pt x 437.635pt>
+<Media/Anti-Corruption Layer.jpg, id=833, 1155.31625pt x 437.635pt>
 File: Media/Anti-Corruption Layer.jpg Graphic file (type jpg)
 <use Media/Anti-Corruption Layer.jpg>
 Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2071.
@@ -1783,7 +1181,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Backend for Frontend.jpg, id=375, 980.66376pt x 645.41125pt>
+<Media/Backend for Frontend.jpg, id=834, 980.66376pt x 645.41125pt>
 File: Media/Backend for Frontend.jpg Graphic file (type jpg)
 <use Media/Backend for Frontend.jpg>
 Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2078.
@@ -1796,7 +1194,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Pipes and Filters.jpg, id=376, 1383.1675pt x 71.26625pt>
+<Media/Pipes and Filters.jpg, id=835, 1383.1675pt x 71.26625pt>
 File: Media/Pipes and Filters.jpg Graphic file (type jpg)
 <use Media/Pipes and Filters.jpg>
 Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2085.
@@ -1809,7 +1207,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Vol-1 Requirement RA.jpg, id=377, 1469.49pt x 743.77875pt>
+<Media/Vol-1 Requirement RA.jpg, id=836, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
 Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2093.
@@ -1822,7 +1220,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Velocity Requirement.jpg, id=378, 1512.65125pt x 726.715pt>
+<Media/Velocity Requirement.jpg, id=837, 1512.65125pt x 726.715pt>
 File: Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use Media/Velocity Requirement.jpg>
 Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2100.
@@ -1835,7 +1233,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Media/Value Requirement.jpg, id=379, 1752.5475pt x 729.72626pt>
+<Media/Value Requirement.jpg, id=838, 1752.5475pt x 729.72626pt>
 File: Media/Value Requirement.jpg Graphic file (type jpg)
 <use Media/Value Requirement.jpg>
 Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2108.
@@ -1848,7 +1246,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Privacy and Security Requirements.jpg, id=380, 1590.94376pt x 538.01pt>
+<Media/Privacy and Security Requirements.jpg, id=839, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
 Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2115.
@@ -1863,30 +1261,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 42 undefined on input line 2121.
-
-[42]
-
-LaTeX Warning: Reference `LastPage' on page 43 undefined on input line 2121.
-
-[43 <./Media/PRISMA-Flowchart-V2.JPG> <./Media/API Gateway.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 44 undefined on input line 2121.
-
-[44 <./Media/Gateway Offloading.jpg> <./Media/External Configuration Store.jpg> <./Media/Competing Consumers.jpg> <./Media/Circuit Breaker.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 45 undefined on input line 2121.
-
-[45 <./Media/Log Aggregation Pattern.jpg> <./Media/Command and Query Responsibility Segregation.jpg> <./Media/Anti-Corruption Layer.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 46 undefined on input line 2121.
-
-[46 <./Media/Backend for Frontend.jpg> <./Media/Pipes and Filters.jpg> <./Media/Vol-1 Requirement RA.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 47 undefined on input line 2121.
-
-[47 <./Media/Velocity Requirement.jpg> <./Media/Value Requirement.jpg> <./Media/Privacy and Security Requirements.jpg>] (./Microservices-and_BD-Journal.aux)
+[44 <./Media/PRISMA-Flowchart-V2.JPG> <./Media/API Gateway.jpg>] [45 <./Media/Gateway Offloading.jpg> <./Media/External Configuration Store.jpg> <./Media/Competing Consumers.jpg> <./Media/Circuit Breaker.jpg>] [46 <./Media/Log Aggregation Pattern.jpg> <./Media/Command and Query Responsibility Segregation.jpg> <./Media/Anti-Corruption Layer.jpg>] [47 <./Media/Backend for Frontend.jpg> <./Media/Pipes and Filters.jpg> <./Media/Vol-1 Requirement RA.jpg>] [48 <./Media/Velocity Requirement.jpg> <./Media/Value Requirement.jpg> <./Media/Privacy and Security Requirements.jpg>] (./Microservices-and_BD-Journal.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1894,40 +1269,22 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Microservices-and_BD-Journal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Microservices-and_BD-Journal.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B482E9314438C6A44DC4F9459437A0A5;12501.
+Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
+(rerunfilecheck)             Checksum: B482E9314438C6A44DC4F9459437A0A5;12501.
  ) 
 Here is how much of TeX's memory you used:
- 14954 strings out of 478238
- 239819 string characters out of 5850455
- 558325 words of memory out of 5000000
- 32707 multiletter control sequences out of 15000+600000
- 481557 words of font info for 75 fonts, out of 8000000 for 9000
+ 15107 strings out of 478238
+ 242684 string characters out of 5850455
+ 564313 words of memory out of 5000000
+ 32797 multiletter control sequences out of 15000+600000
+ 481716 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,1543b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-pdfTeX warning (dest): name{aff2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{aff3} has been referenced but does not exist, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Microservices-and_BD-Journal.pdf (47 pages, 1412684 bytes).
+ 72i,11n,77p,1543b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Microservices-and_BD-Journal.pdf (48 pages, 1442486 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 451 compressed objects within 5 object streams
- 259 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 996 PDF objects out of 1000 (max. 8388607)
+ 901 compressed objects within 10 object streams
+ 316 named destinations out of 1000 (max. 500000)
+ 676 words of extra memory for PDF output out of 10000 (max. 10000000)
 

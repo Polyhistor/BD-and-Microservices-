@@ -1,0 +1,304 @@
+\begin{thebibliography}{10}
+
+\bibitem{NewVantageSurvey}
+Davenport TH, Bean R. Davenport TH, Bean R, editors. Big Data and AI Executive
+  Survey 2021.
+\newblock NewVantage Partners; 2022.
+\newblock Available from: \url{https://www.newvantage.com/thoughtleadership}.
+
+\bibitem{DataBricksSurvey}
+technology review insights in partnership~with Databricks M.
+\newblock Building a high-performance data organization; 2021.
+\newblock Available from:
+  \url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}.
+
+\bibitem{freymann2020tackling}
+Freymann A, Maier F, Schaefer K, B{\"o}hnel T.
+\newblock Tackling the Six Fundamental Challenges of Big Data in Research
+  Projects by Utilizing a Scalable and Modular Architecture.
+\newblock In: IoTBDS; 2020. p. 249--256.
+
+\bibitem{Richardson.2022}
+Richardson C. Richardson C, editor. A pattern language for microservices.
+\newblock https://microservices.io; 2022.
+\newblock Available from: \url{https://microservices.io/patterns/index.html}.
+
+\bibitem{ataei2022state}
+Ataei P, Litchfield A.
+\newblock The state of big data reference architectures: a systematic
+  literature review.
+\newblock IEEE Access. 2022;10.
+
+\bibitem{laigner2020monolithic}
+Laigner R, Kalinowski M, Diniz P, Barros L, Cassino C, Lemos M, et~al.
+\newblock From a monolithic big data system to a microservices event-driven
+  architecture.
+\newblock In: 2020 46th Euromicro Conference on Software Engineering and
+  Advanced Applications (SEAA). IEEE; 2020. p. 213--220.
+
+\bibitem{zhelev2019using}
+Zhelev S, Rozeva A.
+\newblock Using microservices and event driven architecture for big data stream
+  processing.
+\newblock In: AIP Conference Proceedings. vol. 2172. AIP Publishing LLC; 2019.
+  p. 090010.
+
+\bibitem{staegemann2021examining}
+Staegemann D, Volk M, Shakir A, Lautenschl{\"a}ger E, Turowski K.
+\newblock Examining the Interplay Between Big Data and Microservices--A
+  Bibliometric Review.
+\newblock Complex Systems Informatics and Modeling Quarterly.
+  2021;27(27):87--118.
+
+\bibitem{Phi}
+Maamouri A, Sfaxi L, Robbana R.
+\newblock Phi: A Generic Microservices-Based Big Data Architecture.
+\newblock In: European, Mediterranean, and Middle Eastern Conference on
+  Information Systems. Springer; 2021. p. 3--16.
+
+\bibitem{ataei2021neomycelia}
+Ataei P, Litchfield A.
+\newblock NeoMycelia: A software reference architecturefor big data systems.
+\newblock In: 2021 28th Asia-Pacific Software Engineering Conference (APSEC).
+  IEEE; 2021. p. 452--462.
+
+\bibitem{Kitchenham.2004}
+Kitchenham BA, Dyba T, Jorgensen M.
+\newblock Evidence-based software engineering.
+\newblock In: Proceedings of the 26th International Conference on Software
+  Engineering. {IEEE Comput. Soc}; 2004. p. 273--281.
+
+\bibitem{Page.2021}
+Page MJ, Moher D, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et~al.
+\newblock PRISMA 2020 explanation and elaboration: updated guidance and
+  exemplars for reporting systematic reviews.
+\newblock BMJ (Clinical research ed). 2021;372:n160.
+
+\bibitem{Cruzes.2011}
+Cruzes DS, Dyba T.
+\newblock Recommended Steps for Thematic Synthesis in Software Engineering.
+\newblock In: 2011 International Symposium on Empirical Software Engineering
+  and Measurement. IEEE; 2011. p. 275--284.
+
+\bibitem{tricco2018prisma}
+Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, et~al.
+\newblock PRISMA extension for scoping reviews (PRISMA-ScR): checklist and
+  explanation.
+\newblock Annals of internal medicine. 2018;169(7):467--473.
+
+\bibitem{webster2002analyzing}
+Webster J, Watson RT.
+\newblock Analyzing the past to prepare for the future: Writing a literature
+  review.
+\newblock MIS quarterly. 2002;p. xiii--xxiii.
+
+\bibitem{Taibi.2018}
+Taibi D, Lenarduzzi V, Pahl C.
+\newblock Architectural Patterns for Microservices: A Systematic Mapping Study.
+\newblock In: Proceedings of the 8th International Conference on Cloud
+  Computing and Services Science. {SCITEPRESS - Science and Technology
+  Publications}; 2018. p. 221--232.
+
+\bibitem{Marquez.2018}
+Marquez G, Astudillo H.
+\newblock Actual Use of Architectural Patterns in Microservices-Based Open
+  Source Projects.
+\newblock In: 2018 25th Asia-Pacific Software Engineering Conference (APSEC).
+  IEEE; 2018. p. 31--40.
+
+\bibitem{Ntentos.2019}
+Ntentos E, Zdun U, Plakidas K, Schall D, Li F, Meixner S.
+\newblock Supporting Architectural Decision Making on Data Management in
+  Microservice Architectures.
+\newblock In: Bures T, Duchien L, Inverardi P, editors. Software Architecture.
+  vol. 11681 of Lecture Notes in Computer Science. Cham: {Springer
+  International Publishing}; 2019. p. 20--36.
+
+\bibitem{Bogner.2019}
+Bogner J, Wagner S, Zimmermann A.
+\newblock Using architectural modifiability tactics to examine evolution
+  qualities of Service- and Microservice-Based Systems: An approach based on
+  principles and patterns.
+\newblock SICS Software-Intensive Cyber-Physical Systems.
+  2019;34(2-3):141--149.
+
+\bibitem{Valdivia.2020}
+Valdivia JA, Lora-Gonz{\'a}lez A, Lim{\'o}n X, Cortes-Verdin K,
+  Ochar{\'a}n-Hern{\'a}ndez JO.
+\newblock Patterns Related to Microservice Architecture: a Multivocal
+  Literature Review.
+\newblock Programming and Computer Software. 2020;46(8):594--608.
+
+\bibitem{Laigner.2021}
+Laigner R, Zhou Y, Salles MAV, Liu Y, Kalinowski M.
+\newblock Data management in microservices: State of the practice, challenges,
+  and research directions.
+\newblock Proceedings of the VLDB Endowment. 2021;14(13):3348--3361.
+
+\bibitem{aksakalli2021deployment}
+Aksakalli IK, {\c{C}}elik T, Can AB, Tekinerdogan B.
+\newblock Deployment and communication patterns in microservice architectures:
+  A systematic literature review.
+\newblock Journal of Systems and Software. 2021;180:111014.
+
+\bibitem{Waseem.2022}
+Waseem M, Liang P, Ahmad A, Shahin M, Khan AA, Marquez G.
+\newblock Decision Models for Selecting Patterns and Strategies in
+  Microservices Systems and their Evaluation by Practitioners.
+\newblock In: 2022 IEEE/ACM 44th International Conference on Software
+  Engineering: Software Engineering in Practice (ICSE-SEIP). IEEE; 2022. p.
+  135--144.
+
+\bibitem{Vale.2022}
+Vale G, Correia FF, Guerra EM, de~{Oliveira Rosa} T, Fritzsch J, Bogner J.
+\newblock Designing Microservice Systems Using Patterns: An Empirical Study on
+  Quality Trade-Offs.
+\newblock In: 2022 IEEE 19th International Conference on Software Architecture
+  (ICSA). IEEE; 2022. p. 69--79.
+
+\bibitem{Weerasinghe.2022}
+Weerasinghe S, Perera I.
+\newblock Taxonomical Classification and Systematic Review on Microservices.
+\newblock International Journal of Engineering Trends and Technology.
+  2022;70(3):222--233.
+
+\bibitem{AAC.2022}
+Microsoft. Microsoft, editor. Design and implementation patterns.
+\newblock Microsoft; 2022.
+\newblock Available from:
+  \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
+
+\bibitem{ISO20547}
+for Standardization~(ISO/IEC) IO. for Standardization~(ISO/IEC) IO, editor.
+  ISO/IEC TR 20547-1:2020.
+\newblock ISO/IEC; 2020.
+\newblock Available from: \url{https://www.iso.org/standard/71275.html}.
+
+\bibitem{fox2014big}
+Fox G, Chang W.
+\newblock Big data use cases and requirements.
+\newblock In: 1st Big Data Interoperability Framework Workshop: Building Robust
+  Big Data Ecosystem ISO/IEC JTC. vol.~1; 2014. p. 18--21.
+
+\bibitem{golzer2015data}
+G{\"o}lzer P, Cato P, Amberg M.
+\newblock Data processing requirements of industry 4.0-use cases for big data
+  applications.
+\newblock European Conference on Information Systems. 2015;.
+
+\bibitem{laplante2017requirements}
+Laplante PA.
+\newblock Requirements engineering for software and systems.
+\newblock Auerbach Publications; 2017.
+
+\bibitem{SoftwareArchitectureKazman}
+Len~Bass RK Dr Paul~Clements.
+\newblock Software Architecture in Practice (SEI Series in Software
+  Engineering) 4th Edition.
+\newblock Addison-Wesley Professional; 4th edition; 2021.
+
+\bibitem{Bughin2016}
+Bughin J.
+\newblock Big data, Big bang? [Journal Article].
+\newblock Journal of Big Data. 2016;3(1):2.
+
+\bibitem{rad2017big}
+Rad BB, Ataei P.
+\newblock The big data ecosystem and its environs.
+\newblock International Journal of Computer Science and Network Security
+  (IJCSNS). 2017;17(3):38.
+
+\bibitem{nadal2017software}
+Nadal S, Herrero V, Romero O, Abell{\'o} A, Franch X, Vansummeren S, et~al.
+\newblock A software reference architecture for semantic-aware Big Data
+  systems.
+\newblock Information and software technology. 2017;90:75--92.
+
+\bibitem{Chang.2019}
+Chang WL, Grady N. Chang WL, Grady N, editors. NIST Big Data Interoperability
+  Framework: Volume 1, Definitions.
+\newblock NIST Big Data Public Working Group Definitions and Taxonomies
+  Subgroup; 2019.
+\newblock Available from: \url{https://doi.org/10.6028/NIST.SP.1500-1r2}.
+
+\bibitem{kassab2014state}
+Kassab M, Neill C, Laplante P.
+\newblock State of practice in requirements engineering: contemporary data.
+\newblock Innovations in Systems and Software Engineering. 2014;10(4):235--241.
+
+\bibitem{ISO29148}
+29148:2018 I. 29148:2018 I, editor. ISO/IEC 29148:2018.
+\newblock ISO; 2018.
+\newblock Available from: \url{https://www.iso.org/standard/72089.html}.
+
+\bibitem{abran2004software}
+Abran A, Moore JW, Bourque P, Dupuis R, Tripp L.
+\newblock Software engineering body of knowledge.
+\newblock IEEE Computer Society, Angela Burgess. 2004;p.~25.
+
+\bibitem{richardson2018microservices}
+Richardson C.
+\newblock Microservices patterns: with examples in Java.
+\newblock Simon and Schuster; 2018.
+
+\bibitem{fowler1997analysis}
+Fowler M.
+\newblock Analysis patterns: reusable object models.
+\newblock Addison-Wesley Professional; 1997.
+
+\bibitem{buschmann2008pattern}
+Buschmann F, Meunier R, Rohnert H, Sommerlad P, Stal M.
+\newblock Pattern-Oriented Software Architecture: A System of Patterns, Volume
+  1. vol.~1.
+\newblock John wiley \& sons; 2008.
+
+\bibitem{lankhorst2013language}
+Lankhorst M.
+\newblock A Language for Enterprise Modelling.
+\newblock In: Enterprise Architecture at Work. Springer; 2013. p. 75--114.
+
+\bibitem{Chaabane}
+Chaabane M, Bouassida I, Jmaiel M.
+\newblock System of systems software architecture description using the
+  ISO/IEC/IEEE 42010 standard.
+\newblock In: Proceedings of the Symposium on Applied Computing; 2017. p.
+  1793--1798.
+
+\bibitem{ataei2020big}
+Big data reference architectures, a systematic literature review; 2020.
+
+\bibitem{eryurek2021data}
+Eryurek E, Gilad U, Lakshmanan V, Kibunguchy-Grant A, Ashdown J.
+\newblock Data Governance: The Definitive Guide.
+\newblock " O\'Reilly Media, Inc."; 2021.
+
+\bibitem{wieringa2014design}
+Wieringa RJ.
+\newblock Design science methodology for information systems and software
+  engineering.
+\newblock Springer; 2014.
+
+\bibitem{kallio2016systematic}
+Kallio H, Pietil{\"a} AM, Johnson M, Kangasniemi M.
+\newblock Systematic methodological review: developing a framework for a
+  qualitative semi-structured interview guide.
+\newblock Journal of advanced nursing. 2016;72(12):2954--2965.
+
+\bibitem{baltes2022sampling}
+Baltes S, Ralph P.
+\newblock Sampling in software engineering research: A critical review and
+  guidelines.
+\newblock Empirical Software Engineering. 2022;27(4):1--31.
+
+\bibitem{chakraborty2021architecture}
+Chakraborty M, Kundan AP.
+\newblock Architecture of a Modern Monitoring System.
+\newblock In: Monitoring Cloud-Native Applications. Springer; 2021. p. 55--96.
+
+\bibitem{sriraman2018mu}
+Sriraman A, Wenisch TF.
+\newblock $\mu$ suite: a benchmark suite for microservices.
+\newblock In: 2018 IEEE International Symposium on Workload Characterization
+  (IISWC). IEEE; 2018. p. 1--12.
+
+\end{thebibliography}
