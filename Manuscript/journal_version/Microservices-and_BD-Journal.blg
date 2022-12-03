@@ -7,47 +7,46 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
 Database file #1: references.bib
-Warning--I didn't find a database entry for "bass2003software"
 Warning--I didn't find a database entry for "li2019impact"
-You've used 49 entries,
+You've used 50 entries,
             3170 wiz_defined-function locations,
-            955 strings with 15469 characters,
-and the built_in function-call counts, 84146 in all, are:
-= -- 10422
-> -- 637
+            960 strings with 15671 characters,
+and the built_in function-call counts, 85136 in all, are:
+= -- 10545
+> -- 641
 < -- 23
-+ -- 345
-- -- 159
-* -- 6924
-:= -- 9144
-add.period$ -- 177
-call.type$ -- 49
++ -- 348
+- -- 160
+* -- 6997
+:= -- 9252
+add.period$ -- 180
+call.type$ -- 50
 change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 6506
-empty$ -- 8132
-format.name$ -- 199
-if$ -- 19828
+cite$ -- 50
+duplicate$ -- 6588
+empty$ -- 8235
+format.name$ -- 200
+if$ -- 20067
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 478
-newline$ -- 246
-num.names$ -- 62
-pop$ -- 1027
+int.to.str$ -- 50
+missing$ -- 483
+newline$ -- 251
+num.names$ -- 63
+pop$ -- 1045
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1042
+skip$ -- 1055
 stack$ -- 0
-substring$ -- 16340
-swap$ -- 1210
+substring$ -- 16518
+swap$ -- 1222
 text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 436
-width$ -- 51
-write$ -- 553
-(There were 2 warnings)
+while$ -- 440
+width$ -- 52
+write$ -- 563
+(There was 1 warning)
