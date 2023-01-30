@@ -1,7 +1,7 @@
-PWD /home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version
+PWD /home/pouya/Desktop/projects/BD-and-MS-Patterns/Manuscript/journal_version
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex
+INPUT /home/pouya/Desktop/projects/BD-and-MS-Patterns/Manuscript/journal_version/Microservices-and_BD-Journal.tex
 OUTPUT Microservices-and_BD-Journal.log
 INPUT ./bmcart.cls
 INPUT ./bmcart.cls

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  3 DEC 2022 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  30 JAN 2023 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex
-(/home/pouya/Desktop/projects/msAndBDJournal/Manuscript/journal_version/Microservices-and_BD-Journal.tex
+**/home/pouya/Desktop/projects/BD-and-MS-Patterns/Manuscript/journal_version/Microservices-and_BD-Journal.tex
+(/home/pouya/Desktop/projects/BD-and-MS-Patterns/Manuscript/journal_version/Microservices-and_BD-Journal.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (./bmcart.cls
 Document Class: bmcart 2017/07/31BioMed Central class (VS)
@@ -1060,200 +1060,200 @@ Overfull \hbox (14.79993pt too wide) in paragraph at lines 1836--1841
 [] 
  []
 
-[39]
+[39] [40]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1882.
- [40]
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1915.
+ [41]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 1893.
+(Font)              using `OT1/cmss/bx/n' instead on input line 1926.
 
-[41] (./Microservices-and_BD-Journal.bbl [42] [43])
-<Media/PRISMA-Flowchart-V2.JPG, id=825, 577.40718pt x 796.47563pt>
+[42] (./Microservices-and_BD-Journal.bbl [43] [44])
+<Media/PRISMA-Flowchart-V2.JPG, id=840, 577.40718pt x 796.47563pt>
 File: Media/PRISMA-Flowchart-V2.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart-V2.JPG>
-Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2015.
+Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2048.
 (pdftex.def)             Requested size: 227.62204pt x 313.97853pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2016.
+(caption)                particular \caption on input line 2049.
 See the caption package documentation for explanation.
 
-<Media/API Gateway.jpg, id=826, 751.80875pt x 289.08pt>
+<Media/API Gateway.jpg, id=841, 751.80875pt x 289.08pt>
 File: Media/API Gateway.jpg Graphic file (type jpg)
 <use Media/API Gateway.jpg>
-Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2022.
+Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2055.
 (pdftex.def)             Requested size: 256.0748pt x 98.46674pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2023.
+(caption)                particular \caption on input line 2056.
 See the caption package documentation for explanation.
 
-<Media/Gateway Offloading.jpg, id=827, 814.04124pt x 414.54875pt>
+<Media/Gateway Offloading.jpg, id=842, 814.04124pt x 414.54875pt>
 File: Media/Gateway Offloading.jpg Graphic file (type jpg)
 <use Media/Gateway Offloading.jpg>
-Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2029.
+Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2062.
 (pdftex.def)             Requested size: 284.52756pt x 144.89182pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2030.
+(caption)                particular \caption on input line 2063.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/External Configuration Store.jpg, id=828, 579.16376pt x 332.24126pt>
+<Media/External Configuration Store.jpg, id=843, 579.16376pt x 332.24126pt>
 File: Media/External Configuration Store.jpg Graphic file (type jpg)
 <use Media/External Configuration Store.jpg>
-Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2036.
+Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2069.
 (pdftex.def)             Requested size: 284.52756pt x 163.2204pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2037.
+(caption)                particular \caption on input line 2070.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Competing Consumers.jpg, id=829, 725.71124pt x 269.005pt>
+<Media/Competing Consumers.jpg, id=844, 725.71124pt x 269.005pt>
 File: Media/Competing Consumers.jpg Graphic file (type jpg)
 <use Media/Competing Consumers.jpg>
-Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2043.
+Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2076.
 (pdftex.def)             Requested size: 284.52756pt x 105.46976pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2044.
+(caption)                particular \caption on input line 2077.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Circuit Breaker.jpg, id=830, 789.95125pt x 66.2475pt>
+<Media/Circuit Breaker.jpg, id=845, 789.95125pt x 66.2475pt>
 File: Media/Circuit Breaker.jpg Graphic file (type jpg)
 <use Media/Circuit Breaker.jpg>
-Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2050.
+Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2083.
 (pdftex.def)             Requested size: 284.52756pt x 23.8612pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2051.
+(caption)                particular \caption on input line 2084.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Log Aggregation Pattern.jpg, id=831, 699.61375pt x 380.42125pt>
+<Media/Log Aggregation Pattern.jpg, id=846, 699.61375pt x 380.42125pt>
 File: Media/Log Aggregation Pattern.jpg Graphic file (type jpg)
 <use Media/Log Aggregation Pattern.jpg>
-Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2057.
+Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2090.
 (pdftex.def)             Requested size: 284.52756pt x 154.71408pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2058.
+(caption)                particular \caption on input line 2091.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Command and Query Responsibility Segregation.jpg, id=832, 1328.965pt x 344.28625pt>
+<Media/Command and Query Responsibility Segregation.jpg, id=847, 1328.965pt x 344.28625pt>
 File: Media/Command and Query Responsibility Segregation.jpg Graphic file (type jpg)
 <use Media/Command and Query Responsibility Segregation.jpg>
-Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2064.
+Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2097.
 (pdftex.def)             Requested size: 312.9803pt x 81.08063pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2065.
+(caption)                particular \caption on input line 2098.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Anti-Corruption Layer.jpg, id=833, 1155.31625pt x 437.635pt>
+<Media/Anti-Corruption Layer.jpg, id=848, 1155.31625pt x 437.635pt>
 File: Media/Anti-Corruption Layer.jpg Graphic file (type jpg)
 <use Media/Anti-Corruption Layer.jpg>
-Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2071.
+Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2104.
 (pdftex.def)             Requested size: 312.9803pt x 118.557pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2072.
+(caption)                particular \caption on input line 2105.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Backend for Frontend.jpg, id=834, 980.66376pt x 645.41125pt>
+<Media/Backend for Frontend.jpg, id=849, 980.66376pt x 645.41125pt>
 File: Media/Backend for Frontend.jpg Graphic file (type jpg)
 <use Media/Backend for Frontend.jpg>
-Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2078.
+Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2111.
 (pdftex.def)             Requested size: 312.9803pt x 205.98431pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2079.
+(caption)                particular \caption on input line 2112.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Pipes and Filters.jpg, id=835, 1383.1675pt x 71.26625pt>
+<Media/Pipes and Filters.jpg, id=850, 1383.1675pt x 71.26625pt>
 File: Media/Pipes and Filters.jpg Graphic file (type jpg)
 <use Media/Pipes and Filters.jpg>
-Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2085.
+Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2118.
 (pdftex.def)             Requested size: 312.9803pt x 16.12555pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2086.
+(caption)                particular \caption on input line 2119.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Vol-1 Requirement RA.jpg, id=836, 1469.49pt x 743.77875pt>
+<Media/Vol-1 Requirement RA.jpg, id=851, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2093.
+Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2126.
 (pdftex.def)             Requested size: 341.43306pt x 172.81328pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2094.
+(caption)                particular \caption on input line 2127.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Velocity Requirement.jpg, id=837, 1512.65125pt x 726.715pt>
+<Media/Velocity Requirement.jpg, id=852, 1512.65125pt x 726.715pt>
 File: Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use Media/Velocity Requirement.jpg>
-Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2100.
+Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2133.
 (pdftex.def)             Requested size: 341.43306pt x 164.02498pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2101.
+(caption)                particular \caption on input line 2134.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Media/Value Requirement.jpg, id=838, 1752.5475pt x 729.72626pt>
+<Media/Value Requirement.jpg, id=853, 1752.5475pt x 729.72626pt>
 File: Media/Value Requirement.jpg Graphic file (type jpg)
 <use Media/Value Requirement.jpg>
-Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2108.
+Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2141.
 (pdftex.def)             Requested size: 341.43306pt x 142.15686pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2109.
+(caption)                particular \caption on input line 2142.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Privacy and Security Requirements.jpg, id=839, 1590.94376pt x 538.01pt>
+<Media/Privacy and Security Requirements.jpg, id=854, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
-Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2115.
+Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2148.
 (pdftex.def)             Requested size: 341.43306pt x 115.45645pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2116.
+(caption)                particular \caption on input line 2149.
 See the caption package documentation for explanation.
 
 
@@ -1261,7 +1261,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 AED: lastpage setting LastPage
-[44 <./Media/PRISMA-Flowchart-V2.JPG> <./Media/API Gateway.jpg>] [45 <./Media/Gateway Offloading.jpg> <./Media/External Configuration Store.jpg> <./Media/Competing Consumers.jpg> <./Media/Circuit Breaker.jpg>] [46 <./Media/Log Aggregation Pattern.jpg> <./Media/Command and Query Responsibility Segregation.jpg> <./Media/Anti-Corruption Layer.jpg>] [47 <./Media/Backend for Frontend.jpg> <./Media/Pipes and Filters.jpg> <./Media/Vol-1 Requirement RA.jpg>] [48 <./Media/Velocity Requirement.jpg> <./Media/Value Requirement.jpg> <./Media/Privacy and Security Requirements.jpg>] (./Microservices-and_BD-Journal.aux)
+[45 <./Media/PRISMA-Flowchart-V2.JPG> <./Media/API Gateway.jpg>] [46 <./Media/Gateway Offloading.jpg> <./Media/External Configuration Store.jpg> <./Media/Competing Consumers.jpg> <./Media/Circuit Breaker.jpg>] [47 <./Media/Log Aggregation Pattern.jpg> <./Media/Command and Query Responsibility Segregation.jpg> <./Media/Anti-Corruption Layer.jpg>] [48 <./Media/Backend for Frontend.jpg> <./Media/Pipes and Filters.jpg> <./Media/Vol-1 Requirement RA.jpg>] [49 <./Media/Velocity Requirement.jpg> <./Media/Value Requirement.jpg> <./Media/Privacy and Security Requirements.jpg>] (./Microservices-and_BD-Journal.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1270,21 +1270,21 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
-(rerunfilecheck)             Checksum: B482E9314438C6A44DC4F9459437A0A5;12501.
+(rerunfilecheck)             Checksum: A35A8504091F02B409E34DC60717D516;12666.
  ) 
 Here is how much of TeX's memory you used:
- 15107 strings out of 478238
- 242684 string characters out of 5850455
- 564313 words of memory out of 5000000
- 32797 multiletter control sequences out of 15000+600000
+ 15116 strings out of 478238
+ 242783 string characters out of 5850455
+ 564315 words of memory out of 5000000
+ 32798 multiletter control sequences out of 15000+600000
  481716 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,1543b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,77p,1547b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Microservices-and_BD-Journal.pdf (48 pages, 1442486 bytes).
+Output written on Microservices-and_BD-Journal.pdf (49 pages, 1445733 bytes).
 PDF statistics:
- 996 PDF objects out of 1000 (max. 8388607)
- 901 compressed objects within 10 object streams
- 316 named destinations out of 1000 (max. 500000)
- 676 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1013 PDF objects out of 1200 (max. 8388607)
+ 917 compressed objects within 10 object streams
+ 324 named destinations out of 1000 (max. 500000)
+ 684 words of extra memory for PDF output out of 10000 (max. 10000000)
 
