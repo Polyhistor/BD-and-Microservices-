@@ -259,7 +259,7 @@
 \section{Introduction}
 
 
-Today, we live in a world that produces data at an unprecedented rate. The attention toward these large volume of data has been growing rapidly and many strive to harness the advantages of this new resource. This has emerged a new era; the era of big data (BD). The BD era emerged when the velocity, variety, and volume of data overwhelmed existing system capability and capacity to effectively and efficiently process and store data. BD analytics can be descriebd as the practice of crunching large sets of heterogenous data to discover patterns and insights for business competitive advantage.
+Today, we live in a world that produces data at an unprecedented rate. The attention toward these large volume of data has been growing rapidly and many strive to harness the advantages of this new resource. This has emerged a new era; the era of big data (BD). The BD era emerged when the velocity, variety, and volume of data overwhelmed existing system capability and capacity to effectively and efficiently process and store data. BD analytics can be described as the practice of crunching large sets of heterogenous data to discover patterns and insights for business competitive advantage.
 
 
 Academics and practitioners have considered means through which they can incorporate data-driven functions and explore patterns that were otherwise unknown. While the opportunities exist with big data (BD), there are many failed attempts. According to a New Vantage Partners report in 2022, only 26.5\% of companies successfully became data-driven \cite{NewVantageSurvey}. Another survey by Databricks highlighted that only 13\% of organizations succeeded in delivering on their data strategy \cite{DataBricksSurvey}. 
@@ -811,7 +811,7 @@ The results of our data synthesis emerged a few themes in regards to BD requirem
 After finding these requirements, we sought for a rigorous approach to categorize and represent these requirements. We also did not know what type of requirements is the most suitable to the goal of this study. To this end, we performed a lightweight literature review in the body of knowledge to realize three major elements: 1) the type of requirements that we need, 2) an approach to categorizing the requirements, 3) presentation of these requirements. 
 
 \subsubsection{Type of requirements}
-System and software requirements come in different flavours and can range from a formal (mathematical) specifications to sketch on a napkin. There is been various attempts to defining and classifying software and system requirements. For the purposes of this study, we opted for a well-received approach discussed by Laplante \cite{laplante2017requirements}. In this approach, requirements are classified into three major types of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. Aditionally, we explored the concept of architectually significant requirements (ASRs) presented by Bass et al. \cite{SoftwareArchitectureKazman}. 
+System and software requirements come in different flavours and can range from a formal (mathematical) specifications to a sketch on a napkin. There is been various attempts to defining and classifying software and system requirements. For the purposes of this study, we opted for a well-received approach discussed by Laplante \cite{laplante2017requirements}. In this approach, requirements are classified into three major types of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. Aditionally, we explored the concept of architectually significant requirements (ASRs) presented by Bass et al. \cite{SoftwareArchitectureKazman}. 
 
 Our objective is to define the high-level requirements of BD systems, thus we do not fully explore 'non-functional' and 'domain' requirements. Majority of non-functional and domain requirements are emerged from the particularities of an environment, such as a banking sector or healthcare, and do not correlate to our study. Therefore, our primary focus is on functional and ASRs. Based on this, we refined the pool of the requirements, which resulted in elimination of 20 entries. 
 
@@ -1118,7 +1118,7 @@ This pattern description language has several elements that do not relate direct
 \subsubsection{Competing Consumers}
 
 \begin{description}
-  \item[Context:] An enterprise application, specially a data-intensive one is expected to handle a large number of requests. Handling these requests synchronously would be challenging. A common approach is for applications to send these requests through a messaging system to another application that handles them asynchronously. This ensures that one blocking service is not gonna have a ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests varies, and while some may be quite cheap, others might be compute intensive.
+  \item[Context:] An enterprise application, specially a data-intensive one is expected to handle a large number of requests. Handling these requests synchronously would be challenging. A common approach is for applications to send these requests through a messaging system to another application that handles them asynchronously. This ensures that one blocking service is not going to have a ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests varies, and while some may be quite cheap, others might be compute intensive.
   \item[Problem:] Should only one consumer instance be responsible for incoming requests? what happens if that consumer instance does not have the computing resources available? what happens if that consumer instance fails? 
   \item[Solution:] A message queue system can be used to load balance requests to different consuming services based on their availability. In this case, a group of consumer applications will be created, which allows for timely processing of incoming requests during peak time. This can be achieved either by a push model (message queue pushing to available consumer nodes), or a pull model (consumer nodes pull requests based on their state and process it).
 
@@ -1127,7 +1127,7 @@ This pattern description language has several elements that do not relate direct
 
 % \paragraph{Context}
 
-% An enterprise application, specially a data-intensive one is expected to handle large number of requests. Handling these requests synchronously would be challenging. A common approach is for application to send these requests through a messaging system to another application that handles them asynchronously. This ensure that one blocking service is not gonna have ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests vary, and while some may be quite cheap, the other might be compute intensive. 
+% An enterprise application, specially a data-intensive one is expected to handle large number of requests. Handling these requests synchronously would be challenging. A common approach is for application to send these requests through a messaging system to another application that handles them asynchronously. This ensure that one blocking service is not going to have ripple effect on the system. Requests loads vary at different times. During peak hours there might be many requests coming from various sources. In addition, the processing required for different requests vary, and while some may be quite cheap, the other might be compute intensive. 
 
 
 % \paragraph{Problem}
@@ -1795,7 +1795,7 @@ Interviewee i4 discussed how data engineers are usually not well educated on sec
 
 In another interviewe, the participant (i5) elaborated on how challenging it would be to have several ingresses into the system, and how BFF pattern may provide some stress on security and platform teams. While he admitted that performance and maintainability may be increase, he found challenges of controlling what comes into the system significant. 
 
-The interviewee added that going BFF requires substantial resources and may not be ideal for every company. From his perspective, BFF was only an unnecessary complexity, stating that his life is gonna be hard if he brought something like this into production.
+The interviewee added that going BFF requires substantial resources and may not be ideal for every company. From his perspective, BFF was only an unnecessary complexity, stating that his life is going to be hard if he brought something like this into production.
 
 \,
 
@@ -1827,6 +1827,58 @@ In his view, having access to data storage should not mean having access to data
 
 \subsection{Other feedbacks, closing thoughts}
 
+An examination of the feedback obtained from industry experts has revealed three principal types of patterns: 
+
+\begin{enumerate}
+  \item Patterns that are widely accepted and are in practice already 
+  \item Patterns that are applicable, but depending on the context may not be practiced 
+  \item Patterns that are controversial, and may not suit all projects
+\end{enumerate}
+
+\,
+
+An overview of these patterns are portrayed in Table \ref{tab:patternCategories}. 
+
+\,
+
+\begin{table}[h]
+  \renewcommand{\arraystretch}{1.5}
+  \caption{Categories of patterns}
+  \label{tab:patternCategories}
+
+  \begin{tabular}{|p{3.3cm}|p{4.6cm}|p{3.5cm}|}
+    \hline
+    \textbf{In Practice} & \textbf{Applicable} & \textbf{Controversial} \\
+
+    \hline
+    
+    
+         1. API gateway
+  
+         2. Gateway offloading
+  
+         3. Pipes and filters
+  
+         4. Log Aggregation
+     & 
+  
+         1. External configuration store
+  
+         2. Competing Consumers
+  
+         3. Circuit Breaker
+  
+         4. Anti-Corruption Layer
+     
+    & 
+  
+         1. CQRS
+  
+         3. BFF
+    \\
+    \hline
+  \end{tabular}
+\end{table}
 
 One of the most experienced interviewee (i1) suggested us to further break down our processing requirements into domains and then utilize gateway aggregation patterns and CQRS to do `data as a service'. This idea was driven by data mesh and data fabrics.
 
@@ -1841,7 +1893,11 @@ One of the most experienced interviewee (i1) suggested us to further break down 
 
 \,
 
-All of our interviewees found the study interesting, and were eager to know more after the interview. Another feedback was the idea of having an egress that encapsulate the anti-corruption layer and adds some more into it as well (i4, i6). The pattern `backend for frontend' was well received, and our event driven thinking seemed to be very well accepted by the interviewees. By the result of this interview we realized that we have missed an architectural construct while discussing velocity requirements, which was the message queue. These interviews increased our confidence in our results and reasoning and have shed some lights on possible new patterns that we could employ.
+During the interviews with i4, i6, and i7, the topic shifted to several other patterns such as data partitioning, data replication, data migration, data federation, and data stream processing. Although the conversations were insightful, it was observed that the majority of these patterns were not specifically related to big data but rather were connected to general software engineering, refactoring, and data management. 
+
+All of our interviewees found the study interesting, and were eager to know more after the interview. Another feedback was the idea of having an egress that encapsulate the anti-corruption layer and adds some more into it as well (i4, i6). The pattern `backend for frontend' was well received, and our event driven thinking seemed to be very well accepted by the interviewees. 
+
+By the result of this interview we realized that we have missed an architectural construct while discussing velocity requirements, which was the message queue. These interviews increased our confidence in our results and reasoning and have shed some lights on possible new patterns that we could employ.
 
 We have received a lot of good insights into how else we could model and approach this problem. Some of our interviewees connected some of the patterns discussed to their own context of practice and helped us realized further improvements. Some patterns like CQRS were challenged more, while some other like pipes and filters have been taken naturally. 
 
@@ -1852,15 +1908,13 @@ We have received a lot of good insights into how else we could model and approac
 
 % In another effort,  Zhelev et al (\cite{zhelev2019using}) described why event-driven architectures could be a good alternative to monolithic architectures. This study does not follow any clear methodology, and seems to contribute only in terms of untested hypothesis. Staegemann et al (\cite{staegemann2021examining}) examined the interplay between BD and microservices by conducting a bibliometric review. This study aims to provide with a general picture of the topic, and does not aim to explore microservices patterns and their relationship to BD systems.  
 
-An examination of the feedback obtained from industry experts has revealed three principal categories of patterns: 
-
-
-
 
 
 The result of this study have provided us with two major findings; 1) the progress in the data engineering space seems to be uneven in comparison to software engineering, 2) MS patterns have a great potential for solving some of the BD system development challenges. While data engineering has adopted a few practices from software engineering like DataOps, we posit that more software engineering well-established practices can be absorbed. 
 
 Futhermore, majority of the studies that we have analyzed to understand BD systems, seem to revolve around crunching and transforming data without much attention to data lifecycle management. This is bold when it comes to addressing major cross-cutting concerns of successful data engineering practice such as security, data quality, DataOps, data architecture, data interoperability, data versioning and testing. In fact, while we found a lot of mature approaches in MS and event driven architectures, we could not find many well-established patterns in the data engineering space. Based on this, we think that data architecture remains a significant challenge and requires more attention from both academia and industry. 
+
+The future work from here can be focused on applicability of type 2 patterns discussed in Table \ref{tab:patternCategories}, and challenging different aspects of type 3 patterns. 
 
 % A part of it is due to adoption of microservices architecture in the industry, and in specifically by IT giants (\cite{Statisica}). While BD is not been successfully adopted as much. A survey by MIT technology review insights presented that only 13\% of companies excel at delivering their BD strategy. 
 
