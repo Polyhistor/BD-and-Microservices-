@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  31 JAN 2023 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.30)  4 FEB 2023 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1060,9 +1060,6 @@ Overfull \hbox (0.96164pt too wide) in paragraph at lines 1849--1881
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [39]
 Overfull \hbox (14.79993pt too wide) in paragraph at lines 1888--1893
 [] 
@@ -1076,7 +1073,10 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <7> not available
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 1953.
 
-[41] [42] (./Microservices-and_BD-Journal.bbl [43])
+[41] (./Microservices-and_BD-Journal.bbl [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43])
 <Media/PRISMA-Flowchart-V2.JPG, id=831, 577.40718pt x 796.47563pt>
 File: Media/PRISMA-Flowchart-V2.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart-V2.JPG>
@@ -1284,18 +1284,18 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
-(rerunfilecheck)             Checksum: 05C8D86D8960FFBBD2A34565E3028CBB;12524.
+(rerunfilecheck)             Checksum: 626576939C447C8FC97BA8FF13EC009F;12524.
  ) 
 Here is how much of TeX's memory you used:
  15113 strings out of 478238
  242763 string characters out of 5850455
- 565366 words of memory out of 5000000
+ 564366 words of memory out of 5000000
  32798 multiletter control sequences out of 15000+600000
  481716 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,1546b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Microservices-and_BD-Journal.pdf (49 pages, 1444763 bytes).
+Output written on Microservices-and_BD-Journal.pdf (49 pages, 1444899 bytes).
 PDF statistics:
  1009 PDF objects out of 1200 (max. 8388607)
  913 compressed objects within 10 object streams
