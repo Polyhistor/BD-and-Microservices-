@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  9 APR 2023 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  9 APR 2023 15:55
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex"
@@ -584,26 +584,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \address@aff3=\toks40
 \address@aff2=\toks41
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 276.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 268.
  [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 []|\OT1/cmss/m/n/8 ACM Dig-i-tal Li-brary
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 344--345
+Underfull \hbox (badness 2351) in paragraph at lines 347--348
 \OT1/cmss/m/n/8 (\The ACM Full-Text
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 344--345
+Underfull \hbox (badness 2351) in paragraph at lines 347--348
 \OT1/cmss/m/n/8 Col-lec-tion", not \The
  []
 
 
-Overfull \hbox (3.80664pt too wide) in paragraph at lines 339--417
+Overfull \hbox (3.80664pt too wide) in paragraph at lines 342--420
  [][] 
  []
 
@@ -611,134 +611,73 @@ Overfull \hbox (3.80664pt too wide) in paragraph at lines 339--417
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3]
-Overfull \hbox (5.63907pt too wide) in paragraph at lines 440--440
+Overfull \hbox (5.63907pt too wide) in paragraph at lines 443--443
 []|\OT1/cmss/m/n/8 Quality
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 []|\OT1/cmss/m/n/8 Rating to
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 2922) has occurred while \output is active []
-
- [4] [5]
-Overfull \hbox (2.79362pt too wide) in paragraph at lines 555--555
+[4] [5] [6]
+Overfull \hbox (2.79362pt too wide) in paragraph at lines 558--558
 []|\OT1/cmss/m/n/8 Quality
  []
 
 
-Overfull \hbox (3.19055pt too wide) in paragraph at lines 555--555
+Overfull \hbox (3.19055pt too wide) in paragraph at lines 558--558
 []|\OT1/cmss/m/n/8 Type| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 []|\OT1/cmss/m/n/8 Found
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 559--559
+Underfull \hbox (badness 1072) in paragraph at lines 562--562
 []|\OT1/cmss/m/n/8 Architectural pat-terns for mi-
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 559--559
+Underfull \hbox (badness 3780) in paragraph at lines 562--562
 \OT1/cmss/m/n/8 Pro-ceed-ings of
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 559--559
+Underfull \hbox (badness 3158) in paragraph at lines 562--562
 \OT1/cmss/m/n/8 the 8th In-ter-
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 559--559
+Underfull \hbox (badness 1142) in paragraph at lines 562--562
 \OT1/cmss/m/n/8 ence on Cloud
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 561--561
+Underfull \hbox (badness 6078) in paragraph at lines 564--564
 []|\OT1/cmss/m/n/8 Actual Use of Ar-chi-tec-tural
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 561--561
+Underfull \hbox (badness 3780) in paragraph at lines 564--564
 []|\OT1/cmss/m/n/8 Proceedings of
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 561--561
+Underfull \hbox (badness 1033) in paragraph at lines 564--564
 \OT1/cmss/m/n/8 the 25th Asia-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 \OT1/cmss/m/n/8 En-gi-neer-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 \OT1/cmss/m/n/8 Con-fer-ence
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\OT1/cmss/m/n/8 Scopus,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-\OT1/cmss/m/n/8 IEEE
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 563--563
-[]|\OT1/cmss/m/n/8 Supporting ar-chi-tec-tural de-ci-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-[]|\OT1/cmss/m/n/8 Lecture Notes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-\OT1/cmss/m/n/8 in Com-puter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-\OT1/cmss/m/n/8 Sci-ence 11681
- []
-
-
-Underfull \hbox (badness 3780) in paragraph at lines 563--564
-\OT1/cmss/m/n/8 Pro-ceed-ings of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-\OT1/cmss/m/n/8 the Soft-ware
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-\OT1/cmss/m/n/8 Ar-chi-tec-ture:
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 563--564
-\OT1/cmss/m/n/8 13th Eu-ro-pean
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-\OT1/cmss/m/n/8 Con-fer-ence,
  []
 
 
@@ -747,502 +686,577 @@ Underfull \hbox (badness 10000) in paragraph at lines 564--564
  []
 
 
-Overfull \hbox (3.50603pt too wide) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+\OT1/cmss/m/n/8 IEEE
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 566--566
+[]|\OT1/cmss/m/n/8 Supporting ar-chi-tec-tural de-ci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+[]|\OT1/cmss/m/n/8 Lecture Notes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+\OT1/cmss/m/n/8 in Com-puter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+\OT1/cmss/m/n/8 Sci-ence 11681
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 566--567
+\OT1/cmss/m/n/8 Pro-ceed-ings of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+\OT1/cmss/m/n/8 the Soft-ware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+\OT1/cmss/m/n/8 Ar-chi-tec-ture:
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 566--567
+\OT1/cmss/m/n/8 13th Eu-ro-pean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+\OT1/cmss/m/n/8 Con-fer-ence,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
+[]|\OT1/cmss/m/n/8 Scopus,
+ []
+
+
+Overfull \hbox (3.50603pt too wide) in paragraph at lines 567--567
 \OT1/cmss/m/n/8 Springer-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 567--567
+Underfull \hbox (badness 1365) in paragraph at lines 570--570
 []|\OT1/cmss/m/n/8 Using ar-chi-tec-tural mod-i-fi-a-bil-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 567--567
+Underfull \hbox (badness 1320) in paragraph at lines 570--570
 \OT1/cmss/m/n/8 ity tac-tics to ex-am-ine evo-lu-
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 567--567
+Underfull \hbox (badness 1005) in paragraph at lines 570--570
 \OT1/cmss/m/n/8 tion qual-i-ties of Service- and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []|\OT1/cmss/m/n/8 Software-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 \OT1/cmss/m/n/8 Intensive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 \OT1/cmss/m/n/8 Cyber-Physical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
 []|\OT1/cmss/m/n/8 Programming
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
 \OT1/cmss/m/n/8 and Com-puter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
 []|\OT1/cmss/m/n/8 Scopus,
  []
 
 
-Overfull \hbox (3.50603pt too wide) in paragraph at lines 569--569
+Overfull \hbox (3.50603pt too wide) in paragraph at lines 572--572
 \OT1/cmss/m/n/8 Springer-
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 571--571
+Underfull \hbox (badness 3780) in paragraph at lines 574--574
 []|\OT1/cmss/m/n/8 Proceedings of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
+Underfull \hbox (badness 10000) in paragraph at lines 576--576
 []|\OT1/cmss/m/n/8 Scopus,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
+Underfull \hbox (badness 10000) in paragraph at lines 576--576
 \OT1/cmss/m/n/8 Sci-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
+Underfull \hbox (badness 10000) in paragraph at lines 576--576
 \OT1/cmss/m/n/8 enceDi-
  []
 
 
-Underfull \hbox (badness 940) in paragraph at lines 575--575
+Underfull \hbox (badness 940) in paragraph at lines 578--578
 []|\OT1/cmss/m/n/8 Decision Mod-els for Se-lect-ing
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 575--575
+Underfull \hbox (badness 1259) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 croser-vices Sys-tems and their
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []|\OT1/cmss/m/n/8 Proceedings
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 of the 2022
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 IEEE/ACM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 44th In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 ter-na-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 Con-fer-ence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 on Soft-ware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 En-gi-neer-ing:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 Soft-ware En-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \OT1/cmss/m/n/8 gi-neer-ing in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []|\OT1/cmss/m/n/8 IEEE
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 577--577
+Underfull \hbox (badness 1424) in paragraph at lines 580--580
 \OT1/cmss/m/n/8 Us-ing Pat-terns: An Em-pir-i-cal
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 577--577
+Underfull \hbox (badness 2285) in paragraph at lines 580--580
 []|\OT1/cmss/m/n/8 IEEE 19th In-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 577--577
+Underfull \hbox (badness 6675) in paragraph at lines 580--580
 \OT1/cmss/m/n/8 ware Ar-chi-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 []|\OT1/cmss/m/n/8 IEEE
  []
 
 
-Overfull \hbox (4.68651pt too wide) in paragraph at lines 579--579
+Overfull \hbox (4.68651pt too wide) in paragraph at lines 582--582
 []|\OT1/cmss/m/n/8 S10| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 []|\OT1/cmss/m/n/8 International
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 579--579
+Underfull \hbox (badness 3746) in paragraph at lines 582--582
 \OT1/cmss/m/n/8 neer-ing Trends
  []
 
 
-Overfull \hbox (17.43697pt too wide) in paragraph at lines 553--583
+Overfull \hbox (17.43697pt too wide) in paragraph at lines 556--586
  [][] 
  []
 
-[6] [7]
+[7]
 
 LaTeX Warning: Text page 8 contains only floats.
 
 
 Overfull \vbox (5.49974pt too high) has occurred while \output is active []
 
- [8] [9] [10] [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1039
+ [8] [9] [10] [11] [12] [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
 []|\OT1/cmss/m/n/8 Communicational,
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1506--1507
+[15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 1492--1493
 []|\OT1/cmss/m/n/8 Human Re-sources
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 1508--1508
+Underfull \hbox (badness 3668) in paragraph at lines 1494--1494
 []|\OT1/cmss/m/n/8 Associate Pro-fes-sor and Co-
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 1510--1511
+Underfull \hbox (badness 6316) in paragraph at lines 1496--1497
 []|\OT1/cmss/m/n/8 Software (Prac-tice
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 1510--1511
+Underfull \hbox (badness 3977) in paragraph at lines 1496--1497
 \OT1/cmss/m/n/8 Man-age-ment Soft-
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 1512--1513
+Underfull \hbox (badness 3826) in paragraph at lines 1498--1499
 []|\OT1/cmss/m/n/8 Insurance and Fi-
  []
 
 
-Overfull \hbox (0.73856pt too wide) in paragraph at lines 1516--1517
+Overfull \hbox (0.73856pt too wide) in paragraph at lines 1502--1503
 []|\OT1/cmss/m/n/8 Telecommunications| 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[29] [30]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1547--1552
+[30]
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1533--1538
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1560--1565
-[] 
- []
-
-
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1578--1583
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1546--1551
 [] 
  []
 
 [31]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1596--1601
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1565--1570
 [] 
  []
 
 [32]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1613--1618
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1583--1588
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1628--1633
-[] 
- []
-
-
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1647--1652
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1600--1605
 [] 
  []
 
 [33]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1663--1668
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1615--1620
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1678--1683
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1634--1639
 [] 
  []
 
 [34]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1699--1704
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1650--1655
+[] 
+ []
+
+
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1665--1670
+[] 
+ []
+
+
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1686--1691
 [] 
  []
 
 [35]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1720--1725
-[] 
- []
-
-
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1738--1743
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1706--1711
 [] 
  []
 
 [36]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1753--1758
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1724--1729
+[] 
+ []
+
+
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1739--1744
 [] 
  []
 
 [37]
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1777--1782
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1762--1767
 [] 
  []
 
 
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1790--1795
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1775--1780
 [] 
  []
 
-
-Overfull \hbox (14.79993pt too wide) in paragraph at lines 1811--1816
+[38]
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1798--1803
 [] 
  []
 
-[38] [39] [40] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl" [41] [42])
-<Media/PRISMA-Flowchart-V2.JPG, id=765, 577.40718pt x 796.47563pt>
+[39]
+Overfull \hbox (0.96164pt too wide) in paragraph at lines 1835--1867
+ [][] 
+ []
+
+
+Overfull \hbox (14.79993pt too wide) in paragraph at lines 1874--1879
+[] 
+ []
+
+[40]
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1926.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1926.
+
+[41]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 1937.
+
+[42] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.bbl" [43])
+<Media/PRISMA-Flowchart-V2.JPG, id=820, 577.40718pt x 796.47563pt>
 File: Media/PRISMA-Flowchart-V2.JPG Graphic file (type jpg)
 <use Media/PRISMA-Flowchart-V2.JPG>
-Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2007.
+Package pdftex.def Info: Media/PRISMA-Flowchart-V2.JPG  used on input line 2059.
 (pdftex.def)             Requested size: 227.62204pt x 313.97853pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2008.
+(caption)                particular \caption on input line 2060.
 See the caption package documentation for explanation.
 
-<Media/API Gateway.jpg, id=766, 751.80875pt x 289.08pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Media/API Gateway.jpg, id=821, 751.80875pt x 289.08pt>
 File: Media/API Gateway.jpg Graphic file (type jpg)
 <use Media/API Gateway.jpg>
-Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2014.
+Package pdftex.def Info: Media/API Gateway.jpg  used on input line 2066.
 (pdftex.def)             Requested size: 256.0748pt x 98.46674pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2015.
+(caption)                particular \caption on input line 2067.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Gateway Offloading.jpg, id=767, 814.04124pt x 414.54875pt>
+<Media/Gateway Offloading.jpg, id=822, 814.04124pt x 414.54875pt>
 File: Media/Gateway Offloading.jpg Graphic file (type jpg)
 <use Media/Gateway Offloading.jpg>
-Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2021.
+Package pdftex.def Info: Media/Gateway Offloading.jpg  used on input line 2073.
 (pdftex.def)             Requested size: 284.52756pt x 144.89182pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2022.
+(caption)                particular \caption on input line 2074.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/External Configuration Store.jpg, id=768, 579.16376pt x 332.24126pt>
+<Media/External Configuration Store.jpg, id=823, 579.16376pt x 332.24126pt>
 File: Media/External Configuration Store.jpg Graphic file (type jpg)
 <use Media/External Configuration Store.jpg>
-Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2028.
+Package pdftex.def Info: Media/External Configuration Store.jpg  used on input line 2080.
 (pdftex.def)             Requested size: 284.52756pt x 163.2204pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2029.
+(caption)                particular \caption on input line 2081.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Competing Consumers.jpg, id=769, 725.71124pt x 269.005pt>
+<Media/Competing Consumers.jpg, id=824, 725.71124pt x 269.005pt>
 File: Media/Competing Consumers.jpg Graphic file (type jpg)
 <use Media/Competing Consumers.jpg>
-Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2035.
+Package pdftex.def Info: Media/Competing Consumers.jpg  used on input line 2087.
 (pdftex.def)             Requested size: 284.52756pt x 105.46976pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2036.
+(caption)                particular \caption on input line 2088.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Circuit Breaker.jpg, id=770, 789.95125pt x 66.2475pt>
+<Media/Circuit Breaker.jpg, id=825, 789.95125pt x 66.2475pt>
 File: Media/Circuit Breaker.jpg Graphic file (type jpg)
 <use Media/Circuit Breaker.jpg>
-Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2042.
+Package pdftex.def Info: Media/Circuit Breaker.jpg  used on input line 2094.
 (pdftex.def)             Requested size: 284.52756pt x 23.8612pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2043.
+(caption)                particular \caption on input line 2095.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Log Aggregation Pattern.jpg, id=771, 699.61375pt x 380.42125pt>
+<Media/Log Aggregation Pattern.jpg, id=826, 699.61375pt x 380.42125pt>
 File: Media/Log Aggregation Pattern.jpg Graphic file (type jpg)
 <use Media/Log Aggregation Pattern.jpg>
-Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2049.
+Package pdftex.def Info: Media/Log Aggregation Pattern.jpg  used on input line 2101.
 (pdftex.def)             Requested size: 284.52756pt x 154.71408pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2050.
+(caption)                particular \caption on input line 2102.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Command and Query Responsibility Segregation.jpg, id=772, 1328.965pt x 344.28625pt>
+<Media/Command and Query Responsibility Segregation.jpg, id=827, 1328.965pt x 344.28625pt>
 File: Media/Command and Query Responsibility Segregation.jpg Graphic file (type jpg)
 <use Media/Command and Query Responsibility Segregation.jpg>
-Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2056.
+Package pdftex.def Info: Media/Command and Query Responsibility Segregation.jpg  used on input line 2108.
 (pdftex.def)             Requested size: 312.9803pt x 81.08063pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2057.
+(caption)                particular \caption on input line 2109.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Anti-Corruption Layer.jpg, id=773, 1155.31625pt x 437.635pt>
+<Media/Anti-Corruption Layer.jpg, id=828, 1155.31625pt x 437.635pt>
 File: Media/Anti-Corruption Layer.jpg Graphic file (type jpg)
 <use Media/Anti-Corruption Layer.jpg>
-Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2063.
+Package pdftex.def Info: Media/Anti-Corruption Layer.jpg  used on input line 2115.
 (pdftex.def)             Requested size: 312.9803pt x 118.557pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2064.
+(caption)                particular \caption on input line 2116.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Backend for Frontend.jpg, id=774, 980.66376pt x 645.41125pt>
+<Media/Backend for Frontend.jpg, id=829, 980.66376pt x 645.41125pt>
 File: Media/Backend for Frontend.jpg Graphic file (type jpg)
 <use Media/Backend for Frontend.jpg>
-Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2070.
+Package pdftex.def Info: Media/Backend for Frontend.jpg  used on input line 2122.
 (pdftex.def)             Requested size: 312.9803pt x 205.98431pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2071.
+(caption)                particular \caption on input line 2123.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Pipes and Filters.jpg, id=775, 1383.1675pt x 71.26625pt>
+<Media/Pipes and Filters.jpg, id=830, 1383.1675pt x 71.26625pt>
 File: Media/Pipes and Filters.jpg Graphic file (type jpg)
 <use Media/Pipes and Filters.jpg>
-Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2077.
+Package pdftex.def Info: Media/Pipes and Filters.jpg  used on input line 2129.
 (pdftex.def)             Requested size: 312.9803pt x 16.12555pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2078.
+(caption)                particular \caption on input line 2130.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Vol-1 Requirement RA.jpg, id=776, 1469.49pt x 743.77875pt>
+<Media/Vol-1 Requirement RA.jpg, id=831, 1469.49pt x 743.77875pt>
 File: Media/Vol-1 Requirement RA.jpg Graphic file (type jpg)
 <use Media/Vol-1 Requirement RA.jpg>
-Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2085.
+Package pdftex.def Info: Media/Vol-1 Requirement RA.jpg  used on input line 2137.
 (pdftex.def)             Requested size: 341.43306pt x 172.81328pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2086.
+(caption)                particular \caption on input line 2138.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Velocity Requirement.jpg, id=777, 1512.65125pt x 726.715pt>
+<Media/Velocity Requirement.jpg, id=832, 1512.65125pt x 726.715pt>
 File: Media/Velocity Requirement.jpg Graphic file (type jpg)
 <use Media/Velocity Requirement.jpg>
-Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2092.
+Package pdftex.def Info: Media/Velocity Requirement.jpg  used on input line 2144.
 (pdftex.def)             Requested size: 341.43306pt x 164.02498pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2093.
+(caption)                particular \caption on input line 2145.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Media/Value Requirement.jpg, id=778, 1752.5475pt x 729.72626pt>
+<Media/Value Requirement.jpg, id=833, 1752.5475pt x 729.72626pt>
 File: Media/Value Requirement.jpg Graphic file (type jpg)
 <use Media/Value Requirement.jpg>
-Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2100.
+Package pdftex.def Info: Media/Value Requirement.jpg  used on input line 2152.
 (pdftex.def)             Requested size: 341.43306pt x 142.15686pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2101.
+(caption)                particular \caption on input line 2153.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/Privacy and Security Requirements.jpg, id=779, 1590.94376pt x 538.01pt>
+<Media/Privacy and Security Requirements.jpg, id=834, 1590.94376pt x 538.01pt>
 File: Media/Privacy and Security Requirements.jpg Graphic file (type jpg)
 <use Media/Privacy and Security Requirements.jpg>
-Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2107.
+Package pdftex.def Info: Media/Privacy and Security Requirements.jpg  used on input line 2159.
 (pdftex.def)             Requested size: 341.43306pt x 115.45645pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 2108.
+(caption)                particular \caption on input line 2160.
 See the caption package documentation for explanation.
 
 
@@ -1250,33 +1264,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 AED: lastpage setting LastPage
-[43 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/PRISMA-Flowchart-V2.JPG>] [44 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/API Gateway.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Gateway Offloading.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/External Configuration Store.jpg>] [45 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Competing Consumers.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Circuit Breaker.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Log Aggregation Pattern.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Command and Query Responsibility Segregation.jpg>] [46 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Anti-Corruption Layer.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Backend for Frontend.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Pipes and Filters.jpg>] [47 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Vol-1 Requirement RA.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Velocity Requirement.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Value Requirement.jpg>] [48 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Privacy and Security Requirements.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2113.
+[44] [45 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/PRISMA-Flowchart-V2.JPG> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/API Gateway.jpg>] [46 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Gateway Offloading.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/External Configuration Store.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Competing Consumers.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Circuit Breaker.jpg>] [47 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Log Aggregation Pattern.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Command and Query Responsibility Segregation.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Anti-Corruption Layer.jpg>] [48 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Backend for Frontend.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Pipes and Filters.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Vol-1 Requirement RA.jpg>] [49 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Velocity Requirement.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Value Requirement.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Media/Privacy and Security Requirements.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2165.
  ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2165.
 Package rerunfilecheck Info: File `Microservices-and_BD-Journal.out' has not changed.
-(rerunfilecheck)             Checksum: 5B2A4A37D499A122079730031DD0A544;4779.
+(rerunfilecheck)             Checksum: 5E772A6EF10FAA2140146E096604FC4F;5425.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2113.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2165.
  ) 
 Here is how much of TeX's memory you used:
- 11860 strings out of 480795
- 184264 string characters out of 2913777
- 488369 words of memory out of 3000000
- 27332 multiletter control sequences out of 15000+200000
- 544444 words of font info for 71 fonts, out of 3000000 for 9000
+ 11896 strings out of 480795
+ 184907 string characters out of 2913777
+ 490651 words of memory out of 3000000
+ 27350 multiletter control sequences out of 15000+200000
+ 544795 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,43p,1585b,573s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (48 pages, 1505399 bytes).
+ 44i,11n,43p,1582b,603s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssi8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of big data - BD and MS\Manuscript\journal_version\Microservices-and_BD-Journal.pdf" (49 pages, 1527248 bytes).
 PDF statistics:
- 923 PDF objects out of 1000 (max. 8388607)
- 303 named destinations out of 1000 (max. 500000)
- 604 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 984 PDF objects out of 1000 (max. 8388607)
+ 321 named destinations out of 1000 (max. 500000)
+ 660 words of extra memory for PDF output out of 10000 (max. 10000000)
 

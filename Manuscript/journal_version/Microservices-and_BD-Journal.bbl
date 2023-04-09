@@ -1,7 +1,8 @@
 \begin{thebibliography}{10}
 
 \bibitem{NewVantageSurvey}
-Partners N. Big Data and AI Executive Survey 2021.
+Davenport TH, Bean R. Davenport TH, Bean R, editors. Big Data and AI Executive
+  Survey 2021.
 \newblock NewVantage Partners; 2022.
 \newblock Available from: \url{https://www.newvantage.com/thoughtleadership}.
 
@@ -18,7 +19,8 @@ Freymann A, Maier F, Schaefer K, B{\"o}hnel T.
 \newblock In: IoTBDS; 2020. p. 249--256.
 
 \bibitem{Richardson.2022}
-Richardson C. A pattern language for microservices; 2022.
+Richardson C. Richardson C, editor. A pattern language for microservices.
+\newblock https://microservices.io; 2022.
 \newblock Available from: \url{https://microservices.io/patterns/index.html}.
 
 \bibitem{ataei2022state}
@@ -47,6 +49,12 @@ Staegemann D, Volk M, Shakir A, Lautenschl{\"a}ger E, Turowski K.
   Bibliometric Review.
 \newblock Complex Systems Informatics and Modeling Quarterly.
   2021;27(27):87--118.
+
+\bibitem{shakir2021towards}
+Shakir A, Staegemann D, Volk M, Jamous N, Turowski K.
+\newblock Towards a concept for building a big data architecture with
+  microservices.
+\newblock In: Business Information Systems; 2021. p. 83--94.
 
 \bibitem{Phi}
 Maamouri A, Sfaxi L, Robbana R.
@@ -166,10 +174,34 @@ Microsoft. Microsoft, editor. Design and implementation patterns.
 \newblock Available from:
   \url{https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation}.
 
+\bibitem{ISO20547}
+for Standardization~(ISO/IEC) IO. for Standardization~(ISO/IEC) IO, editor.
+  ISO/IEC TR 20547-1:2020.
+\newblock ISO/IEC; 2020.
+\newblock Available from: \url{https://www.iso.org/standard/71275.html}.
+
+\bibitem{fox2014big}
+Fox G, Chang W.
+\newblock Big data use cases and requirements.
+\newblock In: 1st Big Data Interoperability Framework Workshop: Building Robust
+  Big Data Ecosystem ISO/IEC JTC. vol.~1; 2014. p. 18--21.
+
+\bibitem{golzer2015data}
+G{\"o}lzer P, Cato P, Amberg M.
+\newblock Data processing requirements of industry 4.0-use cases for big data
+  applications.
+\newblock European Conference on Information Systems. 2015;.
+
 \bibitem{laplante2017requirements}
 Laplante PA.
 \newblock Requirements engineering for software and systems.
 \newblock Auerbach Publications; 2017.
+
+\bibitem{SoftwareArchitectureKazman}
+Len~Bass RK Dr Paul~Clements.
+\newblock Software Architecture in Practice (SEI Series in Software
+  Engineering) 4th Edition.
+\newblock Addison-Wesley Professional; 4th edition; 2021.
 
 \bibitem{Bughin2016}
 Bughin J.
@@ -235,7 +267,7 @@ Lankhorst M.
 Chaabane M, Bouassida I, Jmaiel M.
 \newblock System of systems software architecture description using the
   ISO/IEC/IEEE 42010 standard.
-\newblock In: Proceedings of the Symposium on Applied Computing;. p.
+\newblock In: Proceedings of the Symposium on Applied Computing; 2017. p.
   1793--1798.
 
 \bibitem{ataei2020big}
@@ -263,6 +295,11 @@ Baltes S, Ralph P.
 \newblock Sampling in software engineering research: A critical review and
   guidelines.
 \newblock Empirical Software Engineering. 2022;27(4):1--31.
+
+\bibitem{chakraborty2021architecture}
+Chakraborty M, Kundan AP.
+\newblock Architecture of a Modern Monitoring System.
+\newblock In: Monitoring Cloud-Native Applications. Springer; 2021. p. 55--96.
 
 \bibitem{sriraman2018mu}
 Sriraman A, Wenisch TF.

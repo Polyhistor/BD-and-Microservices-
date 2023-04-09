@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Microservices-and_BD-Journal"] 1681012355 "Microservices-and_BD-Journal.aux" "Microservices-and_BD-Journal.bbl" "Microservices-and_BD-Journal" 1681012406
+["bibtex Microservices-and_BD-Journal"] 1681012511 "Microservices-and_BD-Journal.aux" "Microservices-and_BD-Journal.bbl" "Microservices-and_BD-Journal" 1681012514
   "./vancouver.bst" 1403378724 38215 ea1386b2055049a8e03ec1b09fd54904 ""
-  "Microservices-and_BD-Journal.aux" 1681012357 18198 9f9c1972aef01b366eace35c882180d9 "pdflatex"
-  "references.bib" 1681012312 107549 c11f8fc7f1f14d7fa4a59ff1d8cde6d0 ""
+  "Microservices-and_BD-Journal.aux" 1681012513 19921 971f4681a61656957aab726160870c28 "pdflatex"
+  "references.bib" 1681012455 109431 8a8fb572b0fa45258d630c3b3f96322c ""
   (generated)
-  "Microservices-and_BD-Journal.bbl"
   "Microservices-and_BD-Journal.blg"
-["pdflatex"] 1681012355 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.pdf" "Microservices-and_BD-Journal" 1681012406
+  "Microservices-and_BD-Journal.bbl"
+["pdflatex"] 1681012512 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.pdf" "Microservices-and_BD-Journal" 1681012514
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1643599542 10002696 7a3616ce906e4689083dab4d83aaed18 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1668491944 204481 bc1538ee6169b5e3d57cecfb39bb1e15 ""
   "D:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233948248 1004 54797486969f23fa377b128694d548df ""
@@ -43,6 +43,7 @@
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb" 1247596667 24416 36515493f76659302880e2604105b074 ""
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1247596667 24420 52dbb8e8aa0069a1b987309557f8d303 ""
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1247596666 28902 2f5c04fd2884d1878057baa5aad22765 ""
+  "D:/MikTex/fonts/type1/public/amsfonts/cm/cmssi8.pfb" 1247596667 25168 c89d909bac101e478326bb9e00519ca3 ""
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb" 1247596666 24287 6b803fa9eb1ddff9112e00519b09dd9e ""
   "D:/MikTex/tex/context/base/mkii/supp-pdf.mkii" 1580386558 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -135,17 +136,17 @@
   "Media/Value Requirement.jpg" 1660561246 70162 de4a64dce6503884f7aba6ef8ce1d41e ""
   "Media/Velocity Requirement.jpg" 1660732124 73479 8cc976a9419ee43ca49a3cd261fd179a ""
   "Media/Vol-1 Requirement RA.jpg" 1660365231 153625 31abc7d0e8612a2ad68091b70fb40ddd ""
-  "Microservices-and_BD-Journal.aux" 1681012357 18198 9f9c1972aef01b366eace35c882180d9 "pdflatex"
-  "Microservices-and_BD-Journal.bbl" 1681012355 10661 746aab69b127979fa219c866b8efe511 "bibtex Microservices-and_BD-Journal"
-  "Microservices-and_BD-Journal.out" 1681012357 4779 5b2a4a37d499a122079730031dd0a544 "pdflatex"
-  "Microservices-and_BD-Journal.tex" 1681012406 175413 3703eb40a2723c0188ede4118254d607 ""
-  "bmcart.cls" 1597672219 56410 546ee98aa063b3d83d7856e637affad0 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.aux" 1681012357 18198 9f9c1972aef01b366eace35c882180d9 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" 1681012406 175413 3703eb40a2723c0188ede4118254d607 ""
+  "Microservices-and_BD-Journal.aux" 1681012513 19921 971f4681a61656957aab726160870c28 "pdflatex"
+  "Microservices-and_BD-Journal.bbl" 1681012511 12113 3bb75b98d83548c5d5a32b988eb19c49 "bibtex Microservices-and_BD-Journal"
+  "Microservices-and_BD-Journal.out" 1681012513 5425 5e772a6ef10faa2140146e096604fc4f "pdflatex"
+  "Microservices-and_BD-Journal.tex" 1681012507 180140 6a7f8b25ca8bbd9bbc54f1cc37db3c05 "pdflatex"
+  "bmcart.cls" 1597672219 56410 546ee98aa063b3d83d7856e637affad0 "pdflatex"
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.aux" 1681012513 19921 971f4681a61656957aab726160870c28 ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.tex" 1681012507 180140 6a7f8b25ca8bbd9bbc54f1cc37db3c05 ""
   (generated)
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.log"
+  "Microservices-and_BD-Journal.aux"
+  "Microservices-and_BD-Journal.out"
   "Microservices-and_BD-Journal.log"
   "Microservices-and_BD-Journal.pdf"
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of big data - BD and MS/Manuscript/journal_version/Microservices-and_BD-Journal.pdf"
-  "Microservices-and_BD-Journal.out"
-  "Microservices-and_BD-Journal.aux"

@@ -9,50 +9,44 @@ Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: references.bib
-Warning--empty author and editor in NewVantageSurvey
-Warning--empty author and editor in Richardson.2022
-Warning--missing publisher in Richardson.2022
-Warning--can't use both volume and number fields in zhelev2019using
-Warning--there's a month but no year in Chaabane
-You've used 45 entries,
+You've used 51 entries,
             3170 wiz_defined-function locations,
-            930 strings with 14717 characters,
-and the built_in function-call counts, 76909 in all, are:
-= -- 9513
-> -- 585
-< -- 20
-+ -- 320
-- -- 146
-* -- 6338
-:= -- 8342
-add.period$ -- 162
-call.type$ -- 45
-change.case$ -- 30
+            964 strings with 15876 characters,
+and the built_in function-call counts, 87099 in all, are:
+= -- 10781
+> -- 661
+< -- 24
++ -- 358
+- -- 165
+* -- 7160
+:= -- 9466
+add.period$ -- 183
+call.type$ -- 51
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 5925
-empty$ -- 7438
-format.name$ -- 181
-if$ -- 18121
+cite$ -- 51
+duplicate$ -- 6723
+empty$ -- 8424
+format.name$ -- 206
+if$ -- 20528
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 439
-newline$ -- 225
-num.names$ -- 52
-pop$ -- 933
+int.to.str$ -- 51
+missing$ -- 493
+newline$ -- 256
+num.names$ -- 64
+pop$ -- 1070
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 959
+skip$ -- 1082
 stack$ -- 0
-substring$ -- 14956
-swap$ -- 1114
-text.length$ -- 20
+substring$ -- 16910
+swap$ -- 1253
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 394
-width$ -- 47
-write$ -- 503
-(There were 5 warnings)
+warning$ -- 0
+while$ -- 451
+width$ -- 53
+write$ -- 574
